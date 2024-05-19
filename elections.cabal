@@ -1,0 +1,37 @@
+cabal-version:       >=1.10
+name:                elections
+version:             0.1.0.0
+build-type:          Simple
+
+library
+  exposed-modules:     Elections
+                     , Network.HTTPClient
+                     , Parser.HTMLParser
+                     , CSV.CSVWriter
+  hs-source-dirs:      src
+  build-depends:       base >=4.7 && <5
+                     , http-conduit
+                     , tagsoup
+                     , cassava
+                     , bytestring
+                     , vector
+  default-language:    Haskell2010
+
+executable elections
+  main-is:             Main.hs
+  hs-source-dirs:      app
+  build-depends:       base
+                     , elections
+  default-language:    Haskell2010
+
+test-suite elections-test
+  type:                exitcode-stdio-1.0
+  hs-source-dirs:      test
+  main-is:             Spec.hs
+  build-depends:       base
+                     , elections
+                     , hspec
+                     , bytestring
+                     , vector
+                     , directory
+  default-language:    Haskell2010

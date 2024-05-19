@@ -1,0 +1,40 @@
+# Compiled files
+/dist/
+/dist-newstyle/
+/*.hi
+/*.o
+/*.dyn_hi
+/*.dyn_o
+
+# Dependency directories
+/.ghc/
+/.cabal-sandbox/
+/.cabal/
+.cabal.local/
+.cabal-sandbox/
+.cabal-work/
+cabal.project.local
+
+# Editor-specific files
+/.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.idea
+.project
+.classpath
+
+# Stack
+/.stack-work/
+stack.yaml.lock
+cabal.project.local
+
+# Haddock
+/.haddock/
+.haddock.*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
