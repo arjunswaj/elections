@@ -12,6 +12,7 @@ library
   build-depends:       base >=4.7 && <5
                      , bytestring
                      , cassava
+                     , directory
                      , http-conduit
                      , scalpel
                      , text
