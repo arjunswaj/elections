@@ -1,14 +1,16 @@
 module CSV.CSVWriter (writeCSV) where
 
-import qualified Data.ByteString.Char8 as B
 import qualified Data.ByteString.Lazy as BL
-import Data.Csv
-import qualified Data.Vector as V
+import Data.Csv ( defaultEncodeOptions, encodeWith, Field )
+import System.IO (FilePath)
+import qualified Data.Text.Encoding as TE
+import Data.Text (pack)
 
 writeCSV :: FilePath -> [[String]] -> IO ()
-writeCSV filePath rows = BL.writeFile filePath $ encodeByName header (map toNamedRecord rows)
+writeCSV path rows = BL.writeFile path (encode rows)
   where
-    header = V.fromList [B.pack "URL", B.pack "Data"]
-    toNamedRecord :: [String] -> NamedRecord
-    toNamedRecord (url : dataStr) = namedRecord [B.pack "URL" .= B.pack url, B.pack "Data" .= B.pack (unwords dataStr)]
-    toNamedRecord _ = error "Invalid row format"
+    encode :: [[String]] -> BL.ByteString
+    encode = encodeWith defaultEncodeOptions . map (map toField)
+
+    toField :: String -> Field
+    toField = TE.encodeUtf8 . pack

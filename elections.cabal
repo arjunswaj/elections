@@ -10,10 +10,11 @@ library
                      , CSV.CSVWriter
   hs-source-dirs:      src
   build-depends:       base >=4.7 && <5
-                     , http-conduit
-                     , tagsoup
-                     , cassava
                      , bytestring
+                     , cassava
+                     , http-conduit
+                     , scalpel
+                     , text
                      , vector
   default-language:    Haskell2010
 
@@ -29,9 +30,11 @@ test-suite elections-test
   hs-source-dirs:      test
   main-is:             Spec.hs
   build-depends:       base
+                     , bytestring
+                     , cassava
+                     , directory
                      , elections
                      , hspec
-                     , bytestring
+                     , text
                      , vector
-                     , directory
   default-language:    Haskell2010
