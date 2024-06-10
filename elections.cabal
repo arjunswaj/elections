@@ -4,10 +4,11 @@ version:             0.1.0.0
 build-type:          Simple
 
 library
-  exposed-modules:     Elections
+  exposed-modules:     CSV.CSVWriter
+                     , Demography.StateDetails
+                     , Elections
                      , Network.HTTPClient
                      , Parser.HTMLParser
-                     , CSV.CSVWriter
   hs-source-dirs:      src
   build-depends:       base >=4.7 && <5
                      , bytestring
