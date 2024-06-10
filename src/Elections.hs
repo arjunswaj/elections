@@ -30,7 +30,8 @@ data Constituency = Constituency
   deriving (Show, Eq)
 
 generateURLs :: [Constituency]
-generateURLs = concatMap (take 1 . generateConstituencies) generateStateDetails
+-- generateURLs = concatMap (take 1 . generateConstituencies) generateStateDetails
+generateURLs = concatMap generateConstituencies generateStateDetails
   where
     separator = "/"
     domain = "https://results.eci.gov.in"
@@ -61,8 +62,10 @@ processURLs constituencies csvFilePath errorFilePath = do
     -- Open error file in append mode
     withFile errorFilePath AppendMode $ \errorHandle -> do
       -- Process each URL one by one
-      foldM_ (processEachURL csvHandle errorHandle) 1 (zip [1 ..] (take 3 constituencies))
+      foldM_ (processEachURL csvHandle errorHandle) 1 (zip [1 ..] constituencies)
   where
+    -- foldM_ (processEachURL csvHandle errorHandle) 1 (zip [1 ..] (take 3 constituencies))
+
     removeIfExists :: FilePath -> IO ()
     removeIfExists filePath = do
       fileExists <- doesFileExist filePath
@@ -82,7 +85,7 @@ processURLs constituencies csvFilePath errorFilePath = do
         Right html -> do
           let rows = extractTable html
           let constituencyName = map toUpper (extractConstituencyName html)
-          let massagedRows = massageRows stateName constituencyName counter $ rows
+          let massagedRows = massageRows stateName constituencyName counter rows
           persistResponse csvHandle massagedRows
           return $ counter + length massagedRows
 
