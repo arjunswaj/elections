@@ -76,6 +76,7 @@ processURLs constituencies csvFilePath errorFilePath = do
       let num = show $ fst pair
       let constituencyUrl = url $ snd pair
       let stateName = state $ snd pair
+      let urlCode = code $ snd pair
       putStrLn $ num ++ ". Processing " ++ constituencyUrl
       result <- try (fetchWebPage constituencyUrl) :: IO (Either FetchException String)
       case result of
@@ -85,15 +86,15 @@ processURLs constituencies csvFilePath errorFilePath = do
         Right html -> do
           let rows = extractTable html
           let constituencyName = map toUpper (extractConstituencyName html)
-          let massagedRows = massageRows stateName constituencyName counter rows
+          let massagedRows = massageRows urlCode stateName constituencyName counter rows
           persistResponse csvHandle massagedRows
           return $ counter + length massagedRows
 
-    massageRows :: String -> String -> Int -> [[String]] -> [[String]]
-    massageRows stateName constituencyName counter = zipWith addStateConstituencyNameAndCounter [counter ..]
+    massageRows :: String -> String -> String -> Int -> [[String]] -> [[String]]
+    massageRows urlCode stateName constituencyName counter = zipWith addStateConstituencyNameAndCounter [counter ..]
       where
         addStateConstituencyNameAndCounter :: Int -> [String] -> [String]
-        addStateConstituencyNameAndCounter cnt row = show cnt : stateName : constituencyName : row
+        addStateConstituencyNameAndCounter cnt row = show cnt : urlCode : stateName : constituencyName : row
 
     persistResponse :: Handle -> [[String]] -> IO ()
     persistResponse csvHandle = mapM_ (hPutStrLn csvHandle . formatCSVRow)
