@@ -1,4 +1,4 @@
-module Parser.HTMLParser (extractTableRows, constituencyNameScraper) where
+module Parser.HTMLParser (extractTableRows, constituencyNameFetcher) where
 
 import Data.List (dropWhileEnd)
 import Data.List.Split (splitOn)
@@ -38,8 +38,8 @@ spanScraper :: Scraper String String
 spanScraper = text spanSelector
 
 -- Define the constituency name scraper
-constituencyNameScraper :: String -> String
-constituencyNameScraper htmlContent = extractConstituencyName $ Data.Maybe.fromMaybe "" (scrapeStringLike htmlContent spanScraper)
+constituencyNameFetcher :: String -> Maybe String
+constituencyNameFetcher htmlContent = fmap extractConstituencyName (scrapeStringLike htmlContent spanScraper)
 
 -- Function to extract the constituency name by removing the prefix
 extractConstituencyName :: String -> String

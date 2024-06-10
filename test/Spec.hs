@@ -9,7 +9,7 @@ import qualified Data.Text.Encoding as TE
 import qualified Data.Vector as V
 import Elections (Constituency (..), generateURLs)
 import Network.HTTPClient (fetchWebPage)
-import Parser.HTMLParser (extractTableRows, constituencyNameScraper)
+import Parser.HTMLParser (extractTableRows, constituencyNameFetcher)
 import System.Directory (doesFileExist, removeFile)
 import Test.Hspec
 
@@ -32,7 +32,7 @@ main = hspec $ do
       let filePath = "heading.html"
       htmlContent <- BL.readFile filePath
       let htmlStr = T.unpack $ TE.decodeUtf8 $ BL.toStrict htmlContent
-      constituencyNameScraper htmlStr `shouldBe` "Davanagere"
+      constituencyNameFetcher htmlStr `shouldBe` Just "Davanagere"
 
   describe "writeCSV" $ do
     it "writes data to a CSV file" $ do

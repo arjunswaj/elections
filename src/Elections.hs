@@ -4,14 +4,16 @@ import CSV.CSVWriter (writeCSV)
 import Control.Exception (SomeException, try)
 import Control.Monad (foldM_)
 import qualified Control.Monad as CM
+import Data.Char (toUpper)
 import Data.List (intercalate)
 import Data.Maybe (fromMaybe)
 import Demography.StateDetails
   ( StateDetail,
     generateStateDetails,
   )
-import Network.HTTPClient (FetchException (..), fetchWebPage)
-import Parser.HTMLParser (extractTableRows)
+import Network.HTTPClient (FetchException (..))
+import qualified Network.HTTPClient as HC
+import Parser.HTMLParser (constituencyNameFetcher, extractTableRows)
 import System.Directory (doesFileExist, removeFile)
 import System.IO
   ( Handle,
@@ -72,30 +74,35 @@ processURLs constituencies csvFilePath errorFilePath = do
       let constituencyUrl = url $ snd pair
       let stateName = state $ snd pair
       putStrLn $ num ++ ". Processing " ++ constituencyUrl
-      result <- try (fetchAndParse constituencyUrl) :: IO (Either FetchException [[String]])
+      result <- try (fetchWebPage constituencyUrl) :: IO (Either FetchException String)
       case result of
         Left (FetchException code err) -> do
           hPutStrLn errorHandle $ formatCSVRow ["Missing", show code, constituencyUrl]
           return counter
-        Right rows -> do
-          let massagedRows = massageRows stateName counter rows
-          persistResponse csvHandle stateName massagedRows
+        Right html -> do
+          let rows = extractTable html
+          let constituencyName = map toUpper (extractConstituencyName html)
+          let massagedRows = massageRows stateName constituencyName counter $ rows
+          persistResponse csvHandle massagedRows
           return $ counter + length massagedRows
 
-    massageRows :: String -> Int -> [[String]] -> [[String]]
-    massageRows stateName counter = zipWith addStateAndCounter [counter ..]
+    massageRows :: String -> String -> Int -> [[String]] -> [[String]]
+    massageRows stateName constituencyName counter = zipWith addStateConstituencyNameAndCounter [counter ..]
       where
-        addStateAndCounter :: Int -> [String] -> [String]
-        addStateAndCounter cnt row = show cnt : stateName : row
+        addStateConstituencyNameAndCounter :: Int -> [String] -> [String]
+        addStateConstituencyNameAndCounter cnt row = show cnt : stateName : constituencyName : row
 
-    persistResponse :: Handle -> String -> [[String]] -> IO ()
-    persistResponse csvHandle stateName = mapM_ (hPutStrLn csvHandle . formatCSVRow)
+    persistResponse :: Handle -> [[String]] -> IO ()
+    persistResponse csvHandle = mapM_ (hPutStrLn csvHandle . formatCSVRow)
 
-    fetchAndParse :: String -> IO [[String]]
-    fetchAndParse url = do
-      html <- fetchWebPage url
-      let rows = fromMaybe [] (extractTableRows html)
-      return rows
+    fetchWebPage :: String -> IO String
+    fetchWebPage url = do HC.fetchWebPage url
+
+    extractTable :: String -> [[String]]
+    extractTable html = fromMaybe [] (extractTableRows html)
+
+    extractConstituencyName :: String -> String
+    extractConstituencyName html = fromMaybe "" (constituencyNameFetcher html)
 
     appendStateName :: String -> [String] -> [String]
     appendStateName stateName lst = stateName : lst
