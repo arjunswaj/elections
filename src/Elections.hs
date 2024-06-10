@@ -2,6 +2,7 @@ module Elections (processURLs, generateURLs, Constituency (..)) where
 
 import CSV.CSVWriter (writeCSV)
 import Control.Exception (SomeException, try)
+import Control.Monad (foldM_)
 import qualified Control.Monad as CM
 import Data.List (intercalate)
 import Data.Maybe (fromMaybe)
@@ -58,24 +59,37 @@ processURLs constituencies csvFilePath errorFilePath = do
     -- Open error file in append mode
     withFile errorFilePath AppendMode $ \errorHandle -> do
       -- Process each URL one by one
-      mapM_ (processURL csvHandle errorHandle) (zip [1 ..] (take 3 constituencies))
+      foldM_ (processEachURL csvHandle errorHandle) 1 (zip [1 ..] (take 3 constituencies))
   where
     removeIfExists :: FilePath -> IO ()
     removeIfExists filePath = do
       fileExists <- doesFileExist filePath
       CM.when fileExists $ removeFile filePath
 
-    processURL :: Handle -> Handle -> (Integer, Constituency) -> IO ()
-    processURL csvHandle errorHandle pair = do
+    processEachURL :: Handle -> Handle -> Int -> (Integer, Constituency) -> IO Int
+    processEachURL csvHandle errorHandle counter pair = do
       let num = show $ fst pair
       let constituencyUrl = url $ snd pair
       let stateName = state $ snd pair
       putStrLn $ num ++ ". Processing " ++ constituencyUrl
       result <- try (fetchAndParse constituencyUrl) :: IO (Either FetchException [[String]])
       case result of
-        Left (FetchException code err) -> hPutStrLn errorHandle $ formatCSVRow ["Missing", show code, constituencyUrl]
-        Right [] -> hPutStrLn errorHandle $ formatCSVRow ["No rows present", "0", constituencyUrl]
-        Right (x : xs) -> mapM_ ((hPutStrLn csvHandle . formatCSVRow) . appendStateName stateName) (x : xs)
+        Left (FetchException code err) -> do
+          hPutStrLn errorHandle $ formatCSVRow ["Missing", show code, constituencyUrl]
+          return counter
+        Right rows -> do
+          let massagedRows = massageRows stateName counter rows
+          persistResponse csvHandle stateName massagedRows
+          return $ counter + length massagedRows
+
+    massageRows :: String -> Int -> [[String]] -> [[String]]
+    massageRows stateName counter = zipWith addStateAndCounter [counter ..]
+      where
+        addStateAndCounter :: Int -> [String] -> [String]
+        addStateAndCounter cnt row = show cnt : stateName : row
+
+    persistResponse :: Handle -> String -> [[String]] -> IO ()
+    persistResponse csvHandle stateName = mapM_ (hPutStrLn csvHandle . formatCSVRow)
 
     fetchAndParse :: String -> IO [[String]]
     fetchAndParse url = do
