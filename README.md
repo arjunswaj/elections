@@ -40,6 +40,8 @@
 
 General elections were held in India from 19 April to 1 June 2024 in seven phases, to elect all 543 members of the Lok Sabha. Votes were counted and the result was declared on 4 June to form the 18th Lok Sabha ([wiki](https://en.wikipedia.org/wiki/2024_Indian_general_election)).
 
+This page provides the highlights of the results. Complete results of the analysis can be seen [here](https://github.com/arjunswaj/elections/tree/main/result).
+
 ## Analysis
 A total of 8360 candidates contested in the elections and around 64.5 Crores (`645363445`) votes were casted during this period.
 
