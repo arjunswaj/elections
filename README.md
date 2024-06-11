@@ -152,6 +152,44 @@ A total of 8360 candidates contested in the elections and around 64.5 Crores (`6
 |Peoples Party of India (Democratic)          |79                                      |
 |Indian National Congress                     |51                                      |
 
+### Medals
+
+#### Gold (Seats that Parties won)
+|Party                                        |Number of Seats Won|
+|---------------------------------------------|-------------------|
+|Bharatiya Janata Party                       |240                |
+|Indian National Congress                     |99                 |
+|Samajwadi Party                              |37                 |
+|All India Trinamool Congress                 |29                 |
+|Dravida Munnetra Kazhagam                    |22                 |
+|Telugu Desam                                 |16                 |
+|Janata Dal  (United)                         |12                 |
+|Shiv Sena (Uddhav Balasaheb Thackrey)        |9                  |
+|Nationalist Congress Party – Sharadchandra Pawar|8                  |
+|Independent                                  |7                  |
+|Shiv Sena                                    |7                  |
+|Lok Janshakti Party(Ram Vilas)               |5                  |
+
+#### Silver (Seats that Parties came in second)
+|Party                                        |Number of Seats Won|
+|---------------------------------------------|-------------------|
+|Indian National Congress                     |167                |
+|Bharatiya Janata Party                       |153                |
+|Samajwadi Party                              |24                 |
+|All India Anna Dravida Munnetra Kazhagam     |24                 |
+|Yuvajana Sramika Rythu Congress Party        |21                 |
+|Biju Janata Dal                              |21                 |
+|Rashtriya Janata Dal                         |18                 |
+|Communist Party of India  (Marxist)          |17                 |
+|All India Trinamool Congress                 |13                 |
+|Aam Aadmi Party                              |13                 |
+|Shiv Sena (Uddhav Balasaheb Thackrey)        |10                 |
+|Shiv Sena                                    |8                  |
+|Independent                                  |5                  |
+|Communist Party of India                     |4                  |
+|Janata Dal  (United)                         |4                  |
+
+
 ## Building and Running
 ### Scraping and downloading data
 ```sh
