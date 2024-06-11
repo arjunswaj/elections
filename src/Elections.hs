@@ -86,9 +86,17 @@ processURLs constituencies csvFilePath errorFilePath = do
         Right html -> do
           let rows = extractTable html
           let constituencyName = map toUpper (extractConstituencyName html)
-          let massagedRows = massageRows urlCode stateName constituencyName counter rows
+          let massagedRows = removeSpecialCharacters $ massageRows urlCode stateName constituencyName counter rows
           persistResponse csvHandle massagedRows
           return $ counter + length massagedRows
+
+    -- Function to remove special characters from a single string
+    removeSpecialCharsFromString :: String -> String
+    removeSpecialCharsFromString = filter (`notElem` ",'\"")
+
+    -- Function to remove special characters from a list of lists of strings
+    removeSpecialCharacters :: [[String]] -> [[String]]
+    removeSpecialCharacters = map (map removeSpecialCharsFromString)
 
     massageRows :: String -> String -> String -> Int -> [[String]] -> [[String]]
     massageRows urlCode stateName constituencyName counter = zipWith addStateConstituencyNameAndCounter [counter ..]
