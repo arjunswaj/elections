@@ -66,6 +66,46 @@ A total of 8360 candidates contested in the elections and around 64.5 Crores (`6
 |RAJASTHAN                                    |JAIPUR RURAL|RAO RAJENDRA SINGH|Bharatiya Janata Party|617877      |ANIL CHOPRA                   |Indian National Congress         |616262         |1615           |
 |CHHATTISGARH                                 |KANKER      |BHOJRAJ NAG    |Bharatiya Janata Party|597624      |BIRESH THAKUR                 |Indian National Congress         |595740         |1884           |
 
+### Max and Mins - Constituencies
+
+#### Max Total Votes in a Constituency
+|Constituency                                 |State |Total Votes    |
+|---------------------------------------------|------|---------------|
+|DHUBRI                                       |ASSAM |2453608        |
+|MALKAJGIRI                                   |TELANGANA|1933843        |
+|BANGALORE RURAL                              |KARNATAKA|1919540        |
+|DARRANG-UDALGURI                             |ASSAM |1811200        |
+|BANGALORE NORTH                              |KARNATAKA|1752504        |
+
+#### Min Total Votes Constituency
+|Constituency                                 |State |Total Votes    |
+|---------------------------------------------|------|---------------|
+|SURAT                                        |GUJARAT|0              |
+|LAKSHADWEEP                                  |LAKSHADWEEP|49200          |
+|DAMAN & DIU                                  |DADRA & NAGAR HAVELI AND DAMAN & DIU|92410          |
+|LADAKH                                       |LADAKH|135524         |
+|ANDAMAN & NICOBAR ISLANDS                    |ANDAMAN & NICOBAR ISLANDS|202514         |
+
+#### Max candidates in a Constituency
+|Constituency                                 |State |Candidates|
+|---------------------------------------------|------|----------|
+|KARUR                                        |TAMIL NADU|55        |
+|SECUNDERABAD                                 |TELANGANA|46        |
+|MEDAK                                        |TELANGANA|45        |
+|LUDHIANA                                     |PUNJAB|44        |
+|CHEVELLA                                     |TELANGANA|44        |
+
+
+#### Least candidates in a Constituency
+|Constituency                                 |State |Candidates|
+|---------------------------------------------|------|----------|
+|SURAT                                        |GUJARAT|1         |
+|DIBRUGARH                                    |ASSAM |4         |
+|BARDOLI                                      |GUJARAT|4         |
+|NAGALAND                                     |NAGALAND|4         |
+|LADAKH                                       |LADAKH|4         |
+
+
 
 ## Building and Running
 ### Scraping and downloading data
