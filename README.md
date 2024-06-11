@@ -105,7 +105,52 @@ A total of 8360 candidates contested in the elections and around 64.5 Crores (`6
 |NAGALAND                                     |NAGALAND|4         |
 |LADAKH                                       |LADAKH|4         |
 
+### Vote Shares
 
+#### Total Vote Share of Parties
+|Party                                        |Votes |Vote Share|
+|---------------------------------------------|------|----------|
+|Bharatiya Janata Party                       |235973935|36.5645   |
+|Indian National Congress                     |136759064|21.1910   |
+|Samajwadi Party                              |29549381|4.5787    |
+|All India Trinamool Congress                 |28213393|4.3717    |
+|Independent                                  |17844442|2.7650    |
+
+#### Maximum Vote share of Winning Candidate
+|Candidate                                    |Party |Constituency|State         |Vote Share|
+|---------------------------------------------|------|------------|--------------|----------|
+|SHANKAR LALWANI                              |Bharatiya Janata Party|INDORE      |MADHYA PRADESH|78.5388   |
+|C R PATIL                                    |Bharatiya Janata Party|NAVSARI     |GUJARAT       |77.0477   |
+|SHIVRAJ SINGH CHOUHAN                        |Bharatiya Janata Party|VIDISHA     |MADHYA PRADESH|76.6980   |
+|AMIT SHAH                                    |Bharatiya Janata Party|GANDHINAGAR |GUJARAT       |76.4844   |
+|BIPLAB KUMAR DEB                             |Bharatiya Janata Party|TRIPURA WEST|TRIPURA       |72.8496   |
+
+#### Least Vote share for a winning candidate
+|Candidate                                    |Party |Constituency|State |Vote Share|
+|---------------------------------------------|------|------------|------|----------|
+|SHER SINGH GHUBAYA                           |Indian National Congress|FIROZPUR    |PUNJAB|23.6977   |
+|DR DHARAMVIRA GANDHI                         |Indian National Congress|PATIALA     |PUNJAB|26.5351   |
+|GURJEET SINGH AUJLA                          |Indian National Congress|AMRITSAR    |PUNJAB|28.1764   |
+|MALVINDER SINGH KANG                         |Aam Aadmi Party|ANANDPUR SAHIB|PUNJAB|29.0790   |
+|SARABJEET SINGH KHALSA                       |Independent|FARIDKOT    |PUNJAB|29.3815   |
+
+#### Max Vote share of a losing candidate
+|Candidate                                    |Party |Constituency|State     |Vote Share of Losing Candidate|
+|---------------------------------------------|------|------------|----------|------------------------------|
+|ANIL CHOPRA                                  |Indian National Congress|JAIPUR RURAL|RAJASTHAN |48.83                         |
+|SHUBHKARAN CHOUDHARY                         |Bharatiya Janata Party|JHUNJHUNU   |RAJASTHAN |47.81                         |
+|DR. UMESH G JADHAV                           |Bharatiya Janata Party|GULBARGA    |KARNATAKA |47.7                          |
+|SANJAY TANDON                                |Bharatiya Janata Party|CHANDIGARH  |CHANDIGARH|47.67                         |
+|MANSOOR ALI KHAN                             |Indian National Congress|BANGALORE CENTRAL|KARNATAKA |47.57                         |
+
+#### Seats in which Parties lost deposits (less than 1/6 vote share)
+|Party                                        |Number of Seats with less than 1/6 votes|
+|---------------------------------------------|----------------------------------------|
+|Independent                                  |3904                                    |
+|Bahujan Samaj Party                          |476                                     |
+|Socialist Unity Centre Of India (COMMUNIST)  |150                                     |
+|Peoples Party of India (Democratic)          |79                                      |
+|Indian National Congress                     |51                                      |
 
 ## Building and Running
 ### Scraping and downloading data
