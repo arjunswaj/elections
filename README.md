@@ -316,7 +316,7 @@ A candidate could spend a max 95 Lakhs during campaigning. Assuming candidate ha
 
 #### Results of Candidates participating in multiple seats (at least 1 win)
 
-|Candidate             |Constituency|State          |Result                      |FIELD5|
+|Candidate             |Constituency|State          |Party                      |Result|
 |----------------------|------------|---------------|----------------------------|------|
 |PRASUN BANERJEE       |HOWRAH      |WEST BENGAL    |All India Trinamool Congress|WON   |
 |RAHUL GANDHI          |WAYANAD     |KERALA         |Indian National Congress    |WON   |
