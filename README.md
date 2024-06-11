@@ -257,6 +257,33 @@ A candidate could spend a max 95 Lakhs during campaigning. Assuming candidate ha
 |Shiv Sena (Uddhav Balasaheb Thackrey)        |21                |9        |42.8571      |
 |Shiv Sena                                    |15                |7        |46.6667      |
 
+### Multiple Seat Participation
+
+#### Candidates participating in multiple seats (matches names)
+|Candidate             |Number of Constituencies Contested at|
+|----------------------|-------------------------------------|
+|ARUN KUMAR            |5                                    |
+|MANOJ KUMAR           |4                                    |
+|PRADEEP KUMAR         |4                                    |
+|PRAMOD KUMAR          |4                                    |
+|RAJKUMAR              |4                                    |
+|VIJAY KUMAR           |4                                    |
+|ASHOK KUMAR           |3                                    |
+|PARAMJIT SINGH        |3                                    |
+|RAJESH                |3                                    |
+|SATPAL                |3                                    |
+|SHRIDHAR NARAYAN SALVE|3                                    |
+|SUNIL KUMAR           |3                                    |
+|SURENDER SINGH        |3                                    |
+
+#### Results of Candidates participating in multiple seats (at least 1 win)
+
+|Candidate             |Constituency|State          |Result                      |FIELD5|
+|----------------------|------------|---------------|----------------------------|------|
+|PRASUN BANERJEE       |HOWRAH      |WEST BENGAL    |All India Trinamool Congress|WON   |
+|RAHUL GANDHI          |WAYANAD     |KERALA         |Indian National Congress    |WON   |
+|RAHUL GANDHI          |RAE BARELI  |UTTAR PRADESH  |Indian National Congress    |WON   |
+|PRASUN BANERJEE       |MALDAHA UTTAR|WEST BENGAL    |All India Trinamool Congress|LOST  |
 
 
 ## Building and Running
