@@ -1,0 +1,747 @@
+PARTY,SEATS_PARTICIPATED,SEATS_WON,SUCCESS_RATIO
+"Dravida Munnetra Kazhagam",22,22,100.0000
+"Lok Janshakti Party(Ram Vilas)",5,5,100.0000
+"Indian Union Muslim League",3,3,100.0000
+"Janasena Party",2,2,100.0000
+"Rashtriya Lok Dal",2,2,100.0000
+"Hindustani Awam Morcha (Secular)",1,1,100.0000
+"Kerala Congress",1,1,100.0000
+"Marumalarchi Dravida Munnetra Kazhagam",1,1,100.0000
+"Rashtriya Loktantrik Party",1,1,100.0000
+"Sikkim Krantikari Morcha",1,1,100.0000
+"United People’s Party Liberal",1,1,100.0000
+"Voice of the People Party",1,1,100.0000
+"Zoram People’s Movement",1,1,100.0000
+"Telugu Desam",17,16,94.1176
+"Janata Dal  (United)",16,12,75.0000
+"Nationalist Congress Party – Sharadchandra Pawar",12,8,66.6667
+"Jammu & Kashmir National Conference",3,2,66.6667
+"Janata Dal  (Secular)",3,2,66.6667
+"All India Trinamool Congress",48,29,60.4167
+"Bharatiya Janata Party",441,240,54.4218
+"Samajwadi Party",71,37,52.1127
+"Jharkhand Mukti Morcha",6,3,50.0000
+"Apna Dal (Soneylal)",2,1,50.0000
+"Asom Gana Parishad",2,1,50.0000
+"Shiv Sena",15,7,46.6667
+"Shiv Sena (Uddhav Balasaheb Thackrey)",21,9,42.8571
+"AJSU Party",3,1,33.3333
+"Indian National Congress",328,99,30.1829
+"Communist Party of India  (Marxist-Leninist)  (Liberation)",7,2,28.5714
+"Nationalist Congress Party",5,1,20.0000
+"Rashtriya Janata Dal",24,4,16.6667
+"Yuvajana Sramika Rythu Congress Party",25,4,16.0000
+"Viduthalai Chiruthaigal Katchi",13,2,15.3846
+"Aam Aadmi Party",22,3,13.6364
+"Revolutionary Socialist Party",10,1,10.0000
+"Communist Party of India  (Marxist)",52,4,7.6923
+"Shiromani Akali Dal",13,1,7.6923
+"Communist Party of India",30,2,6.6667
+"All India Majlis-E-Ittehadul Muslimeen",15,1,6.6667
+"Bharat Adivasi Party",22,1,4.5455
+"Aazad Samaj Party (Kanshi Ram)",26,1,3.8462
+Independent,532,7,1.3158
+"None of the Above",542,NULL,NULL
+"Bahujan Samaj Party",488,NULL,NULL
+"Socialist Unity Centre Of India (COMMUNIST)",150,NULL,NULL
+"Peoples Party of India (Democratic)",79,NULL,NULL
+"Bharatheeya Jawan Kisan Party",41,NULL,NULL
+"Bhartiya Shakti Chetna Party",40,NULL,NULL
+"Naam Tamilar Katchi",40,NULL,NULL
+"Ambedkarite Party of India",38,NULL,NULL
+"Vanchit Bahujan  Aaghadi",38,NULL,NULL
+"Akhil Bhartiya Parivar Party",36,NULL,NULL
+"All India Anna Dravida Munnetra Kazhagam",36,NULL,NULL
+"All India Forward Bloc",33,NULL,NULL
+"Right to Recall Party",33,NULL,NULL
+"Bahujan Mukti Party",28,NULL,NULL
+"Karnataka Rashtra Samithi",28,NULL,NULL
+"Pyramid Party of India",26,NULL,NULL
+"Gondvana Gantantra Party",23,NULL,NULL
+"Republican Party of India (A)",23,NULL,NULL
+"Sardar Patel Siddhant Party",23,NULL,NULL
+"Samata Party",22,NULL,NULL
+"Biju Janata Dal",21,NULL,NULL
+"Uttama Prajaakeeya Party",20,NULL,NULL
+"Ekam Sanatan Bharat Dal",19,NULL,NULL
+"Rashtriya Jansambhavna Party",19,NULL,NULL
+"Bahujan Republican  Socialist Party",18,NULL,NULL
+"Rashtriya Samaj Paksha",18,NULL,NULL
+"Viro Ke Vir Indian Party",18,NULL,NULL
+"All India Secular Front",17,NULL,NULL
+"Bharat Rashtra Samithi",17,NULL,NULL
+"Navarang Congress Party",17,NULL,NULL
+"Social Democratic Party Of India",16,NULL,NULL
+"Bhagidari Party(P)",15,NULL,NULL
+"Bhim Sena",15,NULL,NULL
+"Dharma Samaj Party",15,NULL,NULL
+"Alliance of Democratic Reforms Party",14,NULL,NULL
+"Bahujan Dravida Party",14,NULL,NULL
+"Jai Bharat National Party",14,NULL,NULL
+"Shiromani Akali Dal (Amritsar)(Simranjit Singh Mann)",14,NULL,NULL
+"Bahujan Maha Party",13,NULL,NULL
+"Socialist Party (India)",13,NULL,NULL
+"Jaibhim Rao Bharat Party",12,NULL,NULL
+"Lokhit Adhikar Party",12,NULL,NULL
+"Naadaalum Makkal Katchi",12,NULL,NULL
+"Apna Dal (Kamerawadi)",11,NULL,NULL
+"Bharatiya Nyay-Adhikar Raksha Party",11,NULL,NULL
+"Desh Janhit Party",11,NULL,NULL
+"Gana Suraksha Party",11,NULL,NULL
+"Voters Party  International",11,NULL,NULL
+"Bahujan Bharat Party",10,NULL,NULL
+"India Praja Bandhu Party",10,NULL,NULL
+"Jannayak Janta Party",10,NULL,NULL
+"Log Party",10,NULL,NULL
+"Maharashtra Vikas Aghadi",10,NULL,NULL
+"Moulik Adhikar Party",10,NULL,NULL
+"Pattali Makkal Katchi",10,NULL,NULL
+"Republican Party of India (Athawale)",10,NULL,NULL
+"Bharatiya Yuva Jan Ekta Party",9,NULL,NULL
+"Desiya Makkal Sakthi Katchi",9,NULL,NULL
+"Peace Party",9,NULL,NULL
+"Prabuddha Republican Party",9,NULL,NULL
+"Rashtra Uday Party",9,NULL,NULL
+"Rashtriya Samaj Dal (R)",9,NULL,NULL
+"Rashtriya Shoshit Samaj Party",9,NULL,NULL
+"Samaniya Makkal Nala Katchi",9,NULL,NULL
+"Veerath Thiyagi Viswanathadoss Thozhilalarkal Katchi",9,NULL,NULL
+"Hamar Raj Party",8,NULL,NULL
+"Indian Peoples Green Party",8,NULL,NULL
+"Liberation Congress Party",8,NULL,NULL
+"Mulnibasi Party of India",8,NULL,NULL
+"Sainik Samaj Party",8,NULL,NULL
+"Yuga Thulasi Party",8,NULL,NULL
+"Aam Janta Party (India)",7,NULL,NULL
+"Anna YSR Congress Party",7,NULL,NULL
+"Baliraja Party",7,NULL,NULL
+"Bharatha Chaitanya Yuvajana Party",7,NULL,NULL
+"Bheem Tribal Congress",7,NULL,NULL
+"Ganasangam Party of India",7,NULL,NULL
+"Hindu Samaj Party",7,NULL,NULL
+"Indian National Lok Dal",7,NULL,NULL
+"Jai Maha Bharath Party",7,NULL,NULL
+"Jatiya Jana Sena Party",7,NULL,NULL
+"Nationalist Justice Party",7,NULL,NULL
+"Rashtriya Jansabha Party",7,NULL,NULL
+"United Republican Party of India",7,NULL,NULL
+"Bhartiya Rashtriya Dal",6,NULL,NULL
+"Bhartiya Sarthak Party",6,NULL,NULL
+"Hindustan Janta Party",6,NULL,NULL
+"Jagrook Janta Party",6,NULL,NULL
+"Jan Sewa Driver Party",6,NULL,NULL
+"Jantantra Awaj Party",6,NULL,NULL
+"Kamatapur People’s Party (United)",6,NULL,NULL
+"Kisan Mazdoor Sangharsh Party",6,NULL,NULL
+"Proutist Bloc India",6,NULL,NULL
+"Public Political Party",6,NULL,NULL
+"Rashtra Nirman Party",6,NULL,NULL
+"Rashtriya Praja Congress  (Secular)",6,NULL,NULL
+"Rashtriya Ulama Council",6,NULL,NULL
+"Samaj Vikas Kranti Party",6,NULL,NULL
+"Shakti Sena (Bharat Desh)",6,NULL,NULL
+"Social Justice Party of India",6,NULL,NULL
+"Thakkam Katchi",6,NULL,NULL
+"All India Majlis-E-Inquilab-E-Millat",5,NULL,NULL
+"Anna MGR Dravida Makkal Kalgam",5,NULL,NULL
+"Anti Corruption Dynamic Party",5,NULL,NULL
+"Aravor Munnetra Kazhagam",5,NULL,NULL
+"Azad Adhikar Sena",5,NULL,NULL
+"Bharatiya Asha Party",5,NULL,NULL
+"Bharatiya Gana Parishad",5,NULL,NULL
+"Bharatiya Praja Aikyata Party",5,NULL,NULL
+"Bhartiya Lokmat Rashtrwadi Party",5,NULL,NULL
+"Dalita Bahujana Party",5,NULL,NULL
+"Democratic Bharatiya Samaj Party",5,NULL,NULL
+"Desiya Murpokku Dravida Kazhagam",5,NULL,NULL
+"Global Republican Party",5,NULL,NULL
+"Hindustan Shakti Sena",5,NULL,NULL
+"Jaathia Chethi Vruthula Ikya Vedika Party",5,NULL,NULL
+"Jammu & Kashmir National Panthers Party (Bhim)",5,NULL,NULL
+"Jharkhand Party",5,NULL,NULL
+"Marxist Communist Party of India (United)",5,NULL,NULL
+"Moolniwasi Samaj Party",5,NULL,NULL
+"Naba Bharata Nirmana Seva Party",5,NULL,NULL
+"Naki Bharatiya Ekta Party",5,NULL,NULL
+"National Nava Kranthi Party",5,NULL,NULL
+"Prahar Janshakti Party",5,NULL,NULL
+"Rashtrawadi Janlok Party (Satya)",5,NULL,NULL
+"Rashtriya Kisan Bahujan Party",5,NULL,NULL
+"Rashtriya Republican Party",5,NULL,NULL
+"Samajhdar Party",5,NULL,NULL
+"Samnak Janta Party",5,NULL,NULL
+"Subhashwadi Bhartiya Samajwadi Party (Subhas Party)",5,NULL,NULL
+"Vidhyarthula Rajakiya Party",5,NULL,NULL
+"Aapki Apni Party (Peoples)",4,NULL,NULL
+"Al-Hind Party",4,NULL,NULL
+"Apni Prajahit Party",4,NULL,NULL
+"Bahujan Samaj Party  (Ambedkar)",4,NULL,NULL
+"Bharat Jodo Party",4,NULL,NULL
+"Bharath Dharma Jana Sena",4,NULL,NULL
+"Bharatiya Prajagala Kalyana Paksha",4,NULL,NULL
+"Bodoland Peoples Front",4,NULL,NULL
+"Chhattisgarh Vikas Ganga Rashtriya Party",4,NULL,NULL
+"Country Citizen Party",4,NULL,NULL
+"Gareeb Aadmi Party",4,NULL,NULL
+"Hindrashtra Sangh",4,NULL,NULL
+"Indian Labour Party (Ambedkar Phule)",4,NULL,NULL
+"Indian National League",4,NULL,NULL
+"Indian National Socialistic Action Forces",4,NULL,NULL
+"Jai Hind National Party",4,NULL,NULL
+"Jai Prakash Janata Dal",4,NULL,NULL
+"Jai Swaraj Party",4,NULL,NULL
+"Jan Janwadi Party",4,NULL,NULL
+"Janta Kranti Party (Rashtravadi)",4,NULL,NULL
+"Jay Vidarbha Party",4,NULL,NULL
+"Karunaadu Party",4,NULL,NULL
+"Loktantrik Janshakti Party",4,NULL,NULL
+"Loktantrik Lok Rajyam Party",4,NULL,NULL
+"National Apni Party",4,NULL,NULL
+"National Maha Sabha Party",4,NULL,NULL
+"Navataram Party",4,NULL,NULL
+Nyaydharmsabha,4,NULL,NULL
+"Parivartan Samaj Party",4,NULL,NULL
+"Rashtriya Devbhumi Party",4,NULL,NULL
+"Rashtriya Garib Dal",4,NULL,NULL
+"Republican Party of India",4,NULL,NULL
+"Samajwadi Janata Party(Karnataka)",4,NULL,NULL
+"Sardar Vallabhbhai Patel Party",4,NULL,NULL
+"Sarv Adi Dal",4,NULL,NULL
+"Swarajya Shakti Sena",4,NULL,NULL
+"Swatantra Jantaraj Party",4,NULL,NULL
+"Swatantrata Abhivyakti Party",4,NULL,NULL
+"The National Road Map Party of India",4,NULL,NULL
+"Tipu Sultan Party",4,NULL,NULL
+"Young Star Empowerment Party",4,NULL,NULL
+"Aadarsh Mithila Party",3,NULL,NULL
+"All India Arya Mahasabha",3,NULL,NULL
+"All India United Democratic Front",3,NULL,NULL
+"All Peoples Party",3,NULL,NULL
+"Andhra Rastra Praja Samithi",3,NULL,NULL
+"Asom Jana Morcha",3,NULL,NULL
+"Bharatiya Kisan Parivartan Party",3,NULL,NULL
+"Bharatiya Momin Front",3,NULL,NULL
+"Bharatiya National Janata Dal",3,NULL,NULL
+"Bharatiya Sampuran Krantikari Party",3,NULL,NULL
+"Bhartiya Jan Parishad",3,NULL,NULL
+"Bhartiya Jan Samman Party",3,NULL,NULL
+"Bhartiya Krishak Dal",3,NULL,NULL
+"Bhartiya Lok Chetna Party",3,NULL,NULL
+"Bhartiya Navjawan Sena (Paksha)",3,NULL,NULL
+"Garib Kalyan Party",3,NULL,NULL
+"Gunj Satya Ni Janata Party",3,NULL,NULL
+"Haryana Jansena Party",3,NULL,NULL
+"India Greens Party",3,NULL,NULL
+"Insaniyat Party",3,NULL,NULL
+"Jammu & Kashmir Peoples Democratic Party",3,NULL,NULL
+"Jammu and Kashmir Nationalist Peoples Front",3,NULL,NULL
+"Jan Sangh Party",3,NULL,NULL
+"Janseva Gondwana Party",3,NULL,NULL
+"Karpoori Janta Dal",3,NULL,NULL
+"Karunada Sevakara Party",3,NULL,NULL
+"Kranti Kari Jai Hind Sena",3,NULL,NULL
+"Mahanwadi Party",3,NULL,NULL
+"Manas Lokshakti Dal",3,NULL,NULL
+"Manavtawadi Samaj Party",3,NULL,NULL
+"Mera Adhikaar Rashtriya Dal",3,NULL,NULL
+"Minorities Democratic Party",3,NULL,NULL
+"National Jan Dal",3,NULL,NULL
+"National Loktantrik Party",3,NULL,NULL
+"National Peoples Party",3,NULL,NULL
+"Navabharath Sena",3,NULL,NULL
+"New India United Party",3,NULL,NULL
+"North Bengal People’s Party",3,NULL,NULL
+"Party for Democratic Socialism",3,NULL,NULL
+"Pragatisheel Samaj Party",3,NULL,NULL
+"Punjab National Party",3,NULL,NULL
+"Purvanchal Mahapanchayat",3,NULL,NULL
+"Puthiya Makkal Tamil Desam Katchi",3,NULL,NULL
+"Rashtra Samarpan Party",3,NULL,NULL
+"Rashtriya Jankranti Party",3,NULL,NULL
+"Rashtriya Jansanchar Dal",3,NULL,NULL
+"Rashtriya Janshakti Party (Secular)",3,NULL,NULL
+"Rashtriya Mahaswaraj Bhumi Party",3,NULL,NULL
+"Rashtriya Maratha Party",3,NULL,NULL
+"Rashtriya Samanta Dal",3,NULL,NULL
+"Rashtriya Sanatan Party",3,NULL,NULL
+"Republican Party of India (Karnataka)",3,NULL,NULL
+"Samaj Shakti Party",3,NULL,NULL
+"Samruddha Odisha",3,NULL,NULL
+"Samyak Party",3,NULL,NULL
+"Super Power India Party",3,NULL,NULL
+"Swaraj Bhartiya Nyay Party",3,NULL,NULL
+"Tamil Maanila Congress  (Moopanar)",3,NULL,NULL
+"Tamizhaga Murpokku Makkal Katchi",3,NULL,NULL
+"Telangana Jaghir Party",3,NULL,NULL
+"Telangana Republican Party",3,NULL,NULL
+"Telugu Rajadhikara Samiti Party",3,NULL,NULL
+"Ulzaipali Makkal Katchy",3,NULL,NULL
+"Uttarakhand Kranti Dal",3,NULL,NULL
+"Vikassheel Insaan Party",3,NULL,NULL
+"Wazib Adhikar Party",3,NULL,NULL
+"Aam Aadmi Parivartan Party",2,NULL,NULL
+"Aam Janta Party Rashtriya",2,NULL,NULL
+"Aanaithinthiya Jananayaka Pathukappu Kazhagam",2,NULL,NULL
+"Aas Punjab Party",2,NULL,NULL
+"Aihra National Party",2,NULL,NULL
+"Akhil Bharat Hindu Mahasabha",2,NULL,NULL
+"Akhil Hind Forward Bloc (Krantikari)",2,NULL,NULL
+"All India Ulama Congress",2,NULL,NULL
+"All India Youth Development Party",2,NULL,NULL
+"Ambedkarist Republican Party",2,NULL,NULL
+"Amma Makkal Munnettra Kazagam",2,NULL,NULL
+"Anna Puratchi Thalaivar Amma Dravida Munnetra Kazhagam",2,NULL,NULL
+"Apna Kisan Party",2,NULL,NULL
+"Apna Samaj Party",2,NULL,NULL
+"Asankhya Samaj Party",2,NULL,NULL
+"Azad Janata Party",2,NULL,NULL
+"Azad Samaj Party",2,NULL,NULL
+"Bahujan Awam Party",2,NULL,NULL
+"Bahujana Left Party",2,NULL,NULL
+"Bajjikanchal Vikas Party",2,NULL,NULL
+"Bangali Nabanirman Sena",2,NULL,NULL
+"Bharat Mahaparivar Party",2,NULL,NULL
+"Bharathiya YuvaKula Dalam",2,NULL,NULL
+"Bharatiya Bahujan Congress",2,NULL,NULL
+"Bharatiya Bikash Parishad",2,NULL,NULL
+"Bharatiya Jan Jagriti Party",2,NULL,NULL
+"Bharatiya Jan Kranti Dal (Democratic)",2,NULL,NULL
+"Bharatiya Liberal Party",2,NULL,NULL
+"Bharatiya Majdoor Janta Party",2,NULL,NULL
+"Bharatiya Praja Surajya Paksha",2,NULL,NULL
+"Bhartiya Azad Sena",2,NULL,NULL
+"Bhartiya Dalit Party",2,NULL,NULL
+"Bhartiya Lok Nayak Party",2,NULL,NULL
+"Bhartiya Manavta Party",2,NULL,NULL
+"Bhartiya Rashtriya Ekta Dal",2,NULL,NULL
+"Bhumiputra United Party",2,NULL,NULL
+"Blue India Party",2,NULL,NULL
+"Challengers Party",2,NULL,NULL
+"Chennai Youth Party",2,NULL,NULL
+"Dalit Soshit Pichhara Varg  Adhikar Dal",2,NULL,NULL
+"Delhi Janta Party",2,NULL,NULL
+"Democratic Progressive Azad Party",2,NULL,NULL
+"Dharmarajya Paksha",2,NULL,NULL
+"Dhesiya Makkal Kazhagam",2,NULL,NULL
+"Eklavya Samaj Party",2,NULL,NULL
+"Gondwana Dandkaranya Party",2,NULL,NULL
+"Gujarat Sarva Samaj Party",2,NULL,NULL
+"Himachal Janta Party",2,NULL,NULL
+"Hindustan Peoples Party (Democratic)",2,NULL,NULL
+"Indian Movement Party",2,NULL,NULL
+"Indian National Yuva Jana Party",2,NULL,NULL
+"Indian Peoples Adhikar Party",2,NULL,NULL
+"Jai Samta Party",2,NULL,NULL
+"Jammu & Kashmir People Conference",2,NULL,NULL
+"Jammu and Kashmir Apni Party",2,NULL,NULL
+"Jan Raajya Party",2,NULL,NULL
+"Jana Sahayaka Sakthi",2,NULL,NULL
+"Janahitha Paksha",2,NULL,NULL
+"Janata Congress",2,NULL,NULL
+"Jebamani Janata",2,NULL,NULL
+"Jindabad Kranti Party",2,NULL,NULL
+"Kalinga Sena",2,NULL,NULL
+"Karnataka Jantha Paksha",2,NULL,NULL
+"Kisan Kranti Dal",2,NULL,NULL
+"Krupaa Party",2,NULL,NULL
+"Lok Jan Sangharsh Party",2,NULL,NULL
+"Lok Swarajya Party",2,NULL,NULL
+"Lokshahi Ekta Party",2,NULL,NULL
+"Loktantra Congress Party",2,NULL,NULL
+"Loktantrik Samajwadi Party",2,NULL,NULL
+"Mahathma Makkal Munnetra Kazhakam",2,NULL,NULL
+"Majloom Samaj Party",2,NULL,NULL
+"Malwa Congress",2,NULL,NULL
+"Naari Nar Rakshak Party",2,NULL,NULL
+"National Awami United Party",2,NULL,NULL
+"National Black Panther Party",2,NULL,NULL
+"New Rashtriya Samaj Party",2,NULL,NULL
+"Odisha Janata Party",2,NULL,NULL
+"Parivartan Party of India",2,NULL,NULL
+"Peoples Party of India(secular)",2,NULL,NULL
+"Prabuddhwadi Bahujan Morcha",2,NULL,NULL
+"Pragatisheel Manav Samaj Party",2,NULL,NULL
+"Praja Ektha Party",2,NULL,NULL
+"Praja Velugu Party",2,NULL,NULL
+"Prajatantra Aadhar Party",2,NULL,NULL
+"Rani Chennamma Party",2,NULL,NULL
+"Rashtra Samanya Praja Party",2,NULL,NULL
+"Rashtravadi Bharat Party",2,NULL,NULL
+"Rashtriya Gondvana Party",2,NULL,NULL
+"Rashtriya Janshakti Samaj Party",2,NULL,NULL
+"Rashtriya Lokswaraj Party",2,NULL,NULL
+"Rashtriya Manav Party",2,NULL,NULL
+"Rashtriya Samta Vikas Party",2,NULL,NULL
+"Rashtriya Sawarn Dal",2,NULL,NULL
+"Republican Bahujan Sena",2,NULL,NULL
+"Republican Party of India (Social)",2,NULL,NULL
+"Revolutionary Goans Party",2,NULL,NULL
+"Sabhi Jan Party",2,NULL,NULL
+"Sakala Janula Party",2,NULL,NULL
+"Saman Adhikar Party",2,NULL,NULL
+"Samrat Mihir Bhoj Samaj Party",2,NULL,NULL
+"Sanatan Sanskriti Raksha Dal",2,NULL,NULL
+"Sanjhi Virasat Party",2,NULL,NULL
+"Sanman Rajkiya Paksha",2,NULL,NULL
+"Sanyukt Bharat Paksh",2,NULL,NULL
+"Sapaks Party",2,NULL,NULL
+"Sarv Samaj Party",2,NULL,NULL
+"Sarva Janata Party",2,NULL,NULL
+"Sarva Samaj Janata Party",2,NULL,NULL
+"Sunder Samaj Party",2,NULL,NULL
+"Swabhimani Paksha",2,NULL,NULL
+"Swarajya Sena (Maharashtra)",2,NULL,NULL
+"Tamil Manila Murpokku Dravida Kazhagam",2,NULL,NULL
+"Tamilaga Makkal Thannurimai Katchi",2,NULL,NULL
+"Tamilar Makkal Katchi",2,NULL,NULL
+"Telangana Praja Shakthi Party",2,NULL,NULL
+"Twenty 20 Party",2,NULL,NULL
+"Utkal Samaj",2,NULL,NULL
+"Uttarakhand Samanta Party",2,NULL,NULL
+"Vikas India Party",2,NULL,NULL
+"Vishva Shakti Party",2,NULL,NULL
+"Vishwa Kalyan Rashtriya Manav Samaj Party",2,NULL,NULL
+"Yuva Taram Party",2,NULL,NULL
+"Aadarsh Sangram Party",1,NULL,NULL
+"Aadi Bharat Party",1,NULL,NULL
+"Aadim Samaj Party",1,NULL,NULL
+"Aam Janmat Party",1,NULL,NULL
+"Aam Janshakti Party",1,NULL,NULL
+"Aam Lok Party United",1,NULL,NULL
+"Aap Sabki Apni Party",1,NULL,NULL
+"Aapka Gantantra Party",1,NULL,NULL
+"Aapki Awaaz Party",1,NULL,NULL
+"AARAKSHAN VIRODHI PARTY",1,NULL,NULL
+"Aawami Pichhada Party",1,NULL,NULL
+"Abhay Samaj Party",1,NULL,NULL
+"Abhinav Bharat Janseva Paksh",1,NULL,NULL
+"Abhinav Rajasthan Party",1,NULL,NULL
+"Abua Jharkhand Party",1,NULL,NULL
+"Adarsh Jankalyan Dal",1,NULL,NULL
+"Adarsh Janta Party",1,NULL,NULL
+"Adarsh Nyay Rakshak Party",1,NULL,NULL
+"Adarsh Samaj Party",1,NULL,NULL
+"Adarshwaadi Congress Party",1,NULL,NULL
+"Adim Bhartiya Dal",1,NULL,NULL
+"Ahimsa Socialist Party",1,NULL,NULL
+"Ahinsa Samaj Party",1,NULL,NULL
+"Aim Political Party",1,NULL,NULL
+"Akhand Bharat Janpriya Party",1,NULL,NULL
+"Akhand Bharat Samrajya Party",1,NULL,NULL
+"Akhand Bharat Swatantra Party",1,NULL,NULL
+"Akhil Bharatiya Congress Dal (Ambedkar)",1,NULL,NULL
+"Akhil Bharatiya Hind Kranti Party",1,NULL,NULL
+"Akhil Bharatiya Manavata Paksha",1,NULL,NULL
+"Akhil Bharatiya Muslim League (Secular)",1,NULL,NULL
+"Akhil Bhartiya Aamjan Party",1,NULL,NULL
+"Akhil Bhartiya Aarakshit Samaj Party",1,NULL,NULL
+"Akhil Bhartiya Apna Dal",1,NULL,NULL
+"Akhil Bhartiya Hamara Samaj Party",1,NULL,NULL
+"Akhil Bhartiya Kisan Majdoor Party",1,NULL,NULL
+"Akhil Bhartiya Manavadhikar Vichar Manch Party",1,NULL,NULL
+"Akhil Bhartiya Sarvjan Hit Party",1,NULL,NULL
+"Akhil Bhartiya Sudhar Party",1,NULL,NULL
+"Akhila Vijaya Party",1,NULL,NULL
+"All India Backward People Sunami Party",1,NULL,NULL
+"All India Jaihind Party",1,NULL,NULL
+"All India Jananayaka Makkal Kazhagam",1,NULL,NULL
+"All India Kisan Janatha party",1,NULL,NULL
+"All India Mahila Empowerment Party",1,NULL,NULL
+"All India Mazdoor Party (Rangreta)",1,NULL,NULL
+"All India National Raksha Sena",1,NULL,NULL
+"All India People Development Party",1,NULL,NULL
+"All India Uzhavargal Uzhaippalargal Katchi",1,NULL,NULL
+"Aman Samaj Party",1,NULL,NULL
+"Ambedkar National Congress",1,NULL,NULL
+"Amra Bangalee",1,NULL,NULL
+"Anaithu India Makkal Katchi",1,NULL,NULL
+"Andaman Nicobar Democratic Congress",1,NULL,NULL
+"Andhra Pradesh Rashtra Samithi",1,NULL,NULL
+"Anjaan Aadmi Party",1,NULL,NULL
+"Anna Makkal Katchi",1,NULL,NULL
+"Apna Desh Party",1,NULL,NULL
+"Apna Haq Party",1,NULL,NULL
+"Apni Ekta Party",1,NULL,NULL
+"Arunachal Democratic Party",1,NULL,NULL
+"Assam Jatiya Parishad",1,NULL,NULL
+"Atulya Bharat Party",1,NULL,NULL
+"Autonomous State Demand Committee",1,NULL,NULL
+"Awami Samta Party",1,NULL,NULL
+"Azad Party",1,NULL,NULL
+"Bahujan Kranti Party (Marxwad-Ambedkarwad)",1,NULL,NULL
+"Bahujan National Party (Ambedkar)",1,NULL,NULL
+"Bahujan Shoshit Samaj Sangharsh Samta Party",1,NULL,NULL
+"Bahujan Vikas Aaghadi",1,NULL,NULL
+"Bengaluru Nava Nirmana Party",1,NULL,NULL
+"Bharat Jago Janta Party",1,NULL,NULL
+"Bharat Jan Aadhar Party",1,NULL,NULL
+"Bharat Jan Jagran Dal",1,NULL,NULL
+"Bharat Ki Lok Jimmedar Party",1,NULL,NULL
+"Bharat Lok Sewak Party",1,NULL,NULL
+"Bharat Nirman Party",1,NULL,NULL
+"Bharat Peoples Sena",1,NULL,NULL
+"Bharat Rakshak Party (Democratic)",1,NULL,NULL
+"Bharatiya Aam Awam Party",1,NULL,NULL
+"Bharatiya Bahujan Samta Party",1,NULL,NULL
+"Bharatiya Ekta Dal",1,NULL,NULL
+"Bharatiya Inqalab Party",1,NULL,NULL
+"Bharatiya Jan Morcha Party",1,NULL,NULL
+"Bharatiya Lokshakti Party",1,NULL,NULL
+"Bharatiya Lokvikas Party",1,NULL,NULL
+"Bharatiya Mulnivasi Aazad Party",1,NULL,NULL
+"Bharatiya Nagrik Party",1,NULL,NULL
+"Bharatiya Rashtriya Morcha",1,NULL,NULL
+"Bharatrashtra Democratic Party",1,NULL,NULL
+"Bhartiya Asmita Party",1,NULL,NULL
+"Bhartiya Awam Party (Rastriya)",1,NULL,NULL
+"Bhartiya Gandhiwadi Party",1,NULL,NULL
+"Bhartiya Garib Vikas Kalyan Party",1,NULL,NULL
+"Bhartiya Jan Adhikar Party",1,NULL,NULL
+"Bhartiya Jan Nayak Party",1,NULL,NULL
+"Bhartiya Jan Samrat Party",1,NULL,NULL
+"Bhartiya Jan Vikas Aaghadi",1,NULL,NULL
+"Bhartiya Janta Secular Party",1,NULL,NULL
+"Bhartiya Jantantra Morcha",1,NULL,NULL
+"Bhartiya Kranti Vir Party",1,NULL,NULL
+"Bhartiya Lokvani Party",1,NULL,NULL
+"Bhartiya Mahasangh Party",1,NULL,NULL
+"Bhartiya Panchsheel Party",1,NULL,NULL
+"Bhartiya Panchyat Party",1,NULL,NULL
+"Bhartiya Party",1,NULL,NULL
+"Bhartiya Rashtriya Jansatta",1,NULL,NULL
+"Bhartiya Sabka Dal",1,NULL,NULL
+"Bhartiya Samajik Party",1,NULL,NULL
+"Bhartiya Sarvdharm Party",1,NULL,NULL
+"Bhartiya Uday Nirman Party",1,NULL,NULL
+"Bhartiya Veer Dal",1,NULL,NULL
+"BhartiyaBahujanKranti Dal",1,NULL,NULL
+"Bhrashtachar Mukti Morcha",1,NULL,NULL
+"Buland Bharat Party",1,NULL,NULL
+"Chhatrapati Shivaji Bhartiya Garib Party",1,NULL,NULL
+"Citizen Action Party-Sikkim",1,NULL,NULL
+"Corruption Abolition Party",1,NULL,NULL
+"Dalit Kranti Dal",1,NULL,NULL
+"Democratic Socialist Party of India",1,NULL,NULL
+"Desh Prem Party",1,NULL,NULL
+"Dhanwan Bharat Party",1,NULL,NULL
+"Dhoom Sena",1,NULL,NULL
+"Digvijaya Bharatha Party",1,NULL,NULL
+"Dr. Ambedkar Peoples Party",1,NULL,NULL
+"Dr. Bhimrao Ambedkar Dal",1,NULL,NULL
+"Garib Democratic Party",1,NULL,NULL
+"Gorkha Rashtriya Congress",1,NULL,NULL
+"Gujarat Loktantra Party",1,NULL,NULL
+"Guruchand Sena Dal",1,NULL,NULL
+"Hamara Sahara Party",1,NULL,NULL
+"Hamara Sahi Vikalp Party",1,NULL,NULL
+"Hindustan Janta Party Secular",1,NULL,NULL
+"Hindustan Samaj Party",1,NULL,NULL
+"Hindustan Vikas Dal",1,NULL,NULL
+"Hindvi Swarajyay Dal",1,NULL,NULL
+"Humanity for Peace Party",1,NULL,NULL
+"India Manus Party",1,NULL,NULL
+"Indian Believers Party (IBP)",1,NULL,NULL
+"Indian Praja Congress",1,NULL,NULL
+"Indian Unity Centre",1,NULL,NULL
+"Jai Hind Congress Party",1,NULL,NULL
+"Jai Hind Party",1,NULL,NULL
+"Jai Hindustan Party",1,NULL,NULL
+"Jai Sewalal Bahujan Vikas Party",1,NULL,NULL
+"Jamat-E-Seratul Mustakim",1,NULL,NULL
+"Jan Sewak Kranti Party",1,NULL,NULL
+"Jan Shakti Dal",1,NULL,NULL
+"Jan Shakti Ekta Party",1,NULL,NULL
+"Jana Shankhaaraavam Party",1,NULL,NULL
+"Janhit Kisan Party",1,NULL,NULL
+"Janhit Sankalp Party",1,NULL,NULL
+"Janlok Vikas Party",1,NULL,NULL
+"Janshakti Janta Dal",1,NULL,NULL
+"Janshakti Samta Party",1,NULL,NULL
+"Janta Darbar Party",1,NULL,NULL
+"Janta Kranti Party",1,NULL,NULL
+"Janta Raj Vikas Party",1,NULL,NULL
+"Janta Samajwadi Party (Vivek Raj)",1,NULL,NULL
+"Janta Samta Party",1,NULL,NULL
+"Janta Shashan Party",1,NULL,NULL
+"Jharkhand Mukti Morcha  (Ulgulan)",1,NULL,NULL
+"Jharkhand Peoples Party",1,NULL,NULL
+"Justice Party",1,NULL,NULL
+"Kamera Samaj Party",1,NULL,NULL
+"Kamgaar Kisan Party",1,NULL,NULL
+"Kannada  Paksha",1,NULL,NULL
+"Kannada Chalavali Vatal Paksha",1,NULL,NULL
+"Karnataka Karmikara Paksha",1,NULL,NULL
+"Karnataka Praja Party (RaithaParva)",1,NULL,NULL
+"Kerala Congress  (M)",1,NULL,NULL
+"Kisan Vishwa Party",1,NULL,NULL
+"Kosal Janata Dal",1,NULL,NULL
+"Kranti Janshakti Party",1,NULL,NULL
+"Kunbi Bahujan Sawrajya Party",1,NULL,NULL
+"Lok Samaj Party",1,NULL,NULL
+"Lok Sena Party",1,NULL,NULL
+"Lok Sewa Dal",1,NULL,NULL
+"Lokpriya Rashtrawadi Party",1,NULL,NULL
+"Lokrajya Janata Party",1,NULL,NULL
+"Loktantrik Janta Dal",1,NULL,NULL
+"Loktantrik Samajik Nyay Party",1,NULL,NULL
+"Maa Telangana Party",1,NULL,NULL
+"Madhya Pradesh Jan Vikas Party",1,NULL,NULL
+"Majdoor Kisan Union Party",1,NULL,NULL
+"Makkal Nala Kazhagam",1,NULL,NULL
+"Makkal Nalvaazhvuk Katchi",1,NULL,NULL
+"Mana Telangana Rashtra Samaikya Party",1,NULL,NULL
+"Manav Kranti Party",1,NULL,NULL
+"Manav Samadhan Party",1,NULL,NULL
+"Mang Samaj Party",1,NULL,NULL
+"Manviya Bharat Party",1,NULL,NULL
+"Marxist Leninist Party of India (Red Flag)",1,NULL,NULL
+"Megh Desham Party",1,NULL,NULL
+"Mera Bharat Mahan Party",1,NULL,NULL
+"Mission All India Independent Justice Party",1,NULL,NULL
+"Mission Naya Digant Party",1,NULL,NULL
+"Mithilanchal Mukti Morcha",1,NULL,NULL
+"Mizo National Front",1,NULL,NULL
+"Mizoram Peoples Conference",1,NULL,NULL
+"Most Backward Classes Of India",1,NULL,NULL
+"Naam Indiar Party",1,NULL,NULL
+"Naga Peoples Front",1,NULL,NULL
+"Nam India Naam Indiyar Katchi",1,NULL,NULL
+"National Future Party",1,NULL,NULL
+"National Janmandal Party",1,NULL,NULL
+"National Party",1,NULL,NULL
+"National Republic Party Of India",1,NULL,NULL
+"National World Leader Party",1,NULL,NULL
+"National Youth Party",1,NULL,NULL
+"Nationalist Democratic Progressive Party",1,NULL,NULL
+"Navodayam Party",1,NULL,NULL
+"Navsarjan Bharat Party",1,NULL,NULL
+"Navyug Pragatisheel Morcha",1,NULL,NULL
+"Neethi Nijayithi Party",1,NULL,NULL
+"Netaji Subhash Chander Bose Rashtriya Azad Party",1,NULL,NULL
+"New Generation People’s Party",1,NULL,NULL
+"New India Party",1,NULL,NULL
+"New Labour Party",1,NULL,NULL
+"Pachchasi Parivartan Samaj Party",1,NULL,NULL
+"Parcham Party of India",1,NULL,NULL
+"Paschimanchal Vikas Party",1,NULL,NULL
+"Pehchan People’s Party",1,NULL,NULL
+"People Protection Party",1,NULL,NULL
+"People’s Union Party",1,NULL,NULL
+"Pichhara Samaj Party United",1,NULL,NULL
+"Political Justice Party",1,NULL,NULL
+"Prabal Bharat Party",1,NULL,NULL
+"Pragatisheel Magahi Samaj",1,NULL,NULL
+"Praja Prasthanam Party",1,NULL,NULL
+"Praja Shanthi Party",1,NULL,NULL
+"Prajarajya Samithi",1,NULL,NULL
+"Prajavani  Party",1,NULL,NULL
+"Prithviraj Janshakti Party",1,NULL,NULL
+"Proutist Sarva Samaj",1,NULL,NULL
+"Public Adhikar Socialist Indian Party",1,NULL,NULL
+"Punnagai Desam Party",1,NULL,NULL
+"Radical Party of India (Ambedkarist)",1,NULL,NULL
+"Raita Bharat Party",1,NULL,NULL
+"Rajasthan Raj Party",1,NULL,NULL
+"Rashtra Dharak Dal",1,NULL,NULL
+"Rashtra Sewa Dal",1,NULL,NULL
+"Rashtravadi Loktantrik Party (India)",1,NULL,NULL
+"Rashtrawadi Chetna Party",1,NULL,NULL
+"Rashtriy Bahujan Party",1,NULL,NULL
+"Rashtriya Congress(J) Party",1,NULL,NULL
+"Rashtriya Hind Ekta Dal",1,NULL,NULL
+"Rashtriya Jan Awaz Party",1,NULL,NULL
+"Rashtriya Jan Jan Party",1,NULL,NULL
+"Rashtriya Jan Kalyan Party Secular",1,NULL,NULL
+"Rashtriya Jan Karmath Party",1,NULL,NULL
+"Rashtriya Jan Utkarsh Party",1,NULL,NULL
+"Rashtriya Janhit Sangharsh Party",1,NULL,NULL
+"Rashtriya Janmanch (Secular)",1,NULL,NULL
+"Rashtriya Janmorcha",1,NULL,NULL
+"Rashtriya Jansangharsh Swaraj Party",1,NULL,NULL
+"Rashtriya Jansena Party",1,NULL,NULL
+"Rashtriya Janshakti Party(Eklavya)",1,NULL,NULL
+"Rashtriya Janta Party",1,NULL,NULL
+"Rashtriya Jantantrik Bharat Vikas Party",1,NULL,NULL
+"Rashtriya Janutthan Party",1,NULL,NULL
+"Rashtriya Jatigat Aarakshan Virodhi Party",1,NULL,NULL
+"Rashtriya Lok Morcha",1,NULL,NULL
+"Rashtriya Mangalam Party",1,NULL,NULL
+"Rashtriya Mazdoor Ekta Party",1,NULL,NULL
+"Rashtriya Narayanwadi Vikas Party",1,NULL,NULL
+"Rashtriya Power Party",1,NULL,NULL
+"Rashtriya Rashtrawadi Party",1,NULL,NULL
+"Rashtriya Sanskriti Party",1,NULL,NULL
+"Rashtriya Sant Sandesh Party",1,NULL,NULL
+"Rashtriya Secular Majlis Party",1,NULL,NULL
+"Rashtriya Suraksha Party",1,NULL,NULL
+"Rashtriya Uttarakhand Party",1,NULL,NULL
+"Rashtriya Vikalp Party",1,NULL,NULL
+"Rashtriya Vikas Party",1,NULL,NULL
+"Rastriya Atal Janta Party",1,NULL,NULL
+"Rayalaseema Rashtra Samithi",1,NULL,NULL
+"Republican Party of India  (Sivaraj)",1,NULL,NULL
+"Republican Party of India Bharatha",1,NULL,NULL
+"Republican Sena",1,NULL,NULL
+"Rishivadi Karm Sheel Young Parmarthi Party",1,NULL,NULL
+"Saath Sahakar Vikas Party",1,NULL,NULL
+"Sabse Achchhi Party",1,NULL,NULL
+"Sacho Sach Party",1,NULL,NULL
+"Sajag Samaj Party",1,NULL,NULL
+"Samaj Bhalai Morcha",1,NULL,NULL
+"Samaj Parivartan Party",1,NULL,NULL
+"Samajik Sangharsh Party",1,NULL,NULL
+"Samajwadi Jan Parishad",1,NULL,NULL
+"Samajwadi Lok Parishad",1,NULL,NULL
+"Samata Samadhan Party",1,NULL,NULL
+"Sampoorna Bharat Kranti Party",1,NULL,NULL
+"Samst Samaj Party",1,NULL,NULL
+"Sankhyanupati Bhagidari Party",1,NULL,NULL
+"Sanyogwadi Party",1,NULL,NULL
+"Sanyukt Kisan Vikas Party",1,NULL,NULL
+"Sarvar Party",1,NULL,NULL
+"Sarvjan Awaz Party",1,NULL,NULL
+"Sarvjan Lok Shakti Party",1,NULL,NULL
+"Sarvjan Samta Party",1,NULL,NULL
+"Sarvlokhit Samaj Party",1,NULL,NULL
+"Sathi Aur Aapka Faisala Party",1,NULL,NULL
+"Satya Bahumat Party",1,NULL,NULL
+"Satyawadi Rakshak Party",1,NULL,NULL
+"Secular Democratic Congress",1,NULL,NULL
+"Sehajdhari Sikh Party",1,NULL,NULL
+"Shiromani Lok Dal Party",1,NULL,NULL
+"Shoshit Samaj Dal",1,NULL,NULL
+"Sikkim Democratic Front",1,NULL,NULL
+"Sikkim Republican Party",1,NULL,NULL
+"Smart Indians Party",1,NULL,NULL
+"Spashtwadi Jan Aadhar Party",1,NULL,NULL
+"Suheldev Bharatiya Samaj Party",1,NULL,NULL
+"Sunahara Bharat Party",1,NULL,NULL
+"Supreme Zero Party of Bharat",1,NULL,NULL
+"Swaraj Kranti Party",1,NULL,NULL
+"Swatantra Kisan Party",1,NULL,NULL
+"Swayam Shashan Party",1,NULL,NULL
+"Tamilaga Makkal Nala Katchi",1,NULL,NULL
+"Tamilnadu Makkal Nalvazhvu Periyakkam",1,NULL,NULL
+"Telangana Prajaa Jeevana Rythu Party",1,NULL,NULL
+"Telangana Rajya Samithi",1,NULL,NULL
+"Telangana Rashtra Punahnirmana Samithi",1,NULL,NULL
+"Telangana Sakalajanula Party",1,NULL,NULL
+"Telugu Congress Party",1,NULL,NULL
+"Telugu Nava Garjana Party",1,NULL,NULL
+"The Agrani Party",1,NULL,NULL
+"Ummeed Party of India",1,NULL,NULL
+"United Democratic Party",1,NULL,NULL
+"Uttar Pradesh Republican Party",1,NULL,NULL
+"Uttarakhand Parivartan Party",1,NULL,NULL
+"Vanchitsamaj Insaaf Party",1,NULL,NULL
+"Vidarbha Rajya Aghadi",1,NULL,NULL
+"Vidiyalai Thedum Indhiyargal Party",1,NULL,NULL
+"Viduthalai Kalam Katchi",1,NULL,NULL
+"Vikas Insaf Party",1,NULL,NULL
+"Vishal Janta Party",1,NULL,NULL
+"Voters Independent Party",1,NULL,NULL
+"Welfare Party Of India",1,NULL,NULL
+"Youth India Peace Party",1,NULL,NULL
+"Yuva Bihar Sena",1,NULL,NULL
+"Yuva Krantikari Party",1,NULL,NULL
+"Yuva Vikas Party",1,NULL,NULL
