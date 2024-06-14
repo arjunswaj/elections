@@ -36,6 +36,6 @@ FROM
     winner_and_runner_up
 WHERE
     RUNNER_UP_PARTY = 'Bharatiya Janata Party'
-    AND (WINNING_VOTES - RUNNER_UP_VOTES) < 15000
+    AND (WINNING_VOTES - RUNNER_UP_VOTES) < 50000
 ORDER BY
     VOTE_DIFFERENCE ASC;
