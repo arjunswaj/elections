@@ -325,6 +325,26 @@ A candidate could spend a max 95 Lakhs during campaigning. Assuming candidate ha
 |RAHUL GANDHI          |RAE BARELI  |UTTAR PRADESH  |Indian National Congress    |WON   |
 |PRASUN BANERJEE       |MALDAHA UTTAR|WEST BENGAL    |All India Trinamool Congress|LOST  |
 
+### Close Contest Matrix
+
+|PARTY                                             |< 500|< 2500|< 5000|< 10000|< 15000|< 25000|< 50000|
+|--------------------------------------------------|-----|------|------|-------|-------|-------|-------|
+|Aam Aadmi Party                                   |0    |0     |1     |1      |2      |2      |6      |
+|All India Anna Dravida Munnetra Kazhagam          |0    |0     |0     |0      |0      |0      |1      |
+|All India Trinamool Congress                      |0    |0     |0     |1      |2      |3      |5      |
+|Bharatiya Janata Party                            |0    |0     |5     |8      |10     |21     |43     |
+|Biju Janata Dal                                   |0    |1     |1     |1      |1      |2      |4      |
+|Communist Party of India                          |0    |0     |0     |0      |1      |1      |1      |
+|Communist Party of India  (Marxist)               |0    |1     |1     |1      |1      |1      |1      |
+|Desiya Murpokku Dravida Kazhagam                  |0    |0     |1     |1      |1      |1      |1      |
+|Indian National Congress                          |0    |2     |4     |4      |5      |9      |27     |
+|Janata Dal  (Secular)                             |0    |0     |0     |0      |0      |0      |1      |
+|Janata Dal  (United)                              |0    |0     |0     |0      |0      |1      |2      |
+|Nationalist Congress Party – Sharadchandra Pawar  |0    |0     |1     |1      |1      |1      |2      |
+|Pattali Makkal Katchi                             |0    |0     |0     |0      |0      |1      |1      |
+|Rashtriya Janata Dal                              |0    |0     |0     |0      |1      |2      |3      |
+|Samajwadi Party                                   |0    |0     |2     |2      |3      |4      |13     |
+|Shiv Sena (Uddhav Balasaheb Thackrey)             |1    |1     |1     |1      |2      |2      |4      |
 
 ## Building and Running
 ### Scraping and downloading data
