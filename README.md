@@ -346,6 +346,45 @@ A candidate could spend a max 95 Lakhs during campaigning. Assuming candidate ha
 |Samajwadi Party                                   |0    |0     |2     |2      |3      |4      |13     |
 |Shiv Sena (Uddhav Balasaheb Thackrey)             |1    |1     |1     |1      |2      |2      |4      |
 
+#### Party Specific Close Contest Matrix
+
+##### Bharatiya Janata Party
+|Constituency                                      |State|Runner up Party Votes|Winning Party|Winning Party Votes|Vote Difference|
+|--------------------------------------------------|-----|---------------------|-------------|-------------------|---------------|
+|CHANDIGARH                                        |CHANDIGARH|214153               |Indian National Congress|216657             |2504           |
+|HAMIRPUR                                          |UTTAR PRADESH|488054               |Samajwadi Party|490683             |2629           |
+|SALEMPUR                                          |UTTAR PRADESH|401899               |Samajwadi Party|405472             |3573           |
+|DHULE                                             |MAHARASHTRA|580035               |Indian National Congress|583866             |3831           |
+|DHAURAHRA                                         |UTTAR PRADESH|439294               |Samajwadi Party|443743             |4449           |
+|DAMAN & DIU                                       |DADRA & NAGAR HAVELI AND DAMAN & DIU|36298                |Independent  |42523              |6225           |
+|ARAMBAGH                                          |WEST BENGAL|706188               |All India Trinamool Congress|712587             |6399           |
+|BEED                                              |MAHARASHTRA|677397               |Nationalist Congress Party – Sharadchandra Pawar|683950             |6553           |
+|SOUTH GOA                                         |GOA  |204301               |Indian National Congress|217836             |13535          |
+|THIRUPATHI                                        |ANDHRA PRADESH|617659               |Yuvajana Sramika Rythu Congress Party|632228             |14569          |
+|Constituency                                      |State|Runner up Party Votes|Winning Party|Winning Party Votes|Vote Difference|
+|--------------------------------------------------|-----|---------------------|-------------|-------------------|---------------|
+|CHANDIGARH                                        |CHANDIGARH|214153               |Indian National Congress|216657             |2504           |
+|HAMIRPUR                                          |UTTAR PRADESH|488054               |Samajwadi Party|490683             |2629           |
+|SALEMPUR                                          |UTTAR PRADESH|401899               |Samajwadi Party|405472             |3573           |
+|DHULE                                             |MAHARASHTRA|580035               |Indian National Congress|583866             |3831           |
+|DHAURAHRA                                         |UTTAR PRADESH|439294               |Samajwadi Party|443743             |4449           |
+|DAMAN & DIU                                       |DADRA & NAGAR HAVELI AND DAMAN & DIU|36298                |Independent  |42523              |6225           |
+|ARAMBAGH                                          |WEST BENGAL|706188               |All India Trinamool Congress|712587             |6399           |
+|BEED                                              |MAHARASHTRA|677397               |Nationalist Congress Party – Sharadchandra Pawar|683950             |6553           |
+|SOUTH GOA                                         |GOA  |204301               |Indian National Congress|217836             |13535          |
+|THIRUPATHI                                        |ANDHRA PRADESH|617659               |Yuvajana Sramika Rythu Congress Party|632228             |14569          |
+
+##### Indian National Congress
+
+|Constituency                                      |State|Runner up Party Votes|Winning Party|Winning Party Votes|Vote Difference|
+|--------------------------------------------------|-----|---------------------|-------------|-------------------|---------------|
+|JAIPUR RURAL                                      |RAJASTHAN|616262               |Bharatiya Janata Party|617877             |1615           |
+|KANKER                                            |CHHATTISGARH|595740               |Bharatiya Janata Party|597624             |1884           |
+|BANSGAON                                          |UTTAR PRADESH|425543               |Bharatiya Janata Party|428693             |3150           |
+|MAHBUBNAGAR                                       |TELANGANA|506247               |Bharatiya Janata Party|510747             |4500           |
+|ANANDPUR SAHIB                                    |PUNJAB|302371               |Aam Aadmi Party|313217             |10846          |
+
+
 ## Building and Running
 ### Scraping and downloading data
 ```sh
