@@ -1,5 +1,6 @@
 # Table of contents
 
+- [Table of contents](#table-of-contents)
 - [Analysis of General Elections 2024](#analysis-of-general-elections-2024)
   - [Analysis](#analysis)
     - [Seats contested by Parties](#seats-contested-by-parties)
@@ -31,6 +32,10 @@
     - [Multiple Seat Participation](#multiple-seat-participation)
       - [Candidates participating in multiple seats (matches names)](#candidates-participating-in-multiple-seats-matches-names)
       - [Results of Candidates participating in multiple seats (at least 1 win)](#results-of-candidates-participating-in-multiple-seats-at-least-1-win)
+    - [Close Contest Matrix](#close-contest-matrix)
+      - [Party Specific Close Contest Matrix](#party-specific-close-contest-matrix)
+        - [Bharatiya Janata Party](#bharatiya-janata-party)
+        - [Indian National Congress](#indian-national-congress)
   - [Building and Running](#building-and-running)
     - [Scraping and downloading data](#scraping-and-downloading-data)
       - [Tests](#tests)
