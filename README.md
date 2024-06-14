@@ -366,18 +366,7 @@ This Matrix provides the number of seats in which parties lost by the number of 
 |BEED                                              |MAHARASHTRA|677397               |Nationalist Congress Party – Sharadchandra Pawar|683950             |6553           |
 |SOUTH GOA                                         |GOA  |204301               |Indian National Congress|217836             |13535          |
 |THIRUPATHI                                        |ANDHRA PRADESH|617659               |Yuvajana Sramika Rythu Congress Party|632228             |14569          |
-|Constituency                                      |State|Runner up Party Votes|Winning Party|Winning Party Votes|Vote Difference|
-|--------------------------------------------------|-----|---------------------|-------------|-------------------|---------------|
-|CHANDIGARH                                        |CHANDIGARH|214153               |Indian National Congress|216657             |2504           |
-|HAMIRPUR                                          |UTTAR PRADESH|488054               |Samajwadi Party|490683             |2629           |
-|SALEMPUR                                          |UTTAR PRADESH|401899               |Samajwadi Party|405472             |3573           |
-|DHULE                                             |MAHARASHTRA|580035               |Indian National Congress|583866             |3831           |
-|DHAURAHRA                                         |UTTAR PRADESH|439294               |Samajwadi Party|443743             |4449           |
-|DAMAN & DIU                                       |DADRA & NAGAR HAVELI AND DAMAN & DIU|36298                |Independent  |42523              |6225           |
-|ARAMBAGH                                          |WEST BENGAL|706188               |All India Trinamool Congress|712587             |6399           |
-|BEED                                              |MAHARASHTRA|677397               |Nationalist Congress Party – Sharadchandra Pawar|683950             |6553           |
-|SOUTH GOA                                         |GOA  |204301               |Indian National Congress|217836             |13535          |
-|THIRUPATHI                                        |ANDHRA PRADESH|617659               |Yuvajana Sramika Rythu Congress Party|632228             |14569          |
+
 
 ##### Indian National Congress
 
