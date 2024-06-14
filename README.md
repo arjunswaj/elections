@@ -331,7 +331,7 @@ A candidate could spend a max 95 Lakhs during campaigning. Assuming candidate ha
 |PRASUN BANERJEE       |MALDAHA UTTAR|WEST BENGAL    |All India Trinamool Congress|LOST  |
 
 ### Close Contest Matrix
-
+This Matrix provides the number of seats in which parties lost by the number of votes provided in the columns.
 |PARTY                                             |< 500|< 2500|< 5000|< 10000|< 15000|< 25000|< 50000|
 |--------------------------------------------------|-----|------|------|-------|-------|-------|-------|
 |Aam Aadmi Party                                   |0    |0     |1     |1      |2      |2      |6      |
