@@ -12,9 +12,11 @@ library
   hs-source-dirs:      src
   build-depends:       base >=4.7 && <5
                      , bytestring
+                     , case-insensitive
                      , cassava
                      , directory
                      , http-conduit
+                     , http-types
                      , scalpel
                      , split
                      , text
