@@ -25,7 +25,8 @@ import System.IO
 data Constituency = Constituency
   { code :: String,
     state :: String,
-    url :: String
+    url :: String,
+    headers :: [(String, String)]
   }
   deriving (Show, Eq)
 
@@ -35,19 +36,44 @@ generateURLs = concatMap generateConstituencies generateStateDetails
   where
     separator = "/"
     domain = "https://results.eci.gov.in"
-    baseUrl = domain ++ separator ++ "PcResultGenJune2024"
+    baseUrl = separator ++ "AcResultGenOct2024"
     constituencyUrl = baseUrl ++ separator ++ "Constituencywise"
 
     createUrl :: String -> Int -> String
     createUrl stateCode constituencyNumber =
       constituencyUrl ++ stateCode ++ show constituencyNumber ++ ".htm"
 
+    generateHeaders :: String -> Int -> [(String, String)]
+    generateHeaders stateCode ctr =
+      [ (":authority", "results.eci.gov.in"),
+        (":method", "GET"),
+        (":path", createUrl stateCode ctr),
+        (":scheme", "https"),
+        ("accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"),
+        ("accept-encoding", "gzip, deflate, br, zstd"),
+        ("accept-language", "en-IN,en;q=0.9,hi-IN;q=0.8,hi;q=0.7,en-GB;q=0.6,en-US;q=0.5"),
+        ("cache-control", "max-age=0"),
+        ("cookie", "RT=\"z=1&dm=results.eci.gov.in&si=b16b28a4-e8cf-4f1e-ba3c-fd48c9cbcb95&ss=m2873m95&sl=e&tt=k3p&bcn=%2F%2F17de4c19.akstat.io%2F&ld=2kfyb&ul=2qql0\""),
+        ("dnt", "1"),
+        ("priority", "u=0, i"),
+        ("referer", domain),
+        ("sec-ch-ua", "\"Google Chrome\";v=\"129\", \"Not=A?Brand\";v=\"8\", \"Chromium\";v=\"129\""),
+        ("sec-ch-ua-mobile", "?0"),
+        ("sec-ch-ua-platform", "\"macOS\""),
+        ("sec-fetch-dest", "document"),
+        ("sec-fetch-mode", "navigate"),
+        ("sec-fetch-site", "same-origin"),
+        ("upgrade-insecure-requests", "1"),
+        ("user-agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36")
+      ]
+
     generateConstituencies :: StateDetail -> [Constituency]
     generateConstituencies (stateName, stateCode, numConstituencies) =
       [ Constituency
           { code = stateCode ++ show ctr,
             state = stateName,
-            url = createUrl stateCode ctr
+            url = domain ++ createUrl stateCode ctr,
+            headers = generateHeaders stateCode ctr
           }
         | ctr <- [1 .. numConstituencies]
       ]
@@ -77,8 +103,9 @@ processURLs constituencies csvFilePath errorFilePath = do
       let constituencyUrl = url $ snd pair
       let stateName = state $ snd pair
       let urlCode = code $ snd pair
+      let requestHeaders = headers $ snd pair
       putStrLn $ num ++ ". Processing " ++ constituencyUrl
-      result <- try (fetchWebPage constituencyUrl) :: IO (Either FetchException String)
+      result <- try (fetchWebPage constituencyUrl requestHeaders) :: IO (Either FetchException String)
       case result of
         Left (FetchException code err) -> do
           hPutStrLn errorHandle $ formatCSVRow ["Missing", show code, constituencyUrl]
@@ -107,8 +134,8 @@ processURLs constituencies csvFilePath errorFilePath = do
     persistResponse :: Handle -> [[String]] -> IO ()
     persistResponse csvHandle = mapM_ (hPutStrLn csvHandle . formatCSVRow)
 
-    fetchWebPage :: String -> IO String
-    fetchWebPage url = do HC.fetchWebPage url
+    fetchWebPage :: String -> [(String, String)] -> IO String
+    fetchWebPage url headers = do HC.fetchWebPage url headers
 
     extractTable :: String -> [[String]]
     extractTable html = fromMaybe [] (extractTableRows html)
