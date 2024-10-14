@@ -6,7 +6,7 @@ WITH ranked_results AS (
         PARTY,
         VOTES,
         ROW_NUMBER() OVER (PARTITION BY STATE, CONSTITUENCY ORDER BY VOTES DESC) AS rn
-    FROM GENERAL_ELECTION_2024_RESULTS
+    FROM ASSEMBLY_ELECTIONS_OCT2024
 ),
 winner_and_runner_up AS (
     SELECT
@@ -26,8 +26,8 @@ winner_and_runner_up AS (
         r1.rn = 1 AND r2.rn = 2
 )
 SELECT
-	CONSTITUENCY,
     STATE,
+    CONSTITUENCY,
     RUNNER_UP_VOTES,
     WINNING_PARTY,
     WINNING_VOTES,
@@ -38,4 +38,5 @@ WHERE
     RUNNER_UP_PARTY = 'Bharatiya Janata Party'
     AND (WINNING_VOTES - RUNNER_UP_VOTES) < 50000
 ORDER BY
+    STATE ASC,
     VOTE_DIFFERENCE ASC;
