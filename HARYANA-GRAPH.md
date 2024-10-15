@@ -46,23 +46,6 @@ A total of 1031 candidates contested in the elections and around 1.38 Crores (`1
 
 ### Seats contested by Parties
 ```mermaid
-pie
-    title Seats Contested by Parties
-    "Independent" : 464
-    "Indian National Congress" : 89
-    "Bharatiya Janata Party" : 89
-    "Aam Aadmi Party" : 88
-    "Jannayak Janta Party" : 66
-    "Indian National Lok Dal" : 51
-    "Bahujan Samaj Party" : 35
-    "Aazad Samaj Party (Kanshi Ram)" : 12
-    "Peoples Party of India (Democratic)" : 12
-    "Bhartiya Shakti Chetna Party" : 11
-```
-
-### Max and Mins
-
-#### Maximum votes for a candidate
 ---
 config:
     xyChart:
@@ -70,7 +53,24 @@ config:
         height: 600
         chartOrientation: horizontal
 ---
+xychart-beta
+    title "Seats Contested by Parties"
+    x-axis ["Independent", "Indian National Congress", "Bharatiya Janata Party", "Aam Aadmi Party", "Jannayak Janta Party", "Indian National Lok Dal", "Bahujan Samaj Party", "Aazad Samaj Party (Kanshi Ram)", "Peoples Party of India (Democratic)", "Bhartiya Shakti Chetna Party"]
+    y-axis "Number of Seats" 0 --> 500
+    bar [464, 89, 89, 88, 66, 51, 35, 12, 12, 11]
+```
+
+### Max and Mins
+
+#### Maximum votes for a candidate
 ```mermaid
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+---
 xychart-beta
     title "Maximum Votes for a Candidate"
     x-axis ["RAO NARBIR SINGH (BJP, BADSHAHPUR)", "MAMMAN KHAN (INC, FEROZEPUR JHIRKA)", "MUKESH SHARMA (BJP, GURGAON)", "GAURAV GAUTAM (BJP, PALWAL)", "BHUPINDER SINGH HOODA (INC, GARHI SAMPLA)"]
@@ -79,6 +79,7 @@ xychart-beta
 ```
 
 #### Least votes for a winning candidate
+```mermaid
 ---
 config:
     xyChart:
@@ -86,7 +87,6 @@ config:
         height: 600
         chartOrientation: horizontal
 ---
-```mermaid
 xychart-beta
     title "Least Votes for a Winning Candidate"
     x-axis ["SATPAL JAMBA (BJP, PUNDRI)", "ARJUN CHAUTALA (INLD, RANIA)", "VIKAS SAHARAN (INC, KALAYAT)", "DEVENDER CHATAR BHUJ ATTRI (BJP, UCHANA KALAN)", "SAVITRI JINDAL (Independent, HISAR)"]
@@ -95,6 +95,7 @@ xychart-beta
 ```
 
 #### Max votes for a losing candidate
+```mermaid
 ---
 config:
     xyChart:
@@ -102,7 +103,6 @@ config:
         height: 600
         chartOrientation: horizontal
 ---
-```mermaid
 xychart-beta
     title "Max Votes for a Losing Candidate"
     x-axis ["VARDHAN YADAV (INC, BADSHAHPUR)", "DURA RAM (BJP, FATEHABAD)", "VARINDER SINGH RATHORE (INC, GHARAUNDA)", "JAI PARKASH DALAL (BJP, LOHARU)", "DEVENDER SINGH BABLI (BJP, TOHANA)"]
@@ -111,6 +111,7 @@ xychart-beta
 ```
 
 #### Candidates winning by Max margin (Unilateral winner)
+```mermaid
 ---
 config:
     xyChart:
@@ -118,7 +119,6 @@ config:
         height: 600
         chartOrientation: horizontal
 ---
-```mermaid
 xychart-beta
     title "Candidates Winning by Max Margin"
     x-axis ["MAMMAN KHAN (INC, FEROZEPUR JHIRKA)", "BHUPINDER SINGH HOODA (INC, GARHI SAMPLA)", "MUKESH SHARMA (BJP, GURGAON)", "RAO NARBIR SINGH (BJP, BADSHAHPUR)", "MAHIPAL DHANDA (BJP, PANIPAT RURAL)"]
@@ -127,6 +127,7 @@ xychart-beta
 ```
 
 #### Candidates winning by Least margin (Fierce battle)
+```mermaid
 ---
 config:
     xyChart:
@@ -134,7 +135,6 @@ config:
         height: 600
         chartOrientation: horizontal
 ---
-```mermaid
 xychart-beta
     title "Candidates Winning by Least Margin"
     x-axis ["DEVENDER CHATAR BHUJ ATTRI (BJP, UCHANA KALAN)", "ADITYA DEVILAL (INLD, DABWALI)", "RAJBIR FARTIA (INC, LOHARU)", "CHANDER PARKASH S/O ARJUN LAL (INC, ADAMPUR)", "BHARAT BHUSHAN BATRA (INC, ROHTAK)"]
@@ -143,6 +143,7 @@ xychart-beta
 ```
 
 #### Max Total Votes in a Constituency
+```mermaid
 ---
 config:
     xyChart:
@@ -150,7 +151,6 @@ config:
         height: 600
         chartOrientation: horizontal
 ---
-```mermaid
 xychart-beta
     title "Max Total Votes in a Constituency"
     x-axis ["BADSHAHPUR (HARYANA)", "GURGAON (HARYANA)", "TIGAON (HARYANA)", "SOHNA (HARYANA)", "PANIPAT RURAL (HARYANA)"]
@@ -159,6 +159,7 @@ xychart-beta
 ```
 
 #### Min Total Votes Constituency
+```mermaid
 ---
 config:
     xyChart:
@@ -166,7 +167,6 @@ config:
         height: 600
         chartOrientation: horizontal
 ---
-```mermaid
 xychart-beta
     title "Min Total Votes in a Constituency"
     x-axis ["NARNAUL (HARYANA)", "HISAR (HARYANA)", "KHARKHAUDA (HARYANA)", "NANGAL CHAUDHRY (HARYANA)", "BERI (HARYANA)"]
@@ -175,6 +175,7 @@ xychart-beta
 ```
 
 #### Max candidates in a Constituency
+```mermaid
 ---
 config:
     xyChart:
@@ -182,7 +183,6 @@ config:
         height: 600
         chartOrientation: horizontal
 ---
-```mermaid
 xychart-beta
     title "Max Candidates in a Constituency"
     x-axis ["HISAR (HARYANA)", "UCHANA KALAN (HARYANA)", "MEHAM (HARYANA)", "PUNDRI (HARYANA)", "FATEHABAD (HARYANA)"]
@@ -191,6 +191,7 @@ xychart-beta
 ```
 
 #### Least candidates in a Constituency
+```mermaid
 ---
 config:
     xyChart:
@@ -198,7 +199,6 @@ config:
         height: 600
         chartOrientation: horizontal
 ---
-```mermaid
 xychart-beta
     title "Least Candidates in a Constituency"
     x-axis ["KALANWALI (HARYANA)", "NANGAL CHAUDHRY (HARYANA)", "INDRI (HARYANA)", "NUH (HARYANA)", "KALKA (HARYANA)"]
@@ -219,6 +219,7 @@ pie
 ```
 
 #### Maximum Vote share of Winning Candidate
+```mermaid
 ---
 config:
     xyChart:
@@ -226,7 +227,6 @@ config:
         height: 600
         chartOrientation: horizontal
 ---
-```mermaid
 xychart-beta
     title "Maximum Vote Share of Winning Candidate"
     x-axis ["BHUPINDER SINGH HOODA (INC, GARHI SAMPLA)", "MAMMAN KHAN (INC, FEROZEPUR JHIRKA)", "VIPUL GOEL (BJP, FARIDABAD)", "BIMLA CHAUDHARY (BJP, PATAUDI)", "JAGMOHAN ANAND (BJP, KARNAL)"]
@@ -235,6 +235,7 @@ xychart-beta
 ```
 
 #### Least Vote share for a winning candidate
+```mermaid
 ---
 config:
     xyChart:
@@ -242,7 +243,6 @@ config:
         height: 600
         chartOrientation: horizontal
 ---
-```mermaid
 xychart-beta
     title "Least Vote Share for a Winning Candidate"
     x-axis ["DEVENDER CHATAR BHUJ ATTRI (BJP, UCHANA KALAN)", "VIKAS SAHARAN (INC, KALAYAT)", "TEJPAL TANWAR (BJP, SOHNA)", "ARJUN CHAUTALA (INLD, RANIA)", "SATPAL JAMBA (BJP, PUNDRI)"]
@@ -251,6 +251,7 @@ xychart-beta
 ```
 
 #### Max Vote share of a losing candidate
+```mermaid
 ---
 config:
     xyChart:
@@ -258,7 +259,6 @@ config:
         height: 600
         chartOrientation: horizontal
 ---
-```mermaid
 xychart-beta
     title "Max Vote Share of a Losing Candidate"
     x-axis ["JAI PARKASH DALAL (BJP, LOHARU)", "MANISH KUMAR GROVER (BJP, ROHTAK)", "VARINDER SINGH RATHORE (INC, GHARAUNDA)", "BHAVYA BISHNOI (BJP, ADAMPUR)", "UDAI BHAN (INC, HODAL)"]
@@ -267,6 +267,7 @@ xychart-beta
 ```
 
 #### Seats in which Parties lost deposits (less than 1/6 vote share)
+```mermaid
 ---
 config:
     xyChart:
@@ -274,7 +275,6 @@ config:
         height: 600
         chartOrientation: horizontal
 ---
-```mermaid
 xychart-beta
     title "Seats in which Parties Lost Deposits"
     x-axis ["Independent", "Aam Aadmi Party", "Jannayak Janta Party", "Indian National Lok Dal", "Bahujan Samaj Party"]
@@ -283,6 +283,7 @@ xychart-beta
 ```
 
 #### Gold (Seats that Parties won)
+```mermaid
 ---
 config:
     xyChart:
@@ -290,7 +291,6 @@ config:
         height: 600
         chartOrientation: horizontal
 ---
-```mermaid
 xychart-beta
     title "Gold (Seats that Parties Won)"
     x-axis ["Bharatiya Janata Party", "Indian National Congress", "Independent", "Indian National Lok Dal"]
@@ -299,6 +299,7 @@ xychart-beta
 ```
 
 #### Silver (Seats that Parties came in second)
+```mermaid
 ---
 config:
     xyChart:
@@ -306,7 +307,6 @@ config:
         height: 600
         chartOrientation: horizontal
 ---
-```mermaid
 xychart-beta
     title "Silver (Seats that Parties Came in Second)"
     x-axis ["Indian National Congress", "Bharatiya Janata Party", "Independent", "Indian National Lok Dal", "Bahujan Samaj Party", "Communist Party of India (Marxist)", "Haryana Jan Sevak Party", "Haryana Lokhit Party"]
@@ -315,6 +315,7 @@ xychart-beta
 ```
 
 #### Cost per vote - Best Value per vote
+```mermaid
 ---
 config:
     xyChart:
@@ -322,7 +323,6 @@ config:
         height: 600
         chartOrientation: horizontal
 ---
-```mermaid
 xychart-beta
     title "Cost per Vote - Best Value"
     x-axis ["Bharatiya Janata Party", "Indian National Congress", "Communist Party of India (Marxist)", "Haryana Lokhit Party", "Haryana Jan Sevak Party"]
@@ -331,6 +331,7 @@ xychart-beta
 ```
 
 #### Cost per vote - Worst Value per vote
+```mermaid
 ---
 config:
     xyChart:
@@ -338,7 +339,6 @@ config:
         height: 600
         chartOrientation: horizontal
 ---
-```mermaid
 xychart-beta
     title "Cost per Vote - Worst Value"
     x-axis ["Rashtravadi Bharat Party", "Bharat Jan Jagran Dal", "Bhartiya Janraj Party", "Bhartiya Sarvodaya Party", "Nationalist Congress Party"]
@@ -347,6 +347,7 @@ xychart-beta
 ```
 
 #### Success Ratio - Best
+```mermaid
 ---
 config:
     xyChart:
@@ -354,7 +355,6 @@ config:
         height: 600
         chartOrientation: horizontal
 ---
-```mermaid
 xychart-beta
     title "Success Ratio - Best"
     x-axis ["Bharatiya Janata Party", "Indian National Congress"]
@@ -363,6 +363,7 @@ xychart-beta
 ```
 
 #### Success Ratio - Worst
+```mermaid
 ---
 config:
     xyChart:
@@ -370,7 +371,6 @@ config:
         height: 600
         chartOrientation: horizontal
 ---
-```mermaid
 xychart-beta
     title "Success Ratio - Worst"
     x-axis ["Independent", "Indian National Lok Dal"]
@@ -379,6 +379,7 @@ xychart-beta
 ```
 
 #### Candidates participating in multiple seats (matches names)
+```mermaid
 ---
 config:
     xyChart:
@@ -386,7 +387,6 @@ config:
         height: 600
         chartOrientation: horizontal
 ---
-```mermaid
 xychart-beta
     title "Candidates Participating in Multiple Seats"
     x-axis ["ANIL KUMAR", "RAJESH KUMAR", "SUNIL KUMAR"]
