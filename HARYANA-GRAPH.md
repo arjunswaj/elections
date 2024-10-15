@@ -47,283 +47,351 @@ A total of 1031 candidates contested in the elections and around 1.38 Crores (`1
 ### Seats contested by Parties
 ```mermaid
 pie
-  title Seats Contested by Parties
-  "Independent" : 464
-  "Indian National Congress" : 89
-  "Bharatiya Janata Party" : 89
-  "Aam Aadmi Party" : 88
-  "Jannayak Janta Party" : 66
-  "Indian National Lok Dal" : 51
-  "Bahujan Samaj Party" : 35
-  "Aazad Samaj Party (Kanshi Ram)" : 12
-  "Peoples Party of India (Democratic)" : 12
-  "Bhartiya Shakti Chetna Party" : 11
+    title Seats Contested by Parties
+    "Independent" : 464
+    "Indian National Congress" : 89
+    "Bharatiya Janata Party" : 89
+    "Aam Aadmi Party" : 88
+    "Jannayak Janta Party" : 66
+    "Indian National Lok Dal" : 51
+    "Bahujan Samaj Party" : 35
+    "Aazad Samaj Party (Kanshi Ram)" : 12
+    "Peoples Party of India (Democratic)" : 12
+    "Bhartiya Shakti Chetna Party" : 11
 ```
 
 ### Max and Mins
 
 #### Maximum votes for a candidate
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+---
 ```mermaid
-bar
-  title Maximum Votes for a Candidate
-  x-axis Candidate
-  y-axis Number of Votes
-  "RAO NARBIR SINGH (BJP, BADSHAHPUR)" : 145503
-  "MAMMAN KHAN (INC, FEROZEPUR JHIRKA)" : 130497
-  "MUKESH SHARMA (BJP, GURGAON)" : 122615
-  "GAURAV GAUTAM (BJP, PALWAL)" : 109118
-  "BHUPINDER SINGH HOODA (INC, GARHI SAMPLA)" : 108539
+xychart-beta
+    title "Maximum Votes for a Candidate"
+    x-axis ["RAO NARBIR SINGH (BJP, BADSHAHPUR)", "MAMMAN KHAN (INC, FEROZEPUR JHIRKA)", "MUKESH SHARMA (BJP, GURGAON)", "GAURAV GAUTAM (BJP, PALWAL)", "BHUPINDER SINGH HOODA (INC, GARHI SAMPLA)"]
+    y-axis "Number of Votes" 40000 --> 150000
+    bar [145503, 130497, 122615, 109118, 108539]
 ```
+
 #### Least votes for a winning candidate
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+---
 ```mermaid
-bar
-  title Least Votes for a Winning Candidate
-  x-axis Candidate
-  y-axis Number of Votes
-  "SATPAL JAMBA (BJP, PUNDRI)" : 42805
-  "ARJUN CHAUTALA (INLD, RANIA)" : 43914
-  "VIKAS SAHARAN (INC, KALAYAT)" : 48142
-  "DEVENDER CHATAR BHUJ ATTRI (BJP, UCHANA KALAN)" : 48968
-  "SAVITRI JINDAL (Independent, HISAR)" : 49231
+xychart-beta
+    title "Least Votes for a Winning Candidate"
+    x-axis ["SATPAL JAMBA (BJP, PUNDRI)", "ARJUN CHAUTALA (INLD, RANIA)", "VIKAS SAHARAN (INC, KALAYAT)", "DEVENDER CHATAR BHUJ ATTRI (BJP, UCHANA KALAN)", "SAVITRI JINDAL (Independent, HISAR)"]
+    y-axis "Number of Votes" 40000 --> 50000
+    bar [42805, 43914, 48142, 48968, 49231]
 ```
+
 #### Max votes for a losing candidate
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+---
 ```mermaid
-bar
-  title Max Votes for a Losing Candidate
-  x-axis Candidate
-  y-axis Number of Votes
-  "VARDHAN YADAV (INC, BADSHAHPUR)" : 84798
-  "DURA RAM (BJP, FATEHABAD)" : 83920
-  "VARINDER SINGH RATHORE (INC, GHARAUNDA)" : 82705
-  "JAI PARKASH DALAL (BJP, LOHARU)" : 80544
-  "DEVENDER SINGH BABLI (BJP, TOHANA)" : 77686
+xychart-beta
+    title "Max Votes for a Losing Candidate"
+    x-axis ["VARDHAN YADAV (INC, BADSHAHPUR)", "DURA RAM (BJP, FATEHABAD)", "VARINDER SINGH RATHORE (INC, GHARAUNDA)", "JAI PARKASH DALAL (BJP, LOHARU)", "DEVENDER SINGH BABLI (BJP, TOHANA)"]
+    y-axis "Number of Votes" 70000 --> 90000
+    bar [84798, 83920, 82705, 80544, 77686]
 ```
 
 #### Candidates winning by Max margin (Unilateral winner)
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+---
 ```mermaid
-bar
-  title Candidates Winning by Max Margin
-  x-axis Candidate
-  y-axis Vote Difference
-  "MAMMAN KHAN (INC, FEROZEPUR JHIRKA)" : 98441
-  "BHUPINDER SINGH HOODA (INC, GARHI SAMPLA)" : 71465
-  "MUKESH SHARMA (BJP, GURGAON)" : 68045
-  "RAO NARBIR SINGH (BJP, BADSHAHPUR)" : 60705
-  "MAHIPAL DHANDA (BJP, PANIPAT RURAL)" : 50212
+xychart-beta
+    title "Candidates Winning by Max Margin"
+    x-axis ["MAMMAN KHAN (INC, FEROZEPUR JHIRKA)", "BHUPINDER SINGH HOODA (INC, GARHI SAMPLA)", "MUKESH SHARMA (BJP, GURGAON)", "RAO NARBIR SINGH (BJP, BADSHAHPUR)", "MAHIPAL DHANDA (BJP, PANIPAT RURAL)"]
+    y-axis "Vote Difference" 30000 --> 100000
+    bar [98441, 71465, 68045, 60705, 50212]
 ```
 
 #### Candidates winning by Least margin (Fierce battle)
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+---
 ```mermaid
-bar
-  title Candidates Winning by Least Margin
-  x-axis Candidate
-  y-axis Vote Difference
-  "DEVENDER CHATAR BHUJ ATTRI (BJP, UCHANA KALAN)" : 32
-  "ADITYA DEVILAL (INLD, DABWALI)" : 610
-  "RAJBIR FARTIA (INC, LOHARU)" : 792
-  "CHANDER PARKASH S/O ARJUN LAL (INC, ADAMPUR)" : 1268
-  "BHARAT BHUSHAN BATRA (INC, ROHTAK)" : 1341
+xychart-beta
+    title "Candidates Winning by Least Margin"
+    x-axis ["DEVENDER CHATAR BHUJ ATTRI (BJP, UCHANA KALAN)", "ADITYA DEVILAL (INLD, DABWALI)", "RAJBIR FARTIA (INC, LOHARU)", "CHANDER PARKASH S/O ARJUN LAL (INC, ADAMPUR)", "BHARAT BHUSHAN BATRA (INC, ROHTAK)"]
+    y-axis "Vote Difference" 0 --> 1500
+    bar [32, 610, 792, 1268, 1341]
 ```
 
 #### Max Total Votes in a Constituency
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+---
 ```mermaid
-bar
-  title Max Total Votes in a Constituency
-  x-axis Constituency
-  y-axis Total Votes
-  "BADSHAHPUR (HARYANA)" : 282285
-  "GURGAON (HARYANA)" : 230104
-  "TIGAON (HARYANA)" : 203714
-  "SOHNA (HARYANA)" : 203562
-  "PANIPAT RURAL (HARYANA)" : 201139
+xychart-beta
+    title "Max Total Votes in a Constituency"
+    x-axis ["BADSHAHPUR (HARYANA)", "GURGAON (HARYANA)", "TIGAON (HARYANA)", "SOHNA (HARYANA)", "PANIPAT RURAL (HARYANA)"]
+    y-axis "Total Votes" 200000 --> 300000
+    bar [282285, 230104, 203714, 203562, 201139]
 ```
 
 #### Min Total Votes Constituency
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+---
 ```mermaid
-bar
-  title Min Total Votes in a Constituency
-  x-axis Constituency
-  y-axis Total Votes
-  "NARNAUL (HARYANA)" : 106576
-  "HISAR (HARYANA)" : 112494
-  "KHARKHAUDA (HARYANA)" : 113716
-  "NANGAL CHAUDHRY (HARYANA)" : 118473
-  "BERI (HARYANA)" : 118966
+xychart-beta
+    title "Min Total Votes in a Constituency"
+    x-axis ["NARNAUL (HARYANA)", "HISAR (HARYANA)", "KHARKHAUDA (HARYANA)", "NANGAL CHAUDHRY (HARYANA)", "BERI (HARYANA)"]
+    y-axis "Total Votes" 100000 --> 120000
+    bar [106576, 112494, 113716, 118473, 118966]
 ```
 
 #### Max candidates in a Constituency
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+---
 ```mermaid
-bar
-  title Max Candidates in a Constituency
-  x-axis Constituency
-  y-axis Number of Candidates
-  "HISAR (HARYANA)" : 22
-  "UCHANA KALAN (HARYANA)" : 21
-  "MEHAM (HARYANA)" : 20
-  "PUNDRI (HARYANA)" : 19
-  "FATEHABAD (HARYANA)" : 19
+xychart-beta
+    title "Max Candidates in a Constituency"
+    x-axis ["HISAR (HARYANA)", "UCHANA KALAN (HARYANA)", "MEHAM (HARYANA)", "PUNDRI (HARYANA)", "FATEHABAD (HARYANA)"]
+    y-axis "Number of Candidates" 15 --> 25
+    bar [22, 21, 20, 19, 19]
 ```
 
 #### Least candidates in a Constituency
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+---
 ```mermaid
-bar
-  title Least Candidates in a Constituency
-  x-axis Constituency
-  y-axis Number of Candidates
-  "KALANWALI (HARYANA)" : 6
-  "NANGAL CHAUDHRY (HARYANA)" : 6
-  "INDRI (HARYANA)" : 7
-  "NUH (HARYANA)" : 7
-  "KALKA (HARYANA)" : 8
+xychart-beta
+    title "Least Candidates in a Constituency"
+    x-axis ["KALANWALI (HARYANA)", "NANGAL CHAUDHRY (HARYANA)", "INDRI (HARYANA)", "NUH (HARYANA)", "KALKA (HARYANA)"]
+    y-axis "Number of Candidates" 5 --> 10
+    bar [6, 6, 7, 7, 8]
 ```
 
 #### Total Vote Share of Parties
 ```mermaid
 pie
-  title Total Vote Share of Parties
-  "Bharatiya Janata Party" : 39.9445
-  "Indian National Congress" : 39.0936
-  "Independent" : 10.4298
-  "Indian National Lok Dal" : 4.1407
-  "Bahujan Samaj Party" : 1.8189
-  "Aam Aadmi Party" : 1.7886
+    title Total Vote Share of Parties
+    "Bharatiya Janata Party" : 39.9445
+    "Indian National Congress" : 39.0936
+    "Independent" : 10.4298
+    "Indian National Lok Dal" : 4.1407
+    "Bahujan Samaj Party" : 1.8189
+    "Aam Aadmi Party" : 1.7886
 ```
 
 #### Maximum Vote share of Winning Candidate
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+---
 ```mermaid
-bar
-  title Maximum Vote Share of Winning Candidate
-  x-axis Candidate
-  y-axis Vote Share
-  "BHUPINDER SINGH HOODA (INC, GARHI SAMPLA)" : 72.7239
-  "MAMMAN KHAN (INC, FEROZEPUR JHIRKA)" : 72.0317
-  "VIPUL GOEL (BJP, FARIDABAD)" : 65.4504
-  "BIMLA CHAUDHARY (BJP, PATAUDI)" : 62.3961
-  "JAGMOHAN ANAND (BJP, KARNAL)" : 59.6576
+xychart-beta
+    title "Maximum Vote Share of Winning Candidate"
+    x-axis ["BHUPINDER SINGH HOODA (INC, GARHI SAMPLA)", "MAMMAN KHAN (INC, FEROZEPUR JHIRKA)", "VIPUL GOEL (BJP, FARIDABAD)", "BIMLA CHAUDHARY (BJP, PATAUDI)", "JAGMOHAN ANAND (BJP, KARNAL)"]
+    y-axis "Vote Share" 50 --> 80
+    bar [72.7239, 72.0317, 65.4504, 62.3961, 59.6576]
 ```
 
 #### Least Vote share for a winning candidate
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+---
 ```mermaid
-bar
-  title Least Vote Share for a Winning Candidate
-  x-axis Candidate
-  y-axis Vote Share
-  "DEVENDER CHATAR BHUJ ATTRI (BJP, UCHANA KALAN)" : 29.4977
-  "VIKAS SAHARAN (INC, KALAYAT)" : 30.0113
-  "TEJPAL TANWAR (BJP, SOHNA)" : 30.0857
-  "ARJUN CHAUTALA (INLD, RANIA)" : 30.4109
-  "SATPAL JAMBA (BJP, PUNDRI)" : 31.4803
+xychart-beta
+    title "Least Vote Share for a Winning Candidate"
+    x-axis ["DEVENDER CHATAR BHUJ ATTRI (BJP, UCHANA KALAN)", "VIKAS SAHARAN (INC, KALAYAT)", "TEJPAL TANWAR (BJP, SOHNA)", "ARJUN CHAUTALA (INLD, RANIA)", "SATPAL JAMBA (BJP, PUNDRI)"]
+    y-axis "Vote Share" 25 --> 35
+    bar [29.4977, 30.0113, 30.0857, 30.4109, 31.4803]
 ```
 
 #### Max Vote share of a losing candidate
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+---
 ```mermaid
-bar
-  title Max Vote Share of a Losing Candidate
-  x-axis Candidate
-  y-axis Vote Share
-  "JAI PARKASH DALAL (BJP, LOHARU)" : 48.49
-  "MANISH KUMAR GROVER (BJP, ROHTAK)" : 48.14
-  "VARINDER SINGH RATHORE (INC, GHARAUNDA)" : 47.33
-  "BHAVYA BISHNOI (BJP, ADAMPUR)" : 47.24
-  "UDAI BHAN (INC, HODAL)" : 46.95
+xychart-beta
+    title "Max Vote Share of a Losing Candidate"
+    x-axis ["JAI PARKASH DALAL (BJP, LOHARU)", "MANISH KUMAR GROVER (BJP, ROHTAK)", "VARINDER SINGH RATHORE (INC, GHARAUNDA)", "BHAVYA BISHNOI (BJP, ADAMPUR)", "UDAI BHAN (INC, HODAL)"]
+    y-axis "Vote Share" 45 --> 50
+    bar [48.49, 48.14, 47.33, 47.24, 46.95]
 ```
 
 #### Seats in which Parties lost deposits (less than 1/6 vote share)
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+---
 ```mermaid
-bar
-  title Seats in which Parties Lost Deposits
-  x-axis Party
-  y-axis Number of Seats
-  "Independent" : 446
-  "Aam Aadmi Party" : 87
-  "Jannayak Janta Party" : 65
-  "Indian National Lok Dal" : 42
-  "Bahujan Samaj Party" : 31
+xychart-beta
+    title "Seats in which Parties Lost Deposits"
+    x-axis ["Independent", "Aam Aadmi Party", "Jannayak Janta Party", "Indian National Lok Dal", "Bahujan Samaj Party"]
+    y-axis "Number of Seats" 30 --> 450
+    bar [446, 87, 65, 42, 31]
 ```
 
 #### Gold (Seats that Parties won)
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+---
 ```mermaid
-bar
-  title Gold (Seats that Parties Won)
-  x-axis Party
-  y-axis Number of Seats
-  "Bharatiya Janata Party" : 48
-  "Indian National Congress" : 37
-  "Independent" : 3
-  "Indian National Lok Dal" : 2
+xychart-beta
+    title "Gold (Seats that Parties Won)"
+    x-axis ["Bharatiya Janata Party", "Indian National Congress", "Independent", "Indian National Lok Dal"]
+    y-axis "Number of Seats" 0 --> 50
+    bar [48, 37, 3, 2]
 ```
 
 #### Silver (Seats that Parties came in second)
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+---
 ```mermaid
-bar
-  title Silver (Seats that Parties Came in Second)
-  x-axis Party
-  y-axis Number of Seats
-  "Indian National Congress" : 45
-  "Bharatiya Janata Party" : 32
-  "Independent" : 7
-  "Indian National Lok Dal" : 2
-  "Bahujan Samaj Party" : 1
-  "Communist Party of India (Marxist)" : 1
-  "Haryana Jan Sevak Party" : 1
-  "Haryana Lokhit Party" : 1
+xychart-beta
+    title "Silver (Seats that Parties Came in Second)"
+    x-axis ["Indian National Congress", "Bharatiya Janata Party", "Independent", "Indian National Lok Dal", "Bahujan Samaj Party", "Communist Party of India (Marxist)", "Haryana Jan Sevak Party", "Haryana Lokhit Party"]
+    y-axis "Number of Seats" 0 --> 50
+    bar [45, 32, 7, 2, 1, 1, 1, 1]
 ```
 
 #### Cost per vote - Best Value per vote
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+---
 ```mermaid
-bar
-  title Cost per Vote - Best Value
-  x-axis Party
-  y-axis Cost per Vote
-  "Bharatiya Janata Party" : 64.1580
-  "Indian National Congress" : 65.5544
-  "Communist Party of India (Marxist)" : 116.3704
-  "Haryana Lokhit Party" : 220.7140
-  "Haryana Jan Sevak Party" : 305.0873
+xychart-beta
+    title "Cost per Vote - Best Value"
+    x-axis ["Bharatiya Janata Party", "Indian National Congress", "Communist Party of India (Marxist)", "Haryana Lokhit Party", "Haryana Jan Sevak Party"]
+    y-axis "Cost per Vote" 50 --> 350
+    bar [64.1580, 65.5544, 116.3704, 220.7140, 305.0873]
 ```
 
 #### Cost per vote - Worst Value per vote
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+---
 ```mermaid
-bar
-  title Cost per Vote - Worst Value
-  x-axis Party
-  y-axis Cost per Vote
-  "Rashtravadi Bharat Party" : 117647.0588
-  "Bharat Jan Jagran Dal" : 102564.1026
-  "Bhartiya Janraj Party" : 97560.9756
-  "Bhartiya Sarvodaya Party" : 83333.3333
-  "Nationalist Congress Party" : 71428.5714
+xychart-beta
+    title "Cost per Vote - Worst Value"
+    x-axis ["Rashtravadi Bharat Party", "Bharat Jan Jagran Dal", "Bhartiya Janraj Party", "Bhartiya Sarvodaya Party", "Nationalist Congress Party"]
+    y-axis "Cost per Vote" 70000 --> 120000
+    bar [117647.0588, 102564.1026, 97560.9756, 83333.3333, 71428.5714]
 ```
 
 #### Success Ratio - Best
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+---
 ```mermaid
-bar
-  title Success Ratio - Best
-  x-axis Party
-  y-axis Success Ratio
-  "Bharatiya Janata Party" : 53.9326
-  "Indian National Congress" : 41.5730
+xychart-beta
+    title "Success Ratio - Best"
+    x-axis ["Bharatiya Janata Party", "Indian National Congress"]
+    y-axis "Success Ratio" 40 --> 60
+    bar [53.9326, 41.5730]
 ```
 
 #### Success Ratio - Worst
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+---
 ```mermaid
-bar
-  title Success Ratio - Worst
-  x-axis Party
-  y-axis Success Ratio
-  "Independent" : 3.4483
-  "Indian National Lok Dal" : 3.9216
+xychart-beta
+    title "Success Ratio - Worst"
+    x-axis ["Independent", "Indian National Lok Dal"]
+    y-axis "Success Ratio" 0 --> 10
+    bar [3.4483, 3.9216]
 ```
 
 #### Candidates participating in multiple seats (matches names)
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+---
 ```mermaid
-bar
-  title Candidates Participating in Multiple Seats
-  x-axis Candidate
-  y-axis Number of Constituencies
-  "ANIL KUMAR" : 4
-  "RAJESH KUMAR" : 4
-  "SUNIL KUMAR" : 4
+xychart-beta
+    title "Candidates Participating in Multiple Seats"
+    x-axis ["ANIL KUMAR", "RAJESH KUMAR", "SUNIL KUMAR"]
+    y-axis "Number of Constituencies" 0 --> 5
+    bar [4, 4, 4]
 ```
 
 ### Close Contest Matrix
