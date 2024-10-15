@@ -1,6 +1,6 @@
 # Table of contents
 
-- [Analysis of Assembly Elections October 2024](#analysis-of-assembly-elections-october-2024)
+- [Analysis of Jammu & Kashmir Assembly Elections October 2024](#analysis-of-jammu-kashmir-assembly-elections-october-2024)
    * [Analysis](#analysis)
       + [Seats contested by Parties](#seats-contested-by-parties)
       + [Max and Mins](#max-and-mins)
@@ -34,12 +34,8 @@
          - [Party Specific Close Contest Matrix](#party-specific-close-contest-matrix)
             * [Bharatiya Janata Party](#bharatiya-janata-party)
             * [Indian National Congress](#indian-national-congress)
-   * [Building and Running](#building-and-running)
-      + [Scraping and downloading data](#scraping-and-downloading-data)
-         - [Tests](#tests)
-      + [Data Analysis](#data-analysis)
 
-# Analysis of Assembly Elections October 2024
+# Analysis of Jammu & Kashmir Assembly Elections October 2024
 
 Election for the Jammu and Kashmir Legislative Assembly was held in Indian-administered Jammu and Kashmir from 18 September to 1 October 2024 in 3 phases to elect its 90 members. The results of the elections were announced on 8 October 2024 ([wiki](https://en.wikipedia.org/wiki/2024_Jammu_and_Kashmir_Legislative_Assembly_election)).
 
@@ -388,19 +384,3 @@ This Matrix provides the number of seats in which parties lost by the number of 
 |VIJAYPUR                                           |JAMMU & KASHMIR  |13819               |Bharatiya Janata Party                          |32859              |19040          |
 |JAMMU NORTH                                        |JAMMU & KASHMIR  |19856               |Bharatiya Janata Party                          |47219              |27363          |
 |NAGROTA                                            |JAMMU & KASHMIR  |17641               |Bharatiya Janata Party                          |48113              |30472          |
-
-
-## Building and Running
-### Scraping and downloading data
-```sh
-cabal build
-cabal run elections
-```
-
-#### Tests
-```sh
-cabal test
-```
-
-### Data Analysis
-Create table executing [`Queries.sql`]() and then run other SQL queries in the [queries]() directory to see the result.

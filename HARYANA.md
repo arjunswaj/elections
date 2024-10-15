@@ -1,6 +1,6 @@
 # Table of contents
 
-- [Analysis of Assembly Elections October 2024](#analysis-of-assembly-elections-october-2024)
+- [Analysis of Haryana Assembly Elections October 2024](#analysis-of-haryana-assembly-elections-october-2024)
    * [Analysis](#analysis)
       + [Seats contested by Parties](#seats-contested-by-parties)
       + [Max and Mins](#max-and-mins)
@@ -34,12 +34,8 @@
          - [Party Specific Close Contest Matrix](#party-specific-close-contest-matrix)
             * [Bharatiya Janata Party](#bharatiya-janata-party)
             * [Indian National Congress](#indian-national-congress)
-   * [Building and Running](#building-and-running)
-      + [Scraping and downloading data](#scraping-and-downloading-data)
-         - [Tests](#tests)
-      + [Data Analysis](#data-analysis)
 
-# Analysis of Assembly Elections October 2024
+# Analysis of Haryana Assembly Elections October 2024
 
 The 2024 Haryana Legislative Assembly elections were held in Haryana on 5 October 2024 to elect all 90 members of the Haryana Legislative Assembly ([wiki](https://en.wikipedia.org/wiki/2024_Haryana_Legislative_Assembly_election)).
 
@@ -324,19 +320,3 @@ This Matrix provides the number of seats in which parties lost by the number of 
 |RANIA                                            |HARYANA |39723               |Indian National Lok Dal |43914              |4191           |
 |GHARAUNDA                                        |HARYANA |82705               |Bharatiya Janata Party  |87236              |4531           |
 |RAI                                              |HARYANA |59941               |Bharatiya Janata Party  |64614              |4673           |
-
-
-## Building and Running
-### Scraping and downloading data
-```sh
-cabal build
-cabal run elections
-```
-
-#### Tests
-```sh
-cabal test
-```
-
-### Data Analysis
-Create table executing [`Queries.sql`]() and then run other SQL queries in the [queries]() directory to see the result.
