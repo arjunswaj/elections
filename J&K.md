@@ -1,6 +1,6 @@
 # Table of contents
 
-- [Analysis of Jammu & Kashmir Assembly Elections October 2024](#analysis-of-jammu-kashmir-assembly-elections-october-2024)
+- [Analysis of Jammu & Kashmir Assembly Elections October 2024](#analysis-of-jammu--kashmir-assembly-elections-october-2024)
    * [Analysis](#analysis)
       + [Seats contested by Parties](#seats-contested-by-parties)
       + [Max and Mins](#max-and-mins)
