@@ -56,8 +56,8 @@ config:
 ---
 xychart-beta
     title "Seats contested by Parties"
-    x-axis ["Independent", "Jammu & Kashmir Peoples Democratic Party", "Bharatiya Janata Party", "Jammu & Kashmir National Conference", "Jammu and Kashmir Apni Party", "Indian National Congress", "Bahujan Samaj Party", "Democratic Progressive Azad Party", "Jammu & Kashmir National Panthers Party (Bhim)", "Samajwadi Party", "Jammu & Kashmir People Conference"]
-    y-axis "Number of candidates" 0 --> 350
+    x-axis ["Independent", "JKPDP", "BJP", "JKNC", "JKAP", "INC", "BSP", "DPA", "JKNPP", "SP", "JKPC"]
+    y-axis "Number of candidates" 0 --> 400
     bar [346, 80, 62, 56, 46, 39, 28, 23, 21, 20, 20]
 ```
 
@@ -75,8 +75,8 @@ config:
 ---
 xychart-beta
     title "Maximum votes for a candidate"
-    x-axis ["RAJEEV KUMAR", "MOHAN LAL", "DEVENDER SINGH RANA", "BALWANT SINGH MANKOTIA", "SHAM LAL SHARMA"]
-    y-axis "Number of Votes" 0 --> 55000
+    x-axis ["RAJEEV KUMAR (BJP, BISHNAH)", "MOHAN LAL (BJP, AKHNOOR)", "DEVENDER SINGH RANA (BJP, NAGROTA)", "BALWANT SINGH MANKOTIA (BJP, CHENANI)", "SHAM LAL SHARMA (BJP, JAMMU NORTH)"]
+    y-axis "Number of Votes" 0 --> 60000
     bar [53435, 49927, 48113, 47990, 47219]
 ```
 
@@ -92,7 +92,7 @@ config:
 ---
 xychart-beta
     title "Least votes for a winning candidate"
-    x-axis ["PEERZADA MOHAMMAD SYED", "MUBARIK GUL", "NAZIR AHMAD KHAN", "RAFIQ AHMAD NAIK", "SHAMIM FIRDOUS"]
+    x-axis ["PEERZADA MOHAMMAD SYED (INC, ANANTNAG)", "MUBARIK GUL (JKNC, EIDGAH)", "NAZIR AHMAD KHAN (JKNC, GUREZ)", "RAFIQ AHMAD NAIK (JKPDP, TRAL)", "SHAMIM FIRDOUS (JKNC, HABBAKADAL)"]
     y-axis "Number of Votes" 0 --> 15000
     bar [6679, 7700, 8378, 10710, 12437]
 ```
@@ -109,7 +109,7 @@ config:
 ---
 xychart-beta
     title "Max votes for a losing candidate"
-    x-axis ["RAMAN BHALLA", "NEERAJ KUNDAN", "SANDEEP MAJOTRA", "HARSH DEV SINGH", "SHEIKH MEHBOOB IQBAL"]
+    x-axis ["RAMAN BHALLA (INC, R. S. PURA- JAMMU SOUTH)", "NEERAJ KUNDAN (INC, BISHNAH)", "SANDEEP MAJOTRA (BSP, KATHUA)", "HARSH DEV SINGH (JKNPP, CHENANI)", "SHEIKH MEHBOOB IQBAL (JKNC, BHADARWAH)"]
     y-axis "Number of Votes" 0 --> 45000
     bar [41351, 37808, 33827, 32379, 31998]
 ```
@@ -126,7 +126,7 @@ config:
 ---
 xychart-beta
     title "Candidates winning by Max margin (Unilateral winner)"
-    x-axis ["NAGROTA", "SAMBA", "DOORU", "JAMMU NORTH", "AKHNOOR"]
+    x-axis ["DEVENDER SINGH RANA (BJP, NAGROTA)", "SURJEET SINGH SLATHIA (BJP, SAMBA)", "GULAM AHMAD MIR (INC, DOORU)", "SHAM LAL SHARMA (BJP, JAMMU NORTH)", "MOHAN LAL (BJP, AKHNOOR)"]
     y-axis "Vote Difference" 0 --> 35000
     bar [30472, 30309, 29728, 27363, 24679]
 ```
@@ -143,7 +143,7 @@ config:
 ---
 xychart-beta
     title "Candidates winning by Least margin (Fierce battle)"
-    x-axis ["TRAL", "KISHTWAR", "PATTAN", "INDERWAL", "HANDWARA"]
+    x-axis ["RAFIQ AHMAD NAIK (JKPDP, TRAL)", "SHAGUN PARIHAR (BJP, KISHTWAR)", "JAVAID RIYAZ (JKNC, PATTAN)", "PAYARE LAL SHARMA (IND, INDERWAL)", "SAJAD GANI LONE (JKPC, HANDWARA)"]
     y-axis "Vote Difference" 0 --> 1000
     bar [460, 521, 603, 643, 662]
 ```
@@ -232,7 +232,7 @@ config:
 ---
 xychart-beta
     title "Total Vote Share of Parties"
-    x-axis ["Bharatiya Janata Party", "Jammu & Kashmir National Conference", "Independent", "Indian National Congress", "Jammu & Kashmir Peoples Democratic Party", "Jammu and Kashmir Apni Party", "Jammu & Kashmir People Conference", "None of the Above"]
+    x-axis ["BJP", "JKNC", "Independent", "INC", "JKPDP", "JKAP", "JKPC", "NOTA"]
     y-axis "Vote Share" 0 --> 30
     bar [25.6426, 23.4316, 16.6421, 11.9717, 8.8727, 3.3640, 2.4848, 1.4800]
 ```
@@ -249,7 +249,7 @@ config:
 ---
 xychart-beta
     title "Maximum Vote share of Winning Candidate"
-    x-axis ["DARSHAN KUMAR", "DEVENDER SINGH RANA", "MOHAN LAL", "ARVIND GUPTA", "SHAMIM FIRDOUS"]
+    x-axis ["DARSHAN KUMAR (BJP, BASOHLI)", "DEVENDER SINGH RANA (BJP, NAGROTA)", "MOHAN LAL (BJP, AKHNOOR)", "ARVIND GUPTA (BJP, JAMMU WEST)", "SHAMIM FIRDOUS (JKNC, HABBAKADAL)"]
     y-axis "Vote Share" 0 --> 70
     bar [65.3839, 64.9447, 64.8723, 64.7377, 64.6784]
 ```
@@ -266,7 +266,7 @@ config:
 ---
 xychart-beta
     title "Least Vote share for a winning candidate"
-    x-axis ["SHABIR AHMAD KULLAY", "PEERZADA MOHAMMAD SYED", "RAFIQ AHMAD NAIK", "PAYARE LAL SHARMA", "NIZAM UDDIN BHAT"]
+    x-axis ["SHABIR AHMAD KULLAY (IND, SHOPIAN)", "PEERZADA MOHAMMAD SYED (INC, ANANTNAG)", "RAFIQ AHMAD NAIK (JKPDP, TRAL)", "PAYARE LAL SHARMA (IND, INDERWAL)", "NIZAM UDDIN BHAT (INC, BANDIPORA)"]
     y-axis "Vote Share" 0 --> 30
     bar [23.7365, 23.7721, 24.6899, 26.3578, 27.4456]
 ```
@@ -283,7 +283,7 @@ config:
 ---
 xychart-beta
     title "Max Vote share of a losing candidate"
-    x-axis ["SAJJAD AHMED KICHLOO", "RAMAN BHALLA", "POOJA THAKUR", "PARDEEP KUMAR", "SYED JAMAT ALI SHAH"]
+    x-axis ["SAJJAD AHMED KICHLOO (JKNC, KISHTWAR)", "RAMAN BHALLA (INC, R. S. PURA- JAMMU SOUTH)", "POOJA THAKUR (JKNC, PADDER)", "PARDEEP KUMAR (INC, DODA WEST)", "SYED JAMAT ALI SHAH (JKPDP, KANGAN)"]
     y-axis "Vote Share of Losing Candidate" 0 --> 50
     bar [47.14, 47, 45.83, 44.91, 43.37]
 ```
@@ -300,7 +300,7 @@ config:
 ---
 xychart-beta
     title "Seats in which Parties lost deposits (less than 1/6 vote share)"
-    x-axis ["Independent", "Jammu & Kashmir Peoples Democratic Party", "Jammu and Kashmir Apni Party", "Bahujan Samaj Party", "Democratic Progressive Azad Party", "Jammu & Kashmir National Panthers Party (Bhim)", "Samajwadi Party", "Bharatiya Janata Party", "Jammu & Kashmir People Conference", "Indian National Congress"]
+    x-axis ["Independent", "JKPDP", "JKAP", "BSP", "DPA", "JKNPP", "SP", "BJP", "JKPC", "INC"]
     y-axis "Number of Seats with less than 1/6 votes" 0 --> 350
     bar [318, 57, 40, 27, 23, 21, 20, 19, 14, 13]
 ```
@@ -319,7 +319,7 @@ config:
 ---
 xychart-beta
     title "Gold (Seats that Parties won)"
-    x-axis ["Jammu & Kashmir National Conference", "Bharatiya Janata Party", "Independent", "Indian National Congress", "Jammu & Kashmir Peoples Democratic Party", "Aam Aadmi Party", "Jammu & Kashmir People Conference", "Communist Party of India  (Marxist)"]
+    x-axis ["JKNC", "BJP", "Independent", "INC", "JKPDP", "AAP", "JKPC", "CPI(M)"]
     y-axis "Number of Seats Won" 0 --> 50
     bar [42, 29, 7, 6, 3, 1, 1, 1]
 ```
@@ -336,7 +336,7 @@ config:
 ---
 xychart-beta
     title "Silver (Seats that Parties came in second)"
-    x-axis ["Independent", "Jammu & Kashmir Peoples Democratic Party", "Indian National Congress", "Bharatiya Janata Party", "Jammu & Kashmir National Conference", "Jammu and Kashmir Apni Party", "Jammu & Kashmir People Conference", "J&K National Panthers Party (India)", "Bahujan Samaj Party", "Jammu And Kashmir Peoples Democratic Front (Secular)"]
+    x-axis ["Independent", "JKPDP", "INC", "BJP", "JKNC", "JKAP", "JKPC", "JKNPP", "BSP", "JKPDF(S)"]
     y-axis "Number of Seats Won" 0 --> 20
     bar [19, 18, 17, 11, 11, 5, 5, 2, 1, 1]
 ```
@@ -357,7 +357,7 @@ config:
 ---
 xychart-beta
     title "Cost per vote - Best Value per vote"
-    x-axis ["Communist Party of India  (Marxist)", "Jammu & Kashmir National Conference", "Bharatiya Janata Party", "Indian National Congress", "J&K National Panthers Party (India)"]
+    x-axis ["CPI(M)", "JKNC", "BJP", "INC", "JKNPP"]
     y-axis "Cost per vote" 0 --> 300
     bar [118.9273, 167.6462, 169.6045, 228.5158, 241.3455]
 ```
@@ -374,7 +374,7 @@ config:
 ---
 xychart-beta
     title "Cost per vote - Worst Value per vote"
-    x-axis ["Haq Insaaf Party", "ShivSena (Uddhav Balasaheb Thackeray)", "Sainik Samaj Party", "Sampoorna Bharat Kranti Party", "National Republic Party Of India"]
+    x-axis ["Haq Insaaf Party", "ShivSena (UBT)", "Sainik Samaj Party", "Sampoorna Bharat Kranti Party", "National Republic Party Of India"]
     y-axis "Cost per vote" 0 --> 60000
     bar [54794.5205, 31746.0317, 22988.5057, 22514.0713, 21739.1304]
 ```
