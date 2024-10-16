@@ -4,8 +4,12 @@
 
 ## Results
 
-- [HARYANA](https://github.com/arjunswaj/elections/blob/haryana-jk-2024/HARYANA.md)
-- [JAMMU & KASHMIR](https://github.com/arjunswaj/elections/blob/haryana-jk-2024/J%26K.md)
+- HARYANA
+  - [Tabular](https://github.com/arjunswaj/elections/blob/haryana-jk-2024/HARYANA.md)
+  - [Graphical](https://github.com/arjunswaj/elections/blob/haryana-jk-2024/HARYANA-GRAPH.md)
+- JAMMU & KASHMIR
+  - [Tabular](https://github.com/arjunswaj/elections/blob/haryana-jk-2024/J%26K.md)
+  - [Graphical](https://github.com/arjunswaj/elections/blob/haryana-jk-2024/J%26K-GRAPH.md)
 
 ## Building and Running
 ### Scraping and downloading data
