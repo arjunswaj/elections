@@ -27,7 +27,7 @@
          - [Cost per vote - Best Value per vote](#cost-per-vote---best-value-per-vote)
          - [Cost per vote - Worst Value per vote](#cost-per-vote---worst-value-per-vote)
          - [Success Ratio - Best](#success-ratio---best)
-         - [Success Ratio - Best](#success-ratio---best-1)
+         - [Success Ratio - Worst](#success-ratio---worst)
       + [Multiple Seat Participation](#multiple-seat-participation)
          - [Candidates participating in multiple seats (matches names)](#candidates-participating-in-multiple-seats-matches-names)
       + [Close Contest Matrix](#close-contest-matrix)
@@ -347,52 +347,28 @@ xychart-beta
 ```
 
 #### Success Ratio - Best
-```mermaid
----
-config:
-    xyChart:
-        width: 1200
-        height: 600
-        chartOrientation: horizontal
----
-xychart-beta
-    title "Success Ratio - Best"
-    x-axis ["Bharatiya Janata Party", "Indian National Congress"]
-    y-axis "Success Ratio" 40 --> 60
-    bar [53.9326, 41.5730]
-```
+
+|Party                                        |Seats Participated|Seats Won|Success Ratio|
+|---------------------------------------------|------------------|---------|-------------|
+|Bharatiya Janata Party                       |89                |48       |53.9326      |
+|Indian National Congress                     |89                |37       |41.5730      |
 
 #### Success Ratio - Worst
-```mermaid
----
-config:
-    xyChart:
-        width: 1200
-        height: 600
-        chartOrientation: horizontal
----
-xychart-beta
-    title "Success Ratio - Worst"
-    x-axis ["Independent", "Indian National Lok Dal"]
-    y-axis "Success Ratio" 0 --> 10
-    bar [3.4483, 3.9216]
-```
+
+|Party                                        |Seats Participated|Seats Won|Success Ratio|
+|---------------------------------------------|------------------|---------|-------------|
+|Independent                                  |87                |3        |3.4483       |
+|Indian National Lok Dal                      |51                |2        |3.9216       |
+
+### Multiple Seat Participation
 
 #### Candidates participating in multiple seats (matches names)
-```mermaid
----
-config:
-    xyChart:
-        width: 1200
-        height: 600
-        chartOrientation: horizontal
----
-xychart-beta
-    title "Candidates Participating in Multiple Seats"
-    x-axis ["ANIL KUMAR", "RAJESH KUMAR", "SUNIL KUMAR"]
-    y-axis "Number of Constituencies" 0 --> 5
-    bar [4, 4, 4]
-```
+
+|Candidate             |Number of Constituencies Contested at|
+|----------------------|-------------------------------------|
+|ANIL KUMAR            |4                                    |
+|RAJESH KUMAR          |4                                    |
+|SUNIL KUMAR           |4                                    |
 
 ### Close Contest Matrix
 

@@ -27,7 +27,7 @@
          - [Cost per vote - Best Value per vote](#cost-per-vote---best-value-per-vote)
          - [Cost per vote - Worst Value per vote](#cost-per-vote---worst-value-per-vote)
          - [Success Ratio - Best](#success-ratio---best)
-         - [Success Ratio - Best](#success-ratio---best-1)
+         - [Success Ratio - Worst](#success-ratio---worst)
       + [Multiple Seat Participation](#multiple-seat-participation)
          - [Candidates participating in multiple seats (matches names)](#candidates-participating-in-multiple-seats-matches-names)
       + [Close Contest Matrix](#close-contest-matrix)
