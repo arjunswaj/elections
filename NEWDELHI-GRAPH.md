@@ -35,14 +35,14 @@
             * [Bharatiya Janata Party](#bharatiya-janata-party)
             * [Indian National Congress](#indian-national-congress)
 
-# Analysis of Haryana Assembly Elections October 2024
+# Analysis of New Delhi Assembly Elections February 2025
 
-The 2024 Haryana Legislative Assembly elections were held in Haryana on 5 October 2024 to elect all 90 members of the Haryana Legislative Assembly ([wiki](https://en.wikipedia.org/wiki/2024_Haryana_Legislative_Assembly_election)).
+The 2025 Delhi Legislative Assembly elections were held in Delhi on 5 February 2025 to elect all 70 members of the Delhi Legislative Assembly. The counting of votes and declaration of result took place on 8 February 2025. ([wiki](https://en.wikipedia.org/wiki/2025_Delhi_Legislative_Assembly_election)).
 
-This page provides the highlights of the results. Complete results of the analysis can be seen [here](https://github.com/arjunswaj/elections/tree/haryana-jk-2024/result/Haryana).
+This page provides the highlights of the results. Complete results of the analysis can be seen [here](https://github.com/arjunswaj/elections/tree/delhi-2025/result/NewDelhi).
 
 ## Analysis
-A total of 1031 candidates contested in the elections and around 1.38 Crores (`13891280`) votes were casted during this period.
+A total of 699 candidates contested in the elections and around 94 Lakhs (`9488376`) votes were casted during this period.
 
 ### Seats contested by Parties
 ```mermaid
@@ -55,9 +55,9 @@ config:
 ---
 xychart-beta
     title "Seats Contested by Parties"
-    x-axis ["Independent", "Indian National Congress", "Bharatiya Janata Party", "Aam Aadmi Party", "Jannayak Janta Party", "Indian National Lok Dal", "Bahujan Samaj Party", "Aazad Samaj Party (Kanshi Ram)", "Peoples Party of India (Democratic)", "Bhartiya Shakti Chetna Party"]
-    y-axis "Number of Seats" 0 --> 500
-    bar [464, 89, 89, 88, 66, 51, 35, 12, 12, 11]
+    x-axis ["Independent", "Aam Aadmi Party", "Indian National Congress", "Bharatiya Janata Party", "Bahujan Samaj Party", "Right to Recall Party", "Peoples Party of India (Democratic)", "Nationalist Congress Party", "Aazad Samaj Party (Kanshi Ram)", "Yuva Bharat Rashtraseva Party"]
+    y-axis "Number of Seats" 0 --> 150
+    bar [138, 70, 70, 68, 68, 20, 18, 17, 14, 7]
 ```
 
 ### Max and Mins
@@ -73,9 +73,9 @@ config:
 ---
 xychart-beta
     title "Maximum Votes for a Candidate"
-    x-axis ["RAO NARBIR SINGH (BJP, BADSHAHPUR)", "MAMMAN KHAN (INC, FEROZEPUR JHIRKA)", "MUKESH SHARMA (BJP, GURGAON)", "GAURAV GAUTAM (BJP, PALWAL)", "BHUPINDER SINGH HOODA (INC, GARHI SAMPLA)"]
-    y-axis "Number of Votes" 40000 --> 150000
-    bar [145503, 130497, 122615, 109118, 108539]
+    x-axis ["SANDEEP SEHRAWAT (BJP, MATIALA)", "PANKAJ KUMAR SINGH (BJP, VIKASPURI)", "MAHINDER YADAV (AAP, VIKASPURI)", "SANJEEV JHA (AAP, BURARI)", "RAVINDER INDRAJ SINGH (BJP, BAWANA)"]
+    y-axis "Number of Votes" 100000 --> 150000
+    bar [146295, 135564, 122688, 121181, 119515]
 ```
 
 #### Least votes for a winning candidate
@@ -89,9 +89,9 @@ config:
 ---
 xychart-beta
     title "Least Votes for a Winning Candidate"
-    x-axis ["SATPAL JAMBA (BJP, PUNDRI)", "ARJUN CHAUTALA (INLD, RANIA)", "VIKAS SAHARAN (INC, KALAYAT)", "DEVENDER CHATAR BHUJ ATTRI (BJP, UCHANA KALAN)", "SAVITRI JINDAL (Independent, HISAR)"]
-    y-axis "Number of Votes" 40000 --> 50000
-    bar [42805, 43914, 48142, 48968, 49231]
+    x-axis ["TARVINDER SINGH MARWAH (BJP, JANGPURA)", "UMANG BAJAJ (BJP, RAJINDER NAGAR)", "CHANDAN KUMAR CHOUDHARY (BJP, SANGAM VIHAR)", "SURYA PRAKASH KHATRI (BJP, TIMARPUR)", "RAVI KANT (BJP, TRILOKPURI)"]
+    y-axis "Number of Votes" 35000 --> 60000
+    bar [38859, 46671, 54049, 55941, 58217]
 ```
 
 #### Max votes for a losing candidate
@@ -105,9 +105,9 @@ config:
 ---
 xychart-beta
     title "Max Votes for a Losing Candidate"
-    x-axis ["VARDHAN YADAV (INC, BADSHAHPUR)", "DURA RAM (BJP, FATEHABAD)", "VARINDER SINGH RATHORE (INC, GHARAUNDA)", "JAI PARKASH DALAL (BJP, LOHARU)", "DEVENDER SINGH BABLI (BJP, TOHANA)"]
-    y-axis "Number of Votes" 70000 --> 90000
-    bar [84798, 83920, 82705, 80544, 77686]
+    x-axis ["MAHINDER YADAV (AAP, VIKASPURI)", "SUMESH SHOKEEN (AAP, MATIALA)", "SHAILENDRA KUMAR (JD(U), BURARI)", "JAI BHAGWAN UPKAR (AAP, BAWANA)", "NARAYAN DUTT SHARMA (BJP, BADARPUR)"]
+    y-axis "Number of Votes" 80000 --> 130000
+    bar [122688, 117572, 100580, 88040, 87103]
 ```
 
 #### Candidates winning by Max margin (Unilateral winner)
@@ -121,9 +121,9 @@ config:
 ---
 xychart-beta
     title "Candidates Winning by Max Margin"
-    x-axis ["MAMMAN KHAN (INC, FEROZEPUR JHIRKA)", "BHUPINDER SINGH HOODA (INC, GARHI SAMPLA)", "MUKESH SHARMA (BJP, GURGAON)", "RAO NARBIR SINGH (BJP, BADSHAHPUR)", "MAHIPAL DHANDA (BJP, PANIPAT RURAL)"]
-    y-axis "Vote Difference" 30000 --> 100000
-    bar [98441, 71465, 68045, 60705, 50212]
+    x-axis ["AALEY MOHAMMED IQBAL (AAP, MATIA MAHAL)", "CHAUDHARY ZUBAIR AHMAD (AAP, SEELAM PUR)", "VIJENDER GUPTA (BJP, ROHINI)", "PREM CHAUHAN (AAP, DEOLI)", "RAVINDER INDRAJ SINGH (BJP, BAWANA)"]
+    y-axis "Vote Difference" 30000 --> 45000
+    bar [42724, 42477, 37816, 36680, 31475]
 ```
 
 #### Candidates winning by Least margin (Fierce battle)
@@ -137,11 +137,10 @@ config:
 ---
 xychart-beta
     title "Candidates Winning by Least Margin"
-    x-axis ["DEVENDER CHATAR BHUJ ATTRI (BJP, UCHANA KALAN)", "ADITYA DEVILAL (INLD, DABWALI)", "RAJBIR FARTIA (INC, LOHARU)", "CHANDER PARKASH S/O ARJUN LAL (INC, ADAMPUR)", "BHARAT BHUSHAN BATRA (INC, ROHTAK)"]
+    x-axis ["CHANDAN KUMAR CHOUDHARY (BJP, SANGAM VIHAR)", "RAVI KANT (BJP, TRILOKPURI)", "TARVINDER SINGH MARWAH (BJP, JANGPURA)", "SURYA PRAKASH KHATRI (BJP, TIMARPUR)", "UMANG BAJAJ (BJP, RAJINDER NAGAR)"]
     y-axis "Vote Difference" 0 --> 1500
-    bar [32, 610, 792, 1268, 1341]
+    bar [344, 392, 675, 1168, 1231]
 ```
-
 #### Max Total Votes in a Constituency
 ```mermaid
 ---
@@ -153,9 +152,9 @@ config:
 ---
 xychart-beta
     title "Max Total Votes in a Constituency"
-    x-axis ["BADSHAHPUR (HARYANA)", "GURGAON (HARYANA)", "TIGAON (HARYANA)", "SOHNA (HARYANA)", "PANIPAT RURAL (HARYANA)"]
+    x-axis ["MATIALA (NEW DELHI)", "VIKASPURI (NEW DELHI)", "BURARI (NEW DELHI)", "BAWANA (NEW DELHI)", "OKHLA (NEW DELHI)"]
     y-axis "Total Votes" 200000 --> 300000
-    bar [282285, 230104, 203714, 203562, 201139]
+    bar [278894, 273648, 254737, 229856, 209522]
 ```
 
 #### Min Total Votes Constituency
@@ -169,12 +168,12 @@ config:
 ---
 xychart-beta
     title "Min Total Votes in a Constituency"
-    x-axis ["NARNAUL (HARYANA)", "HISAR (HARYANA)", "KHARKHAUDA (HARYANA)", "NANGAL CHAUDHRY (HARYANA)", "BERI (HARYANA)"]
-    y-axis "Total Votes" 100000 --> 120000
-    bar [106576, 112494, 113716, 118473, 118966]
+    x-axis ["DELHI CANTT (NEW DELHI)", "NEW DELHI (NEW DELHI)", "CHANDNI CHOWK (NEW DELHI)", "R. K. PURAM (NEW DELHI)", "MATIA MAHAL (NEW DELHI)"]
+    y-axis "Total Votes" 40000 --> 90000
+    bar [47458, 61636, 71173, 76503, 84475]
 ```
 
-#### Max candidates in a Constituency
+#### Max Candidates in a Constituency
 ```mermaid
 ---
 config:
@@ -185,12 +184,12 @@ config:
 ---
 xychart-beta
     title "Max Candidates in a Constituency"
-    x-axis ["HISAR (HARYANA)", "UCHANA KALAN (HARYANA)", "MEHAM (HARYANA)", "PUNDRI (HARYANA)", "FATEHABAD (HARYANA)"]
-    y-axis "Number of Candidates" 15 --> 25
-    bar [22, 21, 20, 19, 19]
+    x-axis ["NEW DELHI (NEW DELHI)", "JANAKPURI (NEW DELHI)", "LAXMI NAGAR (NEW DELHI)", "ROHTAS NAGAR (NEW DELHI)", "KARAWAL NAGAR (NEW DELHI)"]
+    y-axis "Number of Candidates" 0 --> 30
+    bar [24, 17, 16, 16, 16]
 ```
 
-#### Least candidates in a Constituency
+#### Least Candidates in a Constituency
 ```mermaid
 ---
 config:
@@ -201,24 +200,28 @@ config:
 ---
 xychart-beta
     title "Least Candidates in a Constituency"
-    x-axis ["KALANWALI (HARYANA)", "NANGAL CHAUDHRY (HARYANA)", "INDRI (HARYANA)", "NUH (HARYANA)", "KALKA (HARYANA)"]
+    x-axis ["PATEL NAGAR (NEW DELHI)", "KASTURBA NAGAR (NEW DELHI)", "MANGOL PURI (NEW DELHI)", "GREATER KAILASH (NEW DELHI)", "KAROL BAGH (NEW DELHI)"]
     y-axis "Number of Candidates" 5 --> 10
-    bar [6, 6, 7, 7, 8]
+    bar [6, 6, 7, 7, 7]
 ```
 
 #### Total Vote Share of Parties
 ```mermaid
 pie
     title Total Vote Share of Parties
-    "Bharatiya Janata Party" : 39.9445
-    "Indian National Congress" : 39.0936
-    "Independent" : 10.4298
-    "Indian National Lok Dal" : 4.1407
-    "Bahujan Samaj Party" : 1.8189
-    "Aam Aadmi Party" : 1.7886
+    "Bharatiya Janata Party" : 45.5622
+    "Aam Aadmi Party" : 43.5680
+    "Indian National Congress" : 6.3438
+    "Janata Dal (United)" : 1.0600
+    "All India Majlis-E-Ittehadul Muslimeen" : 0.7697
+    "Bahujan Samaj Party" : 0.5804
+    "None of the Above" : 0.5664
+    "Lok Janshakti Party(Ram Vilas)" : 0.5292
+    "Independent" : 0.4620
+    "Aazad Samaj Party (Kanshi Ram)" : 0.0920
 ```
 
-#### Maximum Vote share of Winning Candidate
+#### Maximum Vote Share of Winning Candidate
 ```mermaid
 ---
 config:
@@ -229,12 +232,12 @@ config:
 ---
 xychart-beta
     title "Maximum Vote Share of Winning Candidate"
-    x-axis ["BHUPINDER SINGH HOODA (INC, GARHI SAMPLA)", "MAMMAN KHAN (INC, FEROZEPUR JHIRKA)", "VIPUL GOEL (BJP, FARIDABAD)", "BIMLA CHAUDHARY (BJP, PATAUDI)", "JAGMOHAN ANAND (BJP, KARNAL)"]
-    y-axis "Vote Share" 50 --> 80
-    bar [72.7239, 72.0317, 65.4504, 62.3961, 59.6576]
+    x-axis ["AALEY MOHAMMED IQBAL (AAP, MATIA MAHAL)", "VIJENDER GUPTA (BJP, ROHINI)", "REKHA GUPTA (BJP, SHALIMAR BAGH)", "CHAUDHARY ZUBAIR AHMAD (AAP, SEELAM PUR)", "IMRAN HUSSAIN (AAP, BALLIMARAN)"]
+    y-axis "Vote Share" 50 --> 75
+    bar [68.8014, 65.0125, 59.9487, 59.2094, 58.0034]
 ```
 
-#### Least Vote share for a winning candidate
+#### Least Vote Share for a Winning Candidate
 ```mermaid
 ---
 config:
@@ -245,12 +248,12 @@ config:
 ---
 xychart-beta
     title "Least Vote Share for a Winning Candidate"
-    x-axis ["DEVENDER CHATAR BHUJ ATTRI (BJP, UCHANA KALAN)", "VIKAS SAHARAN (INC, KALAYAT)", "TEJPAL TANWAR (BJP, SOHNA)", "ARJUN CHAUTALA (INLD, RANIA)", "SATPAL JAMBA (BJP, PUNDRI)"]
-    y-axis "Vote Share" 25 --> 35
-    bar [29.4977, 30.0113, 30.0857, 30.4109, 31.4803]
+    x-axis ["AAHIR DEEPAK CHAUDHARYY (BJP, BADLI)", "GAJENDER SINGH YADAV (BJP, MEHRAULI)", "MOHAN SINGH BISHT (BJP, MUSTAFABAD)", "AMANATULLAH KHAN (AAP, OKHLA)", "CHANDAN KUMAR CHOUDHARY (BJP, SANGAM VIHAR)"]
+    y-axis "Vote Share" 40 --> 45
+    bar [40.5605, 41.6680, 42.3616, 42.4504, 42.9936]
 ```
 
-#### Max Vote share of a losing candidate
+#### Max Vote Share of a Losing Candidate
 ```mermaid
 ---
 config:
@@ -261,12 +264,12 @@ config:
 ---
 xychart-beta
     title "Max Vote Share of a Losing Candidate"
-    x-axis ["JAI PARKASH DALAL (BJP, LOHARU)", "MANISH KUMAR GROVER (BJP, ROHTAK)", "VARINDER SINGH RATHORE (INC, GHARAUNDA)", "BHAVYA BISHNOI (BJP, ADAMPUR)", "UDAI BHAN (INC, HODAL)"]
-    y-axis "Vote Share" 45 --> 50
-    bar [48.49, 48.14, 47.33, 47.24, 46.95]
+    x-axis ["DURGESH PATHAK (AAP, RAJINDER NAGAR)", "ANJANA PARCHA (AAP, TRILOKPURI)", "RAAJ KUMAR ANAND (BJP, PATEL NAGAR)", "JITENDER SINGH SHUNTY (AAP, SHAHDARA)", "RAMESH BIDHURI (BJP, KALKAJI)"]
+    y-axis "Vote Share" 45 --> 47
+    bar [46.74, 45.79, 45.55, 45.54, 45.50]
 ```
 
-#### Seats in which Parties lost deposits (less than 1/6 vote share)
+#### Seats in which Parties Lost Deposits (less than 1/6 vote share)
 ```mermaid
 ---
 config:
@@ -277,12 +280,12 @@ config:
 ---
 xychart-beta
     title "Seats in which Parties Lost Deposits"
-    x-axis ["Independent", "Aam Aadmi Party", "Jannayak Janta Party", "Indian National Lok Dal", "Bahujan Samaj Party"]
-    y-axis "Number of Seats" 30 --> 450
-    bar [446, 87, 65, 42, 31]
+    x-axis ["Independent", "Bahujan Samaj Party", "Indian National Congress", "Right to Recall Party", "Peoples Party of India (Democratic)", "Nationalist Congress Party", "Aazad Samaj Party (Kanshi Ram)"]
+    y-axis "Number of Seats" 0 --> 150
+    bar [138, 68, 67, 20, 18, 17, 14]
 ```
 
-#### Gold (Seats that Parties won)
+#### Gold (Seats that Parties Won)
 ```mermaid
 ---
 config:
@@ -293,12 +296,12 @@ config:
 ---
 xychart-beta
     title "Gold (Seats that Parties Won)"
-    x-axis ["Bharatiya Janata Party", "Indian National Congress", "Independent", "Indian National Lok Dal"]
+    x-axis ["Bharatiya Janata Party", "Aam Aadmi Party"]
     y-axis "Number of Seats" 0 --> 50
-    bar [48, 37, 3, 2]
+    bar [48, 22]
 ```
 
-#### Silver (Seats that Parties came in second)
+#### Silver (Seats that Parties Came in Second)
 ```mermaid
 ---
 config:
@@ -309,12 +312,12 @@ config:
 ---
 xychart-beta
     title "Silver (Seats that Parties Came in Second)"
-    x-axis ["Indian National Congress", "Bharatiya Janata Party", "Independent", "Indian National Lok Dal", "Bahujan Samaj Party", "Communist Party of India (Marxist)", "Haryana Jan Sevak Party", "Haryana Lokhit Party"]
+    x-axis ["Aam Aadmi Party", "Bharatiya Janata Party", "Indian National Congress", "Lok Janshakti Party(Ram Vilas)", "Janata Dal (United)"]
     y-axis "Number of Seats" 0 --> 50
-    bar [45, 32, 7, 2, 1, 1, 1, 1]
+    bar [47, 20, 1, 1, 1]
 ```
 
-#### Cost per vote - Best Value per vote
+#### Cost per Vote - Best Value
 ```mermaid
 ---
 config:
@@ -325,12 +328,12 @@ config:
 ---
 xychart-beta
     title "Cost per Vote - Best Value"
-    x-axis ["Bharatiya Janata Party", "Indian National Congress", "Communist Party of India (Marxist)", "Haryana Lokhit Party", "Haryana Jan Sevak Party"]
-    y-axis "Cost per Vote" 50 --> 350
-    bar [64.1580, 65.5544, 116.3704, 220.7140, 305.0873]
+    x-axis ["Janata Dal (United)", "Bharatiya Janata Party", "Aam Aadmi Party", "Lok Janshakti Party(Ram Vilas)", "All India Majlis-E-Ittehadul Muslimeen"]
+    y-axis "Cost per Vote" 0 --> 120
+    bar [39.7693, 62.9177, 67.7327, 79.6670, 109.5410]
 ```
 
-#### Cost per vote - Worst Value per vote
+#### Cost per Vote - Worst Value
 ```mermaid
 ---
 config:
@@ -341,78 +344,109 @@ config:
 ---
 xychart-beta
     title "Cost per Vote - Worst Value"
-    x-axis ["Rashtravadi Bharat Party", "Bharat Jan Jagran Dal", "Bhartiya Janraj Party", "Bhartiya Sarvodaya Party", "Nationalist Congress Party"]
+    x-axis ["Bharatrashtra Democratic Party", "Navarang Congress Party", "All India National Raksha Sena", "Samarth Bharatvarsh Party", "Rashtrawadi Janlok Party (Satya)"]
     y-axis "Cost per Vote" 70000 --> 120000
-    bar [117647.0588, 102564.1026, 97560.9756, 83333.3333, 71428.5714]
+    bar [1000000.0000, 222222.2222, 200000.0000, 181818.1818, 163265.3061]
 ```
 
 #### Success Ratio - Best
 
-|Party                                        |Seats Participated|Seats Won|Success Ratio|
-|---------------------------------------------|------------------|---------|-------------|
-|Bharatiya Janata Party                       |89                |48       |53.9326      |
-|Indian National Congress                     |89                |37       |41.5730      |
+|Party                  |Seats Participated|Seats Won|Success Ratio|
+|-----------------------|------------------|---------|-------------|
+|Bharatiya Janata Party |68                |48       |70.5882      |
+|Aam Aadmi Party        |70                |22       |31.4286      |
 
 #### Success Ratio - Worst
 
-|Party                                        |Seats Participated|Seats Won|Success Ratio|
-|---------------------------------------------|------------------|---------|-------------|
-|Independent                                  |87                |3        |3.4483       |
-|Indian National Lok Dal                      |51                |2        |3.9216       |
+|Party                    |Seats Participated|Seats Won|Success Ratio|
+|-------------------------|------------------|---------|-------------|
+|Indian National Congress |70                |1        |1.4286       |
 
 ### Multiple Seat Participation
 
-#### Candidates participating in multiple seats (matches names)
+#### Results of Candidates participating in multiple seats
 
-|Candidate             |Number of Constituencies Contested at|
-|----------------------|-------------------------------------|
-|ANIL KUMAR            |4                                    |
-|RAJESH KUMAR          |4                                    |
-|SUNIL KUMAR           |4                                    |
+|Candidate            |Constituency    |State     |Party                        |Result|
+|---------------------|----------------|----------|-----------------------------|------|
+|ASHOK KUMAR          |ROHTAS NAGAR    |NEW DELHI |Bahujan Samaj Party          |LOST  |
+|ASHOK KUMAR          |MUSTAFABAD      |NEW DELHI |Bahujan Samaj Party          |LOST  |
+|MUKESH KUMAR         |MANGOL PURI     |NEW DELHI |Bahujan Samaj Party          |LOST  |
+|MUKESH KUMAR         |NANGLOI JAT     |NEW DELHI |Bahujan Samaj Party          |LOST  |
+|MUKESH KUMAR         |KONDLI          |NEW DELHI |Bahujan Samaj Party          |LOST  |
+|ASHOK KUMAR          |AMBEDKAR NAGAR  |NEW DELHI |Independent                  |LOST  |
+|ASHOK KUMAR          |HARI NAGAR      |NEW DELHI |Independent                  |LOST  |
+|DEEPAK KUMAR         |SULTANPUR MAJRA |NEW DELHI |Independent                  |LOST  |
+|DEEPAK KUMAR         |KAROL BAGH      |NEW DELHI |Independent                  |LOST  |
+|RAVI                 |KALKAJI         |NEW DELHI |Independent                  |LOST  |
+|RAVI                 |MADIPUR         |NEW DELHI |Independent                  |LOST  |
+|CHARAN SINGH MALIYAN |GOKALPUR        |NEW DELHI |Right to Recall Party        |LOST  |
+|CHARAN SINGH MALIYAN |SEEMAPURI       |NEW DELHI |Right to Recall Party        |LOST  |
 
 ### Close Contest Matrix
+This matrix provides the number of seats in which parties lost by the number of votes provided in the columns.
 
-This Matrix provides the number of seats in which parties lost by the number of votes provided in the columns.
-|PARTY                                             |< 500|< 2500|< 5000|< 10000|< 15000|< 25000|< 50000|
-|--------------------------------------------------|-----|------|------|-------|-------|-------|-------|
-|Bahujan Samaj Party                               |0    |0     |1     |1      |1      |1      |1      |
-|Bharatiya Janata Party                            |0    |6     |7     |13     |20     |26     |30     |
-|Communist Party of India  (Marxist)               |0    |0     |0     |0      |0      |0      |1      |
-|Haryana Jan Sevak Party                           |0    |0     |0     |0      |0      |1      |1      |
-|Haryana Lokhit Party                              |0    |0     |0     |1      |1      |1      |1      |
-|Independent                                       |0    |1     |1     |3      |3      |4      |6      |
-|Indian National Congress                          |1    |4     |10    |13     |21     |33     |43     |
-|Indian National Lok Dal                           |0    |0     |0     |0      |0      |1      |2      |
+| PARTY                           | < 500 | < 2500 | < 5000 | < 10000 | < 15000 | < 25000 | < 50000 |
+|---------------------------------|-------|--------|--------|---------|---------|---------|---------|
+| Aam Aadmi Party                 | 2     | 7      | 9      | 16      | 27      | 35      | 47      |
+| Bharatiya Janata Party          | 0     | 1      | 4      | 8       | 11      | 16      | 20      |
+| Indian National Congress        | 0     | 0      | 0      | 0       | 1       | 1       | 1       |
+| Janata Dal (United)             | 0     | 0      | 0      | 0       | 0       | 1       | 1       |
+| Lok Janshakti Party (Ram Vilas) | 0     | 0      | 0      | 0       | 0       | 0       | 1       |
 
 #### Party Specific Close Contest Matrix
 
 ##### Bharatiya Janata Party
 
-|Constituency                                      |State   |Runner up Party Votes|Winning Party           |Winning Party Votes|Vote Difference|
-|--------------------------------------------------|--------|---------------------|------------------------|-------------------|---------------|
-|LOHARU                                            |HARYANA |80544               |Indian National Congress|81336              |792            |
-|ADAMPUR                                           |HARYANA |64103               |Indian National Congress|65371              |1268           |
-|ROHTAK                                            |HARYANA |58078               |Indian National Congress|59419              |1341           |
-|SADHAURA                                          |HARYANA |55835               |Indian National Congress|57534              |1699           |
-|PANCHKULA                                         |HARYANA |65400               |Indian National Congress|67397              |1997           |
-|FATEHABAD                                         |HARYANA |83920               |Indian National Congress|86172              |2252           |
-|THANESAR                                          |HARYANA |66833               |Indian National Congress|70076              |3243           |
-|JULANA                                            |HARYANA |59065               |Indian National Congress|65080              |6015           |
-|SHAHBAD                                           |HARYANA |54609               |Indian National Congress|61050              |6441           |
-|PEHOWA                                            |HARYANA |57995               |Indian National Congress|64548              |6553           |
+| Constituency     | State     | Runner up Votes | Winning Party      | Winning Votes | Vote Difference |
+|------------------|-----------|-----------------|--------------------|---------------|-----------------|
+| DELHI CANTT      | NEW DELHI | 20162           | Aam Aadmi Party    | 22191         | 2029            |
+| KALKAJI          | NEW DELHI | 48633           | Aam Aadmi Party    | 52154         | 3521            |
+| PATEL NAGAR      | NEW DELHI | 53463           | Aam Aadmi Party    | 57512         | 4049            |
+| AMBEDKAR NAGAR   | NEW DELHI | 42055           | Aam Aadmi Party    | 46285         | 4230            |
+| KONDLI           | NEW DELHI | 55499           | Aam Aadmi Party    | 61792         | 6293            |
+| SADAR BAZAR      | NEW DELHI | 49870           | Aam Aadmi Party    | 56177         | 6307            |
+| KAROL BAGH       | NEW DELHI | 44867           | Aam Aadmi Party    | 52297         | 7430            |
+| GOKALPUR         | NEW DELHI | 72297           | Aam Aadmi Party    | 80504         | 8207            |
+| SEEMAPURI        | NEW DELHI | 55985           | Aam Aadmi Party    | 66353         | 10368           |
+| TILAK NAGAR      | NEW DELHI | 40478           | Aam Aadmi Party    | 52134         | 11656           |
+| TUGHLAKABAD      | NEW DELHI | 47444           | Aam Aadmi Party    | 62155         | 14711           |
+| CHANDNI CHOWK    | NEW DELHI | 22421           | Aam Aadmi Party    | 38993         | 16572           |
+| SULTANPUR MAJRA  | NEW DELHI | 41641           | Aam Aadmi Party    | 58767         | 17126           |
+| BABARPUR         | NEW DELHI | 57198           | Aam Aadmi Party    | 76192         | 18994           |
+| KIRARI           | NEW DELHI | 83909           | Aam Aadmi Party    | 105780        | 21871           |
+| OKHLA            | NEW DELHI | 65304           | Aam Aadmi Party    | 88943         | 23639           |
+| BADARPUR         | NEW DELHI | 87103           | Aam Aadmi Party    | 112991        | 25888           |
+| BALLIMARAN       | NEW DELHI | 27181           | Aam Aadmi Party    | 57004         | 29823           |
+| SEELAM PUR       | NEW DELHI | 36532           | Aam Aadmi Party    | 79009         | 42477           |
+| MATIA MAHAL      | NEW DELHI | 15396           | Aam Aadmi Party    | 58120         | 42724           |
 
+##### AAP Close Fight
+
+| Constituency    | State     | Runner up Votes | Winning Party              | Winning Votes | Vote Difference |
+|-----------------|-----------|-----------------|----------------------------|---------------|-----------------|
+| SANGAM VIHAR    | NEW DELHI | 53705           | Bharatiya Janata Party     | 54049         | 344             |
+| TRILOKPURI      | NEW DELHI | 57825           | Bharatiya Janata Party     | 58217         | 392             |
+| JANGPURA        | NEW DELHI | 38184           | Bharatiya Janata Party     | 38859         | 675             |
+| TIMARPUR        | NEW DELHI | 54773           | Bharatiya Janata Party     | 55941         | 1168            |
+| RAJINDER NAGAR  | NEW DELHI | 45440           | Bharatiya Janata Party     | 46671         | 1231            |
+| MEHRAULI        | NEW DELHI | 46567           | Bharatiya Janata Party     | 48349         | 1782            |
+| MALVIYA NAGAR   | NEW DELHI | 37433           | Bharatiya Janata Party     | 39564         | 2131            |
+| GREATER KAILASH | NEW DELHI | 46406           | Bharatiya Janata Party     | 49594         | 3188            |
+| NEW DELHI       | NEW DELHI | 25999           | Bharatiya Janata Party     | 30088         | 4089            |
+| SHAHDARA        | NEW DELHI | 57610           | Bharatiya Janata Party     | 62788         | 5178            |
+| CHHATARPUR      | NEW DELHI | 74230           | Bharatiya Janata Party     | 80469         | 6239            |
+| MANGOL PURI     | NEW DELHI | 55752           | Bharatiya Janata Party     | 62007         | 6255            |
+| HARI NAGAR      | NEW DELHI | 43547           | Bharatiya Janata Party     | 50179         | 6632            |
+| DWARKA          | NEW DELHI | 61308           | Bharatiya Janata Party     | 69137         | 7829            |
+| NERELA          | NEW DELHI | 78619           | Bharatiya Janata Party     | 87215         | 8596            |
+| PALAM           | NEW DELHI | 73094           | Bharatiya Janata Party     | 82046         | 8952            |
+| MUNDKA          | NEW DELHI | 79289           | Bharatiya Janata Party     | 89839         | 10550           |
+| MADIPUR         | NEW DELHI | 41120           | Bharatiya Janata Party     | 52019         | 10899           |
+| BIJWASAN        | NEW DELHI | 53675           | Bharatiya Janata Party     | 64951         | 11276           |
+| WAZIRPUR        | NEW DELHI | 43296           | Bharatiya Janata Party     | 54721         | 11425           |
 
 ##### Indian National Congress
 
-|Constituency                                      |State   |Runner up Party Votes|Winning Party           |Winning Party Votes|Vote Difference|
-|--------------------------------------------------|--------|---------------------|------------------------|-------------------|---------------|
-|UCHANA KALAN                                      |HARYANA |48936               |Bharatiya Janata Party  |48968              |32             |
-|DABWALI                                           |HARYANA |55464               |Indian National Lok Dal |56074              |610            |
-|DADRI                                            |HARYANA |63611               |Bharatiya Janata Party  |65568              |1957           |
-|ASSANDH                                          |HARYANA |52455               |Bharatiya Janata Party  |54761              |2306           |
-|HODAL                                            |HARYANA |66270               |Bharatiya Janata Party  |68865              |2595           |
-|MAHENDRAGARH                                     |HARYANA |60388               |Bharatiya Janata Party  |63036              |2648           |
-|SAFIDON                                          |HARYANA |54946               |Bharatiya Janata Party  |58983              |4037           |
-|RANIA                                            |HARYANA |39723               |Indian National Lok Dal |43914              |4191           |
-|GHARAUNDA                                        |HARYANA |82705               |Bharatiya Janata Party  |87236              |4531           |
-|RAI                                              |HARYANA |59941               |Bharatiya Janata Party  |64614              |4673           |
+|Constituency   |State     |Runner up Votes|Winning Party             |Winning Votes|Vote Difference|
+|---------------|----------|---------------|--------------------------|-------------|---------------|
+|KASTURBA NAGAR |NEW DELHI |27019          |Bharatiya Janata Party    |38067        |11048          |
