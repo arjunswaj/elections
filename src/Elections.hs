@@ -36,7 +36,7 @@ generateURLs = concatMap generateConstituencies generateStateDetails
   where
     separator = "/"
     domain = "https://results.eci.gov.in"
-    baseUrl = separator ++ "AcResultGenOct2024"
+    baseUrl = separator ++ "ResultAcGenFeb2025"
     constituencyUrl = baseUrl ++ separator ++ "Constituencywise"
 
     createUrl :: String -> Int -> String
