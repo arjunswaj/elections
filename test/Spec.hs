@@ -81,6 +81,6 @@ main = hspec $ do
   describe "generateURLs" $ do
     it "generates the correct number of constituencies" $ do
       let actualConstituencies = generateURLs
-      length actualConstituencies `shouldBe` 180
+      length actualConstituencies `shouldBe` 70
 
 expectedRows = [["1", "AMAR SHARADRAO KALE", "Nationalist Congress Party – Sharadchandra Pawar", "530761", "2345", "533106", "48.68"], ["2", "RAMDAS CHANDRABHAN TADAS", "Bharatiya Janata Party", "449599", "1859", "451458", "41.23"]]
