@@ -1,15 +1,14 @@
 # Table of contents
-
-
+- [Results](#results)
+- [Building and Running](#building-and-running)
+  * [Scraping and downloading data](#scraping-and-downloading-data)
+    + [Tests](#tests)
+  * [Data Analysis](#data-analysis)
 
 ## Results
 
-- HARYANA
-  - [Tabular](https://github.com/arjunswaj/elections/blob/haryana-jk-2024/HARYANA.md)
-  - [Graphical](https://github.com/arjunswaj/elections/blob/haryana-jk-2024/HARYANA-GRAPH.md)
-- JAMMU & KASHMIR
-  - [Tabular](https://github.com/arjunswaj/elections/blob/haryana-jk-2024/J%26K.md)
-  - [Graphical](https://github.com/arjunswaj/elections/blob/haryana-jk-2024/J%26K-GRAPH.md)
+- [Tabular](https://github.com/arjunswaj/elections/blob/delhi-2025/NEWDELHI.md)
+- [Graphical](https://github.com/arjunswaj/elections/blob/delhi-2025/NEWDELHI-GRAPH.md)
 
 ## Building and Running
 ### Scraping and downloading data
@@ -24,4 +23,4 @@ cabal test
 ```
 
 ### Data Analysis
-Create table executing [`Queries.sql`](https://github.com/arjunswaj/elections/blob/haryana-jk-2024/queries/Queries.sql) and then run other SQL queries in the [queries](https://github.com/arjunswaj/elections/tree/haryana-jk-2024/queries) directory to see the [detailed result](https://github.com/arjunswaj/elections/tree/haryana-jk-2024/result).
+Create table executing [`Queries.sql`](https://github.com/arjunswaj/elections/blob/delhi-2025/queries/Queries.sql) and then run other SQL queries in the [queries](https://github.com/arjunswaj/elections/tree/delhi-2025/queries) directory to see the [detailed result](https://github.com/arjunswaj/elections/tree/delhi-2025/result).
