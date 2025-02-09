@@ -1,3 +1,9 @@
+-- Create the database first if doesn't exist
+-- CREATE DATABASE elections;
+
+-- Switch to the database
+-- USE elections;
+
 CREATE TABLE `ASSEMBLY_ELECTIONS_FEB2025` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `CODE` varchar(10) NOT NULL,
