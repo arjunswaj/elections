@@ -34,6 +34,11 @@
          - [Party Specific Close Contest Matrix](#party-specific-close-contest-matrix)
             * [Bharatiya Janata Party](#bharatiya-janata-party)
             * [Indian National Congress](#indian-national-congress)
+        + [Advanced Join Insights](#advanced-join-insights)
+            - [Crowding pressure seats](#crowding-pressure-seats)
+            - [Runner-up overperformance vs party baseline](#runner-up-overperformance-vs-party-baseline)
+            - [HHI win mix by party](#hhi-win-mix-by-party)
+            - [Third-place spoilers in tight races](#third-place-spoilers-in-tight-races)
 
 # Analysis of New Delhi Assembly Elections February 2025
 
@@ -52,6 +57,9 @@ config:
         width: 1200
         height: 600
         chartOrientation: horizontal
+        dataLabels:
+            enabled: true
+            placement: end
 ---
 xychart-beta
     title "Seats Contested by Parties"
@@ -70,6 +78,9 @@ config:
         width: 1200
         height: 600
         chartOrientation: horizontal
+        dataLabels:
+            enabled: true
+            placement: end
 ---
 xychart-beta
     title "Maximum Votes for a Candidate"
@@ -86,6 +97,9 @@ config:
         width: 1200
         height: 600
         chartOrientation: horizontal
+        dataLabels:
+            enabled: true
+            placement: end
 ---
 xychart-beta
     title "Least Votes for a Winning Candidate"
@@ -102,6 +116,9 @@ config:
         width: 1200
         height: 600
         chartOrientation: horizontal
+        dataLabels:
+            enabled: true
+            placement: end
 ---
 xychart-beta
     title "Max Votes for a Losing Candidate"
@@ -118,6 +135,9 @@ config:
         width: 1200
         height: 600
         chartOrientation: horizontal
+        dataLabels:
+            enabled: true
+            placement: end
 ---
 xychart-beta
     title "Candidates Winning by Max Margin"
@@ -134,6 +154,9 @@ config:
         width: 1200
         height: 600
         chartOrientation: horizontal
+        dataLabels:
+            enabled: true
+            placement: end
 ---
 xychart-beta
     title "Candidates Winning by Least Margin"
@@ -149,6 +172,9 @@ config:
         width: 1200
         height: 600
         chartOrientation: horizontal
+        dataLabels:
+            enabled: true
+            placement: end
 ---
 xychart-beta
     title "Max Total Votes in a Constituency"
@@ -165,6 +191,9 @@ config:
         width: 1200
         height: 600
         chartOrientation: horizontal
+        dataLabels:
+            enabled: true
+            placement: end
 ---
 xychart-beta
     title "Min Total Votes in a Constituency"
@@ -181,6 +210,9 @@ config:
         width: 1200
         height: 600
         chartOrientation: horizontal
+        dataLabels:
+            enabled: true
+            placement: end
 ---
 xychart-beta
     title "Max Candidates in a Constituency"
@@ -197,6 +229,9 @@ config:
         width: 1200
         height: 600
         chartOrientation: horizontal
+        dataLabels:
+            enabled: true
+            placement: end
 ---
 xychart-beta
     title "Least Candidates in a Constituency"
@@ -229,6 +264,9 @@ config:
         width: 1200
         height: 600
         chartOrientation: horizontal
+        dataLabels:
+            enabled: true
+            placement: end
 ---
 xychart-beta
     title "Maximum Vote Share of Winning Candidate"
@@ -245,6 +283,9 @@ config:
         width: 1200
         height: 600
         chartOrientation: horizontal
+        dataLabels:
+            enabled: true
+            placement: end
 ---
 xychart-beta
     title "Least Vote Share for a Winning Candidate"
@@ -261,6 +302,9 @@ config:
         width: 1200
         height: 600
         chartOrientation: horizontal
+        dataLabels:
+            enabled: true
+            placement: end
 ---
 xychart-beta
     title "Max Vote Share of a Losing Candidate"
@@ -277,6 +321,9 @@ config:
         width: 1200
         height: 600
         chartOrientation: horizontal
+        dataLabels:
+            enabled: true
+            placement: end
 ---
 xychart-beta
     title "Seats in which Parties Lost Deposits"
@@ -293,6 +340,9 @@ config:
         width: 1200
         height: 600
         chartOrientation: horizontal
+        dataLabels:
+            enabled: true
+            placement: end
 ---
 xychart-beta
     title "Gold (Seats that Parties Won)"
@@ -309,6 +359,9 @@ config:
         width: 1200
         height: 600
         chartOrientation: horizontal
+        dataLabels:
+            enabled: true
+            placement: end
 ---
 xychart-beta
     title "Silver (Seats that Parties Came in Second)"
@@ -325,6 +378,9 @@ config:
         width: 1200
         height: 600
         chartOrientation: horizontal
+        dataLabels:
+            enabled: true
+            placement: end
 ---
 xychart-beta
     title "Cost per Vote - Best Value"
@@ -341,6 +397,9 @@ config:
         width: 1200
         height: 600
         chartOrientation: horizontal
+        dataLabels:
+            enabled: true
+            placement: end
 ---
 xychart-beta
     title "Cost per Vote - Worst Value"
@@ -450,3 +509,93 @@ This matrix provides the number of seats in which parties lost by the number of 
 |Constituency   |State     |Runner up Votes|Winning Party             |Winning Votes|Vote Difference|
 |---------------|----------|---------------|--------------------------|-------------|---------------|
 |KASTURBA NAGAR |NEW DELHI |27019          |Bharatiya Janata Party    |38067        |11048          |
+
+### Advanced Join Insights
+
+#### Crowding pressure seats
+
+Crowded ballots with thin margins are visualized below using "others" vote share as a proxy for fragmentation.
+
+```mermaid
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+        dataLabels:
+            enabled: true
+            placement: end
+---
+xychart-beta
+    title "Crowding Pressure - Others Vote Share"
+    x-axis ["MEHRAULI", "SANGAM VIHAR", "DELHI CANTT", "SADAR BAZAR", "JANGPURA", "MALVIYA NAGAR", "AMBEDKAR NAGAR", "HARI NAGAR"]
+    y-axis "Others Vote %" 0 --> 20
+    bar [18.21, 14.29, 10.76, 10.42, 9.91, 9.46, 9.10, 9.05]
+```
+
+#### Runner-up overperformance vs party baseline
+
+These runner-up candidates beat their party-wide average vote share even in defeat.
+
+```mermaid
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+        dataLabels:
+            enabled: true
+            placement: end
+---
+xychart-beta
+    title "Runner-up Overperformance"
+    x-axis ["KASTURBA NAGAR", "RAJINDER NAGAR", "TRILOKPURI", "SHAHDARA", "CHHATARPUR", "MANGOL PURI", "TIMARPUR", "NERELA"]
+    y-axis "Overperformance %" 0 --> 30
+    bar [25.29, 2.99, 2.04, 1.79, 1.43, 1.41, 1.32, 1.24]
+```
+
+#### HHI win mix by party
+
+Competition bands (Herfindahl-Hirschman Index) show which parties dominate different contest types.
+
+```mermaid
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        dataLabels:
+            enabled: true
+            placement: end
+---
+xychart-beta
+    title "HHI Win Mix by Party"
+    x-axis ["Fragmented", "Competitive", "Dominant"]
+    y-axis "Seats Won" 0 --> 30
+    bar "Aam Aadmi Party" [1, 16, 5]
+    bar "Bharatiya Janata Party" [3, 23, 22]
+```
+
+#### Third-place spoilers in tight races
+
+Third-place candidacies that materially exceeded their party’s norm highlight potential spoiler roles.
+
+```mermaid
+---
+config:
+    xyChart:
+        width: 1200
+        height: 600
+        chartOrientation: horizontal
+        dataLabels:
+            enabled: true
+            placement: end
+---
+xychart-beta
+    title "Third-place Overperformance"
+    x-axis ["MEHRAULI", "SANGAM VIHAR", "DELHI CANTT", "JANGPURA", "SADAR BAZAR", "MALVIYA NAGAR", "NEW DELHI", "AMBEDKAR NAGAR"]
+    y-axis "Overperformance %" 0 --> 9
+    bar [8.16, 5.93, 2.27, 1.91, 1.80, 1.27, 0.72, 0.69]
+```

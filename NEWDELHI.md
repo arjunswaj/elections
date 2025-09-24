@@ -34,6 +34,11 @@
         * [Bharatiya Janata Party](#bharatiya-janata-party)
         * [AAP Close Fight](#aap-close-fight)
         * [Indian National Congress](#indian-national-congress)
+    + [Advanced Join Insights](#advanced-join-insights)
+      - [Crowding pressure seats](#crowding-pressure-seats)
+      - [Runner-up overperformance vs party baseline](#runner-up-overperformance-vs-party-baseline)
+      - [HHI win mix by party](#hhi-win-mix-by-party)
+      - [Third-place spoilers in tight races](#third-place-spoilers-in-tight-races)
 
 # Analysis of New Delhi Assembly Elections February 2025
 
@@ -350,4 +355,70 @@ This matrix provides the number of seats in which parties lost by the number of 
 |Constituency   |State     |Runner up Votes|Winning Party             |Winning Votes|Vote Difference|
 |---------------|----------|---------------|--------------------------|-------------|---------------|
 |KASTURBA NAGAR |NEW DELHI |27019          |Bharatiya Janata Party    |38067        |11048          |
+
+### Advanced Join Insights
+
+The following highlights rely on multi-layer joins that combine margin, vote-share distribution, and competition intensity. Full result sets are saved in `result/NewDelhi/21 Crowding Pressure Seats.csv`, `result/NewDelhi/22 Runner Up Overperformance.csv`, `result/NewDelhi/23 HHI Win Mix.csv`, and `result/NewDelhi/24 Third Place Spoilers.csv`.
+
+#### Crowding pressure seats
+
+Seats where narrow margins collide with double-digit "others" vote share signal the highest volatility. Postal vote gaps are included to show where mailed ballots could tip the balance.
+
+|Constituency   |Winning Party            |Runner Up Party          |Candidates|Others Vote %|Margin Votes|Postal Vote Gap|Crowding Band|
+|---------------|------------------------|-------------------------|----------|-------------|------------|---------------|-------------|
+|MEHRAULI       |Bharatiya Janata Party  |Aam Aadmi Party          |9         |18.21        |1782        |186            |Standard     |
+|SANGAM VIHAR   |Bharatiya Janata Party  |Aam Aadmi Party          |12        |14.29        |344         |22             |Crowded      |
+|DELHI CANTT    |Aam Aadmi Party         |Bharatiya Janata Party   |8         |10.76        |2029        |-38            |Standard     |
+|SADAR BAZAR    |Aam Aadmi Party         |Bharatiya Janata Party   |12        |10.42        |6307        |-92            |Crowded      |
+|JANGPURA       |Bharatiya Janata Party  |Aam Aadmi Party          |10        |9.91         |675         |81             |Crowded      |
+|MALVIYA NAGAR  |Bharatiya Janata Party  |Aam Aadmi Party          |8         |9.46         |2131        |195            |Standard     |
+|AMBEDKAR NAGAR |Aam Aadmi Party         |Bharatiya Janata Party   |10        |9.10         |4230        |-15            |Crowded      |
+|HARI NAGAR     |Bharatiya Janata Party  |Aam Aadmi Party          |11        |9.05         |6632        |286            |Crowded      |
+|NEW DELHI      |Bharatiya Janata Party  |Aam Aadmi Party          |24        |8.99         |4089        |76             |Ultra-crowded|
+|TIMARPUR       |Bharatiya Janata Party  |Aam Aadmi Party          |13        |8.91         |1168        |144            |Crowded      |
+
+#### Runner-up overperformance vs party baseline
+
+Comparing runner-up vote share with each party’s average reveals hidden pockets of strength despite losses.
+
+|Constituency   |Runner Up Candidate              |Party                    |Runner Up %|Party Avg %|Overperformance %|
+|---------------|---------------------------------|-------------------------|-----------|-----------|-----------------|
+|KASTURBA NAGAR |ABHISHEK DUTT                    |Indian National Congress |31.98      |6.69       |25.29            |
+|RAJINDER NAGAR |DURGESH PATHAK                   |Aam Aadmi Party          |46.74      |43.75      |2.99             |
+|TRILOKPURI     |ANJANA PARCHA                    |Aam Aadmi Party          |45.79      |43.75      |2.04             |
+|SHAHDARA       |JITENDER SINGH SHUNTY            |Aam Aadmi Party          |45.54      |43.75      |1.79             |
+|CHHATARPUR     |BRAHM SINGH TANWAR               |Aam Aadmi Party          |45.18      |43.75      |1.43             |
+|MANGOL PURI    |DHARAM RAKSHAK ALIAS RAKESH JATAV|Aam Aadmi Party          |45.16      |43.75      |1.41             |
+|TIMARPUR       |SURINDER PAL SINGH (BITTOO)      |Aam Aadmi Party          |45.07      |43.75      |1.32             |
+|NERELA         |SHARAD KUMAR                     |Aam Aadmi Party          |44.99      |43.75      |1.24             |
+|PALAM          |JOGINDER SOLANKI                 |Aam Aadmi Party          |44.95      |43.75      |1.20             |
+|VIKASPURI      |MAHINDER YADAV                   |Aam Aadmi Party          |44.83      |43.75      |1.08             |
+
+#### HHI win mix by party
+
+HHI bands group constituencies by vote concentration, illustrating which parties thrive in dominant versus competitive environments.
+
+|Party                  |HHI Band    |Seats Won|
+|-----------------------|------------|---------|
+|Aam Aadmi Party        |Competitive |16       |
+|Aam Aadmi Party        |Dominant    |5        |
+|Aam Aadmi Party        |Fragmented  |1        |
+|Bharatiya Janata Party |Competitive |23       |
+|Bharatiya Janata Party |Dominant    |22       |
+|Bharatiya Janata Party |Fragmented  |3        |
+
+#### Third-place spoilers in tight races
+
+Third-place performers who beat their party’s customary share often decide the margins in knife-edge seats.
+
+|Constituency   |Party                    |Candidate                 |Third Place %|Party Avg %|Overperformance %|Candidates|Margin Votes|
+|---------------|-------------------------|--------------------------|-------------|-----------|-----------------|----------|------------|
+|MEHRAULI       |Independent              |BALYOGI BABA BALAKNATH    |8.39         |0.23       |8.16             |9         |1782        |
+|SANGAM VIHAR   |Indian National Congress |HARSH CHOUDHARY           |12.62        |6.69       |5.93             |12        |344         |
+|DELHI CANTT    |Indian National Congress |PRADEEP KUMAR UPMANYU     |8.96         |6.69       |2.27             |8         |2029        |
+|JANGPURA       |Indian National Congress |FARHAD SURI               |8.60         |6.69       |1.91             |10        |675         |
+|SADAR BAZAR    |Indian National Congress |ANIL BHARDWAJ             |8.49         |6.69       |1.80             |12        |6307        |
+|MALVIYA NAGAR  |Indian National Congress |JITENDER KUMAR KOCHAR     |7.96         |6.69       |1.27             |8         |2131        |
+|NEW DELHI      |Indian National Congress |SANDEEP DIKSHIT           |7.41         |6.69       |0.72             |24        |4089        |
+|AMBEDKAR NAGAR |Indian National Congress |JAI PRAKASH               |7.38         |6.69       |0.69             |10        |4230        |
 
