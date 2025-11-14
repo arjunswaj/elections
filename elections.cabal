@@ -14,12 +14,17 @@ library
                      , bytestring
                      , case-insensitive
                      , cassava
+                     , connection
                      , directory
+                     , http-client
+                     , http-client-tls
                      , http-conduit
                      , http-types
+                     , process
                      , scalpel
                      , split
                      , text
+                     , tls
                      , vector
   default-language:    Haskell2010
 

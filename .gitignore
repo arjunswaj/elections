@@ -38,3 +38,7 @@ cabal.project.local
 .DS_Store
 .AppleDouble
 .LSOverride
+
+# Node.js
+node_modules/
+package-lock.json

@@ -31,12 +31,12 @@ data Constituency = Constituency
   deriving (Show, Eq)
 
 generateURLs :: [Constituency]
--- generateURLs = concatMap (take 1 . generateConstituencies) generateStateDetails
-generateURLs = concatMap generateConstituencies generateStateDetails
+generateURLs = concatMap (take 1 . generateConstituencies) generateStateDetails
+-- generateURLs = concatMap generateConstituencies generateStateDetails
   where
     separator = "/"
     domain = "https://results.eci.gov.in"
-    baseUrl = separator ++ "ResultAcGenFeb2025"
+    baseUrl = separator ++ "ResultAcGenNov2025"
     constituencyUrl = baseUrl ++ separator ++ "Constituencywise"
 
     createUrl :: String -> Int -> String
@@ -45,26 +45,18 @@ generateURLs = concatMap generateConstituencies generateStateDetails
 
     generateHeaders :: String -> Int -> [(String, String)]
     generateHeaders stateCode ctr =
-      [ (":authority", "results.eci.gov.in"),
-        (":method", "GET"),
-        (":path", createUrl stateCode ctr),
-        (":scheme", "https"),
-        ("accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"),
-        ("accept-encoding", "gzip, deflate, br, zstd"),
-        ("accept-language", "en-IN,en;q=0.9,hi-IN;q=0.8,hi;q=0.7,en-GB;q=0.6,en-US;q=0.5"),
-        ("cache-control", "max-age=0"),
-        ("cookie", "RT=\"z=1&dm=results.eci.gov.in&si=b16b28a4-e8cf-4f1e-ba3c-fd48c9cbcb95&ss=m2873m95&sl=e&tt=k3p&bcn=%2F%2F17de4c19.akstat.io%2F&ld=2kfyb&ul=2qql0\""),
-        ("dnt", "1"),
-        ("priority", "u=0, i"),
-        ("referer", domain),
-        ("sec-ch-ua", "\"Google Chrome\";v=\"129\", \"Not=A?Brand\";v=\"8\", \"Chromium\";v=\"129\""),
-        ("sec-ch-ua-mobile", "?0"),
-        ("sec-ch-ua-platform", "\"macOS\""),
-        ("sec-fetch-dest", "document"),
-        ("sec-fetch-mode", "navigate"),
-        ("sec-fetch-site", "same-origin"),
-        ("upgrade-insecure-requests", "1"),
-        ("user-agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36")
+      [ ("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"),
+        ("Accept-Language", "en-IN,en;q=0.9,hi-IN;q=0.8,hi;q=0.7,en-GB;q=0.6,en-US;q=0.5"),
+        ("Cache-Control", "max-age=0"),
+        ("Sec-Ch-Ua", "\"Google Chrome\";v=\"129\", \"Not=A?Brand\";v=\"8\", \"Chromium\";v=\"129\""),
+        ("Sec-Ch-Ua-Mobile", "?0"),
+        ("Sec-Ch-Ua-Platform", "\"macOS\""),
+        ("Sec-Fetch-Dest", "document"),
+        ("Sec-Fetch-Mode", "navigate"),
+        ("Sec-Fetch-Site", "none"),
+        ("Sec-Fetch-User", "?1"),
+        ("Upgrade-Insecure-Requests", "1"),
+        ("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36")
       ]
 
     generateConstituencies :: StateDetail -> [Constituency]
