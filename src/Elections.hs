@@ -31,8 +31,7 @@ data Constituency = Constituency
   deriving (Show, Eq)
 
 generateURLs :: [Constituency]
-generateURLs = concatMap (take 1 . generateConstituencies) generateStateDetails
--- generateURLs = concatMap generateConstituencies generateStateDetails
+generateURLs = concatMap generateConstituencies generateStateDetails
   where
     separator = "/"
     domain = "https://results.eci.gov.in"
@@ -75,29 +74,30 @@ processURLs constituencies csvFilePath errorFilePath = do
   -- Delete the CSV and error files if they exist
   removeIfExists csvFilePath
   removeIfExists errorFilePath
-  -- Open CSV file in append mode
-  withFile csvFilePath AppendMode $ \csvHandle -> do
-    -- Open error file in append mode
-    withFile errorFilePath AppendMode $ \errorHandle -> do
-      -- Process each URL one by one
-      foldM_ (processEachURL csvHandle errorHandle) 1 (zip [1 ..] constituencies)
+  
+  -- Use bracket to ensure browser is properly closed
+  HC.withBrowser $ \browser -> do
+    -- Open CSV file in append mode
+    withFile csvFilePath AppendMode $ \csvHandle -> do
+      -- Open error file in append mode
+      withFile errorFilePath AppendMode $ \errorHandle -> do
+        -- Process each URL one by one with the same browser
+        foldM_ (processEachURL browser csvHandle errorHandle) 1 (zip [1 ..] constituencies)
   where
-    -- foldM_ (processEachURL csvHandle errorHandle) 1 (zip [1 ..] (take 3 constituencies))
-
     removeIfExists :: FilePath -> IO ()
     removeIfExists filePath = do
       fileExists <- doesFileExist filePath
       CM.when fileExists $ removeFile filePath
 
-    processEachURL :: Handle -> Handle -> Int -> (Integer, Constituency) -> IO Int
-    processEachURL csvHandle errorHandle counter pair = do
+    processEachURL :: HC.BrowserHandle -> Handle -> Handle -> Int -> (Integer, Constituency) -> IO Int
+    processEachURL browser csvHandle errorHandle counter pair = do
       let num = show $ fst pair
       let constituencyUrl = url $ snd pair
       let stateName = state $ snd pair
       let urlCode = code $ snd pair
       let requestHeaders = headers $ snd pair
       putStrLn $ num ++ ". Processing " ++ constituencyUrl
-      result <- try (fetchWebPage constituencyUrl requestHeaders) :: IO (Either FetchException String)
+      result <- try (HC.fetchWebPageWithBrowser browser constituencyUrl requestHeaders) :: IO (Either FetchException String)
       case result of
         Left (FetchException code err) -> do
           hPutStrLn errorHandle $ formatCSVRow ["Missing", show code, constituencyUrl]
@@ -125,9 +125,6 @@ processURLs constituencies csvFilePath errorFilePath = do
 
     persistResponse :: Handle -> [[String]] -> IO ()
     persistResponse csvHandle = mapM_ (hPutStrLn csvHandle . formatCSVRow)
-
-    fetchWebPage :: String -> [(String, String)] -> IO String
-    fetchWebPage url headers = do HC.fetchWebPage url headers
 
     extractTable :: String -> [[String]]
     extractTable html = fromMaybe [] (extractTableRows html)
