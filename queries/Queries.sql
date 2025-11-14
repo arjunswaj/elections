@@ -1,32 +1,39 @@
--- Create the database first if doesn't exist
+-- Create the database first if it doesn't exist
 -- CREATE DATABASE elections;
 
--- Switch to the database
--- USE elections;
+-- Connect to the database
+-- \c elections
 
-CREATE TABLE `ASSEMBLY_ELECTIONS_FEB2025` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `CODE` varchar(10) NOT NULL,
-  `STATE` varchar(100) NOT NULL,
-  `CONSTITUENCY` varchar(100) NOT NULL,
-  `CONSTITUENCY_ID` int(11) NOT NULL,
-  `CANDIDATE` varchar(100) NOT NULL,
-  `PARTY` varchar(100) NOT NULL,
-  `EVM_VOTES` int(11) NOT NULL,
-  `POSTAL_VOTES` int(11) NOT NULL,
-  `VOTES` int(11) NOT NULL,
-  `VOTE_PERCENTAGE` float(11) NOT NULL,
-  PRIMARY KEY (`id`),
-  KEY `CANDIDATE` (`CANDIDATE`) USING HASH
-) ENGINE=InnoDB AUTO_INCREMENT=8795 DEFAULT CHARSET=latin1;
+DROP TABLE IF EXISTS assembly_elections_nov2025;
 
-LOAD DATA LOCAL INFILE '/Users/arjun/Developer/haskell/elections/election_results.csv'
-INTO TABLE ASSEMBLY_ELECTIONS_FEB2025
-FIELDS TERMINATED BY ',' 
-LINES TERMINATED BY '\n';
+CREATE TABLE assembly_elections_nov2025 (
+  id SERIAL PRIMARY KEY,
+  code VARCHAR(10) NOT NULL,
+  state VARCHAR(100) NOT NULL,
+  constituency VARCHAR(100) NOT NULL,
+  constituency_id INT NOT NULL,
+  candidate VARCHAR(100) NOT NULL,
+  party VARCHAR(100) NOT NULL,
+  evm_votes INT NOT NULL,
+  postal_votes INT NOT NULL,
+  votes INT NOT NULL,
+  vote_percentage NUMERIC(7,3) NOT NULL
+);
 
-FLUSH TABLES ASSEMBLY_ELECTIONS_FEB2025;
+CREATE INDEX idx_assembly_elections_nov2025_candidate
+  ON assembly_elections_nov2025 (candidate);
 
-Select * FROM ASSEMBLY_ELECTIONS_FEB2025;
+\copy assembly_elections_nov2025 (id, code, state, constituency, constituency_id, candidate, party, evm_votes, postal_votes, votes, vote_percentage)
+FROM '/Users/arjun/Developer/haskell/elections/election_results.csv'
+WITH (FORMAT csv, HEADER false);
 
-Select COUNT(*) FROM ASSEMBLY_ELECTIONS_FEB2025;
+SELECT setval(
+  pg_get_serial_sequence('assembly_elections_nov2025', 'id'),
+  (SELECT COALESCE(MAX(id), 1) FROM assembly_elections_nov2025)
+);
+
+ANALYZE assembly_elections_nov2025;
+
+SELECT * FROM assembly_elections_nov2025 LIMIT 25;
+
+SELECT COUNT(*) FROM assembly_elections_nov2025;

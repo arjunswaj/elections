@@ -6,7 +6,7 @@ WITH ranked AS (
            vote_percentage,
            votes,
            ROW_NUMBER() OVER (PARTITION BY constituency ORDER BY votes DESC) AS rn
-    FROM public.assembly_elections_feb2025
+    FROM public.assembly_elections_nov2025
 ), third_place AS (
     SELECT constituency,
            party,
@@ -19,12 +19,12 @@ WITH ranked AS (
     SELECT party,
            COUNT(*) AS contests,
            AVG(vote_percentage) AS avg_pct
-    FROM public.assembly_elections_feb2025
+    FROM public.assembly_elections_nov2025
     GROUP BY party
 ), candidate_counts AS (
     SELECT constituency,
            COUNT(*) AS total_candidates
-    FROM public.assembly_elections_feb2025
+    FROM public.assembly_elections_nov2025
     GROUP BY constituency
 ), close_margins AS (
     SELECT w.constituency,

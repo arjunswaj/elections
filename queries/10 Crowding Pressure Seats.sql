@@ -2,7 +2,7 @@
 WITH candidate_counts AS (
     SELECT constituency,
            COUNT(*) AS candidate_count
-    FROM public.assembly_elections_feb2025
+    FROM public.assembly_elections_nov2025
     GROUP BY constituency
 ), ranked AS (
     SELECT constituency,
@@ -11,7 +11,7 @@ WITH candidate_counts AS (
            vote_percentage,
            postal_votes,
            ROW_NUMBER() OVER (PARTITION BY constituency ORDER BY votes DESC) AS rn
-    FROM public.assembly_elections_feb2025
+    FROM public.assembly_elections_nov2025
 ), others AS (
     SELECT constituency,
            SUM(vote_percentage) AS others_pct
