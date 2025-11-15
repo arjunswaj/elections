@@ -1,0 +1,16 @@
+state,constituency_code,constituency,winning_party,runner_up_party,candidate_count,others_vote_pct,margin_votes,margin_pct,postal_gap,crowding_band
+BIHAR,S0465,BALRAMPUR,Lok Janshakti Party (Ram Vilas),All India Majlis-E-Ittehadul Muslimeen,19,42.04,389,0.14,38,Ultra-crowded
+BIHAR,S04206,CHAINPUR,Janata Dal (United),Rashtriya Janata Dal,23,41.74,8362,3.65,-58,Ultra-crowded
+BIHAR,S0453,THAKURGANJ,Janata Dal (United),All India Majlis-E-Ittehadul Muslimeen,11,34.16,8822,3.59,183,Crowded
+BIHAR,S04114,MANJHI,Janata Dal (United),Communist Party of India (Marxist),13,28.45,9787,5.51,76,Crowded
+BIHAR,S04202,RAJPUR,Janata Dal (United),Indian National Congress,14,27.94,9136,4.33,-19,Crowded
+BIHAR,S04213,KARAKAT,Communist Party of India (Marxist-Leninist) (Liberation),Janata Dal (United),14,26.42,2836,1.44,134,Crowded
+BIHAR,S04203,RAMGARH,Bahujan Samaj Party,Bharatiya Janata Party,7,25.40,30,0.02,-14,Standard
+BIHAR,S04135,MORWA,Rashtriya Janata Dal,Janata Dal (United),10,25.35,8671,4.40,89,Crowded
+BIHAR,S04141,CHERIA,Janata Dal (United),Rashtriya Janata Dal,10,23.67,4119,2.15,-97,Crowded
+BIHAR,S04201,DUMRAON,Janata Dal (United),Communist Party of India (Marxist-Leninist) (Liberation),17,20.33,2105,1.07,-110,Ultra-crowded
+BIHAR,S047,CHANPATIA,Indian National Congress,Bharatiya Janata Party,6,20.13,602,0.27,184,Standard
+BIHAR,S04106,ZIRADEI,Janata Dal (United),Communist Party of India (Marxist-Leninist) (Liberation),11,17.79,2626,1.67,-13,Crowded
+BIHAR,S0466,PRANPUR,Bharatiya Janata Party,Rashtriya Janata Dal,14,17.74,7752,3.04,-126,Crowded
+BIHAR,S04223,AURANGABAD,Bharatiya Janata Party,Indian National Congress,16,16.63,6794,3.38,-282,Ultra-crowded
+BIHAR,S04221,NABINAGAR,Janata Dal (United),Rashtriya Janata Dal,10,15.48,112,0.06,-26,Crowded

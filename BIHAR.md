@@ -360,18 +360,13 @@ The following highlights rely on multi-layer joins that combine margin, vote-sha
 
 Seats where narrow margins collide with double-digit "others" vote share signal the highest volatility. Postal vote gaps are included to show where mailed ballots could tip the balance.
 
-|Constituency   |Winning Party            |Runner Up Party          |Candidates|Others Vote %|Margin Votes|Postal Vote Gap|Crowding Band|
-|---------------|------------------------|-------------------------|----------|-------------|------------|---------------|-------------|
-|MEHRAULI       |Bharatiya Janata Party  |Aam Aadmi Party          |9         |18.21        |1782        |186            |Standard     |
-|SANGAM VIHAR   |Bharatiya Janata Party  |Aam Aadmi Party          |12        |14.29        |344         |22             |Crowded      |
-|DELHI CANTT    |Aam Aadmi Party         |Bharatiya Janata Party   |8         |10.76        |2029        |-38            |Standard     |
-|SADAR BAZAR    |Aam Aadmi Party         |Bharatiya Janata Party   |12        |10.42        |6307        |-92            |Crowded      |
-|JANGPURA       |Bharatiya Janata Party  |Aam Aadmi Party          |10        |9.91         |675         |81             |Crowded      |
-|MALVIYA NAGAR  |Bharatiya Janata Party  |Aam Aadmi Party          |8         |9.46         |2131        |195            |Standard     |
-|AMBEDKAR NAGAR |Aam Aadmi Party         |Bharatiya Janata Party   |10        |9.10         |4230        |-15            |Crowded      |
-|HARI NAGAR     |Bharatiya Janata Party  |Aam Aadmi Party          |11        |9.05         |6632        |286            |Crowded      |
-|NEW DELHI      |Bharatiya Janata Party  |Aam Aadmi Party          |24        |8.99         |4089        |76             |Ultra-crowded|
-|TIMARPUR       |Bharatiya Janata Party  |Aam Aadmi Party          |13        |8.91         |1168        |144            |Crowded      |
+|Constituency | Winning Party                   | Runner Up Party                          | Candidates | Others Vote % | Margin Votes | Postal Vote Gap | Crowding Band   |
+|-------------|---------------------------------|------------------------------------------|------------|---------------|--------------|-----------------|-----------------|
+| BALRAMPUR   | Lok Janshakti Party (Ram Vilas) | All India Majlis-E-Ittehadul Muslimeen   | 19         | 42.04         | 389          | 38              | Ultra-crowded   |
+| CHAINPUR    | Janata Dal (United)             | Rashtriya Janata Dal                     | 23         | 41.74         | 8362         | -58             | Ultra-crowded   |
+| THAKURGANJ  | Janata Dal (United)             | All India Majlis-E-Ittehadul Muslimeen   | 11         | 34.16         | 8822         | 183             | Crowded         |
+| MANJHI      | Janata Dal (United)             | Communist Party of India (Marxist)       | 13         | 28.45         | 9787         | 76              | Crowded         |
+| RAJPUR      | Janata Dal (United)             | Indian National Congress                 | 14         | 27.94         | 9136         | -19             | Crowded         |
 
 #### Runner-up overperformance vs party baseline
 

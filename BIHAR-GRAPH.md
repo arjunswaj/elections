@@ -494,6 +494,14 @@ This matrix provides the number of seats in which parties lost by the number of 
 
 Crowded ballots with thin margins are visualized below using "others" vote share as a proxy for fragmentation.
 
+|Constituency | Winning Party                   | Runner Up Party                          | Candidates | Others Vote % | Margin Votes | Postal Vote Gap | Crowding Band   |
+|-------------|---------------------------------|------------------------------------------|------------|---------------|--------------|-----------------|-----------------|
+| BALRAMPUR   | Lok Janshakti Party (Ram Vilas) | All India Majlis-E-Ittehadul Muslimeen   | 19         | 42.04         | 389          | 38              | Ultra-crowded   |
+| CHAINPUR    | Janata Dal (United)             | Rashtriya Janata Dal                     | 23         | 41.74         | 8362         | -58             | Ultra-crowded   |
+| THAKURGANJ  | Janata Dal (United)             | All India Majlis-E-Ittehadul Muslimeen   | 11         | 34.16         | 8822         | 183             | Crowded         |
+| MANJHI      | Janata Dal (United)             | Communist Party of India (Marxist)       | 13         | 28.45         | 9787         | 76              | Crowded         |
+| RAJPUR      | Janata Dal (United)             | Indian National Congress                 | 14         | 27.94         | 9136         | -19             | Crowded         |
+
 ```mermaid
 ---
 config:
@@ -507,9 +515,9 @@ config:
 ---
 xychart-beta
     title "Crowding Pressure - Others Vote Share"
-    x-axis ["MEHRAULI", "SANGAM VIHAR", "DELHI CANTT", "SADAR BAZAR", "JANGPURA", "MALVIYA NAGAR", "AMBEDKAR NAGAR", "HARI NAGAR"]
-    y-axis "Others Vote %" 0 --> 20
-    bar [18.21, 14.29, 10.76, 10.42, 9.91, 9.46, 9.10, 9.05]
+    x-axis ["BALRAMPUR", "CHAINPUR", "THAKURGANJ", "MANJHI", "RAJPUR"]
+    y-axis "Others Vote %" 0 --> 45
+    bar [42.04, 41.74, 34.16, 28.45, 27.94]
 ```
 
 #### Runner-up overperformance vs party baseline
