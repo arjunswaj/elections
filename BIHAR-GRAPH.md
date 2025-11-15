@@ -427,21 +427,13 @@ xychart-beta
 
 #### Results of Candidates participating in multiple seats
 
-|Candidate            |Constituency    |State     |Party                        |Result|
-|---------------------|----------------|----------|-----------------------------|------|
-|ASHOK KUMAR          |ROHTAS NAGAR    |NEW DELHI |Bahujan Samaj Party          |LOST  |
-|ASHOK KUMAR          |MUSTAFABAD      |NEW DELHI |Bahujan Samaj Party          |LOST  |
-|MUKESH KUMAR         |MANGOL PURI     |NEW DELHI |Bahujan Samaj Party          |LOST  |
-|MUKESH KUMAR         |NANGLOI JAT     |NEW DELHI |Bahujan Samaj Party          |LOST  |
-|MUKESH KUMAR         |KONDLI          |NEW DELHI |Bahujan Samaj Party          |LOST  |
-|ASHOK KUMAR          |AMBEDKAR NAGAR  |NEW DELHI |Independent                  |LOST  |
-|ASHOK KUMAR          |HARI NAGAR      |NEW DELHI |Independent                  |LOST  |
-|DEEPAK KUMAR         |SULTANPUR MAJRA |NEW DELHI |Independent                  |LOST  |
-|DEEPAK KUMAR         |KAROL BAGH      |NEW DELHI |Independent                  |LOST  |
-|RAVI                 |KALKAJI         |NEW DELHI |Independent                  |LOST  |
-|RAVI                 |MADIPUR         |NEW DELHI |Independent                  |LOST  |
-|CHARAN SINGH MALIYAN |GOKALPUR        |NEW DELHI |Right to Recall Party        |LOST  |
-|CHARAN SINGH MALIYAN |SEEMAPURI       |NEW DELHI |Right to Recall Party        |LOST  |
+|Candidate            |Constituency       |State |Party                               |Result|
+|---------------------|-------------------|------|------------------------------------|------|
+|SANJAY KUMAR SINGH   |SIMRI BAKHTIARPUR  |BIHAR |Lok Janshakti Party (Ram Vilas)     |WON   |
+|SANJAY KUMAR SINGH   |MAHUA              |BIHAR |Lok Janshakti Party (Ram Vilas)     |WON   |
+|ASHOK KUMAR          |SASARAM            |BIHAR |Bahujan Samaj Party                 |LOST  |
+|ASHOK KUMAR          |KURTHA             |BIHAR |Bahujan Samaj Party                 |LOST  |
+|ASHOK KUMAR          |NAWADA             |BIHAR |Bahujan Samaj Party                 |LOST  |
 
 ### Close Contest Matrix
 This matrix provides the number of seats in which parties lost by the number of votes provided in the columns.
