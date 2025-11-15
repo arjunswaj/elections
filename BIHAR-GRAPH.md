@@ -244,16 +244,11 @@ xychart-beta
 ```mermaid
 pie
     title Total Vote Share of Parties
-    "Bharatiya Janata Party" : 45.5622
-    "Aam Aadmi Party" : 43.5680
-    "Indian National Congress" : 6.3438
-    "Janata Dal (United)" : 1.0600
-    "All India Majlis-E-Ittehadul Muslimeen" : 0.7697
-    "Bahujan Samaj Party" : 0.5804
-    "None of the Above" : 0.5664
-    "Lok Janshakti Party(Ram Vilas)" : 0.5292
-    "Independent" : 0.4620
-    "Aazad Samaj Party (Kanshi Ram)" : 0.0920
+    "Rashtriya Janata Dal" : 22.9966
+    "Bharatiya Janata Party" : 20.0789
+    "Janata Dal (United)" : 19.2542
+    "Indian National Congress" : 8.7130
+    "Independent" : 5.0118
 ```
 
 #### Maximum Vote Share of Winning Candidate
@@ -289,9 +284,9 @@ config:
 ---
 xychart-beta
     title "Least Vote Share for a Winning Candidate"
-    x-axis ["AAHIR DEEPAK CHAUDHARYY (BJP, BADLI)", "GAJENDER SINGH YADAV (BJP, MEHRAULI)", "MOHAN SINGH BISHT (BJP, MUSTAFABAD)", "AMANATULLAH KHAN (AAP, OKHLA)", "CHANDAN KUMAR CHOUDHARY (BJP, SANGAM VIHAR)"]
-    y-axis "Vote Share" 40 --> 45
-    bar [40.5605, 41.6680, 42.3616, 42.4504, 42.9936]
+    x-axis ["SANGITA DEVI (LJP(RV), BALRAMPUR)", "MD. ZAMA KHAN (JD(U), CHAINPUR)", "SAVITRI DEVI (RJD, CHAKAI)", "GOPAL KUMAR AGARWAL (JD(U), THAKURGANJ)", "NITESH KUMAR SINGH (LJP(RV), KASBA)"]
+    y-axis "Vote Share" 25 --> 40
+    bar [29.0388, 30.9394, 34.5083, 34.7127, 36.8109]
 ```
 
 #### Max Vote Share of a Losing Candidate
@@ -308,9 +303,9 @@ config:
 ---
 xychart-beta
     title "Max Vote Share of a Losing Candidate"
-    x-axis ["DURGESH PATHAK (AAP, RAJINDER NAGAR)", "ANJANA PARCHA (AAP, TRILOKPURI)", "RAAJ KUMAR ANAND (BJP, PATEL NAGAR)", "JITENDER SINGH SHUNTY (AAP, SHAHDARA)", "RAMESH BIDHURI (BJP, KALKAJI)"]
-    y-axis "Vote Share" 45 --> 47
-    bar [46.74, 45.79, 45.55, 45.54, 45.50]
+    x-axis ["VIDYA SAGAR KESHARI (BJP, FORBESGANJ)", "SHAMIM AHMAD (RJD, NARKATIA)", "PAWAN KUMAR JAISWAL (BJP, DHAKA)", "SUNIL KUMAR (RJD, SITAMARHI)", "RAJ KUMAR SINGH (JD(U), MATIHANI)"]
+    y-axis "Vote Share" 45 --> 50
+    bar [47.6800, 46.0600, 45.6400, 45.5400, 45.5200]
 ```
 
 #### Seats in which Parties Lost Deposits (less than 1/6 vote share)
@@ -327,9 +322,9 @@ config:
 ---
 xychart-beta
     title "Seats in which Parties Lost Deposits"
-    x-axis ["Independent", "Bahujan Samaj Party", "Indian National Congress", "Right to Recall Party", "Peoples Party of India (Democratic)", "Nationalist Congress Party", "Aazad Samaj Party (Kanshi Ram)"]
-    y-axis "Number of Seats" 0 --> 150
-    bar [138, 68, 67, 20, 18, 17, 14]
+    x-axis ["Independent", "None of the Above", "Jan Suraaj Party", "Bahujan Samaj Party", "Aam Aadmi Party"]
+    y-axis "Number of Seats" 0 --> 950
+    bar [915, 243, 236, 176, 83]
 ```
 
 #### Gold (Seats that Parties Won)

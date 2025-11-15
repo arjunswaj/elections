@@ -163,18 +163,13 @@ A total of 2,616 candidates contested in the Bihar assembly elections and about 
 
 #### Total Vote Share of Parties
 
-|Party                                        |Votes   |Vote Share|
-|---------------------------------------------|--------|----------|
-|Bharatiya Janata Party                       |4323110 |45.5622   |
-|Aam Aadmi Party                              |4133898 |43.5680   |
-|Indian National Congress                     |601922  |6.3438    |
-|Janata Dal  (United)                         |100580  |1.0600    |
-|All India Majlis-E-Ittehadul Muslimeen       |73032   |0.7697    |
-|Bahujan Samaj Party                          |55066   |0.5804    |
-|None of the Above                            |53738   |0.5664    |
-|Lok Janshakti Party(Ram Vilas)               |50209   |0.5292    |
-|Independent                                  |43833   |0.4620    |
-|Aazad Samaj Party (Kanshi Ram)               |8727    |0.0920    |
+|Party                      |Votes    |Vote Share|
+|---------------------------|---------|----------|
+|Rashtriya Janata Dal       |11546055 |22.9966   |
+|Bharatiya Janata Party     |10081143 |20.0789   |
+|Janata Dal (United)        |9667118  |19.2542   |
+|Indian National Congress   |4374579  |8.7130    |
+|Independent                |2516297  |5.0118    |
 
 #### Maximum Vote share for a winning candidate
 
@@ -188,35 +183,33 @@ A total of 2,616 candidates contested in the Bihar assembly elections and about 
 
 #### Least Vote share for a winning candidate
 
-|Candidate                 |Party                     |Constituency  |State     |Vote Share|
-|--------------------------|--------------------------|--------------|----------|----------|
-|AAHIR DEEPAK CHAUDHARYY   |Bharatiya Janata Party    |BADLI         |NEW DELHI |40.5605   |
-|GAJENDER SINGH YADAV      |Bharatiya Janata Party    |MEHRAULI      |NEW DELHI |41.6680   |
-|MOHAN SINGH BISHT         |Bharatiya Janata Party    |MUSTAFABAD    |NEW DELHI |42.3616   |
-|AMANATULLAH KHAN          |Aam Aadmi Party           |OKHLA         |NEW DELHI |42.4504   |
-|CHANDAN KUMAR CHOUDHARY   |Bharatiya Janata Party    |SANGAM VIHAR  |NEW DELHI |42.9936   |
+|Candidate             |Party                          |Constituency |State |Vote Share|
+|----------------------|-------------------------------|-------------|------|----------|
+|SANGITA DEVI          |Lok Janshakti Party (Ram Vilas)|BALRAMPUR    |BIHAR |29.0388   |
+|MD. ZAMA KHAN         |Janata Dal (United)            |CHAINPUR     |BIHAR |30.9394   |
+|SAVITRI DEVI          |Rashtriya Janata Dal           |CHAKAI       |BIHAR |34.5083   |
+|GOPAL KUMAR AGARWAL   |Janata Dal (United)            |THAKURGANJ   |BIHAR |34.7127   |
+|NITESH KUMAR SINGH    |Lok Janshakti Party (Ram Vilas)|KASBA        |BIHAR |36.8109   |
 
 #### Max Vote share of a losing candidate
 
-|Candidate                   |Party                      |Constituency   |State      |Vote Share of Losing Candidate|
-|----------------------------|---------------------------|---------------|-----------|------------------------------|
-|DURGESH PATHAK              |Aam Aadmi Party            |RAJINDER NAGAR |NEW DELHI  |46.74                         |
-|ANJANA PARCHA              |Aam Aadmi Party            |TRILOKPURI    |NEW DELHI  |45.79                         |
-|RAAJ KUMAR ANAND           |Bharatiya Janata Party     |PATEL NAGAR   |NEW DELHI  |45.55                         |
-|JITENDER SINGH SHUNTY      |Aam Aadmi Party            |SHAHDARA      |NEW DELHI  |45.54                         |
-|RAMESH BIDHURI             |Bharatiya Janata Party     |KALKAJI      |NEW DELHI  |45.50                         |
+|Candidate              |Party                    |Constituency |State |Vote Share of Losing Candidate|
+|-----------------------|-------------------------|-------------|------|------------------------------|
+|VIDYA SAGAR KESHARI    |Bharatiya Janata Party   |FORBESGANJ   |BIHAR |47.6800                       |
+|SHAMIM AHMAD           |Rashtriya Janata Dal     |NARKATIA     |BIHAR |46.0600                       |
+|PAWAN KUMAR JAISWAL    |Bharatiya Janata Party   |DHAKA        |BIHAR |45.6400                       |
+|SUNIL KUMAR            |Rashtriya Janata Dal     |SITAMARHI    |BIHAR |45.5400                       |
+|RAJ KUMAR SINGH        |Janata Dal (United)      |MATIHANI     |BIHAR |45.5200                       |
 
 #### Seats in which Parties lost deposits (less than 1/6 vote share)
 
-|Party                                   |Number of Seats with less than 1/6 votes|
-|----------------------------------------|----------------------------------------|
-|Independent                             |138                                     |
-|Bahujan Samaj Party                     |68                                      |
-|Indian National Congress                |67                                      |
-|Right to Recall Party                   |20                                      |
-|Peoples Party of India (Democratic)     |18                                      |
-|Nationalist Congress Party              |17                                      |
-|Aazad Samaj Party (Kanshi Ram)          |14                                      |
+|Party                    |Number of Seats with less than 1/6 votes|
+|-------------------------|----------------------------------------|
+|Independent              |915                                     |
+|None of the Above        |243                                     |
+|Jan Suraaj Party         |236                                     |
+|Bahujan Samaj Party      |176                                     |
+|Aam Aadmi Party          |83                                      |
 
 ### Medals
 
