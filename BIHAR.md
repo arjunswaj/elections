@@ -45,7 +45,7 @@
 
 The 2025 Delhi Legislative Assembly elections were held in Delhi on 5 February 2025 to elect all 70 members of the Delhi Legislative Assembly. The counting of votes and declaration of result took place on 8 February 2025. ([wiki](https://en.wikipedia.org/wiki/2025_Delhi_Legislative_Assembly_election)).
 
-This page provides the highlights of the results. Complete results of the analysis can be seen [here](https://github.com/arjunswaj/elections/tree/delhi-2025/result/NewDelhi).
+This page provides the highlights of the results. Complete results of the analysis can be seen [here](https://github.com/arjunswaj/elections/tree/delhi-2025/result/Bihar).
 
 ## Analysis
 A total of 2,616 candidates contested in the Bihar assembly elections and about 5.02 Crore (`50207733`) votes were cast during this period. Excluding Independents and NOTA, 163 registered parties featured on the ballot—from the big alliances.
@@ -354,7 +354,7 @@ This matrix provides the number of seats in which parties lost by the number of 
 
 ### Advanced Join Insights
 
-The following highlights rely on multi-layer joins that combine margin, vote-share distribution, and competition intensity. Full result sets are saved in `result/NewDelhi/21 Crowding Pressure Seats.csv`, `result/NewDelhi/22 Runner Up Overperformance.csv`, `result/NewDelhi/23 HHI Win Mix.csv`, and `result/NewDelhi/24 Third Place Spoilers.csv`.
+The following highlights rely on multi-layer joins that combine margin, vote-share distribution, and competition intensity. Full result sets are saved in `result/Bihar/22 Crowding Pressure Seats.csv`, `result/Bihar/23 Runner Up Overperformance.csv`, `result/Bihar/24 HHI Win Mix.csv`, and `result/Bihar/25 Third Place Spoilers.csv`.
 
 #### Crowding pressure seats
 
@@ -398,11 +398,8 @@ Third-place performers who beat their party’s customary share often decide the
 
 |Constituency   |Party                    |Candidate                 |Third Place %|Party Avg %|Overperformance %|Candidates|Margin Votes|
 |---------------|-------------------------|--------------------------|-------------|-----------|-----------------|----------|------------|
-|MEHRAULI       |Independent              |BALYOGI BABA BALAKNATH    |8.39         |0.23       |8.16             |9         |1782        |
-|SANGAM VIHAR   |Indian National Congress |HARSH CHOUDHARY           |12.62        |6.69       |5.93             |12        |344         |
-|DELHI CANTT    |Indian National Congress |PRADEEP KUMAR UPMANYU     |8.96         |6.69       |2.27             |8         |2029        |
-|JANGPURA       |Indian National Congress |FARHAD SURI               |8.60         |6.69       |1.91             |10        |675         |
-|SADAR BAZAR    |Indian National Congress |ANIL BHARDWAJ             |8.49         |6.69       |1.80             |12        |6307        |
-|MALVIYA NAGAR  |Indian National Congress |JITENDER KUMAR KOCHAR     |7.96         |6.69       |1.27             |8         |2131        |
-|NEW DELHI      |Indian National Congress |SANDEEP DIKSHIT           |7.41         |6.69       |0.72             |24        |4089        |
-|AMBEDKAR NAGAR |Indian National Congress |JAI PRAKASH               |7.38         |6.69       |0.69             |10        |4230        
+|CHAINPUR       |Bahujan Samaj Party      |DHIRAJ KUMAR SINGH        |22.35        |2.21       |20.14            |23        |8362        |
+|MORWA          |Independent              |ABHAY KUMAR SINGH         |15.27        |1.33       |13.94            |10        |8671        |
+|CHANPATIA      |Jan Suraaj Party         |TRIPURARI KUMAR TIWARI ALIAS MANISH KASHYAP|17.02        |3.48       |13.54            |6         |602         |
+|KARAKAT        |Independent              |JYOTI SINGH               |11.87        |1.33       |10.54            |14        |2836        |
+|MANJHI         |Independent              |RANA PRATAP SINGH         |10.77        |1.33       |9.44             |13        |9787        |

@@ -44,7 +44,7 @@
 
 The 2025 Delhi Legislative Assembly elections were held in Delhi on 5 February 2025 to elect all 70 members of the Delhi Legislative Assembly. The counting of votes and declaration of result took place on 8 February 2025. ([wiki](https://en.wikipedia.org/wiki/2025_Delhi_Legislative_Assembly_election)).
 
-This page provides the highlights of the results. Complete results of the analysis can be seen [here](https://github.com/arjunswaj/elections/tree/delhi-2025/result/NewDelhi).
+This page provides the highlights of the results. Complete results of the analysis can be seen [here](https://github.com/arjunswaj/elections/tree/delhi-2025/result/Bihar).
 
 ## Analysis
 A total of 2,616 candidates contested in the Bihar assembly elections and about 5.02 Crore (`50207733`) votes were cast during this period.
@@ -602,7 +602,7 @@ config:
 ---
 xychart-beta
     title "Third-place Overperformance"
-    x-axis ["MEHRAULI", "SANGAM VIHAR", "DELHI CANTT", "JANGPURA", "SADAR BAZAR", "MALVIYA NAGAR", "NEW DELHI", "AMBEDKAR NAGAR"]
-    y-axis "Overperformance %" 0 --> 9
-    bar [8.16, 5.93, 2.27, 1.91, 1.80, 1.27, 0.72, 0.69]
+    x-axis ["CHAINPUR", "MORWA", "CHANPATIA", "KARAKAT", "MANJHI"]
+    y-axis "Overperformance %" 0 --> 25
+    bar [20.14, 13.94, 13.54, 10.54, 9.44]
 ```
