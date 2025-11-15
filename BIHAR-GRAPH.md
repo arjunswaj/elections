@@ -341,9 +341,9 @@ config:
 ---
 xychart-beta
     title "Gold (Seats that Parties Won)"
-    x-axis ["Bharatiya Janata Party", "Aam Aadmi Party"]
-    y-axis "Number of Seats" 0 --> 50
-    bar [48, 22]
+    x-axis ["Bharatiya Janata Party", "Janata Dal (United)", "Rashtriya Janata Dal", "Lok Janshakti Party (Ram Vilas)", "Indian National Congress"]
+    y-axis "Number of Seats" 0 --> 100
+    bar [88, 84, 25, 19, 6]
 ```
 
 #### Silver (Seats that Parties Came in Second)
@@ -360,9 +360,9 @@ config:
 ---
 xychart-beta
     title "Silver (Seats that Parties Came in Second)"
-    x-axis ["Aam Aadmi Party", "Bharatiya Janata Party", "Indian National Congress", "Lok Janshakti Party(Ram Vilas)", "Janata Dal (United)"]
-    y-axis "Number of Seats" 0 --> 50
-    bar [47, 20, 1, 1, 1]
+    x-axis ["Rashtriya Janata Dal", "Indian National Congress", "Janata Dal (United)", "CPI (ML) Liberation", "Bharatiya Janata Party"]
+    y-axis "Number of Seats" 0 --> 120
+    bar [112, 48, 17, 14, 12]
 ```
 
 #### Cost per Vote - Best Value

@@ -48,7 +48,7 @@ The 2025 Delhi Legislative Assembly elections were held in Delhi on 5 February 2
 This page provides the highlights of the results. Complete results of the analysis can be seen [here](https://github.com/arjunswaj/elections/tree/delhi-2025/result/NewDelhi).
 
 ## Analysis
-A total of 2,616 candidates contested in the Bihar assembly elections and about 5.02 Crore (`50207733`) votes were cast during this period.
+A total of 2,616 candidates contested in the Bihar assembly elections and about 5.02 Crore (`50207733`) votes were cast during this period. Excluding Independents and NOTA, 163 registered parties featured on the ballot—from the big alliances.
 
 ### Seats contested by Parties
 
@@ -215,20 +215,23 @@ A total of 2,616 candidates contested in the Bihar assembly elections and about 
 
 #### Gold (Seats that Parties won)
 
-|Party                  |Number of Seats Won|
-|-----------------------|-------------------|
-|Bharatiya Janata Party |48                 |
-|Aam Aadmi Party        |22                 |
+|Party                              |Number of Seats Won|
+|-----------------------------------|-------------------|
+|Bharatiya Janata Party             |88                 |
+|Janata Dal (United)                |84                 |
+|Rashtriya Janata Dal               |25                 |
+|Lok Janshakti Party (Ram Vilas)    |19                 |
+|Indian National Congress           |6                  |
 
 #### Silver (Seats that Parties came in second)
 
-|Party                          |Silver Medals|
-|-------------------------------|-------------|
-|Aam Aadmi Party                |47           |
-|Bharatiya Janata Party         |20           |
-|Indian National Congress       |1            |
-|Lok Janshakti Party(Ram Vilas) |1            |
-|Janata Dal (United)            |1            |
+|Party                                                      |Silver Medals|
+|-----------------------------------------------------------|-------------|
+|Rashtriya Janata Dal                                       |112          |
+|Indian National Congress                                   |48           |
+|Janata Dal (United)                                        |17           |
+|Communist Party of India (Marxist-Leninist) (Liberation)   |14           |
+|Bharatiya Janata Party                                     |12           |
 
 ### Strike Rates
 
