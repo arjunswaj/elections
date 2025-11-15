@@ -303,11 +303,11 @@ This matrix provides the number of seats in which parties lost by the number of 
 
 | PARTY                           | < 500 | < 2500 | < 5000 | < 10000 | < 15000 | < 25000 | < 50000 |
 |---------------------------------|-------|--------|--------|---------|---------|---------|---------|
-| Aam Aadmi Party                 | 2     | 7      | 9      | 16      | 27      | 35      | 47      |
-| Bharatiya Janata Party          | 0     | 1      | 4      | 8       | 11      | 16      | 20      |
-| Indian National Congress        | 0     | 0      | 0      | 0       | 1       | 1       | 1       |
-| Janata Dal (United)             | 0     | 0      | 0      | 0       | 0       | 1       | 1       |
-| Lok Janshakti Party (Ram Vilas) | 0     | 0      | 0      | 0       | 0       | 0       | 1       |
+| All India Majlis-E-Ittehadul Muslimeen | 1 | 1 | 1 | 2 | 2 | 2 | 2 |
+| Bahujan Samaj Party             | 0     | 0      | 0      | 0       | 0       | 0       | 1       |
+| Bharatiya Janata Party          | 3     | 5      | 6      | 8       | 10      | 10      | 11      |
+| Communist Party of India        | 0     | 0      | 0      | 0       | 0       | 2       | 4       |
+| Communist Party of India (Marxist) | 0  | 0      | 0      | 1       | 3       | 3       | 3       |
 
 
 #### Party Specific Close Contest Matrix
