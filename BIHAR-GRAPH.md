@@ -84,9 +84,9 @@ config:
 ---
 xychart-beta
     title "Maximum Votes for a Candidate"
-    x-axis ["SANDEEP SEHRAWAT (BJP, MATIALA)", "PANKAJ KUMAR SINGH (BJP, VIKASPURI)", "MAHINDER YADAV (AAP, VIKASPURI)", "SANJEEV JHA (AAP, BURARI)", "RAVINDER INDRAJ SINGH (BJP, BAWANA)"]
-    y-axis "Number of Votes" 100000 --> 150000
-    bar [146295, 135564, 122688, 121181, 119515]
+    x-axis ["MURARI PASAVAN (BJP, PIRPAINTI)", "LESHI SINGH (JD(U), DHAMDAHA)", "NARENDRA NARAYAN YADAV (JD(U), ALAMNAGAR)", "SHUBHANAND MUKESH (JD(U), KAHALGAON)", "RATNESH KUMAR (BJP, PATNA SAHIB)"]
+    y-axis "Number of Votes" 120000 --> 150000
+    bar [140608, 138750, 138401, 130767, 130366]
 ```
 
 #### Least votes for a winning candidate
@@ -103,9 +103,9 @@ config:
 ---
 xychart-beta
     title "Least Votes for a Winning Candidate"
-    x-axis ["TARVINDER SINGH MARWAH (BJP, JANGPURA)", "UMANG BAJAJ (BJP, RAJINDER NAGAR)", "CHANDAN KUMAR CHOUDHARY (BJP, SANGAM VIHAR)", "SURYA PRAKASH KHATRI (BJP, TIMARPUR)", "RAVI KANT (BJP, TRILOKPURI)"]
-    y-axis "Number of Votes" 35000 --> 60000
-    bar [38859, 46671, 54049, 55941, 58217]
+    x-axis ["DR. KUMAR PUSPANJAY (JD(U), BARBIGHA)", "BHISM PRATAP SINGH (JD(U), ZIRADEI)", "RANDHIR KUMAR SINGH (JD(U), MANJHI)", "MAHESH PASWAN (BJP, AGIAON)", "MD. ZAMA KHAN (JD(U), CHAINPUR)"]
+    y-axis "Number of Votes" 60000 --> 75000
+    bar [61882, 66227, 68455, 69412, 70876]
 ```
 
 #### Max votes for a losing candidate
@@ -122,9 +122,9 @@ config:
 ---
 xychart-beta
     title "Max Votes for a Losing Candidate"
-    x-axis ["MAHINDER YADAV (AAP, VIKASPURI)", "SUMESH SHOKEEN (AAP, MATIALA)", "SHAILENDRA KUMAR (JD(U), BURARI)", "JAI BHAGWAN UPKAR (AAP, BAWANA)", "NARAYAN DUTT SHARMA (BJP, BADARPUR)"]
-    y-axis "Number of Votes" 80000 --> 130000
-    bar [122688, 117572, 100580, 88040, 87103]
+    x-axis ["VIDYA SAGAR KESHARI (BJP, FORBESGANJ)", "ALOK RANJAN (BJP, SAHARSA)", "PAWAN KUMAR JAISWAL (BJP, DHAKA)", "RAJ KUMAR SINGH (JD(U), MATIHANI)", "DR. VIPIN KUMAR SINGH (RJD, CHHATAPUR)"]
+    y-axis "Number of Votes" 100000 --> 125000
+    bar [119893, 112998, 112549, 112499, 106313]
 ```
 
 #### Candidates winning by Max margin (Unilateral winner)
@@ -141,9 +141,9 @@ config:
 ---
 xychart-beta
     title "Candidates Winning by Max Margin"
-    x-axis ["AALEY MOHAMMED IQBAL (AAP, MATIA MAHAL)", "CHAUDHARY ZUBAIR AHMAD (AAP, SEELAM PUR)", "VIJENDER GUPTA (BJP, ROHINI)", "PREM CHAUHAN (AAP, DEOLI)", "RAVINDER INDRAJ SINGH (BJP, BAWANA)"]
-    y-axis "Vote Difference" 30000 --> 45000
-    bar [42724, 42477, 37816, 36680, 31475]
+    x-axis ["KALADHAR PRASAD MANDAL (JD(U), RUPAULI)", "SANJIV CHAURASIA (BJP, DIGHA)", "RAJESH KUMAR ALIAS BABLU GUPTA (LJP (Ram Vilas), SUGAULI)", "SHAILESH KUMAR ALIAS BULO MANDAL (JD(U), GOPALPUR)", "RAMA NISHAD (BJP, AURAI)"]
+    y-axis "Vote Difference" 50000 --> 80000
+    bar [73572, 59079, 58191, 58135, 57206]
 ```
 
 #### Candidates winning by Least margin (Fierce battle)
@@ -160,9 +160,9 @@ config:
 ---
 xychart-beta
     title "Candidates Winning by Least Margin"
-    x-axis ["CHANDAN KUMAR CHOUDHARY (BJP, SANGAM VIHAR)", "RAVI KANT (BJP, TRILOKPURI)", "TARVINDER SINGH MARWAH (BJP, JANGPURA)", "SURYA PRAKASH KHATRI (BJP, TIMARPUR)", "UMANG BAJAJ (BJP, RAJINDER NAGAR)"]
-    y-axis "Vote Difference" 0 --> 1500
-    bar [344, 392, 675, 1168, 1231]
+    x-axis ["RADHA CHARAN SAH (JD(U), SANDESH)", "SATISH KUMAR SINGH YADAV (BSP, RAMGARH)", "MAHESH PASWAN (BJP, AGIAON)", "CHETAN ANAND (JD(U), NABINAGAR)", "FAISAL RAHMAN (RJD, DHAKA)"]
+    y-axis "Vote Difference" 0 --> 200
+    bar [27, 30, 95, 112, 178]
 ```
 #### Max Total Votes in a Constituency
 ```mermaid

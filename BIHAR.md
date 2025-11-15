@@ -5,6 +5,7 @@
     + [Seats contested by Parties](#seats-contested-by-parties)
     + [Max and Mins](#max-and-mins)
       - [Maximum votes for a candidate](#maximum-votes-for-a-candidate)
+  - [Least votes for a winning candidate](#least-votes-for-a-winning-candidate)
       - [Max votes for a losing candidate](#max-votes-for-a-losing-candidate)
       - [Candidates winning by Max margin (Unilateral winner)](#candidates-winning-by-max-margin--unilateral-winner-)
       - [Candidates winning by Least margin (Fierce battle)](#candidates-winning-by-least-margin--fierce-battle-)
@@ -68,43 +69,53 @@ A total of 2,616 candidates contested in the Bihar assembly elections and about 
 
 #### Maximum votes for a candidate
 
-|Candidate              |Party                  |Constituency |State     |Number of Votes|
-|-----------------------|-----------------------|-------------|----------|---------------|
-|SANDEEP SEHRAWAT       |Bharatiya Janata Party |MATIALA      |NEW DELHI |146295         |
-|PANKAJ KUMAR SINGH     |Bharatiya Janata Party |VIKASPURI    |NEW DELHI |135564         |
-|MAHINDER YADAV         |Aam Aadmi Party        |VIKASPURI    |NEW DELHI |122688         |
-|SANJEEV JHA            |Aam Aadmi Party        |BURARI       |NEW DELHI |121181         |
-|RAVINDER INDRAJ SINGH  |Bharatiya Janata Party |BAWANA       |NEW DELHI |119515         |
+|Candidate              |Party                  |Constituency |State |Number of Votes|
+|-----------------------|-----------------------|-------------|------|---------------|
+|MURARI PASAVAN         |Bharatiya Janata Party |PIRPAINTI    |BIHAR |140608         |
+|LESHI SINGH            |Janata Dal (United)    |DHAMDAHA     |BIHAR |138750         |
+|NARENDRA NARAYAN YADAV |Janata Dal (United)    |ALAMNAGAR    |BIHAR |138401         |
+|SHUBHANAND MUKESH      |Janata Dal (United)    |KAHALGAON    |BIHAR |130767         |
+|RATNESH KUMAR          |Bharatiya Janata Party |PATNA SAHIB  |BIHAR |130366         |
+
+#### Least votes for a winning candidate
+
+|Candidate             |Party                  |Constituency |State |Number of Votes|
+|----------------------|-----------------------|-------------|------|---------------|
+|DR. KUMAR PUSPANJAY   |Janata Dal (United)    |BARBIGHA     |BIHAR |61882          |
+|BHISM PRATAP SINGH    |Janata Dal (United)    |ZIRADEI      |BIHAR |66227          |
+|RANDHIR KUMAR SINGH   |Janata Dal (United)    |MANJHI       |BIHAR |68455          |
+|MAHESH PASWAN         |Bharatiya Janata Party |AGIAON       |BIHAR |69412          |
+|MD. ZAMA KHAN         |Janata Dal (United)    |CHAINPUR     |BIHAR |70876          |
 
 #### Max votes for a losing candidate
 
-|Candidate              |Party                         |Constituency  |State     |Number of Votes|
-|-----------------------|------------------------------|--------------|----------|---------------|
-|MAHINDER YADAV         |Aam Aadmi Party               |VIKASPURI     |NEW DELHI |122688         |
-|SUMESH SHOKEEN         |Aam Aadmi Party               |MATIALA       |NEW DELHI |117572         |
-|SHAILENDRA KUMAR       |Janata Dal  (United)          |BURARI        |NEW DELHI |100580         |
-|JAI BHAGWAN UPKAR      |Aam Aadmi Party               |BAWANA        |NEW DELHI |88040          |
-|NARAYAN DUTT SHARMA    |Bharatiya Janata Party        |BADARPUR      |NEW DELHI |87103          |
+|Candidate              |Party                         |Constituency |State |Number of Votes|
+|-----------------------|------------------------------|-------------|------|---------------|
+|VIDYA SAGAR KESHARI    |Bharatiya Janata Party        |FORBESGANJ   |BIHAR |119893         |
+|ALOK RANJAN            |Bharatiya Janata Party        |SAHARSA      |BIHAR |112998         |
+|PAWAN KUMAR JAISWAL    |Bharatiya Janata Party        |DHAKA        |BIHAR |112549         |
+|RAJ KUMAR SINGH        |Janata Dal (United)           |MATIHANI     |BIHAR |112499         |
+|DR. VIPIN KUMAR SINGH  |Rashtriya Janata Dal          |CHHATAPUR    |BIHAR |106313         |
 
 #### Candidates winning by Max margin (Unilateral winner)
 
-|State     |Constituency |Winner                   |Winning Party           |Winner Votes|Runner Up                     |Runner Up Party                  |Runner up Votes|Vote Difference|
-|----------|-------------|-------------------------|------------------------|------------|------------------------------|---------------------------------|---------------|---------------|
-|NEW DELHI |MATIA MAHAL  |AALEY MOHAMMED IQBAL     |Aam Aadmi Party         |58120       |DEEPTI INDORA                 |Bharatiya Janata Party           |15396         |42724          |
-|NEW DELHI |SEELAM PUR   |CHAUDHARY ZUBAIR AHMAD   |Aam Aadmi Party         |79009       |ANIL KUMAR SHARMA (GAUR)       |Bharatiya Janata Party           |36532         |42477          |
-|NEW DELHI |ROHINI      |VIJENDER GUPTA           |Bharatiya Janata Party  |70365       |PARDEEP MITTAL               |Aam Aadmi Party                 |32549         |37816          |
-|NEW DELHI |DEOLI       |PREM CHAUHAN             |Aam Aadmi Party         |86889       |DEEPAK TANWAR               |Lok Janshakti Party(Ram Vilas)    |50209         |36680          |
-|NEW DELHI |BAWANA      |RAVINDER INDRAJ SINGH    |Bharatiya Janata Party  |119515      |JAI BHAGWAN UPKAR            |Aam Aadmi Party                 |88040         |31475          |
+|State |Constituency |Winner                       |Winning Party                                |Winner Votes|Runner Up                    |Runner Up Party                                               |Runner up Votes|Vote Difference|
+|------|-------------|-----------------------------|---------------------------------------------|------------|-----------------------------|-------------------------------------------------------------|---------------|---------------|
+|BIHAR |RUPAULI      |KALADHAR PRASAD MANDAL       |Janata Dal (United)                          |124826      |BIMA BHARTI                 |Rashtriya Janata Dal                                        |51254         |73572          |
+|BIHAR |DIGHA        |SANJIV CHAURASIA             |Bharatiya Janata Party                       |111001      |DIVYA GAUTAM                |Communist Party of India (Marxist-Leninist) (Liberation)    |51922         |59079          |
+|BIHAR |SUGAULI      |RAJESH KUMAR ALIAS BABLU GUPTA|Lok Janshakti Party (Ram Vilas)             |98875       |SHYAM KISHOR CHAUDHARY      |Janshakti Janta Dal                                         |40684         |58191          |
+|BIHAR |GOPALPUR     |SHAILESH KUMAR ALIAS BULO MANDAL|Janata Dal (United)                       |108630      |PREM SAGAR ALIAS DABLU YADAV|Vikassheel Insaan Party                                     |50495         |58135          |
+|BIHAR |AURAI        |RAMA NISHAD                  |Bharatiya Janata Party                       |104085      |BHOGENDRA SAHNI            |Vikassheel Insaan Party                                     |46879         |57206          |
 
 #### Candidates winning by Least margin (Fierce battle)
 
-|State     |Constituency   |Winner                      |Winning Party          |Winner Votes|Runner Up                     |Runner Up Party         |Runner up Votes|Vote Difference|
-|----------|---------------|----------------------------|-----------------------|------------|------------------------------|------------------------|---------------|---------------|
-|NEW DELHI |SANGAM VIHAR   |CHANDAN KUMAR CHOUDHARY     |Bharatiya Janata Party |54049       |DINESH MOHANIYA               |Aam Aadmi Party         |53705          |344            |
-|NEW DELHI |TRILOKPURI     |RAVI KANT                   |Bharatiya Janata Party |58217       |ANJANA PARCHA                 |Aam Aadmi Party         |57825          |392            |
-|NEW DELHI |JANGPURA       |TARVINDER SINGH MARWAH      |Bharatiya Janata Party |38859       |MANISH SISODIA                |Aam Aadmi Party         |38184          |675            |
-|NEW DELHI |TIMARPUR       |SURYA PRAKASH KHATRI        |Bharatiya Janata Party |55941       |SURINDER PAL SINGH (BITTOO)   |Aam Aadmi Party         |54773          |1168           |
-|NEW DELHI |RAJINDER NAGAR |UMANG BAJAJ                 |Bharatiya Janata Party |46671       |DURGESH PATHAK                |Aam Aadmi Party         |45440          |1231           |
+|State |Constituency |Winner                    |Winning Party                                |Winner Votes|Runner Up             |Runner Up Party                                               |Runner up Votes|Vote Difference|
+|------|-------------|--------------------------|---------------------------------------------|------------|----------------------|-------------------------------------------------------------|---------------|---------------|
+|BIHAR |SANDESH      |RADHA CHARAN SAH          |Janata Dal (United)                          |80598       |DIPU SINGH            |Rashtriya Janata Dal                                        |80571         |27             |
+|BIHAR |RAMGARH      |SATISH KUMAR SINGH YADAV  |Bahujan Samaj Party                          |72689       |ASHOK KUMAR SINGH     |Bharatiya Janata Party                                      |72659         |30             |
+|BIHAR |AGIAON       |MAHESH PASWAN             |Bharatiya Janata Party                       |69412       |SHIV PRAKASH RANJAN   |Communist Party of India (Marxist-Leninist) (Liberation)    |69317         |95             |
+|BIHAR |NABINAGAR    |CHETAN ANAND              |Janata Dal (United)                          |80380       |AMOD KUMAR SINGH      |Rashtriya Janata Dal                                        |80268         |112            |
+|BIHAR |DHAKA        |FAISAL RAHMAN             |Rashtriya Janata Dal                         |112727      |PAWAN KUMAR JAISWAL   |Bharatiya Janata Party                                      |112549        |178            |
 
 
 ### Max and Mins - Constituencies
