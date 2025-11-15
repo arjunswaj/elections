@@ -1,6 +1,6 @@
 # Table of contents
 
-- [Analysis of Haryana Assembly Elections October 2024](#analysis-of-haryana-assembly-elections-october-2024)
+- [Analysis of Bihar Assembly Elections November 2025](#analysis-of-bihar-assembly-elections-november-2025)
    * [Analysis](#analysis)
       + [Seats contested by Parties](#seats-contested-by-parties)
       + [Max and Mins](#max-and-mins)
@@ -31,20 +31,22 @@
       + [Multiple Seat Participation](#multiple-seat-participation)
          - [Candidates participating in multiple seats (matches names)](#candidates-participating-in-multiple-seats-matches-names)
       + [Close Contest Matrix](#close-contest-matrix)
-         - [Party Specific Close Contest Matrix](#party-specific-close-contest-matrix)
-            * [Bharatiya Janata Party](#bharatiya-janata-party)
-            * [Indian National Congress](#indian-national-congress)
+            - [Party Specific Close Contest Matrix](#party-specific-close-contest-matrix)
+                * [Bharatiya Janata Party](#bharatiya-janata-party)
+                * [Rashtriya Janata Dal](#rashtriya-janata-dal)
+                * [Janata Dal (United)](#janata-dal-united)
+                * [Indian National Congress](#indian-national-congress)
         + [Advanced Join Insights](#advanced-join-insights)
             - [Crowding pressure seats](#crowding-pressure-seats)
             - [Runner-up overperformance vs party baseline](#runner-up-overperformance-vs-party-baseline)
             - [HHI win mix by party](#hhi-win-mix-by-party)
             - [Third-place spoilers in tight races](#third-place-spoilers-in-tight-races)
 
-# Analysis of New Delhi Assembly Elections February 2025
+# Analysis of Bihar Assembly Elections November 2025
 
-The 2025 Delhi Legislative Assembly elections were held in Delhi on 5 February 2025 to elect all 70 members of the Delhi Legislative Assembly. The counting of votes and declaration of result took place on 8 February 2025. ([wiki](https://en.wikipedia.org/wiki/2025_Delhi_Legislative_Assembly_election)).
+The 2025 Bihar Legislative Assembly elections were conducted statewide between 6 and 11 November 2025 to elect all 243 members of the Vidhan Sabha, with counting overseen by the Election Commission of India soon after polling. ([wiki](https://en.wikipedia.org/wiki/2025_Bihar_Legislative_Assembly_election)).
 
-This page provides the highlights of the results. Complete results of the analysis can be seen [here](https://github.com/arjunswaj/elections/tree/delhi-2025/result/Bihar).
+This page provides the highlights of the results. Complete results of the analysis can be seen [here](https://github.com/arjunswaj/elections/tree/bihar-2025/result/Bihar).
 
 ## Analysis
 A total of 2,616 candidates contested in the Bihar assembly elections and about 5.02 Crore (`50207733`) votes were cast during this period.
@@ -265,9 +267,9 @@ config:
 ---
 xychart-beta
     title "Maximum Vote Share of Winning Candidate"
-    x-axis ["AALEY MOHAMMED IQBAL (AAP, MATIA MAHAL)", "VIJENDER GUPTA (BJP, ROHINI)", "REKHA GUPTA (BJP, SHALIMAR BAGH)", "CHAUDHARY ZUBAIR AHMAD (AAP, SEELAM PUR)", "IMRAN HUSSAIN (AAP, BALLIMARAN)"]
-    y-axis "Vote Share" 50 --> 75
-    bar [68.8014, 65.0125, 59.9487, 59.2094, 58.0034]
+    x-axis ["NITIN NABIN (BJP, BANKIPUR)", "SANJAY KUMAR (BJP, KUMHRAR)", "KAUSHAL KISHORE (JD(U), RAJGIR)", "ANIL KUMAR (BJP, BATHNAHA)", "LESHI SINGH (JD(U), DHAMDAHA)"]
+    y-axis "Vote Share" 55 --> 65
+    bar [62.6567, 57.9144, 57.8727, 57.4655, 57.3193]
 ```
 
 #### Least Vote Share for a Winning Candidate

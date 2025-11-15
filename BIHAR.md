@@ -1,6 +1,6 @@
 # Table of contents
 
-- [Analysis of New Delhi Assembly Elections February 2025](#analysis-of-new-delhi-assembly-elections-february-2025)
+- [Analysis of Bihar Assembly Elections November 2025](#analysis-of-bihar-assembly-elections-november-2025)
   * [Analysis](#analysis)
     + [Seats contested by Parties](#seats-contested-by-parties)
     + [Max and Mins](#max-and-mins)
@@ -33,7 +33,8 @@
     + [Close Contest Matrix](#close-contest-matrix)
       - [Party Specific Close Contest Matrix](#party-specific-close-contest-matrix)
         * [Bharatiya Janata Party](#bharatiya-janata-party)
-        * [AAP Close Fight](#aap-close-fight)
+        * [Rashtriya Janata Dal](#rashtriya-janata-dal)
+        * [Janata Dal (United)](#janata-dal-united)
         * [Indian National Congress](#indian-national-congress)
     + [Advanced Join Insights](#advanced-join-insights)
       - [Crowding pressure seats](#crowding-pressure-seats)
@@ -41,11 +42,11 @@
       - [HHI win mix by party](#hhi-win-mix-by-party)
       - [Third-place spoilers in tight races](#third-place-spoilers-in-tight-races)
 
-# Analysis of New Delhi Assembly Elections February 2025
+# Analysis of Bihar Assembly Elections November 2025
 
-The 2025 Delhi Legislative Assembly elections were held in Delhi on 5 February 2025 to elect all 70 members of the Delhi Legislative Assembly. The counting of votes and declaration of result took place on 8 February 2025. ([wiki](https://en.wikipedia.org/wiki/2025_Delhi_Legislative_Assembly_election)).
+The 2025 Bihar Legislative Assembly elections were conducted across the state between 6 and 11 November 2025 to elect all 243 members of the Vidhan Sabha, with counting and results declared soon after by the Election Commission of India. ([wiki](https://en.wikipedia.org/wiki/2025_Bihar_Legislative_Assembly_election)).
 
-This page provides the highlights of the results. Complete results of the analysis can be seen [here](https://github.com/arjunswaj/elections/tree/delhi-2025/result/Bihar).
+This page provides the highlights of the results. Complete results of the analysis can be seen [here](https://github.com/arjunswaj/elections/tree/bihar-2025/result/Bihar).
 
 ## Analysis
 A total of 2,616 candidates contested in the Bihar assembly elections and about 5.02 Crore (`50207733`) votes were cast during this period. Excluding Independents and NOTA, 163 registered parties featured on the ballot—from the big alliances.
@@ -175,11 +176,11 @@ A total of 2,616 candidates contested in the Bihar assembly elections and about 
 
 |Candidate                |Party                    |Constituency  |State     |Vote Share|
 |-------------------------|-------------------------|--------------|----------|----------|
-|AALEY MOHAMMED IQBAL     |Aam Aadmi Party          |MATIA MAHAL   |NEW DELHI |68.8014   |
-|VIJENDER GUPTA           |Bharatiya Janata Party   |ROHINI        |NEW DELHI |65.0125   |
-|REKHA GUPTA              |Bharatiya Janata Party   |SHALIMAR BAGH |NEW DELHI |59.9487   |
-|CHAUDHARY ZUBAIR AHMAD   |Aam Aadmi Party          |SEELAM PUR    |NEW DELHI |59.2094   |
-|IMRAN HUSSAIN            |Aam Aadmi Party          |BALLIMARAN    |NEW DELHI |58.0034   |
+|NITIN NABIN              |Bharatiya Janata Party   |BANKIPUR      |BIHAR     |62.6567   |
+|SANJAY KUMAR             |Bharatiya Janata Party   |KUMHRAR       |BIHAR     |57.9144   |
+|KAUSHAL KISHORE          |Janata Dal (United)      |RAJGIR        |BIHAR     |57.8727   |
+|ANIL KUMAR               |Bharatiya Janata Party   |BATHNAHA      |BIHAR     |57.4655   |
+|LESHI SINGH              |Janata Dal (United)      |DHAMDAHA      |BIHAR     |57.3193   |
 
 #### Least Vote share for a winning candidate
 
