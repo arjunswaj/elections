@@ -178,9 +178,9 @@ config:
 ---
 xychart-beta
     title "Max Total Votes in a Constituency"
-    x-axis ["MATIALA (NEW DELHI)", "VIKASPURI (NEW DELHI)", "BURARI (NEW DELHI)", "BAWANA (NEW DELHI)", "OKHLA (NEW DELHI)"]
+    x-axis ["BALRAMPUR (BIHAR)", "SAHARSA (BIHAR)", "PHULWARI (BIHAR)", "ALAMNAGAR (BIHAR)", "PRANPUR (BIHAR)"]
     y-axis "Total Votes" 200000 --> 300000
-    bar [278894, 273648, 254737, 229856, 209522]
+    bar [277074, 259763, 257134, 256381, 254532]
 ```
 
 #### Min Total Votes Constituency
@@ -197,9 +197,9 @@ config:
 ---
 xychart-beta
     title "Min Total Votes in a Constituency"
-    x-axis ["DELHI CANTT (NEW DELHI)", "NEW DELHI (NEW DELHI)", "CHANDNI CHOWK (NEW DELHI)", "R. K. PURAM (NEW DELHI)", "MATIA MAHAL (NEW DELHI)"]
-    y-axis "Total Votes" 40000 --> 90000
-    bar [47458, 61636, 71173, 76503, 84475]
+    x-axis ["BARBIGHA (BIHAR)", "AGIAON (BIHAR)", "BANKIPUR (BIHAR)", "ZIRADEI (BIHAR)", "SHEIKHPURA (BIHAR)"]
+    y-axis "Total Votes" 140000 --> 170000
+    bar [144414, 153554, 156885, 157926, 163341]
 ```
 
 #### Max Candidates in a Constituency
@@ -216,9 +216,9 @@ config:
 ---
 xychart-beta
     title "Max Candidates in a Constituency"
-    x-axis ["NEW DELHI (NEW DELHI)", "JANAKPURI (NEW DELHI)", "LAXMI NAGAR (NEW DELHI)", "ROHTAS NAGAR (NEW DELHI)", "KARAWAL NAGAR (NEW DELHI)"]
-    y-axis "Number of Candidates" 0 --> 30
-    bar [24, 17, 16, 16, 16]
+    x-axis ["GAYA TOWN (BIHAR)", "SASARAM (BIHAR)", "CHAINPUR (BIHAR)", "KURHANI (BIHAR)", "MUZAFFARPUR (BIHAR)"]
+    y-axis "Number of Candidates" 0 --> 25
+    bar [23, 23, 23, 21, 21]
 ```
 
 #### Least Candidates in a Constituency
@@ -235,9 +235,9 @@ config:
 ---
 xychart-beta
     title "Least Candidates in a Constituency"
-    x-axis ["PATEL NAGAR (NEW DELHI)", "KASTURBA NAGAR (NEW DELHI)", "MANGOL PURI (NEW DELHI)", "GREATER KAILASH (NEW DELHI)", "KAROL BAGH (NEW DELHI)"]
+    x-axis ["ALAULI (BIHAR)", "TRIVENIGANJ (BIHAR)", "BHOREY (BIHAR)", "LAURIYA (BIHAR)", "SUGAULI (BIHAR)"]
     y-axis "Number of Candidates" 5 --> 10
-    bar [6, 6, 7, 7, 7]
+    bar [6, 6, 6, 6, 6]
 ```
 
 #### Total Vote Share of Parties

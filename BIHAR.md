@@ -121,43 +121,43 @@ A total of 2,616 candidates contested in the Bihar assembly elections and about 
 ### Max and Mins - Constituencies
 #### Max Total Votes in a Constituency
 
-|Constituency |State      |Total Votes|
-|-------------|-----------|-----------|
-|MATIALA     |NEW DELHI   |278894     |
-|VIKASPURI   |NEW DELHI   |273648     |
-|BURARI      |NEW DELHI   |254737     |
-|BAWANA      |NEW DELHI   |229856     |
-|OKHLA       |NEW DELHI   |209522     |
+|Constituency |State |Total Votes|
+|-------------|------|-----------|
+|BALRAMPUR    |BIHAR |277074     |
+|SAHARSA      |BIHAR |259763     |
+|PHULWARI     |BIHAR |257134     |
+|ALAMNAGAR    |BIHAR |256381     |
+|PRANPUR      |BIHAR |254532     |
 
 #### Min Total Votes Constituency
 
-|Constituency    |State      |Total Votes|
-|----------------|-----------|-----------|
-|DELHI CANTT     |NEW DELHI  |47458      |
-|NEW DELHI       |NEW DELHI  |61636      |
-|CHANDNI CHOWK   |NEW DELHI  |71173      |
-|R. K. PURAM     |NEW DELHI  |76503      |
-|MATIA MAHAL     |NEW DELHI  |84475      |
+|Constituency |State |Total Votes|
+|-------------|------|-----------|
+|BARBIGHA     |BIHAR |144414     |
+|AGIAON       |BIHAR |153554     |
+|BANKIPUR     |BIHAR |156885     |
+|ZIRADEI      |BIHAR |157926     |
+|SHEIKHPURA   |BIHAR |163341     |
 
 #### Max candidates in a Constituency
 
-|Constituency   |State      |Candidates|
-|---------------|-----------|----------|
-|NEW DELHI      |NEW DELHI  |24        |
-|JANAKPURI      |NEW DELHI  |17        |
-|LAXMI NAGAR    |NEW DELHI  |16        |
-|ROHTAS NAGAR   |NEW DELHI  |16        |
-|KARAWAL NAGAR  |NEW DELHI  |16        |
+|Constituency |State |Candidates|
+|-------------|------|----------|
+|GAYA TOWN    |BIHAR |23        |
+|SASARAM      |BIHAR |23        |
+|CHAINPUR     |BIHAR |23        |
+|KURHANI      |BIHAR |21        |
+|MUZAFFARPUR  |BIHAR |21        |
 
 #### Least candidates in a Constituency
 
-|Constituency    |State      |Candidates|
-|----------------|-----------|----------|
-|PATEL NAGAR     |NEW DELHI  |6         |
-|KASTURBA NAGAR  |NEW DELHI  |6         |
-|MANGOL PURI     |NEW DELHI  |7         |
-|GREATER KAILASH |NEW DELHI  |7         |
-|KAROL BAGH      |NEW DELHI  |7         |
+|Constituency |State |Candidates|
+|-------------|------|----------|
+|ALAULI       |BIHAR |6         |
+|TRIVENIGANJ  |BIHAR |6         |
+|BHOREY       |BIHAR |6         |
+|LAURIYA      |BIHAR |6         |
+|SUGAULI      |BIHAR |6         |
 
 ### Vote Shares
 
