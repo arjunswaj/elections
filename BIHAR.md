@@ -51,18 +51,18 @@ A total of 699 candidates contested in the elections and around 94 Lakhs (`94883
 
 ### Seats contested by Parties
 
-| Party                                      | Number of Candidates |
-|--------------------------------------------|----------------------|
-| Independent                                | 138                  |
-| Aam Aadmi Party                            | 70                   |
-| Indian National Congress                   | 70                   |
-| Bharatiya Janata Party                     | 68                   |
-| Bahujan Samaj Party                        | 68                   |
-| Right to Recall Party                      | 20                   |
-| Peoples Party of India (Democratic)        | 18                   |
-| Nationalist Congress Party                 | 17                   |
-| Aazad Samaj Party (Kanshi Ram)             | 14                   |
-| Yuva Bharat Rashtraseva Party              | 7                    |
+| Party                      | Number of Candidates |
+|----------------------------|----------------------|
+| Independent                | 925                  |
+| Jan Suraaj Party           | 238                  |
+| Bahujan Samaj Party        | 181                  |
+| Rashtriya Janata Dal       | 143                  |
+| Janata Dal (United)        | 101                  |
+| Bharatiya Janata Party     | 101                  |
+| Aam Aadmi Party            | 83                   |
+| Indian National Congress   | 61                   |
+| Rashtriya Jansambhavna Party | 50                 |
+| Janshakti Janta Dal        | 45                   |
 
 ### Max and Mins
 

@@ -63,9 +63,9 @@ config:
 ---
 xychart-beta
     title "Seats Contested by Parties"
-    x-axis ["Independent", "Aam Aadmi Party", "Indian National Congress", "Bharatiya Janata Party", "Bahujan Samaj Party", "Right to Recall Party", "Peoples Party of India (Democratic)", "Nationalist Congress Party", "Aazad Samaj Party (Kanshi Ram)", "Yuva Bharat Rashtraseva Party"]
-    y-axis "Number of Seats" 0 --> 150
-    bar [138, 70, 70, 68, 68, 20, 18, 17, 14, 7]
+    x-axis ["Independent", "Jan Suraaj Party", "Bahujan Samaj Party", "Rashtriya Janata Dal", "Janata Dal (United)", "Bharatiya Janata Party", "Aam Aadmi Party", "Indian National Congress", "Rashtriya Jansambhavna Party", "Janshakti Janta Dal"]
+    y-axis "Number of Seats" 0 --> 1000
+    bar [925, 238, 181, 143, 101, 101, 83, 61, 50, 45]
 ```
 
 ### Max and Mins
