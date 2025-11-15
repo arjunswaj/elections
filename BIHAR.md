@@ -384,14 +384,13 @@ Comparing runner-up vote share with each party’s average reveals hidden pocket
 
 HHI bands group constituencies by vote concentration, illustrating which parties thrive in dominant versus competitive environments.
 
-|Party                  |HHI Band    |Seats Won|
-|-----------------------|------------|---------|
-|Aam Aadmi Party        |Competitive |16       |
-|Aam Aadmi Party        |Dominant    |5        |
-|Aam Aadmi Party        |Fragmented  |1        |
-|Bharatiya Janata Party |Competitive |23       |
-|Bharatiya Janata Party |Dominant    |22       |
-|Bharatiya Janata Party |Fragmented  |3        |
+|Party                              |HHI Band    |Seats Won|
+|-----------------------------------|------------|---------|
+|Bharatiya Janata Party             |Competitive |74       |
+|Bharatiya Janata Party             |Dominant    |6        |
+|Janata Dal (United)                |Competitive |61       |
+|Janata Dal (United)                |Fragmented  |24       |
+|Rashtriya Janata Dal               |Competitive |19       |
 
 #### Third-place spoilers in tight races
 

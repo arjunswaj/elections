@@ -554,6 +554,16 @@ xychart-beta
 
 Competition bands (Herfindahl-Hirschman Index) show which parties dominate different contest types.
 
+|Party                              |HHI Band    |Seats Won|
+|-----------------------------------|------------|---------|
+|Bharatiya Janata Party             |Competitive |74       |
+|Bharatiya Janata Party             |Dominant    |6        |
+|Janata Dal (United)                |Competitive |61       |
+|Janata Dal (United)                |Fragmented  |24       |
+|Rashtriya Janata Dal               |Competitive |19       |
+|Lok Janshakti Party (Ram Vilas)    |Competitive |10       |
+|All India Majlis-E-Ittehadul Muslimeen | Fragmented | 5   |
+
 ```mermaid
 ---
 config:
@@ -567,9 +577,12 @@ config:
 xychart-beta
     title "HHI Win Mix by Party"
     x-axis ["Fragmented", "Competitive", "Dominant"]
-    y-axis "Seats Won" 0 --> 30
-    bar "Aam Aadmi Party" [1, 16, 5]
-    bar "Bharatiya Janata Party" [3, 23, 22]
+    y-axis "Seats Won" 0 --> 80
+    bar "Bharatiya Janata Party" [0, 74, 6]
+    bar "Janata Dal (United)" [24, 61, 0]
+    bar "Rashtriya Janata Dal" [0, 19, 0]
+    bar "Lok Janshakti Party (Ram Vilas)" [0, 10, 0]
+    bar "All India Majlis-E-Ittehadul Muslimeen" [5, 0, 0]
 ```
 
 #### Third-place spoilers in tight races
