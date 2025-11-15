@@ -420,5 +420,4 @@ Third-place performers who beat their party’s customary share often decide the
 |SADAR BAZAR    |Indian National Congress |ANIL BHARDWAJ             |8.49         |6.69       |1.80             |12        |6307        |
 |MALVIYA NAGAR  |Indian National Congress |JITENDER KUMAR KOCHAR     |7.96         |6.69       |1.27             |8         |2131        |
 |NEW DELHI      |Indian National Congress |SANDEEP DIKSHIT           |7.41         |6.69       |0.72             |24        |4089        |
-|AMBEDKAR NAGAR |Indian National Congress |JAI PRAKASH               |7.38         |6.69       |0.69             |10        |4230        |
-
+|AMBEDKAR NAGAR |Indian National Congress |JAI PRAKASH               |7.38         |6.69       |0.69             |10        |4230        

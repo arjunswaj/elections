@@ -42,3 +42,5 @@ cabal.project.local
 # Node.js
 node_modules/
 package-lock.json
+
+connection.yaml
