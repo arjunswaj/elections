@@ -372,18 +372,13 @@ Seats where narrow margins collide with double-digit "others" vote share signal 
 
 Comparing runner-up vote share with each party’s average reveals hidden pockets of strength despite losses.
 
-|Constituency   |Runner Up Candidate              |Party                    |Runner Up %|Party Avg %|Overperformance %|
-|---------------|---------------------------------|-------------------------|-----------|-----------|-----------------|
-|KASTURBA NAGAR |ABHISHEK DUTT                    |Indian National Congress |31.98      |6.69       |25.29            |
-|RAJINDER NAGAR |DURGESH PATHAK                   |Aam Aadmi Party          |46.74      |43.75      |2.99             |
-|TRILOKPURI     |ANJANA PARCHA                    |Aam Aadmi Party          |45.79      |43.75      |2.04             |
-|SHAHDARA       |JITENDER SINGH SHUNTY            |Aam Aadmi Party          |45.54      |43.75      |1.79             |
-|CHHATARPUR     |BRAHM SINGH TANWAR               |Aam Aadmi Party          |45.18      |43.75      |1.43             |
-|MANGOL PURI    |DHARAM RAKSHAK ALIAS RAKESH JATAV|Aam Aadmi Party          |45.16      |43.75      |1.41             |
-|TIMARPUR       |SURINDER PAL SINGH (BITTOO)      |Aam Aadmi Party          |45.07      |43.75      |1.32             |
-|NERELA         |SHARAD KUMAR                     |Aam Aadmi Party          |44.99      |43.75      |1.24             |
-|PALAM          |JOGINDER SOLANKI                 |Aam Aadmi Party          |44.95      |43.75      |1.20             |
-|VIKASPURI      |MAHINDER YADAV                   |Aam Aadmi Party          |44.83      |43.75      |1.08             |
+|Constituency      |Runner Up Candidate                      |Party               |Runner Up %|Party Avg %|Overperformance %|
+|------------------|-----------------------------------------|--------------------|-----------|-----------|-----------------|
+|PARIHAR           |RITU JAISWAL                             |Independent         |31.17      |1.33       |29.84            |
+|MARHAURA          |NAVEEN KUMAR SINGH URAF ABHAY SINGH      |Jan Suraaj Party    |32.42      |3.48       |28.94            |
+|MOHANIA           |RAVI SHANKAR PASWAN                     |Independent         |30.15      |1.33       |28.82            |
+|KUSHESHWAR ASTHAN |GANESH BHARTI                           |Independent         |30.03      |1.33       |28.70            |
+|KARGAHAR          |UDAY PRATAP SINGH                       |Bahujan Samaj Party |25.87      |2.21       |23.66            |
 
 #### HHI win mix by party
 

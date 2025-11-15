@@ -524,6 +524,14 @@ xychart-beta
 
 These runner-up candidates beat their party-wide average vote share even in defeat.
 
+|Constituency      |Runner Up Candidate                      |Party               |Runner Up %|Party Avg %|Overperformance %|
+|------------------|-----------------------------------------|--------------------|-----------|-----------|-----------------|
+|PARIHAR           |RITU JAISWAL                             |Independent         |31.17      |1.33       |29.84            |
+|MARHAURA          |NAVEEN KUMAR SINGH URAF ABHAY SINGH      |Jan Suraaj Party    |32.42      |3.48       |28.94            |
+|MOHANIA           |RAVI SHANKAR PASWAN                     |Independent         |30.15      |1.33       |28.82            |
+|KUSHESHWAR ASTHAN |GANESH BHARTI                           |Independent         |30.03      |1.33       |28.70            |
+|KARGAHAR          |UDAY PRATAP SINGH                       |Bahujan Samaj Party |25.87      |2.21       |23.66            |
+
 ```mermaid
 ---
 config:
@@ -537,9 +545,9 @@ config:
 ---
 xychart-beta
     title "Runner-up Overperformance"
-    x-axis ["KASTURBA NAGAR", "RAJINDER NAGAR", "TRILOKPURI", "SHAHDARA", "CHHATARPUR", "MANGOL PURI", "TIMARPUR", "NERELA"]
-    y-axis "Overperformance %" 0 --> 30
-    bar [25.29, 2.99, 2.04, 1.79, 1.43, 1.41, 1.32, 1.24]
+    x-axis ["PARIHAR", "MARHAURA", "MOHANIA", "KUSHESHWAR ASTHAN", "KARGAHAR"]
+    y-axis "Overperformance %" 0 --> 35
+    bar [29.84, 28.94, 28.82, 28.70, 23.66]
 ```
 
 #### HHI win mix by party
