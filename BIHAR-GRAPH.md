@@ -47,7 +47,7 @@ The 2025 Delhi Legislative Assembly elections were held in Delhi on 5 February 2
 This page provides the highlights of the results. Complete results of the analysis can be seen [here](https://github.com/arjunswaj/elections/tree/delhi-2025/result/NewDelhi).
 
 ## Analysis
-A total of 699 candidates contested in the elections and around 94 Lakhs (`9488376`) votes were casted during this period.
+A total of 2,616 candidates contested in the Bihar assembly elections and about 5.02 Crore (`50207733`) votes were cast during this period.
 
 ### Seats contested by Parties
 ```mermaid
