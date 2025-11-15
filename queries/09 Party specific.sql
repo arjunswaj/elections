@@ -2,16 +2,18 @@ WITH ranked_results AS (
     SELECT
         STATE,
         CONSTITUENCY,
+        CODE,
         CANDIDATE,
         PARTY,
         VOTES,
-        ROW_NUMBER() OVER (PARTITION BY STATE, CONSTITUENCY ORDER BY VOTES DESC) AS rn
+        ROW_NUMBER() OVER (PARTITION BY STATE, CODE ORDER BY VOTES DESC) AS rn
     FROM assembly_elections_nov2025
 ),
 winner_and_runner_up AS (
     SELECT
         r1.STATE,
         r1.CONSTITUENCY,
+        r1.CODE,
         r1.PARTY AS WINNING_PARTY,
         r1.VOTES AS WINNING_VOTES,
         r2.PARTY AS RUNNER_UP_PARTY,
@@ -21,13 +23,14 @@ winner_and_runner_up AS (
     JOIN
         ranked_results r2
     ON
-        r1.STATE = r2.STATE AND r1.CONSTITUENCY = r2.CONSTITUENCY
+        r1.STATE = r2.STATE AND r1.CONSTITUENCY = r2.CONSTITUENCY AND r1.CODE = r2.CODE
     WHERE
         r1.rn = 1 AND r2.rn = 2
 )
 SELECT
     STATE,
     CONSTITUENCY,
+    CODE AS CONSTITUENCY_CODE,
     RUNNER_UP_VOTES,
     WINNING_PARTY,
     WINNING_VOTES,

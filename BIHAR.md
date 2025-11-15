@@ -314,59 +314,43 @@ This matrix provides the number of seats in which parties lost by the number of 
 
 ##### Bharatiya Janata Party
 
-| Constituency     | State     | Runner up Votes | Winning Party      | Winning Votes | Vote Difference |
-|------------------|-----------|-----------------|--------------------|---------------|-----------------|
-| DELHI CANTT      | NEW DELHI | 20162           | Aam Aadmi Party    | 22191         | 2029            |
-| KALKAJI          | NEW DELHI | 48633           | Aam Aadmi Party    | 52154         | 3521            |
-| PATEL NAGAR      | NEW DELHI | 53463           | Aam Aadmi Party    | 57512         | 4049            |
-| AMBEDKAR NAGAR   | NEW DELHI | 42055           | Aam Aadmi Party    | 46285         | 4230            |
-| KONDLI           | NEW DELHI | 55499           | Aam Aadmi Party    | 61792         | 6293            |
-| SADAR BAZAR      | NEW DELHI | 49870           | Aam Aadmi Party    | 56177         | 6307            |
-| KAROL BAGH       | NEW DELHI | 44867           | Aam Aadmi Party    | 52297         | 7430            |
-| GOKALPUR         | NEW DELHI | 72297           | Aam Aadmi Party    | 80504         | 8207            |
-| SEEMAPURI        | NEW DELHI | 55985           | Aam Aadmi Party    | 66353         | 10368           |
-| TILAK NAGAR      | NEW DELHI | 40478           | Aam Aadmi Party    | 52134         | 11656           |
-| TUGHLAKABAD      | NEW DELHI | 47444           | Aam Aadmi Party    | 62155         | 14711           |
-| CHANDNI CHOWK    | NEW DELHI | 22421           | Aam Aadmi Party    | 38993         | 16572           |
-| SULTANPUR MAJRA  | NEW DELHI | 41641           | Aam Aadmi Party    | 58767         | 17126           |
-| BABARPUR         | NEW DELHI | 57198           | Aam Aadmi Party    | 76192         | 18994           |
-| KIRARI           | NEW DELHI | 83909           | Aam Aadmi Party    | 105780        | 21871           |
-| OKHLA            | NEW DELHI | 65304           | Aam Aadmi Party    | 88943         | 23639           |
-| BADARPUR         | NEW DELHI | 87103           | Aam Aadmi Party    | 112991        | 25888           |
-| BALLIMARAN       | NEW DELHI | 27181           | Aam Aadmi Party    | 57004         | 29823           |
-| SEELAM PUR       | NEW DELHI | 36532           | Aam Aadmi Party    | 79009         | 42477           |
-| MATIA MAHAL      | NEW DELHI | 15396           | Aam Aadmi Party    | 58120         | 42724           |
+| Constituency  | State | Constituency Code | Runner up Votes | Winning Party                    | Winning Votes | Vote Difference |
+|---------------|-------|-------------------|-----------------|----------------------------------|---------------|-----------------|
+| RAMGARH       | BIHAR | S04203            | 72659           | Bahujan Samaj Party              | 72689         | 30              |
+| DHAKA         | BIHAR | S0421             | 112549          | Rashtriya Janata Dal             | 112727        | 178             |
+| FORBESGANJ    | BIHAR | S0448             | 119893          | Indian National Congress         | 120114        | 221             |
+| CHANPATIA     | BIHAR | S047              | 86936           | Indian National Congress         | 87538         | 602             |
+| SAHARSA       | BIHAR | S0475             | 112998          | Indian Inclusive Party           | 115036        | 2038            |
 
-##### AAP Close Fight
+##### Rashtriya Janata Dal
 
-| Constituency    | State     | Runner up Votes | Winning Party              | Winning Votes | Vote Difference |
-|-----------------|-----------|-----------------|----------------------------|---------------|-----------------|
-| SANGAM VIHAR    | NEW DELHI | 53705           | Bharatiya Janata Party     | 54049         | 344             |
-| TRILOKPURI      | NEW DELHI | 57825           | Bharatiya Janata Party     | 58217         | 392             |
-| JANGPURA        | NEW DELHI | 38184           | Bharatiya Janata Party     | 38859         | 675             |
-| TIMARPUR        | NEW DELHI | 54773           | Bharatiya Janata Party     | 55941         | 1168            |
-| RAJINDER NAGAR  | NEW DELHI | 45440           | Bharatiya Janata Party     | 46671         | 1231            |
-| MEHRAULI        | NEW DELHI | 46567           | Bharatiya Janata Party     | 48349         | 1782            |
-| MALVIYA NAGAR   | NEW DELHI | 37433           | Bharatiya Janata Party     | 39564         | 2131            |
-| GREATER KAILASH | NEW DELHI | 46406           | Bharatiya Janata Party     | 49594         | 3188            |
-| NEW DELHI       | NEW DELHI | 25999           | Bharatiya Janata Party     | 30088         | 4089            |
-| SHAHDARA        | NEW DELHI | 57610           | Bharatiya Janata Party     | 62788         | 5178            |
-| CHHATARPUR      | NEW DELHI | 74230           | Bharatiya Janata Party     | 80469         | 6239            |
-| MANGOL PURI     | NEW DELHI | 55752           | Bharatiya Janata Party     | 62007         | 6255            |
-| HARI NAGAR      | NEW DELHI | 43547           | Bharatiya Janata Party     | 50179         | 6632            |
-| DWARKA          | NEW DELHI | 61308           | Bharatiya Janata Party     | 69137         | 7829            |
-| NERELA          | NEW DELHI | 78619           | Bharatiya Janata Party     | 87215         | 8596            |
-| PALAM           | NEW DELHI | 73094           | Bharatiya Janata Party     | 82046         | 8952            |
-| MUNDKA          | NEW DELHI | 79289           | Bharatiya Janata Party     | 89839         | 10550           |
-| MADIPUR         | NEW DELHI | 41120           | Bharatiya Janata Party     | 52019         | 10899           |
-| BIJWASAN        | NEW DELHI | 53675           | Bharatiya Janata Party     | 64951         | 11276           |
-| WAZIRPUR        | NEW DELHI | 43296           | Bharatiya Janata Party     | 54721         | 11425           |
+| Constituency | State | Constituency Code | Runner up Votes | Winning Party                    | Winning Votes | Vote Difference |
+|--------------|-------|-------------------|-----------------|----------------------------------|---------------|-----------------|
+| SANDESH      | BIHAR | S04192            | 80571           | Janata Dal (United)              | 80598         | 27              |
+| NABINAGAR    | BIHAR | S04221            | 80268           | Janata Dal (United)              | 80380         | 112             |
+| BAKHTIARPUR  | BIHAR | S04180            | 87539           | Lok Janshakti Party (Ram Vilas)  | 88520         | 981             |
+| TARAIYA      | BIHAR | S04116            | 84235           | Bharatiya Janata Party           | 85564         | 1329            |
+| NARKATIA     | BIHAR | S0412             | 103007          | Janata Dal (United)              | 104450        | 1443            |
+
+##### Janata Dal (United)
+
+| Constituency  | State | Constituency Code | Runner up Votes | Winning Party                                          | Winning Votes | Vote Difference |
+|---------------|-------|-------------------|-----------------|--------------------------------------------------------|---------------|-----------------|
+| JEHANABAD     | BIHAR | S04216            | 85609           | Rashtriya Janata Dal                                   | 86402         | 793             |
+| VALMIKI NAGAR | BIHAR | S041              | 106055          | Indian National Congress                               | 107730        | 1675            |
+| KARAKAT       | BIHAR | S04213            | 71321           | Communist Party of India (Marxist-Leninist) (Liberation) | 74157      | 2836            |
+| MAHISHI       | BIHAR | S0477             | 90012           | Rashtriya Janata Dal                                   | 93752         | 3740            |
+| MATIHANI      | BIHAR | S04144            | 112499          | Rashtriya Janata Dal                                   | 117789        | 5290            |
 
 ##### Indian National Congress
 
-|Constituency   |State     |Runner up Votes|Winning Party             |Winning Votes|Vote Difference|
-|---------------|----------|---------------|--------------------------|-------------|---------------|
-|KASTURBA NAGAR |NEW DELHI |27019          |Bharatiya Janata Party    |38067        |11048          |
+| Constituency | State | Constituency Code | Runner up Votes | Winning Party               | Winning Votes | Vote Difference |
+|--------------|-------|-------------------|-----------------|-----------------------------|---------------|-----------------|
+| BIKRAM       | BIHAR | S04191            | 95588           | Bharatiya Janata Party      | 101189        | 5601            |
+| BAGAHA       | BIHAR | S044              | 100562          | Bharatiya Janata Party      | 106875        | 6313            |
+| AURANGABAD   | BIHAR | S04223            | 80406           | Bharatiya Janata Party      | 87200         | 6794            |
+| RAJPUR       | BIHAR | S04202            | 71565           | Janata Dal (United)         | 80701         | 9136            |
+| BARARI       | BIHAR | S0468             | 96858           | Janata Dal (United)         | 107842        | 10984           |
 
 ### Advanced Join Insights
 
