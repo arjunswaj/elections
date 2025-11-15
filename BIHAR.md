@@ -239,28 +239,41 @@ A total of 2,616 candidates contested in the Bihar assembly elections and about 
 
 |Party                                  |Total Spent|Total Votes|Cost per vote|
 |---------------------------------------|-----------|-----------|-------------|
-|Janata Dal  (United)                   |4000000    |100580     |39.7693      |
-|Bharatiya Janata Party                 |272000000  |4323110    |62.9177      |
-|Aam Aadmi Party                        |280000000  |4133898    |67.7327      |
-|Lok Janshakti Party(Ram Vilas)         |4000000    |50209      |79.6670      |
-|All India Majlis-E-Ittehadul Muslimeen |8000000    |73032      |109.5410     |
+|Bharatiya Janata Party                 |404000000  |10081143   |40.0748      |
+|Hindustani Awam Morcha (Secular)       |24000000   |587056     |40.8820      |
+|Janata Dal (United)                    |404000000  |9667118    |41.7912      |
+|Lok Janshakti Party (Ram Vilas)        |112000000  |2497358    |44.8474      |
+|Rashtriya Lok Morcha                   |24000000   |533313     |45.0017      |
 
 #### Cost per vote - Worst Value per vote
 
 |Party                                        |Total Spent|Total Votes|Cost per vote|
 |---------------------------------------------|-----------|-----------|-------------|
-|Bharatrashtra Democratic Party               |4000000    |4          |1000000.0000 |
-|Navarang Congress Party                      |4000000    |18         |222222.2222  |
-|All India National Raksha Sena               |4000000    |20         |200000.0000  |
-|Samarth Bharatvarsh Party                    |4000000    |22         |181818.1818  |
-|Rashtrawadi Janlok Party (Satya)             |8000000    |49         |163265.3061  |
+|Rashtriya Janwadi Party (Socialist)          |4000000    |183        |21857.9235   |
+|Bihar Justice Party                          |4000000    |199        |20100.5025   |
+|Akhand Bharat Janpriya Party                 |4000000    |215        |18604.6512   |
+|Nayak Yuva Kranti Party                      |4000000    |215        |18604.6512   |
+|Samaj Satta Dal                              |8000000    |524        |15267.1756   |
 
 #### Success Ratio
 
-|Party                  |Seats Participated|Seats Won|Success Ratio|
-|-----------------------|------------------|---------|-------------|
-|Bharatiya Janata Party |68                |48       |70.5882      |
-|Aam Aadmi Party        |70                |22       |31.4286      |
+|Party                              |Seats Participated|Seats Won|Success Ratio|
+|-----------------------------------|------------------|---------|-------------|
+|Bharatiya Janata Party             |101               |88       |87.1287      |
+|Hindustani Awam Morcha (Secular)   |6                 |5        |83.3333      |
+|Janata Dal (United)                |101               |84       |83.1683      |
+|Lok Janshakti Party (Ram Vilas)    |28                |19       |67.8571      |
+|Rashtriya Lok Morcha               |6                 |4        |66.6667      |
+
+#### Success Ratio - Worst (At least 1 Win)
+
+|Party                                        |Seats Participated|Seats Won|Success Ratio|
+|---------------------------------------------|------------------|---------|-------------|
+|Bahujan Samaj Party                          |179               |1        |0.5587       |
+|Indian National Congress                     |61                |6        |9.8361       |
+|Communist Party of India (Marxist-Leninist) (Liberation) |20      |2        |10.0000      |
+|Rashtriya Janata Dal                         |143               |25       |17.4825      |
+|All India Majlis-E-Ittehadul Muslimeen       |28                |5        |17.8571      |
 
 ### Multiple Seat Participation
 

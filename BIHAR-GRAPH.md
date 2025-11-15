@@ -379,9 +379,9 @@ config:
 ---
 xychart-beta
     title "Cost per Vote - Best Value"
-    x-axis ["Janata Dal (United)", "Bharatiya Janata Party", "Aam Aadmi Party", "Lok Janshakti Party(Ram Vilas)", "All India Majlis-E-Ittehadul Muslimeen"]
-    y-axis "Cost per Vote" 0 --> 120
-    bar [39.7693, 62.9177, 67.7327, 79.6670, 109.5410]
+    x-axis ["Bharatiya Janata Party", "Hindustani Awam Morcha (Secular)", "Janata Dal (United)", "Lok Janshakti Party (Ram Vilas)", "Rashtriya Lok Morcha"]
+    y-axis "Cost per Vote" 0 --> 60
+    bar [40.0748, 40.8820, 41.7912, 44.8474, 45.0017]
 ```
 
 #### Cost per Vote - Worst Value
@@ -398,23 +398,30 @@ config:
 ---
 xychart-beta
     title "Cost per Vote - Worst Value"
-    x-axis ["Bharatrashtra Democratic Party", "Navarang Congress Party", "All India National Raksha Sena", "Samarth Bharatvarsh Party", "Rashtrawadi Janlok Party (Satya)"]
-    y-axis "Cost per Vote" 70000 --> 120000
-    bar [1000000.0000, 222222.2222, 200000.0000, 181818.1818, 163265.3061]
+    x-axis ["Rashtriya Janwadi Party (Socialist)", "Bihar Justice Party", "Akhand Bharat Janpriya Party", "Nayak Yuva Kranti Party", "Samaj Satta Dal"]
+    y-axis "Cost per Vote" 0 --> 25000
+    bar [21857.9235, 20100.5025, 18604.6512, 18604.6512, 15267.1756]
 ```
 
 #### Success Ratio - Best
 
-|Party                  |Seats Participated|Seats Won|Success Ratio|
-|-----------------------|------------------|---------|-------------|
-|Bharatiya Janata Party |68                |48       |70.5882      |
-|Aam Aadmi Party        |70                |22       |31.4286      |
+|Party                              |Seats Participated|Seats Won|Success Ratio|
+|-----------------------------------|------------------|---------|-------------|
+|Bharatiya Janata Party             |101               |88       |87.1287      |
+|Hindustani Awam Morcha (Secular)   |6                 |5        |83.3333      |
+|Janata Dal (United)                |101               |84       |83.1683      |
+|Lok Janshakti Party (Ram Vilas)    |28                |19       |67.8571      |
+|Rashtriya Lok Morcha               |6                 |4        |66.6667      |
 
 #### Success Ratio - Worst
 
-|Party                    |Seats Participated|Seats Won|Success Ratio|
-|-------------------------|------------------|---------|-------------|
-|Indian National Congress |70                |1        |1.4286       |
+|Party                                        |Seats Participated|Seats Won|Success Ratio|
+|---------------------------------------------|------------------|---------|-------------|
+|Bahujan Samaj Party                          |179               |1        |0.5587       |
+|Indian National Congress                     |61                |6        |9.8361       |
+|Communist Party of India (Marxist-Leninist) (Liberation) |20      |2        |10.0000      |
+|Rashtriya Janata Dal                         |143               |25       |17.4825      |
+|All India Majlis-E-Ittehadul Muslimeen       |28                |5        |17.8571      |
 
 ### Multiple Seat Participation
 
