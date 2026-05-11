@@ -9,12 +9,12 @@ FROM
     (SELECT 
         STATE, PARTY, SUM(VOTES) AS PARTY_VOTES
     FROM
-        assembly_elections_nov2025
+        assembly_elections_may2026
     GROUP BY STATE, PARTY) AS PARTY_VOTE_DETAILS,
     (SELECT 
         STATE, SUM(VOTES) AS TOTAL_VOTES
     FROM
-        assembly_elections_nov2025
+        assembly_elections_may2026
     GROUP BY STATE) AS TOTAL_VOTE_DETAILS
 WHERE PARTY_VOTE_DETAILS.STATE = TOTAL_VOTE_DETAILS.STATE
 ORDER BY STATE ASC, PARTY_VOTES DESC;
@@ -40,16 +40,16 @@ FROM
         (SELECT 
             STATE, CODE, CONSTITUENCY, SUM(VOTES) AS TOTAL_VOTES
         FROM
-            assembly_elections_nov2025
+            assembly_elections_may2026
         GROUP BY STATE, CODE, CONSTITUENCY) AS VOTE_DETAILS
-    JOIN assembly_elections_nov2025 ger ON VOTE_DETAILS.CONSTITUENCY = ger.CONSTITUENCY
+    JOIN assembly_elections_may2026 ger ON VOTE_DETAILS.CONSTITUENCY = ger.CONSTITUENCY
         AND VOTE_DETAILS.STATE = ger.STATE
         AND VOTE_DETAILS.CODE = ger.CODE) AS v
         JOIN
     (SELECT 
         STATE, CODE, CONSTITUENCY, MAX(VOTES) AS MAX_VOTES
     FROM
-        assembly_elections_nov2025
+        assembly_elections_may2026
     GROUP BY STATE, CODE, CONSTITUENCY) AS WINNERS ON v.CONSTITUENCY = WINNERS.CONSTITUENCY
         AND v.STATE = WINNERS.STATE
         AND v.CODE = WINNERS.CODE
@@ -64,16 +64,16 @@ SELECT
     t2.CONSTITUENCY AS CONSTITUENCY,
     t2.VOTE_PERCENTAGE AS RUNNER_UP_VOTE_PERCENTAGE
 FROM
-    assembly_elections_nov2025 t2
+    assembly_elections_may2026 t2
         JOIN
     (SELECT 
         t.STATE, t.CODE, t.CONSTITUENCY, MAX(t.VOTES) AS RUNNER_VOTES
     FROM
-        assembly_elections_nov2025 t
+        assembly_elections_may2026 t
     JOIN (SELECT 
         STATE, CODE, CONSTITUENCY, MAX(VOTES) AS MAX_VOTES
     FROM
-        assembly_elections_nov2025
+        assembly_elections_may2026
     GROUP BY STATE, CODE, CONSTITUENCY) sub ON t.STATE = sub.STATE
         AND t.CODE = sub.CODE
         AND t.CONSTITUENCY = sub.CONSTITUENCY
@@ -102,9 +102,9 @@ FROM
         (SELECT 
             STATE, CODE, CONSTITUENCY, SUM(VOTES) AS TOTAL_VOTES
         FROM
-            assembly_elections_nov2025
+            assembly_elections_may2026
         GROUP BY STATE, CODE, CONSTITUENCY) AS VOTE_DETAILS
-    JOIN assembly_elections_nov2025 ger ON (VOTE_DETAILS.CONSTITUENCY = ger.CONSTITUENCY)
+    JOIN assembly_elections_may2026 ger ON (VOTE_DETAILS.CONSTITUENCY = ger.CONSTITUENCY)
         AND (VOTE_DETAILS.STATE = ger.STATE)
         AND (VOTE_DETAILS.CODE = ger.CODE)) DEPOSIT_LOSERS
 WHERE

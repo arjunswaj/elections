@@ -4,7 +4,7 @@ WITH candidate_counts AS (
            code,
            constituency,
            COUNT(*) AS candidate_count
-    FROM public.assembly_elections_nov2025
+    FROM public.assembly_elections_may2026
     GROUP BY state, code, constituency
 ), ranked AS (
     SELECT state,
@@ -15,7 +15,7 @@ WITH candidate_counts AS (
            vote_percentage,
            postal_votes,
            ROW_NUMBER() OVER (PARTITION BY state, code ORDER BY votes DESC) AS rn
-    FROM public.assembly_elections_nov2025
+    FROM public.assembly_elections_may2026
 ), others AS (
     SELECT state,
            code,

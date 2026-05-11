@@ -2,7 +2,7 @@
 SELECT 
     CODE AS CONSTITUENCY_CODE, CANDIDATE, PARTY, CONSTITUENCY, STATE, VOTES
 FROM
-    assembly_elections_nov2025
+    assembly_elections_may2026
 ORDER BY STATE ASC, VOTES DESC;
 
 -- Max votes of winning candidates
@@ -14,12 +14,12 @@ SELECT
     t.STATE,
     t.VOTES AS WINNER_VOTES
 FROM
-    assembly_elections_nov2025 t
+    assembly_elections_may2026 t
         JOIN
     (SELECT 
         STATE, CODE, CONSTITUENCY, MAX(VOTES) AS MAX_VOTES
     FROM
-        assembly_elections_nov2025
+        assembly_elections_may2026
     GROUP BY STATE, CODE, CONSTITUENCY) sub ON t.STATE = sub.STATE
         AND t.CODE = sub.CODE
         AND t.CONSTITUENCY = sub.CONSTITUENCY
@@ -35,12 +35,12 @@ SELECT
     t.STATE AS STATE,
     t.VOTES AS WINNER_VOTES
 FROM
-    assembly_elections_nov2025 t
+    assembly_elections_may2026 t
         JOIN
     (SELECT 
         STATE, CODE, CONSTITUENCY, MAX(VOTES) AS MAX_VOTES
     FROM
-        assembly_elections_nov2025
+        assembly_elections_may2026
     GROUP BY STATE, CODE, CONSTITUENCY) sub ON t.STATE = sub.STATE
         AND t.CODE = sub.CODE
         AND t.CONSTITUENCY = sub.CONSTITUENCY
@@ -56,16 +56,16 @@ SELECT
     t2.STATE AS STATE,
     t2.VOTES AS RUNNER_VOTES
 FROM
-    assembly_elections_nov2025 t2
+    assembly_elections_may2026 t2
         JOIN
     (SELECT 
         t.STATE, t.CODE, t.CONSTITUENCY, MAX(t.VOTES) AS RUNNER_VOTES
     FROM
-        assembly_elections_nov2025 t
+        assembly_elections_may2026 t
     JOIN (SELECT 
         STATE, CODE, CONSTITUENCY, MAX(VOTES) AS MAX_VOTES
     FROM
-        assembly_elections_nov2025
+        assembly_elections_may2026
     GROUP BY STATE, CODE, CONSTITUENCY) sub ON t.STATE = sub.STATE
         AND t.CODE = sub.CODE
         AND t.CONSTITUENCY = sub.CONSTITUENCY
@@ -97,7 +97,7 @@ FROM
         PARTY, 
         VOTES,
         ROW_NUMBER() OVER (PARTITION BY STATE, CODE ORDER BY VOTES DESC) AS rn
-    FROM assembly_elections_nov2025
+    FROM assembly_elections_may2026
     ) c1
 JOIN 
     (SELECT 
@@ -108,7 +108,7 @@ JOIN
         PARTY, 
         VOTES,
         ROW_NUMBER() OVER (PARTITION BY STATE, CODE ORDER BY VOTES DESC) AS rn
-    FROM assembly_elections_nov2025
+    FROM assembly_elections_may2026
     ) c2
 ON c1.STATE = c2.STATE 
     AND c1.CODE = c2.CODE 

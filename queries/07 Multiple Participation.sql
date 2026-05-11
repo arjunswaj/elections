@@ -4,7 +4,7 @@ SELECT
     CANDIDATE,
     COUNT(DISTINCT CODE) AS CONSTITUENCY_COUNT
 FROM
-    assembly_elections_nov2025
+    assembly_elections_may2026
 WHERE
     CANDIDATE <> 'NOTA'
 GROUP BY STATE, CANDIDATE, PARTY
@@ -17,7 +17,7 @@ WITH candidate_participation AS (
         CANDIDATE,
         PARTY,
         COUNT(DISTINCT CONCAT(STATE, '_', CODE)) AS CONSTITUENCY_COUNT
-    FROM assembly_elections_nov2025
+    FROM assembly_elections_may2026
     GROUP BY STATE, CANDIDATE, PARTY
 ),
 ranked_results AS (
@@ -29,7 +29,7 @@ ranked_results AS (
         PARTY,
         VOTES,
         ROW_NUMBER() OVER (PARTITION BY STATE, CODE ORDER BY VOTES DESC) AS rn
-    FROM assembly_elections_nov2025
+    FROM assembly_elections_may2026
 )
 SELECT
     r.STATE,

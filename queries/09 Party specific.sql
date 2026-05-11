@@ -7,7 +7,7 @@ WITH ranked_results AS (
         PARTY,
         VOTES,
         ROW_NUMBER() OVER (PARTITION BY STATE, CODE ORDER BY VOTES DESC) AS rn
-    FROM assembly_elections_nov2025
+    FROM assembly_elections_may2026
 ),
 winner_and_runner_up AS (
     SELECT

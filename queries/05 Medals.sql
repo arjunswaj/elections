@@ -2,7 +2,7 @@
 SELECT DISTINCT
     PARTY
 FROM
-    assembly_elections_nov2025
+    assembly_elections_may2026
 WHERE
     PARTY NOT IN ('INDEPENDENT' , 'NOTA')
 ORDER BY PARTY;
@@ -19,7 +19,7 @@ FROM
         PARTY,
         VOTES,
         ROW_NUMBER() OVER (PARTITION BY STATE, CONSTITUENCY ORDER BY VOTES DESC) AS rn
-    FROM assembly_elections_nov2025
+    FROM assembly_elections_may2026
     ) AS ranked_results
 WHERE rn = 1
 GROUP BY STATE, PARTY
@@ -37,7 +37,7 @@ FROM
         PARTY,
         VOTES,
         ROW_NUMBER() OVER (PARTITION BY STATE, CONSTITUENCY ORDER BY VOTES DESC) AS rn
-    FROM assembly_elections_nov2025
+    FROM assembly_elections_may2026
     ) AS ranked_results
 WHERE rn = 2
 GROUP BY STATE, PARTY

@@ -3,7 +3,7 @@ WITH party_totals AS (
     SELECT party,
            COUNT(*) AS contests,
            AVG(vote_percentage) AS avg_pct
-  FROM public.assembly_elections_nov2025
+  FROM public.assembly_elections_may2026
     GROUP BY party
 ), ranked AS (
     SELECT constituency,
@@ -12,7 +12,7 @@ WITH party_totals AS (
            vote_percentage,
            votes,
            ROW_NUMBER() OVER (PARTITION BY constituency ORDER BY votes DESC) AS rn
-  FROM public.assembly_elections_nov2025
+  FROM public.assembly_elections_may2026
 )
 SELECT r.constituency,
        r.candidate,

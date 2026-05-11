@@ -12,13 +12,13 @@ FROM
         GER.PARTY AS PARTY,
         PARTY_VOTE_DETAILS.PARTY_VOTES AS PARTY_VOTES
     FROM
-        assembly_elections_nov2025 GER
+        assembly_elections_may2026 GER
     JOIN (SELECT 
         STATE,
         PARTY, 
         SUM(VOTES) AS PARTY_VOTES
     FROM
-        assembly_elections_nov2025
+        assembly_elections_may2026
     GROUP BY STATE, PARTY) AS PARTY_VOTE_DETAILS ON GER.STATE = PARTY_VOTE_DETAILS.STATE AND GER.PARTY = PARTY_VOTE_DETAILS.PARTY
     GROUP BY GER.STATE, GER.PARTY, PARTY_VOTE_DETAILS.PARTY_VOTES) COST_ANALYSIS
 ORDER BY STATE ASC, COST_PER_VOTE ASC;
@@ -35,7 +35,7 @@ FROM
         STATE,
         PARTY,
         COUNT(DISTINCT CONCAT(STATE, '_', CONSTITUENCY)) AS SEATS_PARTICIPATED
-     FROM assembly_elections_nov2025
+     FROM assembly_elections_may2026
      GROUP BY STATE, PARTY
     ) p
 LEFT JOIN
@@ -50,7 +50,7 @@ LEFT JOIN
             PARTY,
             VOTES,
             ROW_NUMBER() OVER (PARTITION BY STATE, CONSTITUENCY ORDER BY VOTES DESC) AS rn
-         FROM assembly_elections_nov2025
+         FROM assembly_elections_may2026
         ) ranked_results
      WHERE rn = 1
      GROUP BY STATE, PARTY
@@ -70,7 +70,7 @@ FROM
         STATE,
         PARTY,
         COUNT(DISTINCT CONCAT(STATE, '_', CONSTITUENCY)) AS SEATS_PARTICIPATED
-     FROM assembly_elections_nov2025
+     FROM assembly_elections_may2026
      GROUP BY STATE, PARTY
     ) p
 LEFT JOIN
@@ -85,7 +85,7 @@ LEFT JOIN
             PARTY,
             VOTES,
             ROW_NUMBER() OVER (PARTITION BY STATE, CONSTITUENCY ORDER BY VOTES DESC) AS rn
-         FROM assembly_elections_nov2025
+         FROM assembly_elections_may2026
         ) ranked_results
      WHERE rn = 1
      GROUP BY STATE, PARTY

@@ -4,14 +4,14 @@ WITH shares AS (
            code,
            constituency,
            SUM(vote_percentage) AS total_pct
-    FROM public.assembly_elections_nov2025
+    FROM public.assembly_elections_may2026
     GROUP BY state, code, constituency
 ), hhi AS (
     SELECT a.state,
            a.code,
            a.constituency,
            SUM(POWER(vote_percentage / s.total_pct, 2)) AS hhi
-    FROM public.assembly_elections_nov2025 a
+    FROM public.assembly_elections_may2026 a
     JOIN shares s ON s.state = a.state AND s.code = a.code AND s.constituency = a.constituency
     GROUP BY a.state, a.code, a.constituency
 ), hhi_bands AS (
@@ -31,7 +31,7 @@ WITH shares AS (
            constituency,
            party,
            ROW_NUMBER() OVER (PARTITION BY state, code ORDER BY votes DESC) AS rn
-    FROM public.assembly_elections_nov2025
+    FROM public.assembly_elections_may2026
 )
 SELECT r.party,
        hb.hhi_band,
