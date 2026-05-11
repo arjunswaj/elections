@@ -5,7 +5,13 @@ type StateDetail = (String, String, Int)
 generateStateDetails :: [StateDetail]
 generateStateDetails =
   [ -- States
-    ("BIHAR", "S04", 243)
+    ("ASSAM", "S03", 126),
+    ("KERALA", "S11", 140),
+    ("TAMIL NADU", "S22", 234),
+    ("WEST BENGAL", "S25", 294),
+    -- Union Territories
+    ("PUDUCHERRY", "U07", 30)
+
   ]
 
 -- Example function to display state details
