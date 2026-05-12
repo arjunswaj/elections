@@ -10,7 +10,7 @@ WITH shares AS (
     SELECT a.state,
            a.code,
            a.constituency,
-           SUM(POWER(vote_percentage / s.total_pct, 2)) AS hhi
+           SUM(POWER(vote_percentage / NULLIF(s.total_pct, 0), 2)) AS hhi
     FROM public.assembly_elections_may2026 a
     JOIN shares s ON s.state = a.state AND s.code = a.code AND s.constituency = a.constituency
     GROUP BY a.state, a.code, a.constituency
