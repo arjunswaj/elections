@@ -4,6 +4,19 @@
 -- Connect to the database
 -- \c elections
 
+-- Connect as postgres to the elections database
+psql -h 192.168.64.3 -U postgres -d elections
+
+-- Then run these commands in the elections database:
+GRANT ALL ON SCHEMA public TO arjunswaj;
+ALTER SCHEMA public OWNER TO arjunswaj;
+
+-- Also grant database-level privileges:
+GRANT ALL PRIVILEGES ON DATABASE elections TO arjunswaj;
+
+-- Exit and reconnect as arjunswaj
+\q
+
 DROP TABLE IF EXISTS assembly_elections_may2026;
 
 CREATE TABLE assembly_elections_may2026 (
