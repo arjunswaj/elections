@@ -1,0 +1,16 @@
+constituency_code,constituency,winning_party,runner_up_party,candidate_count,others_vote_pct,margin_votes,margin_pct,postal_gap,crowding_band
+S2563,RANINAGAR,Indian National Congress,All India Trinamool Congress,15,34.16,2701,1.14,21,Ultra-crowded
+S2555,FARAKKA,Indian National Congress,Bharatiya Janata Party,13,32.57,8193,4.68,-109,Crowded
+S2523,DARJEELING,Bharatiya Janata Party,Bharatiya Gorkha Prajatantrik Morcha,7,32.04,6057,3.49,764,Standard
+S2565,NABAGRAM,Bharatiya Janata Party,All India Trinamool Congress,8,31.60,5919,2.68,180,Standard
+S2566,KHARGRAM,Bharatiya Janata Party,All India Trinamool Congress,10,28.52,9333,4.56,73,Crowded
+S2556,SAMSERGANJ,All India Trinamool Congress,Indian National Congress,11,25.20,7587,4.88,16,Crowded
+S25102,AMDANGA,All India Trinamool Congress,Bharatiya Janata Party,13,24.89,2995,1.40,-190,Crowded
+S25118,MADHYAMGRAM,All India Trinamool Congress,Bharatiya Janata Party,11,18.59,2399,1.03,-74,Crowded
+S25152,TOLLYGANJ,Bharatiya Janata Party,All India Trinamool Congress,12,16.95,6013,2.93,-34,Crowded
+S25112,KAMARHATI,All India Trinamool Congress,Bharatiya Janata Party,12,16.39,5646,3.80,-187,Crowded
+S25101,ASHOKNAGAR,Bharatiya Janata Party,All India Trinamool Congress,10,16.18,9408,4.28,241,Crowded
+S25115,RAJARHAT NEW TOWN,Bharatiya Janata Party,All India Trinamool Congress,14,15.73,316,0.12,124,Crowded
+S25192,PANDUA,Bharatiya Janata Party,All India Trinamool Congress,10,15.51,5228,2.23,137,Crowded
+S25124,BASIRHAT DAKSHIN,All India Trinamool Congress,Bharatiya Janata Party,12,13.63,9544,3.81,-635,Crowded
+S25181,AMTA,Bharatiya Janata Party,All India Trinamool Congress,14,13.57,4454,1.88,-86,Crowded
