@@ -1,118 +1,164 @@
 -- Maximum votes for a candidate
-SELECT 
-    CODE AS CONSTITUENCY_CODE, CANDIDATE, PARTY, CONSTITUENCY, STATE, VOTES
-FROM
-    assembly_elections_may2026
-ORDER BY STATE ASC, VOTES DESC;
+
+SELECT CODE AS CONSTITUENCY_CODE,
+       CANDIDATE,
+       PARTY,
+       CONSTITUENCY,
+       STATE,
+       VOTES
+FROM assembly_elections_may2026 a
+LEFT JOIN election_gates eg ON eg.code = a.code
+AND eg.status = 'EXCLUDE'
+WHERE eg.code IS NULL
+ORDER BY STATE ASC,
+         VOTES DESC;
 
 -- Max votes of winning candidates
-SELECT 
-    t.CODE AS CONSTITUENCY_CODE,
-    t.CANDIDATE,
-    t.PARTY,
-    t.CONSTITUENCY,
-    t.STATE,
-    t.VOTES AS WINNER_VOTES
-FROM
-    assembly_elections_may2026 t
-        JOIN
-    (SELECT 
-        STATE, CODE, CONSTITUENCY, MAX(VOTES) AS MAX_VOTES
-    FROM
-        assembly_elections_may2026
-    GROUP BY STATE, CODE, CONSTITUENCY) sub ON t.STATE = sub.STATE
-        AND t.CODE = sub.CODE
-        AND t.CONSTITUENCY = sub.CONSTITUENCY
-        AND t.VOTES = sub.MAX_VOTES
-ORDER BY t.STATE ASC, t.VOTES DESC;
+
+SELECT t.CODE AS CONSTITUENCY_CODE,
+       t.CANDIDATE,
+       t.PARTY,
+       t.CONSTITUENCY,
+       t.STATE,
+       t.VOTES AS WINNER_VOTES
+FROM assembly_elections_may2026 t
+LEFT JOIN election_gates eg ON eg.code = t.code
+AND eg.status = 'EXCLUDE'
+JOIN
+  (SELECT STATE,
+          CODE,
+          CONSTITUENCY,
+          MAX(VOTES) AS MAX_VOTES
+   FROM assembly_elections_may2026 a
+   LEFT JOIN election_gates eg ON eg.code = a.code
+   AND eg.status = 'EXCLUDE'
+   WHERE eg.code IS NULL
+   GROUP BY STATE,
+            CODE,
+            CONSTITUENCY) sub ON t.STATE = sub.STATE
+AND t.CODE = sub.CODE
+AND t.CONSTITUENCY = sub.CONSTITUENCY
+AND t.VOTES = sub.MAX_VOTES
+WHERE eg.code IS NULL
+ORDER BY t.STATE ASC,
+         t.VOTES DESC;
 
 -- Least votes for a winning candidate
-SELECT 
-    t.CODE AS CONSTITUENCY_CODE,
-    t.CANDIDATE AS CANDIDATE,
-    t.PARTY AS PARTY,
-    t.CONSTITUENCY AS CONSTITUENCY,
-    t.STATE AS STATE,
-    t.VOTES AS WINNER_VOTES
-FROM
-    assembly_elections_may2026 t
-        JOIN
-    (SELECT 
-        STATE, CODE, CONSTITUENCY, MAX(VOTES) AS MAX_VOTES
-    FROM
-        assembly_elections_may2026
-    GROUP BY STATE, CODE, CONSTITUENCY) sub ON t.STATE = sub.STATE
-        AND t.CODE = sub.CODE
-        AND t.CONSTITUENCY = sub.CONSTITUENCY
-        AND t.VOTES = sub.MAX_VOTES
-ORDER BY t.STATE ASC, WINNER_VOTES ASC;
+
+SELECT t.CODE AS CONSTITUENCY_CODE,
+       t.CANDIDATE AS CANDIDATE,
+       t.PARTY AS PARTY,
+       t.CONSTITUENCY AS CONSTITUENCY,
+       t.STATE AS STATE,
+       t.VOTES AS WINNER_VOTES
+FROM assembly_elections_may2026 t
+LEFT JOIN election_gates eg ON eg.code = t.code
+AND eg.status = 'EXCLUDE'
+JOIN
+  (SELECT STATE,
+          CODE,
+          CONSTITUENCY,
+          MAX(VOTES) AS MAX_VOTES
+   FROM assembly_elections_may2026 a
+   LEFT JOIN election_gates eg ON eg.code = a.code
+   AND eg.status = 'EXCLUDE'
+   WHERE eg.code IS NULL
+   GROUP BY STATE,
+            CODE,
+            CONSTITUENCY) sub ON t.STATE = sub.STATE
+AND t.CODE = sub.CODE
+AND t.CONSTITUENCY = sub.CONSTITUENCY
+AND t.VOTES = sub.MAX_VOTES
+WHERE eg.code IS NULL
+ORDER BY t.STATE ASC,
+         WINNER_VOTES ASC;
 
 -- Max votes for a losing candidate
-SELECT 
-    t2.CODE AS CONSTITUENCY_CODE,
-    t2.CANDIDATE AS CANDIDATE,
-    t2.PARTY AS PARTY,
-    t2.CONSTITUENCY AS CONSTITUENCY,
-    t2.STATE AS STATE,
-    t2.VOTES AS RUNNER_VOTES
-FROM
-    assembly_elections_may2026 t2
-        JOIN
-    (SELECT 
-        t.STATE, t.CODE, t.CONSTITUENCY, MAX(t.VOTES) AS RUNNER_VOTES
-    FROM
-        assembly_elections_may2026 t
-    JOIN (SELECT 
-        STATE, CODE, CONSTITUENCY, MAX(VOTES) AS MAX_VOTES
-    FROM
-        assembly_elections_may2026
-    GROUP BY STATE, CODE, CONSTITUENCY) sub ON t.STATE = sub.STATE
-        AND t.CODE = sub.CODE
-        AND t.CONSTITUENCY = sub.CONSTITUENCY
-        AND t.VOTES < sub.MAX_VOTES
-    GROUP BY t.STATE, t.CODE, t.CONSTITUENCY) sub2 ON t2.STATE = sub2.STATE
-        AND t2.CODE = sub2.CODE
-        AND t2.CONSTITUENCY = sub2.CONSTITUENCY
-        AND t2.VOTES = sub2.RUNNER_VOTES
-ORDER BY t2.STATE ASC, RUNNER_VOTES DESC;
+
+SELECT t2.CODE AS CONSTITUENCY_CODE,
+       t2.CANDIDATE AS CANDIDATE,
+       t2.PARTY AS PARTY,
+       t2.CONSTITUENCY AS CONSTITUENCY,
+       t2.STATE AS STATE,
+       t2.VOTES AS RUNNER_VOTES
+FROM assembly_elections_may2026 t2
+LEFT JOIN election_gates eg2 ON eg2.code = t2.code
+AND eg2.status = 'EXCLUDE'
+JOIN
+  (SELECT t.STATE,
+          t.CODE,
+          t.CONSTITUENCY,
+          MAX(t.VOTES) AS RUNNER_VOTES
+   FROM assembly_elections_may2026 t
+   LEFT JOIN election_gates egt ON egt.code = t.code
+   AND egt.status = 'EXCLUDE'
+   JOIN
+     (SELECT STATE,
+             CODE,
+             CONSTITUENCY,
+             MAX(VOTES) AS MAX_VOTES
+      FROM assembly_elections_may2026 a
+      LEFT JOIN election_gates eg ON eg.code = a.code
+      AND eg.status = 'EXCLUDE'
+      WHERE eg.code IS NULL
+      GROUP BY STATE,
+               CODE,
+               CONSTITUENCY) sub ON t.STATE = sub.STATE
+   AND t.CODE = sub.CODE
+   AND t.CONSTITUENCY = sub.CONSTITUENCY
+   AND t.VOTES < sub.MAX_VOTES
+   WHERE egt.code IS NULL
+   GROUP BY t.STATE,
+            t.CODE,
+            t.CONSTITUENCY) sub2 ON t2.STATE = sub2.STATE
+AND t2.CODE = sub2.CODE
+AND t2.CONSTITUENCY = sub2.CONSTITUENCY
+AND t2.VOTES = sub2.RUNNER_VOTES
+WHERE eg2.code IS NULL
+ORDER BY t2.STATE ASC,
+         RUNNER_VOTES DESC;
 
 -- Candidates winning by Max/Min margin
-SELECT 
-    c1.CODE AS CONSTITUENCY_CODE,
-    c1.STATE, 
-    c1.CONSTITUENCY,
-    c1.CANDIDATE AS WINNER, 
-    c1.PARTY AS WINNER_PARTY, 
-    c1.VOTES AS WINNER_VOTES, 
-    c2.CANDIDATE AS RUNNER_UP, 
-    c2.PARTY AS RUNNER_UP_PARTY, 
-    c2.VOTES AS RUNNER_UP_VOTES, 
-    (c1.VOTES - c2.VOTES) AS VOTE_DIFFERENCE
-FROM 
-    (SELECT 
-        STATE, 
-        CODE,
-        CONSTITUENCY, 
-        CANDIDATE, 
-        PARTY, 
-        VOTES,
-        ROW_NUMBER() OVER (PARTITION BY STATE, CODE ORDER BY VOTES DESC) AS rn
-    FROM assembly_elections_may2026
-    ) c1
-JOIN 
-    (SELECT 
-        STATE, 
-        CODE,
-        CONSTITUENCY, 
-        CANDIDATE, 
-        PARTY, 
-        VOTES,
-        ROW_NUMBER() OVER (PARTITION BY STATE, CODE ORDER BY VOTES DESC) AS rn
-    FROM assembly_elections_may2026
-    ) c2
-ON c1.STATE = c2.STATE 
-    AND c1.CODE = c2.CODE 
-    AND c1.CONSTITUENCY = c2.CONSTITUENCY 
-    AND c1.rn = 1 
-    AND c2.rn = 2
-ORDER BY c1.STATE ASC, VOTE_DIFFERENCE ASC;
+
+SELECT c1.CODE AS CONSTITUENCY_CODE,
+       c1.STATE,
+       c1.CONSTITUENCY,
+       c1.CANDIDATE AS WINNER,
+       c1.PARTY AS WINNER_PARTY,
+       c1.VOTES AS WINNER_VOTES,
+       c2.CANDIDATE AS RUNNER_UP,
+       c2.PARTY AS RUNNER_UP_PARTY,
+       c2.VOTES AS RUNNER_UP_VOTES,
+       (c1.VOTES - c2.VOTES) AS VOTE_DIFFERENCE
+FROM
+  (SELECT STATE,
+          CODE,
+          CONSTITUENCY,
+          CANDIDATE,
+          PARTY,
+          VOTES,
+          ROW_NUMBER() OVER (PARTITION BY STATE, CODE
+                             ORDER BY VOTES DESC) AS rn
+   FROM assembly_elections_may2026 a
+   LEFT JOIN election_gates eg ON eg.code = a.code
+   AND eg.status = 'EXCLUDE'
+   WHERE eg.code IS NULL) c1
+JOIN
+  (SELECT STATE,
+          CODE,
+          CONSTITUENCY,
+          CANDIDATE,
+          PARTY,
+          VOTES,
+          ROW_NUMBER() OVER (PARTITION BY STATE, CODE
+                             ORDER BY VOTES DESC) AS rn
+   FROM assembly_elections_may2026 a
+   LEFT JOIN election_gates eg ON eg.code = a.code
+   AND eg.status = 'EXCLUDE'
+   WHERE eg.code IS NULL) c2 ON c1.STATE = c2.STATE
+AND c1.CODE = c2.CODE
+AND c1.CONSTITUENCY = c2.CONSTITUENCY
+AND c1.rn = 1
+AND c2.rn = 2
+ORDER BY c1.STATE ASC,
+         VOTE_DIFFERENCE ASC;

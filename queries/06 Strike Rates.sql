@@ -1,95 +1,113 @@
 -- Cost per vote (best and worst)
-SELECT 
-    STATE,
-    PARTY,
-    TOTAL_COST,
-    PARTY_VOTES,
-    (TOTAL_COST::numeric / NULLIF(PARTY_VOTES, 0)) AS COST_PER_VOTE
+
+SELECT STATE,
+       PARTY,
+       TOTAL_COST,
+       PARTY_VOTES,
+       (TOTAL_COST::numeric / NULLIF(PARTY_VOTES, 0)) AS COST_PER_VOTE
 FROM
-    (SELECT 
-        GER.STATE AS STATE,
-        (COUNT(GER.CANDIDATE) * 4000000) AS TOTAL_COST,
-        GER.PARTY AS PARTY,
-        PARTY_VOTE_DETAILS.PARTY_VOTES AS PARTY_VOTES
-    FROM
-        assembly_elections_may2026 GER
-    JOIN (SELECT 
-        STATE,
-        PARTY, 
-        SUM(VOTES) AS PARTY_VOTES
-    FROM
-        assembly_elections_may2026
-    GROUP BY STATE, PARTY) AS PARTY_VOTE_DETAILS ON GER.STATE = PARTY_VOTE_DETAILS.STATE AND GER.PARTY = PARTY_VOTE_DETAILS.PARTY
-    GROUP BY GER.STATE, GER.PARTY, PARTY_VOTE_DETAILS.PARTY_VOTES) COST_ANALYSIS
-ORDER BY STATE ASC, COST_PER_VOTE ASC;
+  (SELECT GER.STATE AS STATE,
+          (COUNT(GER.CANDIDATE) * 4000000) AS TOTAL_COST,
+          GER.PARTY AS PARTY,
+          PARTY_VOTE_DETAILS.PARTY_VOTES AS PARTY_VOTES
+   FROM assembly_elections_may2026 GER
+   LEFT JOIN election_gates eg ON eg.code = GER.code
+   AND eg.status = 'EXCLUDE'
+   JOIN
+     (SELECT STATE,
+             PARTY,
+             SUM(VOTES) AS PARTY_VOTES
+      FROM assembly_elections_may2026 a
+      LEFT JOIN election_gates egp ON egp.code = a.code
+      AND egp.status = 'EXCLUDE'
+      WHERE egp.code IS NULL
+      GROUP BY STATE,
+               PARTY) AS PARTY_VOTE_DETAILS ON GER.STATE = PARTY_VOTE_DETAILS.STATE
+   AND GER.PARTY = PARTY_VOTE_DETAILS.PARTY
+   WHERE eg.code IS NULL
+   GROUP BY GER.STATE,
+            GER.PARTY,
+            PARTY_VOTE_DETAILS.PARTY_VOTES) COST_ANALYSIS
+ORDER BY STATE ASC,
+         COST_PER_VOTE ASC;
 
 -- Strike Rate - Best
-SELECT
-    p.STATE,
-    p.PARTY,
-    p.SEATS_PARTICIPATED,
-    w.SEATS_WON,
-    (w.SEATS_WON::numeric / NULLIF(p.SEATS_PARTICIPATED, 0) * 100) AS SUCCESS_RATIO
+
+SELECT p.STATE,
+       p.PARTY,
+       p.SEATS_PARTICIPATED,
+       w.SEATS_WON,
+       (w.SEATS_WON::numeric / NULLIF(p.SEATS_PARTICIPATED, 0) * 100) AS SUCCESS_RATIO
 FROM
-    (SELECT
-        STATE,
-        PARTY,
-        COUNT(DISTINCT CONCAT(STATE, '_', CONSTITUENCY)) AS SEATS_PARTICIPATED
-     FROM assembly_elections_may2026
-     GROUP BY STATE, PARTY
-    ) p
+  (SELECT STATE,
+          PARTY,
+          COUNT(DISTINCT CONCAT(STATE, '_', CONSTITUENCY)) AS SEATS_PARTICIPATED
+   FROM assembly_elections_may2026 a
+   LEFT JOIN election_gates eg ON eg.code = a.code
+   AND eg.status = 'EXCLUDE'
+   WHERE eg.code IS NULL
+   GROUP BY STATE,
+            PARTY) p
 LEFT JOIN
-    (SELECT
-        STATE,
-        PARTY,
-        COUNT(*) AS SEATS_WON
-     FROM
-        (SELECT
-            STATE,
-            CONSTITUENCY,
-            PARTY,
-            VOTES,
-            ROW_NUMBER() OVER (PARTITION BY STATE, CONSTITUENCY ORDER BY VOTES DESC) AS rn
-         FROM assembly_elections_may2026
-        ) ranked_results
-     WHERE rn = 1
-     GROUP BY STATE, PARTY
-    ) w
-ON p.STATE = w.STATE AND p.PARTY = w.PARTY
-ORDER BY STATE ASC, SUCCESS_RATIO DESC, SEATS_PARTICIPATED DESC;
+  (SELECT STATE,
+          PARTY,
+          COUNT(*) AS SEATS_WON
+   FROM
+     (SELECT STATE,
+             CONSTITUENCY,
+             PARTY,
+             VOTES,
+             ROW_NUMBER() OVER (PARTITION BY STATE, CONSTITUENCY
+                                ORDER BY VOTES DESC) AS rn
+      FROM assembly_elections_may2026 a
+      LEFT JOIN election_gates eg ON eg.code = a.code
+      AND eg.status = 'EXCLUDE'
+      WHERE eg.code IS NULL) ranked_results
+   WHERE rn = 1
+   GROUP BY STATE,
+            PARTY) w ON p.STATE = w.STATE
+AND p.PARTY = w.PARTY
+ORDER BY STATE ASC,
+         SUCCESS_RATIO DESC,
+         SEATS_PARTICIPATED DESC;
 
 -- Strike Rate - Worst (at least 1 win)
-SELECT
-    p.STATE,
-    p.PARTY,
-    p.SEATS_PARTICIPATED,
-    w.SEATS_WON,
-    (w.SEATS_WON::numeric / NULLIF(p.SEATS_PARTICIPATED, 0) * 100) AS SUCCESS_RATIO
+
+SELECT p.STATE,
+       p.PARTY,
+       p.SEATS_PARTICIPATED,
+       w.SEATS_WON,
+       (w.SEATS_WON::numeric / NULLIF(p.SEATS_PARTICIPATED, 0) * 100) AS SUCCESS_RATIO
 FROM
-    (SELECT
-        STATE,
-        PARTY,
-        COUNT(DISTINCT CONCAT(STATE, '_', CONSTITUENCY)) AS SEATS_PARTICIPATED
-     FROM assembly_elections_may2026
-     GROUP BY STATE, PARTY
-    ) p
+  (SELECT STATE,
+          PARTY,
+          COUNT(DISTINCT CONCAT(STATE, '_', CONSTITUENCY)) AS SEATS_PARTICIPATED
+   FROM assembly_elections_may2026 a
+   LEFT JOIN election_gates eg ON eg.code = a.code
+   AND eg.status = 'EXCLUDE'
+   WHERE eg.code IS NULL
+   GROUP BY STATE,
+            PARTY) p
 LEFT JOIN
-    (SELECT
-        STATE,
-        PARTY,
-        COUNT(*) AS SEATS_WON
-     FROM
-        (SELECT
-            STATE,
-            CONSTITUENCY,
-            PARTY,
-            VOTES,
-            ROW_NUMBER() OVER (PARTITION BY STATE, CONSTITUENCY ORDER BY VOTES DESC) AS rn
-         FROM assembly_elections_may2026
-        ) ranked_results
-     WHERE rn = 1
-     GROUP BY STATE, PARTY
-    ) w
-ON p.STATE = w.STATE AND p.PARTY = w.PARTY
+  (SELECT STATE,
+          PARTY,
+          COUNT(*) AS SEATS_WON
+   FROM
+     (SELECT STATE,
+             CONSTITUENCY,
+             PARTY,
+             VOTES,
+             ROW_NUMBER() OVER (PARTITION BY STATE, CONSTITUENCY
+                                ORDER BY VOTES DESC) AS rn
+      FROM assembly_elections_may2026 a
+      LEFT JOIN election_gates eg ON eg.code = a.code
+      AND eg.status = 'EXCLUDE'
+      WHERE eg.code IS NULL) ranked_results
+   WHERE rn = 1
+   GROUP BY STATE,
+            PARTY) w ON p.STATE = w.STATE
+AND p.PARTY = w.PARTY
 WHERE w.SEATS_WON >= 1
-ORDER BY STATE ASC, SUCCESS_RATIO ASC, SEATS_PARTICIPATED DESC;
+ORDER BY STATE ASC,
+         SUCCESS_RATIO ASC,
+         SEATS_PARTICIPATED DESC;

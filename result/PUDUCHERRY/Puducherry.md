@@ -35,6 +35,7 @@
      * [All India N.R. Congress](#all-india-nr-congress)
      * [Bharatiya Janata Party](#bharatiya-janata-party)
      * [Dravida Munnetra Kazhagam](#dravida-munnetra-kazhagam)
+     * [Independent](#independent)
 + [Advanced Join Insights](#advanced-join-insights)
 - [Crowding pressure seats](#crowding-pressure-seats)
 - [Runner-up overperformance vs party baseline](#runner-up-overperformance-vs-party-baseline)
@@ -99,23 +100,23 @@ A total of 294 candidates contested in the Puducherry assembly elections and abo
 
 #### Candidates winning by Max margin (Unilateral winner)
 
-| Code | Constituency | Winner | Winning Party | Winner Votes | Runner Up | Runner Up Party | Runner Up Votes | Vote Difference |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| U0714 | RAJ BHAVAN | VIGNESH KANNAN | Dravida Munnetra Kazhagam | 7304 | V. P. RAMALINGAME | Bharatiya Janata Party | 7017 | 287 |
-| U0712 | KALAPET | SENTHIL @ RAMESH | Dravida Munnetra Kazhagam | 12069 | P.M.L. KALYANASUNDARAM | Bharatiya Janata Party | 11622 | 447 |
-| U078 | INDIRA NAGAR | P.V. AROUMOUGAME @ AKD | All India N.R. Congress | 12640 | S. MOUROUGANE | Tamilaga Vettri Kazhagam | 12056 | 584 |
-| U0719 | ARIANKUPPAM | C. AIYAPPAN @ MOUTTAYAPPAN | All India N.R. Congress | 14210 | VIZAYALAKSHMY DJEAMOURTHY | Indian National Congress | 13607 | 603 |
-| U072 | THIRUBHUVANAI | AK. SAI J SARAVANAN KUMAR | Tamilaga Vettri Kazhagam | 9740 | B. KOBIGA | All India N.R. Congress | 9039 | 701 |
+| Code | State | Constituency | Winner | Winning Party | Winner Votes | Runner Up | Runner Up Party | Runner Up Votes | Vote Difference |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| U0714 | PUDUCHERRY | RAJ BHAVAN | VIGNESH KANNAN | Dravida Munnetra Kazhagam | 7304 | V. P. RAMALINGAME | Bharatiya Janata Party | 7017 | 287 |
+| U0712 | PUDUCHERRY | KALAPET | SENTHIL @ RAMESH | Dravida Munnetra Kazhagam | 12069 | P.M.L. KALYANASUNDARAM | Bharatiya Janata Party | 11622 | 447 |
+| U078 | PUDUCHERRY | INDIRA NAGAR | P.V. AROUMOUGAME @ AKD | All India N.R. Congress | 12640 | S. MOUROUGANE | Tamilaga Vettri Kazhagam | 12056 | 584 |
+| U0719 | PUDUCHERRY | ARIANKUPPAM | C. AIYAPPAN @ MOUTTAYAPPAN | All India N.R. Congress | 14210 | VIZAYALAKSHMY DJEAMOURTHY | Indian National Congress | 13607 | 603 |
+| U072 | PUDUCHERRY | THIRUBHUVANAI | AK. SAI J SARAVANAN KUMAR | Tamilaga Vettri Kazhagam | 9740 | B. KOBIGA | All India N.R. Congress | 9039 | 701 |
 
 #### Candidates winning by Least margin (Fierce battle)
 
-| Code | Constituency | Winner | Winning Party | Winner Votes | Runner Up | Runner Up Party | Runner Up Votes | Vote Difference |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| U0722 | NETTAPAKKAM | P. RAJAVELU | All India N.R. Congress | 13665 | G. ANBARASAN | Indian National Congress | 6976 | 6689 |
-| U077 | KADIRGAMAM | AZHAGU @ AZHAGANANTHAM | Independent | 14633 | K.S.P @ S. RAMESH | All India N.R. Congress | 7629 | 7004 |
-| U074 | MANGALAM | N. RANGASAMY | All India N.R. Congress | 17917 | S.S. RANGAN | Dravida Munnetra Kazhagam | 10867 | 7050 |
-| U0725 | THIRUNALLAR | G.N.S. RAJASEKARAN | Bharatiya Janata Party | 16829 | R. KAMALAKANNAN | Indian National Congress | 7303 | 9526 |
-| U0710 | KAMARAJ NAGAR | JOSE CHARLES MARTIN | Latchiya Jananayaka Katchi (LJK) | 16592 | P.K. DEVADOSS | Indian National Congress | 6387 | 10205 |
+| Code | State | Constituency | Winner | Winning Party | Winner Votes | Runner Up | Runner Up Party | Runner Up Votes | Vote Difference |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| U0722 | PUDUCHERRY | NETTAPAKKAM | P. RAJAVELU | All India N.R. Congress | 13665 | G. ANBARASAN | Indian National Congress | 6976 | 6689 |
+| U077 | PUDUCHERRY | KADIRGAMAM | AZHAGU @ AZHAGANANTHAM | Independent | 14633 | K.S.P @ S. RAMESH | All India N.R. Congress | 7629 | 7004 |
+| U074 | PUDUCHERRY | MANGALAM | N. RANGASAMY | All India N.R. Congress | 17917 | S.S. RANGAN | Dravida Munnetra Kazhagam | 10867 | 7050 |
+| U0725 | PUDUCHERRY | THIRUNALLAR | G.N.S. RAJASEKARAN | Bharatiya Janata Party | 16829 | R. KAMALAKANNAN | Indian National Congress | 7303 | 9526 |
+| U0710 | PUDUCHERRY | KAMARAJ NAGAR | JOSE CHARLES MARTIN | Latchiya Jananayaka Katchi (LJK) | 16592 | P.K. DEVADOSS | Indian National Congress | 6387 | 10205 |
 
 ### Max and Mins - Constituencies
 #### Max Total Votes in a Constituency
@@ -278,18 +279,18 @@ A total of 294 candidates contested in the Puducherry assembly elections and abo
 
 #### Candidates participating in multiple seats (matches names)
 
-| Candidate | Constituencies Contested |
-| --- | --- |
-| N. RANGASAMY | 2 |
-| RAMESH | 2 |
-| A ANBALAGAN | 1 |
-| A. ARULPRAKASH @ ARUL OLI | 1 |
-| A. DHINAKARAN | 1 |
-| A. DINESAN | 1 |
-| ADV. T. ASHOK KUMAR | 1 |
-| A. GANDHI | 1 |
-| A.H. ABDUL BASITH | 1 |
-| A. JAYAKUMAR | 1 |
+| Candidate | Party | Constituencies Contested |
+| --- | --- | --- |
+| N. RANGASAMY | All India N.R. Congress | 2 |
+| RAMESH | Independent | 2 |
+| A ANBALAGAN | All India Anna Dravida Munnetra Kazhagam | 1 |
+| A. ARULPRAKASH @ ARUL OLI | Independent | 1 |
+| A. DHINAKARAN | Independent | 1 |
+| A. DINESAN | Bharatiya Janata Party | 1 |
+| ADV. T. ASHOK KUMAR | Independent | 1 |
+| A. GANDHI | All India Anna Dravida Munnetra Kazhagam | 1 |
+| A.H. ABDUL BASITH | Independent | 1 |
+| A. JAYAKUMAR | Latchiya Jananayaka Katchi (LJK) | 1 |
 
 #### Results of Candidates participating in multiple seats
 
@@ -346,6 +347,13 @@ This matrix provides the number of seats in which parties lost by the number of 
 | MANGALAM | U074 | 10867 | All India N.R. Congress | 17917 | 7050 |
 
 
+##### Independent
+
+| Constituency | Code | Runner Up Votes | Winning Party | Winning Votes | Vote Difference |
+| --- | --- | --- | --- | --- | --- |
+| NELLITHOPE | U0717 | 7376 | Dravida Munnetra Kazhagam | 8226 | 850 |
+
+
 ### Advanced Join Insights
 
 The following highlights rely on multi-layer joins that combine margin, vote-share distribution, and competition intensity. Full result sets are saved in `result/PUDUCHERRY/22 Crowding Pressure Seats.csv`, `result/PUDUCHERRY/23 Runner Up Overperformance.csv`, `result/PUDUCHERRY/24 HHI Win Mix.csv`, and `result/PUDUCHERRY/25 Third Place Spoilers.csv`.
@@ -366,7 +374,7 @@ Seats where narrow margins collide with double-digit "others" vote share signal 
 
 Comparing runner-up vote share with each party's average reveals hidden pockets of strength despite losses.
 
-| Constituency | Candidate | Party | Runner Up % | Party Avg % | Overperformance % | Total Constituencies Contested |
+| Constituency | Candidate | Party | Runner Up % | Party Avg % | Overperformance % | Constituencies |
 | --- | --- | --- | --- | --- | --- | --- |
 | NELLITHOPE | OMSAKTHISEKAR | Independent | 29.78 | 2.33 | 27.45 | 117 |
 | INDIRA NAGAR | S. MOUROUGANE | Tamilaga Vettri Kazhagam | 40.19 | 17.60 | 22.59 | 28 |

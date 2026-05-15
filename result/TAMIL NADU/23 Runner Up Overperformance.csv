@@ -1,12 +1,11 @@
-constituency,candidate,party,runner_up_vote_pct,party_avg_vote_pct,overperformance_pct,total_constituencies_contested
+constituency,candidate,party,runner_up_vote_pct,party_avg_vote_pct,overperformance_pct,total_constested_at
 EDAPPADI,PREMKUMAR. K,Independent,19.68,0.11,19.57,2209
 THALLI,DR.NAGESH KUMAR. C,Bharatiya Janata Party,35.48,22.59,12.89,33
-TIRUCHIRAPPALLI,K.N.NEHRU,Dravida Munnetra Kazhagam,44.94,32.49,12.45,176
 MADATHUKULAM,C SHANMUGAVELU,Amma Makkal Munnettra Kazagam,28.95,18.48,10.47,11
-SALEM,VIJAY TAMILAN PARTHIBAN. A,Tamilaga Vettri Kazhagam,43.95,34.88,9.07,233
 MODAKKURICHI,S.KIRTHIKA,Bharatiya Janata Party,30.55,22.59,7.96,33
 KOLATHUR,M. K. STALIN,Dravida Munnetra Kazhagam,40.32,32.49,7.83,176
 CUMBUM,ERAMAKRISHNAN N,Dravida Munnetra Kazhagam,40.20,32.49,7.71,176
+TIRUCHIRAPPALLI,G.RAMAMOORTHI,Tamilaga Vettri Kazhagam,42.50,34.88,7.62,233
 KUMARAPALAYAM,P.THANGAMANI,All India Anna Dravida Munnetra Kazhagam,35.79,28.50,7.29,172
 VASUDEVANALLUR,ANANTHAN AYYASAMY,Bharatiya Janata Party,29.75,22.59,7.16,33
 AVANASHI,DR. L. MURUGAN,Bharatiya Janata Party,29.72,22.59,7.13,33
@@ -14,3 +13,4 @@ PENNAGARAM,SELVAM. V.,Pattali Makkal Katchi,34.14,27.05,7.09,18
 ULUNDURPETTAI,KUMARAGURU R,All India Anna Dravida Munnetra Kazhagam,35.50,28.50,7.00,172
 RASIPURAM,PREMKUMAR S D,Bharatiya Janata Party,29.46,22.59,6.87,33
 SHOLINGUR,K.SARAVANAN,Pattali Makkal Katchi,33.73,27.05,6.68,18
+TIRUPPATTUR,PERIAKARUPPAN. KR,Dravida Munnetra Kazhagam,38.65,32.49,6.16,176

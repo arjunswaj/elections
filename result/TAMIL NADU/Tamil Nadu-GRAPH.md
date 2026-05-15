@@ -148,9 +148,9 @@ config:
 ---
 xychart-beta
 title "Candidates Winning by Max Margin"
-x-axis ["SEENIVASA SETHUPATHY. R (TVK, TIRUPPATTUR)", "SRINIVASAN.P.S (DMK, VEPPANAHALLI)", "THALAVAI SUNDARAM. N (AIADMK, KANNIYAKUMARI)", "ABISHEK. R (TVK, POLUR)", "PALANISAMY S (AIADMK, TIRUKKOYILUR)"]
-y-axis "Vote Difference" 256 --> 1
-bar [1, 138, 214, 227, 285]
+x-axis ["TIRUPPATTUR (SEENIVASA SETHUPATHY. R, TAMIL NADU)", "VEPPANAHALLI (SRINIVASAN.P.S, TAMIL NADU)", "KANNIYAKUMARI (THALAVAI SUNDARAM. N, TAMIL NADU)", "POLUR (ABISHEK. R, TAMIL NADU)", "TIRUKKOYILUR (PALANISAMY S, TAMIL NADU)"]
+y-axis "Vote Difference" 65473 --> 91711
+bar [83374, 74553, 74831, 67734, 72748]
 ```
 
 #### Candidates winning by Least margin (Fierce battle)
@@ -168,9 +168,9 @@ config:
 ---
 xychart-beta
 title "Candidates Winning by Least Margin"
-x-axis ["LAKSHMANAN.S (TVK, SALEM)", "R.RAMESH KUMAR (TVK, AVADI)", "M.L.VIJAYPRABHU (TVK, MADAVARAM)", "ECR P SARAVANAN (TVK, SHOZHINGANALLUR)", "EDAPPADI PALANISWAMI. K (AIADMK, EDAPPADI)"]
-y-axis "Vote Difference" 0 --> 117732
-bar [74867, 76311, 94985, 96780, 98110]
+x-axis ["SALEM (LAKSHMANAN.S, TAMIL NADU)", "AVADI (R.RAMESH KUMAR, TAMIL NADU)", "MADAVARAM (M.L.VIJAYPRABHU, TAMIL NADU)", "SHOZHINGANALLUR (ECR P SARAVANAN, TAMIL NADU)", "EDAPPADI (EDAPPADI PALANISWAMI. K, TAMIL NADU)"]
+y-axis "Vote Difference" 0 --> 60987
+bar [45540, 104073, 95477, 123602, 50823]
 ```
 
 #### Max Total Votes in a Constituency
@@ -429,7 +429,7 @@ bar [47058.82, 48780.49, 56338.03, 72727.27, 86956.52]
 
 | Party | Seats Contested | Seats Won | Success Ratio |
 | --- | --- | --- | --- |
-| Pattali Makkal Katchi | 18 | 4 | 22.22222222222222222200 |
+| Pattali Makkal Katchi | 17 | 4 | 23.52941176470588235300 |
 | Indian National Congress | 28 | 5 | 17.85714285714285714300 |
 | Desiya Murpokku Dravida Kazhagam | 10 | 1 | 10.00000000000000000000 |
 | Amma Makkal Munnettra Kazagam | 11 | 1 | 9.09090909090909090900 |
@@ -444,7 +444,7 @@ bar [47058.82, 48780.49, 56338.03, 72727.27, 86956.52]
 | Amma Makkal Munnettra Kazagam | 11 | 1 | 9.09090909090909090900 |
 | Desiya Murpokku Dravida Kazhagam | 10 | 1 | 10.00000000000000000000 |
 | Indian National Congress | 28 | 5 | 17.85714285714285714300 |
-| Pattali Makkal Katchi | 18 | 4 | 22.22222222222222222200 |
+| Pattali Makkal Katchi | 17 | 4 | 23.52941176470588235300 |
 
 ### Multiple Seat Participation
 
@@ -562,13 +562,13 @@ bar [42.12, 41.25, 40.90, 40.56, 39.51]
 
 These runner-up candidates beat their party-wide average vote share even in defeat.
 
-| Constituency | Candidate | Party | Runner Up % | Party Avg % | Overperformance % | Total Constituencies Contested |
+| Constituency | Candidate | Party | Runner Up % | Party Avg % | Overperformance % | Constituencies |
 | --- | --- | --- | --- | --- | --- | --- |
 | EDAPPADI | PREMKUMAR. K | Independent | 19.68 | 0.11 | 19.57 | 2209 |
 | THALLI | DR.NAGESH KUMAR. C | Bharatiya Janata Party | 35.48 | 22.59 | 12.89 | 33 |
-| TIRUCHIRAPPALLI | K.N.NEHRU | Dravida Munnetra Kazhagam | 44.94 | 32.49 | 12.45 | 176 |
 | MADATHUKULAM | C SHANMUGAVELU | Amma Makkal Munnettra Kazagam | 28.95 | 18.48 | 10.47 | 11 |
-| SALEM | VIJAY TAMILAN PARTHIBAN. A | Tamilaga Vettri Kazhagam | 43.95 | 34.88 | 9.07 | 233 |
+| MODAKKURICHI | S.KIRTHIKA | Bharatiya Janata Party | 30.55 | 22.59 | 7.96 | 33 |
+| KOLATHUR | M. K. STALIN | Dravida Munnetra Kazhagam | 40.32 | 32.49 | 7.83 | 176 |
 
 ```mermaid
 ---
@@ -583,9 +583,9 @@ config:
 ---
 xychart-beta
 title "Runner-up Overperformance"
-x-axis ["EDAPPADI", "THALLI", "TIRUCHIRAPPALLI", "MADATHUKULAM", "SALEM"]
+x-axis ["EDAPPADI", "THALLI", "MADATHUKULAM", "MODAKKURICHI", "KOLATHUR"]
 y-axis "Overperformance %" 0 --> 35
-bar [19.57, 12.89, 12.45, 10.47, 9.07]
+bar [19.57, 12.89, 10.47, 7.96, 7.83]
 ```
 
 #### HHI win mix by party

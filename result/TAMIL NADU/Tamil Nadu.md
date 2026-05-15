@@ -100,23 +100,23 @@ A total of 4023 candidates contested in the Tamil Nadu assembly elections and ab
 
 #### Candidates winning by Max margin (Unilateral winner)
 
-| Code | Constituency | Winner | Winning Party | Winner Votes | Runner Up | Runner Up Party | Runner Up Votes | Vote Difference |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S22185 | TIRUPPATTUR | SEENIVASA SETHUPATHY. R | Tamilaga Vettri Kazhagam | 83375 | PERIAKARUPPAN. KR | Dravida Munnetra Kazhagam | 83374 | 1 |
-| S2254 | VEPPANAHALLI | SRINIVASAN.P.S | Dravida Munnetra Kazhagam | 74691 | MUNUSAMY.K.P | All India Anna Dravida Munnetra Kazhagam | 74553 | 138 |
-| S22229 | KANNIYAKUMARI | THALAVAI SUNDARAM. N | All India Anna Dravida Munnetra Kazhagam | 75045 | MAHESH.R | Dravida Munnetra Kazhagam | 74831 | 214 |
-| S2266 | POLUR | ABISHEK. R | Tamilaga Vettri Kazhagam | 67961 | SARAVANAN. P | Desiya Murpokku Dravida Kazhagam | 67734 | 227 |
-| S2276 | TIRUKKOYILUR | PALANISAMY S | All India Anna Dravida Munnetra Kazhagam | 73033 | VIJAY R BARANIBALAAJI | Tamilaga Vettri Kazhagam | 72748 | 285 |
+| Code | State | Constituency | Winner | Winning Party | Winner Votes | Runner Up | Runner Up Party | Runner Up Votes | Vote Difference |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| S22185 | TAMIL NADU | TIRUPPATTUR | SEENIVASA SETHUPATHY. R | Tamilaga Vettri Kazhagam | 83375 | PERIAKARUPPAN. KR | Dravida Munnetra Kazhagam | 83374 | 1 |
+| S2254 | TAMIL NADU | VEPPANAHALLI | SRINIVASAN.P.S | Dravida Munnetra Kazhagam | 74691 | MUNUSAMY.K.P | All India Anna Dravida Munnetra Kazhagam | 74553 | 138 |
+| S22229 | TAMIL NADU | KANNIYAKUMARI | THALAVAI SUNDARAM. N | All India Anna Dravida Munnetra Kazhagam | 75045 | MAHESH.R | Dravida Munnetra Kazhagam | 74831 | 214 |
+| S2266 | TAMIL NADU | POLUR | ABISHEK. R | Tamilaga Vettri Kazhagam | 67961 | SARAVANAN. P | Desiya Murpokku Dravida Kazhagam | 67734 | 227 |
+| S2276 | TAMIL NADU | TIRUKKOYILUR | PALANISAMY S | All India Anna Dravida Munnetra Kazhagam | 73033 | VIJAY R BARANIBALAAJI | Tamilaga Vettri Kazhagam | 72748 | 285 |
 
 #### Candidates winning by Least margin (Fierce battle)
 
-| Code | Constituency | Winner | Winning Party | Winner Votes | Runner Up | Runner Up Party | Runner Up Votes | Vote Difference |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S2288 | SALEM | LAKSHMANAN.S | Tamilaga Vettri Kazhagam | 120407 | KARTHE.M | Pattali Makkal Katchi | 45540 | 74867 |
-| S226 | AVADI | R.RAMESH KUMAR | Tamilaga Vettri Kazhagam | 180384 | S.M.NASAR | Dravida Munnetra Kazhagam | 104073 | 76311 |
-| S229 | MADAVARAM | M.L.VIJAYPRABHU | Tamilaga Vettri Kazhagam | 190462 | S.SUDHARSANAM | Dravida Munnetra Kazhagam | 95477 | 94985 |
-| S2227 | SHOZHINGANALLUR | ECR P SARAVANAN | Tamilaga Vettri Kazhagam | 220382 | S. ARAVIND RAMESH | Dravida Munnetra Kazhagam | 123602 | 96780 |
-| S2286 | EDAPPADI | EDAPPADI PALANISWAMI. K | All India Anna Dravida Munnetra Kazhagam | 148933 | PREMKUMAR. K | Independent | 50823 | 98110 |
+| Code | State | Constituency | Winner | Winning Party | Winner Votes | Runner Up | Runner Up Party | Runner Up Votes | Vote Difference |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| S2288 | TAMIL NADU | SALEM | LAKSHMANAN.S | Tamilaga Vettri Kazhagam | 120407 | KARTHE.M | Pattali Makkal Katchi | 45540 | 74867 |
+| S226 | TAMIL NADU | AVADI | R.RAMESH KUMAR | Tamilaga Vettri Kazhagam | 180384 | S.M.NASAR | Dravida Munnetra Kazhagam | 104073 | 76311 |
+| S229 | TAMIL NADU | MADAVARAM | M.L.VIJAYPRABHU | Tamilaga Vettri Kazhagam | 190462 | S.SUDHARSANAM | Dravida Munnetra Kazhagam | 95477 | 94985 |
+| S2227 | TAMIL NADU | SHOZHINGANALLUR | ECR P SARAVANAN | Tamilaga Vettri Kazhagam | 220382 | S. ARAVIND RAMESH | Dravida Munnetra Kazhagam | 123602 | 96780 |
+| S2286 | TAMIL NADU | EDAPPADI | EDAPPADI PALANISWAMI. K | All India Anna Dravida Munnetra Kazhagam | 148933 | PREMKUMAR. K | Independent | 50823 | 98110 |
 
 ### Max and Mins - Constituencies
 #### Max Total Votes in a Constituency
@@ -259,7 +259,7 @@ A total of 4023 candidates contested in the Tamil Nadu assembly elections and ab
 
 | Party | Seats Contested | Seats Won | Success Ratio |
 | --- | --- | --- | --- |
-| Pattali Makkal Katchi | 18 | 4 | 22.22222222222222222200 |
+| Pattali Makkal Katchi | 17 | 4 | 23.52941176470588235300 |
 | Indian National Congress | 28 | 5 | 17.85714285714285714300 |
 | Desiya Murpokku Dravida Kazhagam | 10 | 1 | 10.00000000000000000000 |
 | Amma Makkal Munnettra Kazagam | 11 | 1 | 9.09090909090909090900 |
@@ -273,24 +273,24 @@ A total of 4023 candidates contested in the Tamil Nadu assembly elections and ab
 | Amma Makkal Munnettra Kazagam | 11 | 1 | 9.09090909090909090900 |
 | Desiya Murpokku Dravida Kazhagam | 10 | 1 | 10.00000000000000000000 |
 | Indian National Congress | 28 | 5 | 17.85714285714285714300 |
-| Pattali Makkal Katchi | 18 | 4 | 22.22222222222222222200 |
+| Pattali Makkal Katchi | 17 | 4 | 23.52941176470588235300 |
 
 ### Multiple Seat Participation
 
 #### Candidates participating in multiple seats (matches names)
 
-| Candidate | Constituencies Contested |
-| --- | --- |
-| MURUGAN. S | 4 |
-| RAJASEKAR. S | 3 |
-| VELU. K | 3 |
-| VENKATESAN. M | 3 |
-| AGNI AALVAR | 2 |
-| A. RAMESH | 2 |
-| ARJUNAN. M | 2 |
-| A.SARAVANAN | 2 |
-| A.VIJAY | 2 |
-| C. JOSEPH VIJAY | 2 |
+| Candidate | Party | Constituencies Contested |
+| --- | --- | --- |
+| MURUGAN. S | Independent | 4 |
+| RAJASEKAR. S | Independent | 3 |
+| VELU. K | Independent | 3 |
+| VENKATESAN. M | Independent | 3 |
+| AGNI AALVAR | Independent | 2 |
+| A. RAMESH | Independent | 2 |
+| ARJUNAN. M | Independent | 2 |
+| A.SARAVANAN | Independent | 2 |
+| A.VIJAY | Independent | 2 |
+| C. JOSEPH VIJAY | Tamilaga Vettri Kazhagam | 2 |
 
 #### Results of Candidates participating in multiple seats
 
@@ -389,13 +389,13 @@ Seats where narrow margins collide with double-digit "others" vote share signal 
 
 Comparing runner-up vote share with each party's average reveals hidden pockets of strength despite losses.
 
-| Constituency | Candidate | Party | Runner Up % | Party Avg % | Overperformance % | Total Constituencies Contested |
+| Constituency | Candidate | Party | Runner Up % | Party Avg % | Overperformance % | Constituencies |
 | --- | --- | --- | --- | --- | --- | --- |
 | EDAPPADI | PREMKUMAR. K | Independent | 19.68 | 0.11 | 19.57 | 2209 |
 | THALLI | DR.NAGESH KUMAR. C | Bharatiya Janata Party | 35.48 | 22.59 | 12.89 | 33 |
-| TIRUCHIRAPPALLI | K.N.NEHRU | Dravida Munnetra Kazhagam | 44.94 | 32.49 | 12.45 | 176 |
 | MADATHUKULAM | C SHANMUGAVELU | Amma Makkal Munnettra Kazagam | 28.95 | 18.48 | 10.47 | 11 |
-| SALEM | VIJAY TAMILAN PARTHIBAN. A | Tamilaga Vettri Kazhagam | 43.95 | 34.88 | 9.07 | 233 |
+| MODAKKURICHI | S.KIRTHIKA | Bharatiya Janata Party | 30.55 | 22.59 | 7.96 | 33 |
+| KOLATHUR | M. K. STALIN | Dravida Munnetra Kazhagam | 40.32 | 32.49 | 7.83 | 176 |
 
 #### HHI win mix by party
 

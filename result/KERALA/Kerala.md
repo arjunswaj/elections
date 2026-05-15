@@ -100,23 +100,23 @@ A total of 883 candidates contested in the Kerala assembly elections and about 2
 
 #### Candidates winning by Max margin (Unilateral winner)
 
-| Code | Constituency | Winner | Winning Party | Winner Votes | Runner Up | Runner Up Party | Runner Up Votes | Vote Difference |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1164 | MANALUR | PROF C RAVINDRANATH | Communist Party of India (Marxist) | 65337 | T N PRATHAPAN | Indian National Congress | 65211 | 126 |
-| S1110 | AZHIKODE | K. V. SUMESH | Communist Party of India (Marxist) | 64951 | ADV.  KAREEM CHELERI | Indian Union Muslim League | 64602 | 349 |
-| S11132 | KAZHAKOOTTAM | V. MURALEEDHARAN | Bharatiya Janata Party | 46564 | KADAKAMPALLY SURENDRAN | Communist Party of India (Marxist) | 46136 | 428 |
-| S11119 | KOTTARAKKARA | K.N. BALAGOPAL | Communist Party of India (Marxist) | 63926 | ADV.P. AISHA POTTY | Indian National Congress | 62914 | 1012 |
-| S1114 | KUTHUPARAMBA | P K PRAVEEN | Rashtriya Janata Dal | 70448 | JAYANTHI RAJAN | Indian Union Muslim League | 69162 | 1286 |
+| Code | State | Constituency | Winner | Winning Party | Winner Votes | Runner Up | Runner Up Party | Runner Up Votes | Vote Difference |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| S1164 | KERALA | MANALUR | PROF C RAVINDRANATH | Communist Party of India (Marxist) | 65337 | T N PRATHAPAN | Indian National Congress | 65211 | 126 |
+| S1110 | KERALA | AZHIKODE | K. V. SUMESH | Communist Party of India (Marxist) | 64951 | ADV.  KAREEM CHELERI | Indian Union Muslim League | 64602 | 349 |
+| S11132 | KERALA | KAZHAKOOTTAM | V. MURALEEDHARAN | Bharatiya Janata Party | 46564 | KADAKAMPALLY SURENDRAN | Communist Party of India (Marxist) | 46136 | 428 |
+| S11119 | KERALA | KOTTARAKKARA | K.N. BALAGOPAL | Communist Party of India (Marxist) | 63926 | ADV.P. AISHA POTTY | Indian National Congress | 62914 | 1012 |
+| S1114 | KERALA | KUTHUPARAMBA | P K PRAVEEN | Rashtriya Janata Dal | 70448 | JAYANTHI RAJAN | Indian Union Muslim League | 69162 | 1286 |
 
 #### Candidates winning by Least margin (Fierce battle)
 
-| Code | Constituency | Winner | Winning Party | Winner Votes | Runner Up | Runner Up Party | Runner Up Votes | Vote Difference |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1133 | KONDOTTY | T.P. ASHRAFALI | Indian Union Muslim League | 114997 | DR. P. JIJI | Communist Party of India (Marxist) | 58980 | 56017 |
-| S1137 | MANJERI | ADV. M. RAHMATHULLA | Indian Union Muslim League | 113622 | V.M. MUSTHAFA | Independent | 55735 | 57887 |
-| S1146 | KOTTAKKAL | PROF. ABID HUSSAIN THANGAL | Indian Union Muslim League | 118111 | PREETHI KONCHATH | Communist Party of India (Marxist) | 55473 | 62638 |
-| S1143 | TIRURANGADI | P M A SAMEER | Indian Union Muslim League | 111869 | AJITH KOLADI | Communist Party of India | 48482 | 63387 |
-| S1140 | MALAPPURAM | P.K KUNHALIKUTTY | Indian Union Muslim League | 131632 | K.T. MUJEEB RAHMAN | Nationalist Congress Party - Sharadchandra Pawar | 46305 | 85327 |
+| Code | State | Constituency | Winner | Winning Party | Winner Votes | Runner Up | Runner Up Party | Runner Up Votes | Vote Difference |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| S1133 | KERALA | KONDOTTY | T.P. ASHRAFALI | Indian Union Muslim League | 114997 | DR. P. JIJI | Communist Party of India (Marxist) | 58980 | 56017 |
+| S1137 | KERALA | MANJERI | ADV. M. RAHMATHULLA | Indian Union Muslim League | 113622 | V.M. MUSTHAFA | Independent | 55735 | 57887 |
+| S1146 | KERALA | KOTTAKKAL | PROF. ABID HUSSAIN THANGAL | Indian Union Muslim League | 118111 | PREETHI KONCHATH | Communist Party of India (Marxist) | 55473 | 62638 |
+| S1143 | KERALA | TIRURANGADI | P M A SAMEER | Indian Union Muslim League | 111869 | AJITH KOLADI | Communist Party of India | 48482 | 63387 |
+| S1140 | KERALA | MALAPPURAM | P.K KUNHALIKUTTY | Indian Union Muslim League | 131632 | K.T. MUJEEB RAHMAN | Nationalist Congress Party - Sharadchandra Pawar | 46305 | 85327 |
 
 ### Max and Mins - Constituencies
 #### Max Total Votes in a Constituency
@@ -279,18 +279,18 @@ A total of 883 candidates contested in the Kerala assembly elections and about 2
 
 #### Candidates participating in multiple seats (matches names)
 
-| Candidate | Constituencies Contested |
-| --- | --- |
-| ABBAS | 1 |
-| ABDUL AZEEZ KADALUNDI | 1 |
-| ABDUL BASITH ATHOLI | 1 |
-| ABDUL GAFOOR MASTER O.P.K | 1 |
-| ABDUL JALEEL K T S/O MOIDEEN K T | 1 |
-| ABDUL JALEEL S/O KADHEEJA | 1 |
-| ABDUL KAREEM. V. V | 1 |
-| ABDUL KHADAR BICHAVA | 1 |
-| ABDULLA | 1 |
-| ABDUL LATHEEF I | 1 |
+| Candidate | Party | Constituencies Contested |
+| --- | --- | --- |
+| ABBAS | Independent | 1 |
+| ABDUL AZEEZ KADALUNDI | Aam Aadmi Party | 1 |
+| ABDUL BASITH ATHOLI | Aam Aadmi Party | 1 |
+| ABDUL GAFOOR MASTER O.P.K | Independent | 1 |
+| ABDUL JALEEL K T S/O MOIDEEN K T | Independent | 1 |
+| ABDUL JALEEL S/O KADHEEJA | Social Democratic Party Of India | 1 |
+| ABDUL KAREEM. V. V | Independent | 1 |
+| ABDUL KHADAR BICHAVA | Social Democratic Party Of India | 1 |
+| ABDULLA | Independent | 1 |
+| ABDUL LATHEEF I | Independent | 1 |
 
 #### Results of Candidates participating in multiple seats
 
@@ -378,7 +378,7 @@ Seats where narrow margins collide with double-digit "others" vote share signal 
 
 Comparing runner-up vote share with each party's average reveals hidden pockets of strength despite losses.
 
-| Constituency | Candidate | Party | Runner Up % | Party Avg % | Overperformance % | Total Constituencies Contested |
+| Constituency | Candidate | Party | Runner Up % | Party Avg % | Overperformance % | Constituencies |
 | --- | --- | --- | --- | --- | --- | --- |
 | BEYPORE | P V ANVAR S/O SHOUKATHALI | Independent | 40.16 | 3.00 | 37.16 | 282 |
 | THAVANUR | DR. K T JALEEL | Independent | 39.67 | 3.00 | 36.67 | 282 |

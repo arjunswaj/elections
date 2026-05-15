@@ -32,9 +32,9 @@
 - [Candidates participating in multiple seats (matches names)](#candidates-participating-in-multiple-seats-matches-names)
 + [Close Contest Matrix](#close-contest-matrix)
 - [Party Specific Close Contest Matrix](#party-specific-close-contest-matrix)
-     * [All India United Democratic Front](#all-india-united-democratic-front)
      * [Asom Gana Parishad](#asom-gana-parishad)
      * [Bharatiya Janata Party](#bharatiya-janata-party)
+     * [Bodoland Peoples Front](#bodoland-peoples-front)
      * [Indian National Congress](#indian-national-congress)
 + [Advanced Join Insights](#advanced-join-insights)
 - [Crowding pressure seats](#crowding-pressure-seats)
@@ -148,9 +148,9 @@ config:
 ---
 xychart-beta
 title "Candidates Winning by Max Margin"
-x-axis ["PRAKASH CHANDRA DAS (AGP, HAJO-SUALKUCHI)", "JIBESH ROY (AGP, BILASIPARA)", "BHUPEN KUMAR BORAH (BJP, BIHPURIA)", "MD ASHRAFUL ISLAM SHEIKH (INC, PARBATJHORA)", "CHAKRADHAR GOGOI (BJP, KHOWANG)"]
-y-axis "Vote Difference" 8985 --> 796
-bar [724, 2694, 8236, 9022, 9984]
+x-axis ["HAJO-SUALKUCHI (PRAKASH CHANDRA DAS, ASSAM)", "BILASIPARA (JIBESH ROY, ASSAM)", "BIHPURIA (BHUPEN KUMAR BORAH, ASSAM)", "PARBATJHORA (MD ASHRAFUL ISLAM SHEIKH, ASSAM)", "KHOWANG (CHAKRADHAR GOGOI, ASSAM)"]
+y-axis "Vote Difference" 51348 --> 89072
+bar [80975, 83243, 64814, 68106, 57054]
 ```
 
 #### Candidates winning by Least margin (Fierce battle)
@@ -168,9 +168,9 @@ config:
 ---
 xychart-beta
 title "Candidates Winning by Least Margin"
-x-axis ["KAUSHIK RAI (BJP, LAKHIPUR)", "ZUBAIR ANAM MAZUMDER (INC, ALGAPUR-KATLICHERRA)", "TANZIL HUSSAIN (INC, SAMAGURI)", "AFTAB UDDIN MOLLAH (INC, JALESHWAR)", "ABDUS SOBAHAN ALI SARKAR (INC, GAURIPUR)"]
-y-axis "Vote Difference" 0 --> 142916
-bar [99401, 105448, 108310, 109688, 119097]
+x-axis ["LAKHIPUR (KAUSHIK RAI, ASSAM)", "ALGAPUR-KATLICHERRA (ZUBAIR ANAM MAZUMDER, ASSAM)", "SAMAGURI (TANZIL HUSSAIN, ASSAM)", "JALESHWAR (AFTAB UDDIN MOLLAH, ASSAM)", "GAURIPUR (ABDUS SOBAHAN ALI SARKAR, ASSAM)"]
+y-axis "Vote Difference" 0 --> 76648
+bar [25901, 40213, 36902, 52486, 63874]
 ```
 
 #### Max Total Votes in a Constituency
@@ -482,14 +482,6 @@ This matrix provides the number of seats in which parties lost by the number of 
 #### Party Specific Close Contest Matrix
 
 
-##### All India United Democratic Front
-
-| Constituency | Code | Runner Up Votes | Winning Party | Winning Votes | Vote Difference |
-| --- | --- | --- | --- | --- | --- |
-| SRIJANGRAM | S0317 | 88411 | Indian National Congress | 106716 | 18305 |
-| BIRSING JARUA | S039 | 78016 | Indian National Congress | 113901 | 35885 |
-
-
 ##### Asom Gana Parishad
 
 | Constituency | Code | Runner Up Votes | Winning Party | Winning Votes | Vote Difference |
@@ -504,6 +496,13 @@ This matrix provides the number of seats in which parties lost by the number of 
 | --- | --- | --- | --- | --- | --- |
 | SIBSAGAR | S0396 | 69249 | Raijor Dal | 86521 | 17272 |
 | KARIMGANJ NORTH | S03123 | 96353 | Indian National Congress | 122356 | 26003 |
+
+
+##### Bodoland Peoples Front
+
+| Constituency | Code | Runner Up Votes | Winning Party | Winning Votes | Vote Difference |
+| --- | --- | --- | --- | --- | --- |
+| PARBATJHORA | S035 | 68106 | Indian National Congress | 77128 | 9022 |
 
 
 ##### Indian National Congress
@@ -553,7 +552,7 @@ bar [11.59, 6.14, 5.31, 4.75, 1.85]
 
 These runner-up candidates beat their party-wide average vote share even in defeat.
 
-| Constituency | Candidate | Party | Runner Up % | Party Avg % | Overperformance % | Total Constituencies Contested |
+| Constituency | Candidate | Party | Runner Up % | Party Avg % | Overperformance % | Constituencies |
 | --- | --- | --- | --- | --- | --- | --- |
 | DALGAON | MD AYNUL HOQUE | Independent | 39.01 | 2.09 | 36.92 | 258 |
 | KALIABOR | JITEN GOUR | Independent | 34.20 | 2.09 | 32.11 | 258 |

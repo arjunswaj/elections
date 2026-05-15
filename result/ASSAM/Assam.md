@@ -32,9 +32,9 @@
 - [Results of Candidates participating in multiple seats](#results-of-candidates-participating-in-multiple-seats)
 + [Close Contest Matrix](#close-contest-matrix)
 - [Party Specific Close Contest Matrix](#party-specific-close-contest-matrix)
-     * [All India United Democratic Front](#all-india-united-democratic-front)
      * [Asom Gana Parishad](#asom-gana-parishad)
      * [Bharatiya Janata Party](#bharatiya-janata-party)
+     * [Bodoland Peoples Front](#bodoland-peoples-front)
      * [Indian National Congress](#indian-national-congress)
 + [Advanced Join Insights](#advanced-join-insights)
 - [Crowding pressure seats](#crowding-pressure-seats)
@@ -100,23 +100,23 @@ A total of 722 candidates contested in the Assam assembly elections and about 2.
 
 #### Candidates winning by Max margin (Unilateral winner)
 
-| Code | Constituency | Winner | Winning Party | Winner Votes | Runner Up | Runner Up Party | Runner Up Votes | Vote Difference |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S0330 | HAJO-SUALKUCHI | PRAKASH CHANDRA DAS | Asom Gana Parishad | 81699 | NANDITA DAS | Indian National Congress | 80975 | 724 |
-| S0310 | BILASIPARA | JIBESH ROY | Asom Gana Parishad | 85937 | AMRIT BADSHA | Indian National Congress | 83243 | 2694 |
-| S0373 | BIHPURIA | BHUPEN KUMAR BORAH | Bharatiya Janata Party | 73050 | NARAYAN BHUYAN | Indian National Congress | 64814 | 8236 |
-| S035 | PARBATJHORA | MD ASHRAFUL ISLAM SHEIKH | Indian National Congress | 77128 | REZAUL KARIM | Bodoland Peoples Front | 68106 | 9022 |
-| S0389 | KHOWANG | CHAKRADHAR GOGOI | Bharatiya Janata Party | 67038 | LURINJYOTI GOGOI | Assam Jatiya Parishad | 57054 | 9984 |
+| Code | State | Constituency | Winner | Winning Party | Winner Votes | Runner Up | Runner Up Party | Runner Up Votes | Vote Difference |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| S0330 | ASSAM | HAJO-SUALKUCHI | PRAKASH CHANDRA DAS | Asom Gana Parishad | 81699 | NANDITA DAS | Indian National Congress | 80975 | 724 |
+| S0310 | ASSAM | BILASIPARA | JIBESH ROY | Asom Gana Parishad | 85937 | AMRIT BADSHA | Indian National Congress | 83243 | 2694 |
+| S0373 | ASSAM | BIHPURIA | BHUPEN KUMAR BORAH | Bharatiya Janata Party | 73050 | NARAYAN BHUYAN | Indian National Congress | 64814 | 8236 |
+| S035 | ASSAM | PARBATJHORA | MD ASHRAFUL ISLAM SHEIKH | Indian National Congress | 77128 | REZAUL KARIM | Bodoland Peoples Front | 68106 | 9022 |
+| S0389 | ASSAM | KHOWANG | CHAKRADHAR GOGOI | Bharatiya Janata Party | 67038 | LURINJYOTI GOGOI | Assam Jatiya Parishad | 57054 | 9984 |
 
 #### Candidates winning by Least margin (Fierce battle)
 
-| Code | Constituency | Winner | Winning Party | Winner Votes | Runner Up | Runner Up Party | Runner Up Votes | Vote Difference |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S03114 | LAKHIPUR | KAUSHIK RAI | Bharatiya Janata Party | 125302 | M. SANTI KUMAR SINGHA | Indian National Congress | 25901 | 99401 |
-| S03122 | ALGAPUR-KATLICHERRA | ZUBAIR ANAM MAZUMDER | Indian National Congress | 145661 | ZAKIR HUSSAIN LASKAR | Asom Gana Parishad | 40213 | 105448 |
-| S0358 | SAMAGURI | TANZIL HUSSAIN | Indian National Congress | 145212 | ANIL SAIKIA | Bharatiya Janata Party | 36902 | 108310 |
-| S0312 | JALESHWAR | AFTAB UDDIN MOLLAH | Indian National Congress | 162174 | SHEIKH SHAH ALAM | All India United Democratic Front | 52486 | 109688 |
-| S037 | GAURIPUR | ABDUS SOBAHAN ALI SARKAR | Indian National Congress | 182971 | NIZANUR RAHMAN | All India United Democratic Front | 63874 | 119097 |
+| Code | State | Constituency | Winner | Winning Party | Winner Votes | Runner Up | Runner Up Party | Runner Up Votes | Vote Difference |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| S03114 | ASSAM | LAKHIPUR | KAUSHIK RAI | Bharatiya Janata Party | 125302 | M. SANTI KUMAR SINGHA | Indian National Congress | 25901 | 99401 |
+| S03122 | ASSAM | ALGAPUR-KATLICHERRA | ZUBAIR ANAM MAZUMDER | Indian National Congress | 145661 | ZAKIR HUSSAIN LASKAR | Asom Gana Parishad | 40213 | 105448 |
+| S0358 | ASSAM | SAMAGURI | TANZIL HUSSAIN | Indian National Congress | 145212 | ANIL SAIKIA | Bharatiya Janata Party | 36902 | 108310 |
+| S0312 | ASSAM | JALESHWAR | AFTAB UDDIN MOLLAH | Indian National Congress | 162174 | SHEIKH SHAH ALAM | All India United Democratic Front | 52486 | 109688 |
+| S037 | ASSAM | GAURIPUR | ABDUS SOBAHAN ALI SARKAR | Indian National Congress | 182971 | NIZANUR RAHMAN | All India United Democratic Front | 63874 | 119097 |
 
 ### Max and Mins - Constituencies
 #### Max Total Votes in a Constituency
@@ -279,18 +279,18 @@ A total of 722 candidates contested in the Assam assembly elections and about 2.
 
 #### Candidates participating in multiple seats (matches names)
 
-| Candidate | Constituencies Contested |
-| --- | --- |
-| DHANJEEP PRASAD RABHA | 2 |
-| HEMANTA BORUAH | 2 |
-| JAKIR HUSSAIN | 2 |
-| MAHENDRA ORANG | 2 |
-| MAZIBUR RAHMAN | 2 |
-| NABA KUMAR SARANIA | 2 |
-| RABINDRA RONGPI | 2 |
-| SAMSUL HAQUE | 2 |
-| WILSON TERANG | 2 |
-| ABDUL AZIZ | 1 |
+| Candidate | Party | Constituencies Contested |
+| --- | --- | --- |
+| DHANJEEP PRASAD RABHA | Independent | 2 |
+| HEMANTA BORUAH | Independent | 2 |
+| JAKIR HUSSAIN | Rashtriya Ulama Council | 2 |
+| MAHENDRA ORANG | Voters Party International | 2 |
+| MAZIBUR RAHMAN | All India United Democratic Front | 2 |
+| NABA KUMAR SARANIA | Gana Suraksha Party | 2 |
+| RABINDRA RONGPI | Independent | 2 |
+| SAMSUL HAQUE | Independent | 2 |
+| WILSON TERANG | Independent | 2 |
+| ABDUL AZIZ | All India United Democratic Front | 1 |
 
 #### Results of Candidates participating in multiple seats
 
@@ -325,14 +325,6 @@ This matrix provides the number of seats in which parties lost by the number of 
 
 #### Party Specific Close Contest Matrix
 
-##### All India United Democratic Front
-
-| Constituency | Code | Runner Up Votes | Winning Party | Winning Votes | Vote Difference |
-| --- | --- | --- | --- | --- | --- |
-| SRIJANGRAM | S0317 | 88411 | Indian National Congress | 106716 | 18305 |
-| BIRSING JARUA | S039 | 78016 | Indian National Congress | 113901 | 35885 |
-
-
 ##### Asom Gana Parishad
 
 | Constituency | Code | Runner Up Votes | Winning Party | Winning Votes | Vote Difference |
@@ -347,6 +339,13 @@ This matrix provides the number of seats in which parties lost by the number of 
 | --- | --- | --- | --- | --- | --- |
 | SIBSAGAR | S0396 | 69249 | Raijor Dal | 86521 | 17272 |
 | KARIMGANJ NORTH | S03123 | 96353 | Indian National Congress | 122356 | 26003 |
+
+
+##### Bodoland Peoples Front
+
+| Constituency | Code | Runner Up Votes | Winning Party | Winning Votes | Vote Difference |
+| --- | --- | --- | --- | --- | --- |
+| PARBATJHORA | S035 | 68106 | Indian National Congress | 77128 | 9022 |
 
 
 ##### Indian National Congress
@@ -380,7 +379,7 @@ Seats where narrow margins collide with double-digit "others" vote share signal 
 
 Comparing runner-up vote share with each party's average reveals hidden pockets of strength despite losses.
 
-| Constituency | Candidate | Party | Runner Up % | Party Avg % | Overperformance % | Total Constituencies Contested |
+| Constituency | Candidate | Party | Runner Up % | Party Avg % | Overperformance % | Constituencies |
 | --- | --- | --- | --- | --- | --- | --- |
 | DALGAON | MD AYNUL HOQUE | Independent | 39.01 | 2.09 | 36.92 | 258 |
 | KALIABOR | JITEN GOUR | Independent | 34.20 | 2.09 | 32.11 | 258 |

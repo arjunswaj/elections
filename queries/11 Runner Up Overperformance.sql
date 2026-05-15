@@ -1,19 +1,25 @@
 -- Highlight runner-up candidates who materially exceeded their party's average vote share
-WITH party_totals AS (
-    SELECT party,
-           COUNT(*) AS contests,
-           AVG(vote_percentage) AS avg_pct
-  FROM public.assembly_elections_may2026
-    GROUP BY party
-), ranked AS (
-    SELECT constituency,
-           candidate,
-           party,
-           vote_percentage,
-           votes,
-           ROW_NUMBER() OVER (PARTITION BY constituency ORDER BY votes DESC) AS rn
-  FROM public.assembly_elections_may2026
-)
+WITH party_totals AS 
+  (SELECT party, 
+          COUNT(*) AS contests, 
+          AVG(vote_percentage) AS avg_pct
+   FROM public.assembly_elections_may2026 a
+   LEFT JOIN election_gates eg ON eg.code = a.code
+   AND eg.status = 'EXCLUDE' 
+   WHERE eg.code IS NULL 
+   GROUP BY party), 
+     ranked AS 
+  (SELECT constituency, 
+          candidate, 
+          party, 
+          vote_percentage, 
+          votes, 
+          ROW_NUMBER() OVER (PARTITION BY code
+                             ORDER BY votes DESC) AS rn
+   FROM public.assembly_elections_may2026 a
+   LEFT JOIN election_gates eg ON eg.code = a.code
+   AND eg.status = 'EXCLUDE'
+   WHERE eg.code IS NULL)
 SELECT r.constituency,
        r.candidate,
        r.party,

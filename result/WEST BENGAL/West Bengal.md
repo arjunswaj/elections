@@ -32,6 +32,7 @@
 - [Results of Candidates participating in multiple seats](#results-of-candidates-participating-in-multiple-seats)
 + [Close Contest Matrix](#close-contest-matrix)
 - [Party Specific Close Contest Matrix](#party-specific-close-contest-matrix)
+     * [Aam Janata Unnayan party](#aam-janata-unnayan-party)
      * [All India Trinamool Congress](#all-india-trinamool-congress)
      * [Bharatiya Janata Party](#bharatiya-janata-party)
      * [Indian National Congress](#indian-national-congress)
@@ -48,18 +49,18 @@ The 2026 West Bengal Legislative Assembly elections were conducted to elect memb
 This page provides the highlights of the results. Complete results of the analysis can be seen [here](https://github.com/arjunswaj/elections/tree/2026-election/result/WEST BENGAL).
 
 ## Analysis
-A total of 2926 candidates contested in the West Bengal assembly elections and about 6.37 Crore (`63753070`) votes were cast during this period. Excluding Independents and NOTA, 60 registered parties featured on the ballot—from the big alliances.
+A total of 2920 candidates contested in the West Bengal assembly elections and about 6.37 Crore (`63753070`) votes were cast during this period. Excluding Independents and NOTA, 60 registered parties featured on the ballot—from the big alliances.
 
 ### Seats contested by Parties
 
 | Party | Number of Candidates |
 | --- | --- |
-| Independent | 1022 |
-| Bharatiya Janata Party | 294 |
-| Indian National Congress | 293 |
-| All India Trinamool Congress | 291 |
+| Independent | 1020 |
+| Bharatiya Janata Party | 293 |
+| Indian National Congress | 292 |
+| All India Trinamool Congress | 290 |
 | Socialist Unity Centre Of India (COMMUNIST) | 229 |
-| Communist Party of India (Marxist) | 197 |
+| Communist Party of India (Marxist) | 196 |
 | Bahujan Samaj Party | 150 |
 | Aam Janata Unnayan party | 143 |
 | Amra Bangalee | 33 |
@@ -81,11 +82,11 @@ A total of 2926 candidates contested in the West Bengal assembly elections and a
 
 | Code | Candidate | Party | Constituency | State | Winner Votes |
 | --- | --- | --- | --- | --- | --- |
-| S25144 | DIP HATI | Independent | FALTA | WEST BENGAL | 0 |
-| S25144 | NOTA | None of the Above | FALTA | WEST BENGAL | 0 |
-| S25144 | ABDUR RAZZAK MOLLA | Indian National Congress | FALTA | WEST BENGAL | 0 |
-| S25144 | JAHANGIR KHAN | All India Trinamool Congress | FALTA | WEST BENGAL | 0 |
-| S25144 | DEBANGSHU PANDA | Bharatiya Janata Party | FALTA | WEST BENGAL | 0 |
+| S25165 | VIJAY OJHA | Bharatiya Janata Party | JORASANKO | WEST BENGAL | 52868 |
+| S25169 | SANJAY KUMAR SINGH | Bharatiya Janata Party | BALLY | WEST BENGAL | 57639 |
+| S25166 | PURNIMA CHAKRABORTY | Bharatiya Janata Party | SHYAMPUKUR | WEST BENGAL | 60248 |
+| S25105 | PAWAN KUMAR SINGH | Bharatiya Janata Party | BHATPARA | WEST BENGAL | 61683 |
+| S2556 | MOHAMMED NOOR ALAM | All India Trinamool Congress | SAMSERGANJ | WEST BENGAL | 61918 |
 
 #### Max votes for a losing candidate
 
@@ -99,23 +100,23 @@ A total of 2926 candidates contested in the West Bengal assembly elections and a
 
 #### Candidates winning by Max margin (Unilateral winner)
 
-| Code | Constituency | Winner | Winning Party | Winner Votes | Runner Up | Runner Up Party | Runner Up Votes | Vote Difference |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S25144 | FALTA | CHANDRAKANTA ROY | Independent | 0 | DIP HATI | Independent | 0 | 0 |
-| S25115 | RAJARHAT NEW TOWN | PIYUSH KANODIA | Bharatiya Janata Party | 106564 | TAPASH CHATTERJEE | All India Trinamool Congress | 106248 | 316 |
-| S25145 | SATGACHHIA | AGNISWAR NASKAR | Bharatiya Janata Party | 111023 | SOMASHREE BETAL | All India Trinamool Congress | 110622 | 401 |
-| S25261 | RAINA | SUBHASH PATRA | Bharatiya Janata Party | 103487 | MANDIRA DALUI | All India Trinamool Congress | 102653 | 834 |
-| S25195 | JANGIPARA | PROSENJIT BAG | Bharatiya Janata Party | 102409 | SNEHASIS CHAKRABORTY | All India Trinamool Congress | 101547 | 862 |
+| Code | State | Constituency | Winner | Winning Party | Winner Votes | Runner Up | Runner Up Party | Runner Up Votes | Vote Difference |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| S25115 | WEST BENGAL | RAJARHAT NEW TOWN | PIYUSH KANODIA | Bharatiya Janata Party | 106564 | TAPASH CHATTERJEE | All India Trinamool Congress | 106248 | 316 |
+| S25145 | WEST BENGAL | SATGACHHIA | AGNISWAR NASKAR | Bharatiya Janata Party | 111023 | SOMASHREE BETAL | All India Trinamool Congress | 110622 | 401 |
+| S25261 | WEST BENGAL | RAINA | SUBHASH PATRA | Bharatiya Janata Party | 103487 | MANDIRA DALUI | All India Trinamool Congress | 102653 | 834 |
+| S25195 | WEST BENGAL | JANGIPARA | PROSENJIT BAG | Bharatiya Janata Party | 102409 | SNEHASIS CHAKRABORTY | All India Trinamool Congress | 101547 | 862 |
+| S25257 | WEST BENGAL | INDUS | NIRMAL KUMAR DHARA | Bharatiya Janata Party | 108733 | SHYAMALI ROY BAGDI | All India Trinamool Congress | 107833 | 900 |
 
 #### Candidates winning by Least margin (Fierce battle)
 
-| Code | Constituency | Winner | Winning Party | Winner Votes | Runner Up | Runner Up Party | Runner Up Votes | Vote Difference |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S25157 | METIABURUZ | ABDUL KHALEQUE MOLLA | All India Trinamool Congress | 124230 | BIR BAHADUR SINGH | Bharatiya Janata Party | 36351 | 87879 |
-| S25139 | CANNING PURBA | MD BAHARUL ISLAM | All India Trinamool Congress | 148687 | ARABUL ISLAM | All India Secular Front | 56733 | 91954 |
-| S2551 | ENGLISH BAZAR | AMLAN BHADURI (BURO) | Bharatiya Janata Party | 154096 | ASIS KUNDU (PATA) | All India Trinamool Congress | 60312 | 93784 |
-| S2519 | DABGRAM-FULBARI | SIKHA CHATTERJEE | Bharatiya Janata Party | 166300 | RANJAN SIL SHARMA | All India Trinamool Congress | 68585 | 97715 |
-| S2525 | MATIGARA-NAXALBARI | ANANDAMAY BARMAN | Bharatiya Janata Party | 166905 | SHANKAR MALAKAR | All India Trinamool Congress | 62640 | 104265 |
+| Code | State | Constituency | Winner | Winning Party | Winner Votes | Runner Up | Runner Up Party | Runner Up Votes | Vote Difference |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| S25157 | WEST BENGAL | METIABURUZ | ABDUL KHALEQUE MOLLA | All India Trinamool Congress | 124230 | BIR BAHADUR SINGH | Bharatiya Janata Party | 36351 | 87879 |
+| S25139 | WEST BENGAL | CANNING PURBA | MD BAHARUL ISLAM | All India Trinamool Congress | 148687 | ARABUL ISLAM | All India Secular Front | 56733 | 91954 |
+| S2551 | WEST BENGAL | ENGLISH BAZAR | AMLAN BHADURI (BURO) | Bharatiya Janata Party | 154096 | ASIS KUNDU (PATA) | All India Trinamool Congress | 60312 | 93784 |
+| S2519 | WEST BENGAL | DABGRAM-FULBARI | SIKHA CHATTERJEE | Bharatiya Janata Party | 166300 | RANJAN SIL SHARMA | All India Trinamool Congress | 68585 | 97715 |
+| S2525 | WEST BENGAL | MATIGARA-NAXALBARI | ANANDAMAY BARMAN | Bharatiya Janata Party | 166905 | SHANKAR MALAKAR | All India Trinamool Congress | 62640 | 104265 |
 
 ### Max and Mins - Constituencies
 #### Max Total Votes in a Constituency
@@ -132,29 +133,29 @@ A total of 2926 candidates contested in the West Bengal assembly elections and a
 
 | Code | Constituency | State | Total Votes |
 | --- | --- | --- | --- |
+| S25169 | BALLY | WEST BENGAL | 117838 |
 | S25166 | SHYAMPUKUR | WEST BENGAL | 116768 |
 | S25162 | CHOWRANGEE | WEST BENGAL | 110122 |
 | S25165 | JORASANKO | WEST BENGAL | 106847 |
 | S25105 | BHATPARA | WEST BENGAL | 106314 |
-| S25144 | FALTA | WEST BENGAL | 0 |
 
 #### Max candidates in a Constituency
 
 | Code | Constituency | State | Number of Candidates |
 | --- | --- | --- | --- |
 | S25148 | BHANGAR | WEST BENGAL | 20 |
-| S25171 | HOWRAH MADHYA | WEST BENGAL | 16 |
 | S25163 | ENTALLY | WEST BENGAL | 16 |
+| S2532 | KARANDIGHI | WEST BENGAL | 16 |
+| S254 | COOCHBEHAR DAKSHIN | WEST BENGAL | 16 |
 | S25107 | NOAPARA | WEST BENGAL | 16 |
-| S2536 | ITAHAR | WEST BENGAL | 16 |
 
 #### Least candidates in a Constituency
 
 | Code | Constituency | State | Number of Candidates |
 | --- | --- | --- | --- |
-| S25234 | SALBONI | WEST BENGAL | 7 |
-| S25247 | SALTORA | WEST BENGAL | 7 |
-| S25200 | ARAMBAG | WEST BENGAL | 7 |
+| S25218 | EGRA | WEST BENGAL | 7 |
+| S2523 | DARJEELING | WEST BENGAL | 7 |
+| S25282 | KULTI | WEST BENGAL | 7 |
 | S25232 | CHANDRAKONA | WEST BENGAL | 6 |
 | S25201 | GOGHAT | WEST BENGAL | 6 |
 
@@ -174,11 +175,11 @@ A total of 2926 candidates contested in the West Bengal assembly elections and a
 
 | Candidate | Party | Constituency | Vote Share |
 | --- | --- | --- | --- |
-| DEBANGSHU PANDA | Bharatiya Janata Party | FALTA |  |
-| SAMBHU NATH KURMI | Communist Party of India (Marxist) | FALTA |  |
-| CHANDRAKANTA ROY | Independent | FALTA |  |
-| DIP HATI | Independent | FALTA |  |
-| NOTA | None of the Above | FALTA |  |
+| TARAK NATH CHATTERJEE | Bharatiya Janata Party | KRISHNANAGAR UTTAR | 65.92743631747477197000 |
+| SIKHA CHATTERJEE | Bharatiya Janata Party | DABGRAM-FULBARI | 66.02114423416663689200 |
+| ANANDAMAY BARMAN | Bharatiya Janata Party | MATIGARA-NAXALBARI | 66.49999003924537322900 |
+| MD GHULAM RABBANI | All India Trinamool Congress | GOALPOKHAR | 66.65993361575752282000 |
+| ABDUL KHALEQUE MOLLA | All India Trinamool Congress | METIABURUZ | 68.99060354977008685600 |
 
 #### Least Vote share for a winning candidate
 
@@ -216,7 +217,7 @@ A total of 2926 candidates contested in the West Bengal assembly elections and a
 
 | Party | Seats Won |
 | --- | --- |
-| Bharatiya Janata Party | 207 |
+| Bharatiya Janata Party | 206 |
 | All India Trinamool Congress | 80 |
 | Aam Janata Unnayan party | 2 |
 | Indian National Congress | 2 |
@@ -238,8 +239,8 @@ A total of 2926 candidates contested in the West Bengal assembly elections and a
 
 | Party | Total Spent | Party Votes | Cost per Vote |
 | --- | --- | --- | --- |
-| Bharatiya Janata Party | 1176000000 | 29224804 | 40.2397908297349060 |
-| All India Trinamool Congress | 1164000000 | 26013377 | 44.7462088447801299 |
+| Bharatiya Janata Party | 1172000000 | 29224804 | 40.1029207928990730 |
+| All India Trinamool Congress | 1160000000 | 26013377 | 44.5924418040764181 |
 | Bharatiya Gorkha Prajatantrik Morcha | 12000000 | 176716 | 67.9055659928925508 |
 | Social Democratic Party Of India | 4000000 | 42495 | 94.1287210260030592 |
 | All India Secular Front | 120000000 | 972280 | 123.4212366807915415 |
@@ -258,47 +259,47 @@ A total of 2926 candidates contested in the West Bengal assembly elections and a
 
 | Party | Seats Contested | Seats Won | Success Ratio |
 | --- | --- | --- | --- |
-| All India Trinamool Congress | 291 | 80 | 27.49140893470790378000 |
+| All India Trinamool Congress | 289 | 80 | 27.68166089965397923900 |
 | All India Secular Front | 30 | 1 | 3.33333333333333333300 |
 | Aam Janata Unnayan party | 143 | 2 | 1.39860139860139860100 |
-| Indian National Congress | 293 | 2 | 0.68259385665529010200 |
-| Communist Party of India (Marxist) | 197 | 1 | 0.50761421319796954300 |
+| Indian National Congress | 291 | 2 | 0.68728522336769759500 |
+| Communist Party of India (Marxist) | 196 | 1 | 0.51020408163265306100 |
 
 #### Success Ratio - Worst (At least 1 Win)
 
 | Party | Seats Contested | Seats Won | Success Ratio |
 | --- | --- | --- | --- |
-| Communist Party of India (Marxist) | 197 | 1 | 0.50761421319796954300 |
-| Indian National Congress | 293 | 2 | 0.68259385665529010200 |
+| Communist Party of India (Marxist) | 196 | 1 | 0.51020408163265306100 |
+| Indian National Congress | 291 | 2 | 0.68728522336769759500 |
 | Aam Janata Unnayan party | 143 | 2 | 1.39860139860139860100 |
 | All India Secular Front | 30 | 1 | 3.33333333333333333300 |
-| All India Trinamool Congress | 291 | 80 | 27.49140893470790378000 |
+| All India Trinamool Congress | 289 | 80 | 27.68166089965397923900 |
 
 ### Multiple Seat Participation
 
 #### Candidates participating in multiple seats (matches names)
 
-| Candidate | Constituencies Contested |
-| --- | --- |
-| HUMAYUN KABIR | 3 |
-| SUBRATA DAS | 3 |
-| ABDUR RAZZAK MOLLA | 2 |
-| ABDUS SALAM | 2 |
-| ABHIJIT HAZRA | 2 |
-| ADHIKARI SUVENDU | 2 |
-| ARINDAM GHOSH | 2 |
-| ARUP KUMAR DAS | 2 |
-| BABURAM KISKU | 2 |
-| BAPAN GHOSH | 2 |
+| Candidate | Party | Constituencies Contested |
+| --- | --- | --- |
+| HUMAYUN KABIR | Aam Janata Unnayan party | 3 |
+| SUBRATA DAS | Independent | 3 |
+| ABDUS SALAM | Socialist Unity Centre Of India (COMMUNIST) | 2 |
+| ABHIJIT HAZRA | Independent | 2 |
+| ADHIKARI SUVENDU | Bharatiya Janata Party | 2 |
+| ARINDAM GHOSH | Independent | 2 |
+| ARUP KUMAR DAS | Bharatiya Janata Party | 2 |
+| BABURAM KISKU | Independent | 2 |
+| BAPAN GHOSH | Bharatiya Janata Party | 2 |
+| BIKASH MANDAL | Independent | 2 |
 
 #### Results of Candidates participating in multiple seats
 
 | Candidate | Constituency | Code | Party | Result |
 | --- | --- | --- | --- | --- |
-| HUMAYUN KABIR | NOWDA | S2574 | Aam Janata Unnayan party | WON |
 | HUMAYUN KABIR | REJINAGAR | S2570 | Aam Janata Unnayan party | WON |
-| ADHIKARI SUVENDU | NANDIGRAM | S25210 | Bharatiya Janata Party | WON |
+| HUMAYUN KABIR | NOWDA | S2574 | Aam Janata Unnayan party | WON |
 | ADHIKARI SUVENDU | BHABANIPUR | S25159 | Bharatiya Janata Party | WON |
+| ADHIKARI SUVENDU | NANDIGRAM | S25210 | Bharatiya Janata Party | WON |
 | ARUP KUMAR DAS | SINGUR | S25188 | Bharatiya Janata Party | WON |
 | ARUP KUMAR DAS | KANTHI DAKSHIN | S25216 | Bharatiya Janata Party | WON |
 | DILIP GHOSH | KHARAGPUR SADAR | S25224 | Bharatiya Janata Party | WON |
@@ -317,10 +318,16 @@ This matrix provides the number of seats in which parties lost by the number of 
 | Bharatiya Gorkha Prajatantrik Morcha | 0 | 0 | 0 | 1 | 1 | 3 | 3 |
 | Bharatiya Janata Party | 0 | 3 | 7 | 16 | 27 | 35 | 59 |
 | Communist Party of India (Marxist) | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
-| Independent | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | Indian National Congress | 0 | 0 | 0 | 1 | 1 | 3 | 5 |
 
 #### Party Specific Close Contest Matrix
+
+##### Aam Janata Unnayan party
+
+| Constituency | Code | Runner Up Votes | Winning Party | Winning Votes | Vote Difference |
+| --- | --- | --- | --- | --- | --- |
+| HARIHARPARA | S2573 | 67673 | All India Trinamool Congress | 80338 | 12665 |
+
 
 ##### All India Trinamool Congress
 
@@ -375,13 +382,13 @@ Seats where narrow margins collide with double-digit "others" vote share signal 
 
 Comparing runner-up vote share with each party's average reveals hidden pockets of strength despite losses.
 
-| Constituency | Candidate | Party | Runner Up % | Party Avg % | Overperformance % | Total Constituencies Contested |
+| Constituency | Candidate | Party | Runner Up % | Party Avg % | Overperformance % | Constituencies |
 | --- | --- | --- | --- | --- | --- | --- |
-| SAMSERGANJ | MD NAJME ALAM | Indian National Congress | 34.96 | 3.03 | 31.93 | 293 |
-| BAHARAMPUR | ADHIR RANJAN CHOWDHURY | Indian National Congress | 32.79 | 3.03 | 29.76 | 293 |
+| SAMSERGANJ | MD NAJME ALAM | Indian National Congress | 34.96 | 3.04 | 31.92 | 292 |
+| BAHARAMPUR | ADHIR RANJAN CHOWDHURY | Indian National Congress | 32.79 | 3.04 | 29.75 | 292 |
 | HARIHARPARA | BIJOY SEKH | Aam Janata Unnayan party | 28.76 | 1.43 | 27.33 | 143 |
-| LALGOLA | TOUHIDUR RAHAMAN SUMAN | Indian National Congress | 27.19 | 3.03 | 24.16 | 293 |
-| RAGHUNATHGANJ | NASIR SAIKH | Indian National Congress | 24.83 | 3.03 | 21.80 | 293 |
+| LALGOLA | TOUHIDUR RAHAMAN SUMAN | Indian National Congress | 27.19 | 3.04 | 24.15 | 292 |
+| RAGHUNATHGANJ | NASIR SAIKH | Indian National Congress | 24.83 | 3.04 | 21.79 | 292 |
 
 #### HHI win mix by party
 
@@ -407,7 +414,7 @@ Third-place performers who beat their party's customary share often decide the m
 | Code | Constituency | Party | Candidate | Third Place % | Party Avg % | Overperformance % | Candidates | Margin Votes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | S2523 | DARJEELING | Independent | AJOY LUCAS EDWARDS | 27.98 | 0.36 | 27.62 | 7 | 6057 |
-| S2565 | NABAGRAM | Indian National Congress | HIRU HALDAR | 22.63 | 3.03 | 19.60 | 8 | 5919 |
-| S2566 | KHARGRAM | Communist Party of India (Marxist) | DHRUBAJOTI SAHA | 20.51 | 6.60 | 13.91 | 10 | 9333 |
-| S2563 | RANINAGAR | Communist Party of India (Marxist) | JAMAL HOSSAIN | 20.48 | 6.60 | 13.88 | 15 | 2701 |
-| S25152 | TOLLYGANJ | Communist Party of India (Marxist) | PARTHA PRATIM BISWAS | 14.75 | 6.60 | 8.15 | 12 | 6013 |
+| S2565 | NABAGRAM | Indian National Congress | HIRU HALDAR | 22.63 | 3.04 | 19.59 | 8 | 5919 |
+| S2566 | KHARGRAM | Communist Party of India (Marxist) | DHRUBAJOTI SAHA | 20.51 | 6.63 | 13.88 | 10 | 9333 |
+| S2563 | RANINAGAR | Communist Party of India (Marxist) | JAMAL HOSSAIN | 20.48 | 6.63 | 13.85 | 15 | 2701 |
+| S25152 | TOLLYGANJ | Communist Party of India (Marxist) | PARTHA PRATIM BISWAS | 14.75 | 6.63 | 8.12 | 12 | 6013 |

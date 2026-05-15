@@ -32,6 +32,7 @@
 - [Candidates participating in multiple seats (matches names)](#candidates-participating-in-multiple-seats-matches-names)
 + [Close Contest Matrix](#close-contest-matrix)
 - [Party Specific Close Contest Matrix](#party-specific-close-contest-matrix)
+     * [Aam Janata Unnayan party](#aam-janata-unnayan-party)
      * [All India Trinamool Congress](#all-india-trinamool-congress)
      * [Bharatiya Janata Party](#bharatiya-janata-party)
      * [Indian National Congress](#indian-national-congress)
@@ -48,7 +49,7 @@ The 2026 West Bengal Legislative Assembly elections were conducted to elect memb
 This page provides the highlights of the results. Complete results of the analysis can be seen [here](https://github.com/arjunswaj/elections/tree/2026-election/result/WEST BENGAL).
 
 ## Analysis
-A total of 2926 candidates contested in the West Bengal assembly elections and about 6.37 Crore (`63753070`) votes were cast during this period.
+A total of 2920 candidates contested in the West Bengal assembly elections and about 6.37 Crore (`63753070`) votes were cast during this period.
 
 ### Seats contested by Parties
 
@@ -66,8 +67,8 @@ config:
 xychart-beta
 title "Seats Contested by Parties"
 x-axis ["Independent", "BJP", "INC", "AITC", "Socialist Unity Centre Of India (COMMUNIST)", "CPI(M)", "BSP", "Aam Janata Unnayan party", "Amra Bangalee", "All India Secular Front"]
-y-axis "Number of Seats" 0 --> 1226
-bar [1022, 294, 293, 291, 229, 197, 150, 143, 33, 30]
+y-axis "Number of Seats" 0 --> 1224
+bar [1020, 293, 292, 290, 229, 196, 150, 143, 33, 30]
 ```
 
 ### Max and Mins
@@ -107,9 +108,9 @@ config:
 ---
 xychart-beta
 title "Least Votes for a Winning Candidate"
-x-axis ["DIP HATI (Independent, FALTA)", "NOTA (NOTA, FALTA)", "ABDUR RAZZAK MOLLA (INC, FALTA)", "JAHANGIR KHAN (AITC, FALTA)", "DEBANGSHU PANDA (BJP, FALTA)"]
-y-axis "Number of Votes" 0 --> 0
-bar [0, 0, 0, 0, 0]
+x-axis ["VIJAY OJHA (BJP, JORASANKO)", "SANJAY KUMAR SINGH (BJP, BALLY)", "PURNIMA CHAKRABORTY (BJP, SHYAMPUKUR)", "PAWAN KUMAR SINGH (BJP, BHATPARA)", "MOHAMMED NOOR ALAM (AITC, SAMSERGANJ)"]
+y-axis "Number of Votes" 47581 --> 68109
+bar [52868, 57639, 60248, 61683, 61918]
 ```
 
 #### Max votes for a losing candidate
@@ -147,9 +148,9 @@ config:
 ---
 xychart-beta
 title "Candidates Winning by Max Margin"
-x-axis ["CHANDRAKANTA ROY (Independent, FALTA)", "PIYUSH KANODIA (BJP, RAJARHAT NEW TOWN)", "AGNISWAR NASKAR (BJP, SATGACHHIA)", "SUBHASH PATRA (BJP, RAINA)", "PROSENJIT BAG (BJP, JANGIPARA)"]
-y-axis "Vote Difference" 775 --> 0
-bar [0, 316, 401, 834, 862]
+x-axis ["RAJARHAT NEW TOWN (PIYUSH KANODIA, WEST BENGAL)", "SATGACHHIA (AGNISWAR NASKAR, WEST BENGAL)", "RAINA (SUBHASH PATRA, WEST BENGAL)", "JANGIPARA (PROSENJIT BAG, WEST BENGAL)", "INDUS (NIRMAL KUMAR DHARA, WEST BENGAL)"]
+y-axis "Vote Difference" 97049 --> 116872
+bar [106248, 110622, 102653, 101547, 107833]
 ```
 
 #### Candidates winning by Least margin (Fierce battle)
@@ -167,9 +168,9 @@ config:
 ---
 xychart-beta
 title "Candidates Winning by Least Margin"
-x-axis ["ABDUL KHALEQUE MOLLA (AITC, METIABURUZ)", "MD BAHARUL ISLAM (AITC, CANNING PURBA)", "AMLAN BHADURI (BURO) (BJP, ENGLISH BAZAR)", "SIKHA CHATTERJEE (BJP, DABGRAM-FULBARI)", "ANANDAMAY BARMAN (BJP, MATIGARA-NAXALBARI)"]
-y-axis "Vote Difference" 0 --> 125118
-bar [87879, 91954, 93784, 97715, 104265]
+x-axis ["METIABURUZ (ABDUL KHALEQUE MOLLA, WEST BENGAL)", "CANNING PURBA (MD BAHARUL ISLAM, WEST BENGAL)", "ENGLISH BAZAR (AMLAN BHADURI (BURO), WEST BENGAL)", "DABGRAM-FULBARI (SIKHA CHATTERJEE, WEST BENGAL)", "MATIGARA-NAXALBARI (ANANDAMAY BARMAN, WEST BENGAL)"]
+y-axis "Vote Difference" 0 --> 75168
+bar [36351, 56733, 60312, 68585, 62640]
 ```
 
 #### Max Total Votes in a Constituency
@@ -207,9 +208,9 @@ config:
 ---
 xychart-beta
 title "Min Total Votes in a Constituency"
-x-axis ["SHYAMPUKUR (WEST BENGAL)", "CHOWRANGEE (WEST BENGAL)", "JORASANKO (WEST BENGAL)", "BHATPARA (WEST BENGAL)", "FALTA (WEST BENGAL)"]
-y-axis "Total Votes" 105091 --> 0
-bar [116768, 110122, 106847, 106314, 0]
+x-axis ["BALLY (WEST BENGAL)", "SHYAMPUKUR (WEST BENGAL)", "CHOWRANGEE (WEST BENGAL)", "JORASANKO (WEST BENGAL)", "BHATPARA (WEST BENGAL)"]
+y-axis "Total Votes" 106054 --> 116945
+bar [117838, 116768, 110122, 106847, 106314]
 ```
 
 #### Max Candidates in a Constituency
@@ -227,7 +228,7 @@ config:
 ---
 xychart-beta
 title "Max Candidates in a Constituency"
-x-axis ["BHANGAR (WEST BENGAL)", "HOWRAH MADHYA (WEST BENGAL)", "ENTALLY (WEST BENGAL)", "NOAPARA (WEST BENGAL)", "ITAHAR (WEST BENGAL)"]
+x-axis ["BHANGAR (WEST BENGAL)", "ENTALLY (WEST BENGAL)", "KARANDIGHI (WEST BENGAL)", "COOCHBEHAR DAKSHIN (WEST BENGAL)", "NOAPARA (WEST BENGAL)"]
 y-axis "Number of Candidates" 0 --> 24
 bar [20, 16, 16, 16, 16]
 ```
@@ -247,7 +248,7 @@ config:
 ---
 xychart-beta
 title "Least Candidates in a Constituency"
-x-axis ["SALBONI (WEST BENGAL)", "SALTORA (WEST BENGAL)", "ARAMBAG (WEST BENGAL)", "CHANDRAKONA (WEST BENGAL)", "GOGHAT (WEST BENGAL)"]
+x-axis ["EGRA (WEST BENGAL)", "DARJEELING (WEST BENGAL)", "KULTI (WEST BENGAL)", "CHANDRAKONA (WEST BENGAL)", "GOGHAT (WEST BENGAL)"]
 y-axis "Number of Candidates" 0 --> 12
 bar [7, 7, 7, 6, 6]
 ```
@@ -278,9 +279,9 @@ config:
 ---
 xychart-beta
 title "Maximum Vote Share of Winning Candidate"
-x-axis ["NOTA (NOTA, FALTA)", "DIP HATI (Independent, FALTA)", "CHANDRAKANTA ROY (Independent, FALTA)", "SAMBHU NATH KURMI (CPI(M), FALTA)", "DEBANGSHU PANDA (BJP, FALTA)"]
-y-axis "Vote Share" -5 --> 5
-bar [0.00, 0.00, 0.00, 0.00, 0.00]
+x-axis ["ABDUL KHALEQUE MOLLA (AITC, METIABURUZ)", "MD GHULAM RABBANI (AITC, GOALPOKHAR)", "ANANDAMAY BARMAN (BJP, MATIGARA-NAXALBARI)", "SIKHA CHATTERJEE (BJP, DABGRAM-FULBARI)", "TARAK NATH CHATTERJEE (BJP, KRISHNANAGAR UTTAR)"]
+y-axis "Vote Share" 60.93 --> 73.99
+bar [68.99, 66.66, 66.50, 66.02, 65.93]
 ```
 
 #### Least Vote Share for a Winning Candidate
@@ -359,8 +360,8 @@ config:
 xychart-beta
 title "Gold (Seats that Parties Won)"
 x-axis ["BJP", "AITC", "Aam Janata Unnayan party", "INC", "All India Secular Front"]
-y-axis "Number of Seats" 0 --> 248
-bar [207, 80, 2, 2, 1]
+y-axis "Number of Seats" 0 --> 247
+bar [206, 80, 2, 2, 1]
 ```
 
 #### Silver (Seats that Parties Came in Second)
@@ -400,7 +401,7 @@ xychart-beta
 title "Cost per Vote - Best Value"
 x-axis ["BJP", "AITC", "Bharatiya Gorkha Prajatantrik Morcha", "Social Democratic Party Of India", "All India Secular Front"]
 y-axis "Cost per Vote" 0 --> 148
-bar [40.24, 44.75, 67.91, 94.13, 123.42]
+bar [40.10, 44.59, 67.91, 94.13, 123.42]
 ```
 
 #### Cost per Vote - Worst Value
@@ -428,22 +429,22 @@ bar [24009.60, 28880.87, 36036.04, 45454.55, 74074.07]
 
 | Party | Seats Contested | Seats Won | Success Ratio |
 | --- | --- | --- | --- |
-| All India Trinamool Congress | 291 | 80 | 27.49140893470790378000 |
+| All India Trinamool Congress | 289 | 80 | 27.68166089965397923900 |
 | All India Secular Front | 30 | 1 | 3.33333333333333333300 |
 | Aam Janata Unnayan party | 143 | 2 | 1.39860139860139860100 |
-| Indian National Congress | 293 | 2 | 0.68259385665529010200 |
-| Communist Party of India (Marxist) | 197 | 1 | 0.50761421319796954300 |
+| Indian National Congress | 291 | 2 | 0.68728522336769759500 |
+| Communist Party of India (Marxist) | 196 | 1 | 0.51020408163265306100 |
 
 #### Success Ratio - Worst
 
 
 | Party | Seats Contested | Seats Won | Success Ratio |
 | --- | --- | --- | --- |
-| Communist Party of India (Marxist) | 197 | 1 | 0.50761421319796954300 |
-| Indian National Congress | 293 | 2 | 0.68259385665529010200 |
+| Communist Party of India (Marxist) | 196 | 1 | 0.51020408163265306100 |
+| Indian National Congress | 291 | 2 | 0.68728522336769759500 |
 | Aam Janata Unnayan party | 143 | 2 | 1.39860139860139860100 |
 | All India Secular Front | 30 | 1 | 3.33333333333333333300 |
-| All India Trinamool Congress | 291 | 80 | 27.49140893470790378000 |
+| All India Trinamool Congress | 289 | 80 | 27.68166089965397923900 |
 
 ### Multiple Seat Participation
 
@@ -451,10 +452,10 @@ bar [24009.60, 28880.87, 36036.04, 45454.55, 74074.07]
 
 | Candidate | Constituency | Code | Party | Result |
 | --- | --- | --- | --- | --- |
-| HUMAYUN KABIR | NOWDA | S2574 | Aam Janata Unnayan party | WON |
 | HUMAYUN KABIR | REJINAGAR | S2570 | Aam Janata Unnayan party | WON |
-| ADHIKARI SUVENDU | NANDIGRAM | S25210 | Bharatiya Janata Party | WON |
+| HUMAYUN KABIR | NOWDA | S2574 | Aam Janata Unnayan party | WON |
 | ADHIKARI SUVENDU | BHABANIPUR | S25159 | Bharatiya Janata Party | WON |
+| ADHIKARI SUVENDU | NANDIGRAM | S25210 | Bharatiya Janata Party | WON |
 | ARUP KUMAR DAS | SINGUR | S25188 | Bharatiya Janata Party | WON |
 | ARUP KUMAR DAS | KANTHI DAKSHIN | S25216 | Bharatiya Janata Party | WON |
 | DILIP GHOSH | KHARAGPUR SADAR | S25224 | Bharatiya Janata Party | WON |
@@ -473,10 +474,16 @@ This matrix provides the number of seats in which parties lost by the number of 
 | Bharatiya Gorkha Prajatantrik Morcha | 0 | 0 | 0 | 1 | 1 | 3 | 3 |
 | Bharatiya Janata Party | 0 | 3 | 7 | 16 | 27 | 35 | 59 |
 | Communist Party of India (Marxist) | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
-| Independent | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | Indian National Congress | 0 | 0 | 0 | 1 | 1 | 3 | 5 |
 
 #### Party Specific Close Contest Matrix
+
+
+##### Aam Janata Unnayan party
+
+| Constituency | Code | Runner Up Votes | Winning Party | Winning Votes | Vote Difference |
+| --- | --- | --- | --- | --- | --- |
+| HARIHARPARA | S2573 | 67673 | All India Trinamool Congress | 80338 | 12665 |
 
 
 ##### All India Trinamool Congress
@@ -548,13 +555,13 @@ bar [34.16, 32.57, 32.04, 31.60, 28.52]
 
 These runner-up candidates beat their party-wide average vote share even in defeat.
 
-| Constituency | Candidate | Party | Runner Up % | Party Avg % | Overperformance % | Total Constituencies Contested |
+| Constituency | Candidate | Party | Runner Up % | Party Avg % | Overperformance % | Constituencies |
 | --- | --- | --- | --- | --- | --- | --- |
-| SAMSERGANJ | MD NAJME ALAM | Indian National Congress | 34.96 | 3.03 | 31.93 | 293 |
-| BAHARAMPUR | ADHIR RANJAN CHOWDHURY | Indian National Congress | 32.79 | 3.03 | 29.76 | 293 |
+| SAMSERGANJ | MD NAJME ALAM | Indian National Congress | 34.96 | 3.04 | 31.92 | 292 |
+| BAHARAMPUR | ADHIR RANJAN CHOWDHURY | Indian National Congress | 32.79 | 3.04 | 29.75 | 292 |
 | HARIHARPARA | BIJOY SEKH | Aam Janata Unnayan party | 28.76 | 1.43 | 27.33 | 143 |
-| LALGOLA | TOUHIDUR RAHAMAN SUMAN | Indian National Congress | 27.19 | 3.03 | 24.16 | 293 |
-| RAGHUNATHGANJ | NASIR SAIKH | Indian National Congress | 24.83 | 3.03 | 21.80 | 293 |
+| LALGOLA | TOUHIDUR RAHAMAN SUMAN | Indian National Congress | 27.19 | 3.04 | 24.15 | 292 |
+| RAGHUNATHGANJ | NASIR SAIKH | Indian National Congress | 24.83 | 3.04 | 21.79 | 292 |
 
 ```mermaid
 ---
@@ -571,7 +578,7 @@ xychart-beta
 title "Runner-up Overperformance"
 x-axis ["SAMSERGANJ", "BAHARAMPUR", "HARIHARPARA", "LALGOLA", "RAGHUNATHGANJ"]
 y-axis "Overperformance %" 0 --> 35
-bar [31.93, 29.76, 27.33, 24.16, 21.80]
+bar [31.92, 29.75, 27.33, 24.15, 21.79]
 ```
 
 #### HHI win mix by party
@@ -605,10 +612,10 @@ xychart-beta
 title "HHI Win Mix by Party"
 x-axis ["Competitive", "Dominant", "Fragmented"]
 y-axis "Seats Won" 0 --> 100
-bar "Independent" [0, 1, 0]
 bar "Indian" [0, 0, 0]
 bar "Communist" [0, 0, 0]
 bar "Bharatiya" [0, 0, 0]
+bar "All" [0, 0, 0]
 bar "All" [0, 0, 0]
 ```
 
@@ -631,5 +638,5 @@ xychart-beta
 title "Third-place Overperformance"
 x-axis ["DARJEELING", "NABAGRAM", "KHARGRAM", "RANINAGAR", "TOLLYGANJ"]
 y-axis "Overperformance %" 0 --> 25
-bar [27.62, 19.60, 13.91, 13.88, 8.15]
+bar [27.62, 19.59, 13.88, 13.85, 8.12]
 ```

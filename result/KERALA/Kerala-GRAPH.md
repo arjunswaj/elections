@@ -148,9 +148,9 @@ config:
 ---
 xychart-beta
 title "Candidates Winning by Max Margin"
-x-axis ["PROF C RAVINDRANATH (CPI(M), MANALUR)", "K. V. SUMESH (CPI(M), AZHIKODE)", "V. MURALEEDHARAN (BJP, KAZHAKOOTTAM)", "K.N. BALAGOPAL (CPI(M), KOTTARAKKARA)", "P K PRAVEEN (RJD, KUTHUPARAMBA)"]
-y-axis "Vote Difference" 1157 --> 138
-bar [126, 349, 428, 1012, 1286]
+x-axis ["MANALUR (PROF C RAVINDRANATH, KERALA)", "AZHIKODE (K. V. SUMESH, KERALA)", "KAZHAKOOTTAM (V. MURALEEDHARAN, KERALA)", "KOTTARAKKARA (K.N. BALAGOPAL, KERALA)", "KUTHUPARAMBA (P K PRAVEEN, KERALA)"]
+y-axis "Vote Difference" 62245 --> 71732
+bar [65211, 64602, 46136, 62914, 69162]
 ```
 
 #### Candidates winning by Least margin (Fierce battle)
@@ -168,9 +168,9 @@ config:
 ---
 xychart-beta
 title "Candidates Winning by Least Margin"
-x-axis ["T.P. ASHRAFALI (IUML, KONDOTTY)", "ADV. M. RAHMATHULLA (IUML, MANJERI)", "PROF. ABID HUSSAIN THANGAL (IUML, KOTTAKKAL)", "P M A SAMEER (IUML, TIRURANGADI)", "P.K KUNHALIKUTTY (IUML, MALAPPURAM)"]
-y-axis "Vote Difference" 0 --> 102392
-bar [56017, 57887, 62638, 63387, 85327]
+x-axis ["KONDOTTY (T.P. ASHRAFALI, KERALA)", "MANJERI (ADV. M. RAHMATHULLA, KERALA)", "KOTTAKKAL (PROF. ABID HUSSAIN THANGAL, KERALA)", "TIRURANGADI (P M A SAMEER, KERALA)", "MALAPPURAM (P.K KUNHALIKUTTY, KERALA)"]
+y-axis "Vote Difference" 0 --> 55566
+bar [58980, 55735, 55473, 48482, 46305]
 ```
 
 #### Max Total Votes in a Constituency
@@ -551,7 +551,7 @@ bar [32.51, 29.68, 29.62, 29.56, 29.49]
 
 These runner-up candidates beat their party-wide average vote share even in defeat.
 
-| Constituency | Candidate | Party | Runner Up % | Party Avg % | Overperformance % | Total Constituencies Contested |
+| Constituency | Candidate | Party | Runner Up % | Party Avg % | Overperformance % | Constituencies |
 | --- | --- | --- | --- | --- | --- | --- |
 | BEYPORE | P V ANVAR S/O SHOUKATHALI | Independent | 40.16 | 3.00 | 37.16 | 282 |
 | THAVANUR | DR. K T JALEEL | Independent | 39.67 | 3.00 | 36.67 | 282 |

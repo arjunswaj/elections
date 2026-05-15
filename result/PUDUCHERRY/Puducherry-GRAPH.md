@@ -35,6 +35,7 @@
      * [All India N.R. Congress](#all-india-nr-congress)
      * [Bharatiya Janata Party](#bharatiya-janata-party)
      * [Dravida Munnetra Kazhagam](#dravida-munnetra-kazhagam)
+     * [Independent](#independent)
 + [Advanced Join Insights](#advanced-join-insights)
 - [Crowding pressure seats](#crowding-pressure-seats)
 - [Runner-up overperformance vs party baseline](#runner-up-overperformance-vs-party-baseline)
@@ -147,9 +148,9 @@ config:
 ---
 xychart-beta
 title "Candidates Winning by Max Margin"
-x-axis ["VIGNESH KANNAN (DMK, RAJ BHAVAN)", "SENTHIL @ RAMESH (DMK, KALAPET)", "P.V. AROUMOUGAME @ AKD (AINRC, INDIRA NAGAR)", "C. AIYAPPAN @ MOUTTAYAPPAN (AINRC, ARIANKUPPAM)", "AK. SAI J SARAVANAN KUMAR (TVK, THIRUBHUVANAI)"]
-y-axis "Vote Difference" 630 --> 315
-bar [287, 447, 584, 603, 701]
+x-axis ["RAJ BHAVAN (VIGNESH KANNAN, PUDUCHERRY)", "KALAPET (SENTHIL @ RAMESH, PUDUCHERRY)", "INDIRA NAGAR (P.V. AROUMOUGAME @ AKD, PUDUCHERRY)", "ARIANKUPPAM (C. AIYAPPAN @ MOUTTAYAPPAN, PUDUCHERRY)", "THIRUBHUVANAI (AK. SAI J SARAVANAN KUMAR, PUDUCHERRY)"]
+y-axis "Vote Difference" 8135 --> 7718
+bar [7017, 11622, 12056, 13607, 9039]
 ```
 
 #### Candidates winning by Least margin (Fierce battle)
@@ -167,9 +168,9 @@ config:
 ---
 xychart-beta
 title "Candidates Winning by Least Margin"
-x-axis ["P. RAJAVELU (AINRC, NETTAPAKKAM)", "AZHAGU @ AZHAGANANTHAM (Independent, KADIRGAMAM)", "N. RANGASAMY (AINRC, MANGALAM)", "G.N.S. RAJASEKARAN (BJP, THIRUNALLAR)", "JOSE CHARLES MARTIN (Latchiya Jananayaka Katchi (LJK), KAMAR"]
-y-axis "Vote Difference" 0 --> 12246
-bar [6689, 7004, 7050, 9526, 10205]
+x-axis ["NETTAPAKKAM (P. RAJAVELU, PUDUCHERRY)", "KADIRGAMAM (AZHAGU @ AZHAGANANTHAM, PUDUCHERRY)", "MANGALAM (N. RANGASAMY, PUDUCHERRY)", "THIRUNALLAR (G.N.S. RAJASEKARAN, PUDUCHERRY)", "KAMARAJ NAGAR (JOSE CHARLES MARTIN, PUDUCHERRY)"]
+y-axis "Vote Difference" 0 --> 7664
+bar [6976, 7629, 10867, 7303, 6387]
 ```
 
 #### Max Total Votes in a Constituency
@@ -503,6 +504,13 @@ This matrix provides the number of seats in which parties lost by the number of 
 | MANGALAM | U074 | 10867 | All India N.R. Congress | 17917 | 7050 |
 
 
+##### Independent
+
+| Constituency | Code | Runner Up Votes | Winning Party | Winning Votes | Vote Difference |
+| --- | --- | --- | --- | --- | --- |
+| NELLITHOPE | U0717 | 7376 | Dravida Munnetra Kazhagam | 8226 | 850 |
+
+
 ### Advanced Join Insights
 
 #### Crowding pressure seats
@@ -539,7 +547,7 @@ bar [41.37, 38.02, 37.02, 34.30, 33.80]
 
 These runner-up candidates beat their party-wide average vote share even in defeat.
 
-| Constituency | Candidate | Party | Runner Up % | Party Avg % | Overperformance % | Total Constituencies Contested |
+| Constituency | Candidate | Party | Runner Up % | Party Avg % | Overperformance % | Constituencies |
 | --- | --- | --- | --- | --- | --- | --- |
 | NELLITHOPE | OMSAKTHISEKAR | Independent | 29.78 | 2.33 | 27.45 | 117 |
 | INDIRA NAGAR | S. MOUROUGANE | Tamilaga Vettri Kazhagam | 40.19 | 17.60 | 22.59 | 28 |

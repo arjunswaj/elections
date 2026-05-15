@@ -13,6 +13,7 @@ Run SQL queries against the PostgreSQL `assembly_elections_may2026` table, filte
 
 - PostgreSQL is running and accessible (see `queries/Queries.sql` for connection details)
 - The `assembly_elections_may2026` table exists and is populated
+- The `election_gates` table exists and is populated (see Election Gates below)
 - `psql` is available on PATH
 - The database user has SELECT access on the table
 
@@ -115,8 +116,58 @@ Each `.sql` file in `queries/` may contain multiple SQL statements separated by 
 | `12 HHI Win Mix.sql` | HHI win mix | `24 HHI Win Mix.csv` |
 | `13 Third Place Spoilers.sql` | Third-place spoilers | `25 Third Place Spoilers.csv` |
 
+## Election Gates
+
+The `election_gates` table controls which constituencies are included or excluded from all queries. This handles scenarios like repolls or deferred elections where vote data is corrupt (e.g., all votes = 0).
+
+### Schema
+
+```sql
+CREATE TYPE election_gate_status AS ENUM ('EXCLUDE', 'INCLUDE');
+
+CREATE TABLE election_gates (
+  code VARCHAR(10) NOT NULL,
+  state VARCHAR(100) NOT NULL,
+  status election_gate_status NOT NULL DEFAULT 'EXCLUDE',
+  UNIQUE (code, status)
+);
+```
+
+- `code`: The constituency code (primary key for constituencies in the main table)
+- `state`: The state name (matches `STATE` column in main table)
+- `status`: `EXCLUDE` or `INCLUDE`
+
+### How it works
+
+All queries in `run-queries.sh` and the `.sql` files in `queries/` use a `LEFT JOIN election_gates eg ON eg.code = <alias>.code AND eg.status = 'EXCLUDE'` followed by `WHERE eg.code IS NULL` to exclude gated-out constituencies.
+
+### Current exclusions
+
+| code | state | constituency | reason |
+| --- | --- | --- | --- |
+| S25144 | WEST BENGAL | FALTA | Repoll — all votes = 0 |
+
+### Adding new exclusions
+
+```sql
+INSERT INTO election_gates (code, state, status)
+VALUES ('<code>', '<State>', 'EXCLUDE')
+ON CONFLICT (code, status) DO NOTHING;
+```
+
+Then re-run the `process-results` and `generate-report` skills.
+
+### Re-including a constituency
+
+```sql
+DELETE FROM election_gates WHERE code = '<code>' AND status = 'EXCLUDE';
+```
+
+Then re-run the skills.
+
 ## Known Gotchas
 
+- **Election gates**: All queries exclude constituencies in `election_gates` with `status = 'EXCLUDE'`. The script verifies the table exists before running. If missing, run `queries/Queries.sql` to create it.
 - **Multi-statement SQL files**: Queries `01` through `08` contain multiple SQL statements. The run-queries.sh script splits on blank lines or `--` comment headers and maps each to its numbered output CSV.
 - **STATE column values**: PostgreSQL stores state names in Title Case (e.g., `Assam`, `Tamil Nadu`). The `STATE_DISPLAY` array must match exactly.
 - **Party-specific query (09)**: This query has `RUNNER_UP_PARTY` hardcoded. The script replaces it with the correct party name for each iteration.
@@ -129,7 +180,7 @@ Each `.sql` file in `queries/` may contain multiple SQL statements separated by 
 
 | File | Purpose |
 | --- | --- |
-| `queries/Queries.sql` | Table creation and data import |
+| `queries/Queries.sql` | Table creation, data import, and election_gates DDL |
 | `queries/01 Number Of Candidates.sql` | Candidate/vote count queries |
 | `queries/02 Maximum Votes for a Candidate.sql` | Vote extremes and margin queries |
 | `queries/03 Constituency with maximum votes.sql` | Constituency-level stats |
